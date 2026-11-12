@@ -75,10 +75,10 @@ const holen = (u, kopf = {}) => new Promise(r => { const q = require('http').get
     pruef(/Demo: Veröffentlichen schreibt in eine Probe-Kopie/.test(await p.locator('#ws-mitte').innerText()), 'M26 Demo-Hinweis als ruhige Zeile im Fluss');
     const dz = await p.evaluate(() => { const d = document.querySelector('[data-uh-demo]').getBoundingClientRect(); return [...document.querySelectorAll('#ws-mitte h1, #ws-mitte h2, #ws-mitte button, #ws-mitte a')].every(e => { const r = e.getBoundingClientRect(); return r.bottom <= d.top + 1 || r.top >= d.bottom - 1 || r.right <= d.left || r.left >= d.right; }); });
     pruef(dz, 'M26 Demo-Hinweis verdeckt keinen Titel, Knopf oder Link');
-    const ag = await p.locator('.wo-aufg > .wo-ag').count(); pruef(ag === 7, 'Häufig gebraucht: sieben Kacheln (' + ag + ')');
-    const af = await fotosOk('.wo-aufg .wo-ag img'); pruef(af.length === 7 && af.every(Boolean), 'Häufig gebraucht: jede Kachel mit geladenem Foto', JSON.stringify(af));
+    const ag = await p.locator('.wo-aufg > .wo-ag').count(); pruef(ag === 8, 'Häufig gebraucht: acht Kacheln (' + ag + ')');
+    const af = await fotosOk('.wo-aufg .wo-ag img'); pruef(af.length === 8 && af.every(Boolean), 'Häufig gebraucht: jede Kachel mit geladenem Foto', JSON.stringify(af));
     const reihe = await p.evaluate(() => { document.getAnimations().forEach(a => { try { a.finish(); } catch (e) { } }); const k = [...document.querySelectorAll('.wo-aufg > .wo-ag')].map(e => e.getBoundingClientRect()); const top = [...new Set(k.map(r => Math.round(r.top)))]; const zeilen = top.map(t => k.filter(r => Math.round(r.top) === t)); const w = document.querySelector('.wo-aufg').getBoundingClientRect(); return zeilen.map(z => [z.length, Math.round(z[0].left - w.left), Math.round(w.right - z[z.length - 1].right)]); });
-    pruef(reihe.every(([, l, r]) => Math.abs(l - r) <= 3), 'Häufig gebraucht: Reihen gleichmässig, letzte Reihe mittig (Fehlerbuch 10a)', JSON.stringify(reihe));
+    pruef(reihe.every(([n, l, r]) => n === reihe[0][0] && Math.abs(l) <= 3 && Math.abs(r) <= 3), 'Häufig gebraucht: volle Reihen, jede Reihe gleich viele Kacheln von Rand zu Rand (Robert 12.11.2026)', JSON.stringify(reihe));
     const bk = await fotosOk('.wo-ber .wo-bk__b img'); pruef(bk.length === 9 && bk.every(Boolean), 'Bereiche: neun Kacheln, jede mit sichtbarem Foto (Foto > 40 px)', JSON.stringify(bk));
     pruef(!(await p.locator('#ws-raus').count()) && !(await p.locator('#ws-vgl').count()), 'Leiste: ohne Entwurf keine ausgegrauten Knöpfe (leiste_klar)');
     pruef(await p.locator('#ws-speichern[data-ws-lage="ruhig"]').count() === 1, 'R09 Speichern-Knopf sichtbar und ruhig');

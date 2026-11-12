@@ -36,11 +36,10 @@
   .wo-kopf__mitte b,.wo-kopf__mitte small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
 }
 
-/* Uncle Hung 11.11.2026: fünf Arten; die letzte Reihe ist immer voll (Fehlerbuch 10a, 09.11.2026): Kacheln teilen sich die Breite */
-.wo-aufg--arten{display:flex;flex-wrap:wrap}
-.wo-aufg--arten>.wo-ag{flex:1 1 calc(33% - 16px);min-width:0}
-@media (min-width:1101px){.wo-aufg--arten>.wo-ag:nth-child(n+4){flex-basis:calc(50% - 16px)}}
-@media (max-width:600px){.wo-aufg--arten>.wo-ag{flex-basis:100%}}
+/* Uncle Hung 12.11.2026 (Robert: «4 oben 3 2. reihe? das war doch bei den anderen tools auch nicht so.»): fünf Arten in vollen Reihen, alle Kacheln gleich gross,
+   keine gestreckte zweite Reihe (vorher 3 + 2 mit breiteren Kacheln unten). Über 1100 px alle fünf in einer Reihe, darunter eine je Reihe. */
+.wo-aufg--arten{display:grid;grid-template-columns:repeat(5,minmax(0,1fr))}
+@media (max-width:1100px){.wo-aufg--arten{grid-template-columns:minmax(0,1fr)}}
 
 /* ================= Uncle Hung Gersthofen (11.11.2026) ================= */
 /* Der Rand läuft mit (Fehlerbuch 10a, 28.10.2026): klebt unter dem Kopf; passt er nicht ins Fenster, rollt er in sich */

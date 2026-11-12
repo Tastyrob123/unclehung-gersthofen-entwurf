@@ -7,16 +7,30 @@
  "quelle": "website/bau.py XMAS und xmas() (Weihnachtsmenüs 2026, Instagram DezCLDmCJKv)",
  "schema": 1,
  "format": [
-  297,
-  210
+  210,
+  297
  ],
- "kopf": "<!doctype html><html lang=\"de\"><head><meta charset=\"utf-8\"><title>Uncle’s Christmas · Uncle Hung</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:297mm 210mm;margin:0}</style></head><body>",
+ "kopf": "<!doctype html><html lang=\"de\"><head><meta charset=\"utf-8\"><title>Uncle’s Christmas · Uncle Hung</title>\n<link rel=\"stylesheet\" href=\"satz.css\"><style>@page{size:210mm 297mm;margin:0}</style></head><body>",
  "fuss": "</body></html>",
  "seiten": [
   {
    "fn": "seite",
    "a": [
-    " data-max=\"1.15\" class=\"blatt ts ts--christmas\" data-b=\"297\" data-h=\"210\" style=\"width:297mm;height:210mm\"",
+    " data-max=\"1.2\" class=\"blatt ts ts--christmas\" data-b=\"210\" data-h=\"297\" style=\"width:210mm;height:297mm\"",
+    {
+     "fn": "el",
+     "a": [
+      "div",
+      " class=\"sb-deko sb-grund\"",
+      {
+       "fn": "el",
+       "a": [
+        "img",
+        " src=\"bild/grund-fe1.jpg\" alt=\"\""
+       ]
+      }
+     ]
+    },
     {
      "fn": "el",
      "a": [
@@ -81,52 +95,67 @@
       {
        "fn": "el",
        "a": [
-        "p",
-        " class=\"sb-gruss\"",
-        "Weihnachten ohne Stress, dafür mit richtig gutem Essen und euren Lieblingsmenschen. Der Tisch ist gedeckt, die Familie kümmert sich ums Essen, im November und Dezember."
-       ]
-      },
-      {
-       "fn": "el",
-       "a": [
         "div",
-        " class=\"sb-xmenues\"",
+        " class=\"sb-papier sb-papier--blatt\"",
         {
          "fn": "el",
          "a": [
-          "section",
-          " class=\"sb-r sb-xm\"",
+          "p",
+          " class=\"sb-gruss\"",
+          "Weihnachten ohne Stress, dafür mit richtig gutem Essen und euren Lieblingsmenschen. Der Tisch ist gedeckt, die Familie kümmert sich ums Essen, im November und Dezember."
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-xmenues\"",
           {
            "fn": "el",
            "a": [
-            "div",
-            " class=\"sb-g sb-xk\"",
+            "section",
+            " class=\"sb-r sb-xm\"",
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-n\"",
-              "Comfort Menu"
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-p\"",
+              "div",
+              " class=\"sb-g sb-xk\"",
               {
                "fn": "el",
                "a": [
-                "span",
-                "",
+                "p",
+                " class=\"sb-n\"",
+                "Comfort Menu"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
                 {
                  "fn": "el",
                  "a": [
-                  "b",
+                  "span",
                   "",
-                  "58 €"
+                  {
+                   "fn": "el",
+                   "a": [
+                    "b",
+                    "",
+                    "58 €"
+                   ]
+                  }
                  ]
                 }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "pro Person"
                ]
               }
              ]
@@ -134,9 +163,70 @@
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-t\"",
-              "pro Person"
+              "div",
+              " class=\"sb-m\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-gn\"",
+                "Beginn"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Súp Hoành Thánh, Wan Tan Suppe · Bò Tái, Vietnamese Beef Carpaccio · Chicken Gyoza mit Hausdip"
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-m\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-gn\"",
+                "Main"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Slow-braised Short Rib: zart geschmorte Beef Short Ribs auf cremigem Kürbis-Kartoffel-Stampf, dazu wilder Brokkoli mit Miso-Glasur"
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-m\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-gn\"",
+                "Sweet Final"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Lebkuchen-Tiramisu mit kräftigem vietnamesischem Kaffee, samtiger Mascarponecreme und beschwipsten Kirschen"
+               ]
+              }
              ]
             }
            ]
@@ -144,22 +234,120 @@
           {
            "fn": "el",
            "a": [
-            "div",
-            " class=\"sb-m\"",
+            "section",
+            " class=\"sb-r sb-xm\"",
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-gn\"",
-              "Beginn"
+              "div",
+              " class=\"sb-g sb-xk\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-n\"",
+                "Botanical Menu"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "span",
+                  "",
+                  {
+                   "fn": "el",
+                   "a": [
+                    "b",
+                    "",
+                    "58 €"
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "pro Person · vegan"
+               ]
+              }
              ]
             },
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-t\"",
-              "Súp Hoành Thánh, Wan Tan Suppe · Bò Tái, Vietnamese Beef Carpaccio · Chicken Gyoza mit Hausdip"
+              "div",
+              " class=\"sb-m\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-gn\"",
+                "Beginn"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Tom Kha Hed, vegane Thai-Kokossuppe · Mushroom Dumplings · Crispy Califlower on Nojoghurt"
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-m\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-gn\"",
+                "Main"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Creamy Udon with mixed Mushrooms · Sichuan Eggplant · Chili Roasted Tofu · Furikake Rice, Reis mit Seetang"
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-m\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-gn\"",
+                "Sweet Final"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Chuối Chiên, Vietnamese Fried Banana mit veganem selbstgemachtem Eis · Amaretto Cà Phê"
+               ]
+              }
              ]
             }
            ]
@@ -167,45 +355,120 @@
           {
            "fn": "el",
            "a": [
-            "div",
-            " class=\"sb-m\"",
+            "section",
+            " class=\"sb-r sb-xm\"",
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-gn\"",
-              "Main"
+              "div",
+              " class=\"sb-g sb-xk\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-n\"",
+                "Hot Pot Menu"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-p\"",
+                {
+                 "fn": "el",
+                 "a": [
+                  "span",
+                  "",
+                  {
+                   "fn": "el",
+                   "a": [
+                    "b",
+                    "",
+                    "65 €"
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "pro Person · ab 2 Personen"
+               ]
+              }
              ]
             },
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-t\"",
-              "Slow-braised Short Rib: zart geschmorte Beef Short Ribs auf cremigem Kürbis-Kartoffel-Stampf, dazu wilder Brokkoli mit Miso-Glasur"
-             ]
-            }
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "div",
-            " class=\"sb-m\"",
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-gn\"",
-              "Sweet Final"
+              "div",
+              " class=\"sb-m\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-gn\"",
+                "Hot in the Pot"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Asiatisches Fondue mit aromatischer, heißer Brühe, in der frische Zutaten wie Fleisch, Gemüse und Nudeln direkt am Tisch gegart werden"
+               ]
+              }
              ]
             },
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-t\"",
-              "Lebkuchen-Tiramisu mit kräftigem vietnamesischem Kaffee, samtiger Mascarponecreme und beschwipsten Kirschen"
+              "div",
+              " class=\"sb-m\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-gn\"",
+                "What in the Pot"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Mixed Seafood · a lot of Meat · Fresh Greens · Dumplings · Noodles · Savory Dips · Veggies"
+               ]
+              }
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "div",
+              " class=\"sb-m\"",
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-gn\"",
+                "Sweet After"
+               ]
+              },
+              {
+               "fn": "el",
+               "a": [
+                "p",
+                " class=\"sb-t\"",
+                "Karamellisierte Ananas mit Eiscreme und gebrannten Mandeln"
+               ]
+              }
              ]
             }
            ]
@@ -215,120 +478,38 @@
         {
          "fn": "el",
          "a": [
-          "section",
-          " class=\"sb-r sb-xm\"",
+          "div",
+          " class=\"sb-regeln\"",
           {
            "fn": "el",
            "a": [
-            "div",
-            " class=\"sb-g sb-xk\"",
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-n\"",
-              "Botanical Menu"
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-p\"",
-              {
-               "fn": "el",
-               "a": [
-                "span",
-                "",
-                {
-                 "fn": "el",
-                 "a": [
-                  "b",
-                  "",
-                  "58 €"
-                 ]
-                }
-               ]
-              }
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-t\"",
-              "pro Person · vegan"
-             ]
-            }
+            "p",
+            " class=\"sb-rg\"",
+            "Ab 2 Personen"
            ]
           },
           {
            "fn": "el",
            "a": [
-            "div",
-            " class=\"sb-m\"",
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-gn\"",
-              "Beginn"
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-t\"",
-              "Tom Kha Hed, vegane Thai-Kokossuppe · Mushroom Dumplings · Crispy Califlower on Nojoghurt"
-             ]
-            }
+            "p",
+            " class=\"sb-rg\"",
+            "Mindestens 3 Tage Vorlauf"
            ]
           },
           {
            "fn": "el",
            "a": [
-            "div",
-            " class=\"sb-m\"",
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-gn\"",
-              "Main"
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-t\"",
-              "Creamy Udon with mixed Mushrooms · Sichuan Eggplant · Chili Roasted Tofu · Furikake Rice, Reis mit Seetang"
-             ]
-            }
+            "p",
+            " class=\"sb-rg\"",
+            "Während der regulären Öffnungszeiten"
            ]
           },
           {
            "fn": "el",
            "a": [
-            "div",
-            " class=\"sb-m\"",
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-gn\"",
-              "Sweet Final"
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-t\"",
-              "Chuối Chiên, Vietnamese Fried Banana mit veganem selbstgemachtem Eis · Amaretto Cà Phê"
-             ]
-            }
+            "p",
+            " class=\"sb-rg\"",
+            "Festlich gedeckter Tisch inklusive"
            ]
           }
          ]
@@ -336,49 +517,18 @@
         {
          "fn": "el",
          "a": [
-          "section",
-          " class=\"sb-r sb-xm\"",
+          "div",
+          " class=\"sb-fotos\"",
           {
            "fn": "el",
            "a": [
             "div",
-            " class=\"sb-g sb-xk\"",
+            " class=\"sb-deko sb-foto\"",
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-n\"",
-              "Hot Pot Menu"
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-p\"",
-              {
-               "fn": "el",
-               "a": [
-                "span",
-                "",
-                {
-                 "fn": "el",
-                 "a": [
-                  "b",
-                  "",
-                  "65 €"
-                 ]
-                }
-               ]
-              }
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-t\"",
-              "pro Person · ab 2 Personen"
+              "img",
+              " src=\"bild/ab4.jpg\" alt=\"\""
              ]
             }
            ]
@@ -387,21 +537,12 @@
            "fn": "el",
            "a": [
             "div",
-            " class=\"sb-m\"",
+            " class=\"sb-deko sb-foto\"",
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-gn\"",
-              "Hot in the Pot"
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-t\"",
-              "Asiatisches Fondue mit aromatischer, heißer Brühe, in der frische Zutaten wie Fleisch, Gemüse und Nudeln direkt am Tisch gegart werden"
+              "img",
+              " src=\"bild/v-fes04.jpg\" alt=\"\""
              ]
             }
            ]
@@ -410,87 +551,16 @@
            "fn": "el",
            "a": [
             "div",
-            " class=\"sb-m\"",
+            " class=\"sb-deko sb-foto\"",
             {
              "fn": "el",
              "a": [
-              "p",
-              " class=\"sb-gn\"",
-              "What in the Pot"
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-t\"",
-              "Mixed Seafood · a lot of Meat · Fresh Greens · Dumplings · Noodles · Savory Dips · Veggies"
-             ]
-            }
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "div",
-            " class=\"sb-m\"",
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-gn\"",
-              "Sweet After"
-             ]
-            },
-            {
-             "fn": "el",
-             "a": [
-              "p",
-              " class=\"sb-t\"",
-              "Karamellisierte Ananas mit Eiscreme und gebrannten Mandeln"
+              "img",
+              " src=\"bild/fe3.jpg\" alt=\"\""
              ]
             }
            ]
           }
-         ]
-        }
-       ]
-      },
-      {
-       "fn": "el",
-       "a": [
-        "div",
-        " class=\"sb-regeln\"",
-        {
-         "fn": "el",
-         "a": [
-          "p",
-          " class=\"sb-rg\"",
-          "Ab 2 Personen"
-         ]
-        },
-        {
-         "fn": "el",
-         "a": [
-          "p",
-          " class=\"sb-rg\"",
-          "Mindestens 3 Tage Vorlauf"
-         ]
-        },
-        {
-         "fn": "el",
-         "a": [
-          "p",
-          " class=\"sb-rg\"",
-          "Während der regulären Öffnungszeiten"
-         ]
-        },
-        {
-         "fn": "el",
-         "a": [
-          "p",
-          " class=\"sb-rg\"",
-          "Festlich gedeckter Tisch inklusive"
          ]
         }
        ]

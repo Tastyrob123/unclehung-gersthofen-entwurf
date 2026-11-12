@@ -1390,21 +1390,20 @@ html.cv-alle main>section.fl:not(#brief){content-visibility:visible}
 
 /* Befunde: Nummer, Titel und Text stehen in einer Tafel, nie lose auf dem Papier (Punkt 4) */
 .sbf-text{background:linear-gradient(180deg,rgba(255,255,255,.62),rgba(255,255,255,.38));box-shadow:inset 0 0 0 1px rgba(110,52,44,.2),0 30px 40px -30px rgba(35,43,36,.35);border-radius:6px;padding:clamp(22px,2.4vw,38px)}
-/* Ihre Karte: alle fünf Unterlagen als Blätter im Fächer, drei oben, zwei versetzt darunter. Kein Blatt liegt auf einem Titel oder Etikett eines anderen
-   (Werkbank-Regel 09.11.2026, Augenprüfung 11.11.2026: «DIE KA…», «Mittags bis 14 Uh…» lagen unter den vorderen Blättern) */
-@media(min-width:900px){.faecher--5{aspect-ratio:1/1.08;align-self:center}.faecher--5 .blattk{width:30.5%}
-  .faecher--5 .blattk--1{left:0;top:.5%}.faecher--5 .blattk--2{left:34.75%;top:0;z-index:1}.faecher--5 .blattk--3{left:69.5%;top:1%;z-index:2}
-  .faecher--5 .blattk--4{left:17%;top:57%;z-index:3}.faecher--5 .blattk--5{left:52%;top:57.5%;z-index:4}
-  .faecher--5 .blattk span{padding:9px 9px;font-size:13px;letter-spacing:.03em;gap:6px}}
-@media(max-width:899px){.faecher--5{aspect-ratio:1/.97}.faecher--5 .blattk{width:31%}.faecher--5 .blattk--1{left:0;top:1%}.faecher--5 .blattk--2{left:34.5%;top:0}.faecher--5 .blattk--3{left:69%;top:2%}
-  .faecher--5 .blattk--4{left:17%;top:51%;z-index:2}.faecher--5 .blattk--5{left:52%;top:52%;z-index:3}}
+
+.faecher--5{aspect-ratio:1/.98;align-self:center}
+.faecher--5 .blattk{width:37%}
+.faecher--5 .blattk--1{left:0;top:3%;z-index:3}.faecher--5 .blattk--2{left:30%;top:0;z-index:4}.faecher--5 .blattk--3{left:59.5%;top:4%;z-index:5}
+.faecher--5 .blattk--4{left:12%;top:45%;z-index:1}.faecher--5 .blattk--5{left:46%;top:47%;z-index:2}
+@media(min-width:900px){.faecher--5 .blattk span{padding:9px 9px;font-size:13px;letter-spacing:.03em;gap:6px}}
 @media(max-width:899px){.faecher--5 .blattk span{display:none}}
 .faecher--5 .blattk{transition-delay:calc(var(--j)*70ms)}
-.da .faecher--5 .blattk--1,.faecher--5.da .blattk--1{transform:rotate(-2.5deg)}.da .faecher--5 .blattk--2,.faecher--5.da .blattk--2{transform:rotate(1.5deg)}
-.da .faecher--5 .blattk--3,.faecher--5.da .blattk--3{transform:rotate(2.5deg)}
-.da .faecher--5 .blattk--4,.faecher--5.da .blattk--4{transform:rotate(-2deg)}.da .faecher--5 .blattk--5,.faecher--5.da .blattk--5{transform:rotate(2deg)}
-.faecher--5.da .blattk--1:hover{transform:rotate(-2.5deg) translateY(-8px)}.faecher--5.da .blattk--2:hover{transform:rotate(1.5deg) translateY(-8px)}.faecher--5.da .blattk--3:hover{transform:rotate(2.5deg) translateY(-8px)}
-.faecher--5.da .blattk--4:hover{transform:rotate(-2deg) translateY(-8px)}.faecher--5.da .blattk--5:hover{transform:rotate(2deg) translateY(-8px)}
+.da .faecher--5 .blattk--1,.faecher--5.da .blattk--1{transform:rotate(-6deg)}.da .faecher--5 .blattk--2,.faecher--5.da .blattk--2{transform:rotate(2.5deg)}
+.da .faecher--5 .blattk--3,.faecher--5.da .blattk--3{transform:rotate(7deg)}
+.da .faecher--5 .blattk--4,.faecher--5.da .blattk--4{transform:rotate(-3.5deg)}.da .faecher--5 .blattk--5,.faecher--5.da .blattk--5{transform:rotate(4.5deg)}
+.faecher--5.da .blattk:hover{transition-delay:0s}
+.faecher--5.da .blattk--1:hover{transform:rotate(-6deg) translateY(-12px)}.faecher--5.da .blattk--2:hover{transform:rotate(2.5deg) translateY(-12px)}.faecher--5.da .blattk--3:hover{transform:rotate(7deg) translateY(-12px)}
+.faecher--5.da .blattk--4:hover{transform:rotate(-3.5deg) translateY(-12px)}.faecher--5.da .blattk--5:hover{transform:rotate(4.5deg) translateY(-12px)}
 
 @media(min-width:900px){.faecher--7{aspect-ratio:1/1.25;align-self:center}.faecher--7 .blattk{width:38%}
   .faecher--7 .blattk--1{left:0;top:0}.faecher--7 .blattk--2{left:31%;top:3%;z-index:1}.faecher--7 .blattk--3{left:62%;top:0;z-index:2}
@@ -1419,6 +1418,11 @@ html.cv-alle main>section.fl:not(#brief){content-visibility:visible}
 .da .blattk--7{transform:rotate(-2deg)}.da .blattk--7:hover{transform:rotate(-2deg) translateY(-4px);transition-delay:0s}
 
 /* ---------- Augenprüfung 11.11.2026 (Nacht), nur die Funde; Aufbau bleibt ---------- */
+/* Alle Seiten: die Wahl der Seiten in vollen Reihen, nie sieben und drei (Robert 12.11.2026) */
+@media(min-width:900px){#seiten .wahl{display:grid!important;grid-template-columns:repeat(5,auto)!important;justify-content:center!important}}
+
+/* Register: die acht Ziffern am Handy als vier und vier, nie sechs und zwei (volle Reihen, Robert 12.11.2026) */
+@media(max-width:520px){#register .rgc-punkte{display:grid;grid-template-columns:repeat(4,auto);justify-content:center}}
 /* Laufband unter dem Fächer schmal und fein (Regel 40–44 px) */
 .namenzug{padding:9px 0!important}.namenzug div{font-size:clamp(.95rem,1.05vw,1.05rem)!important;line-height:1.4!important}
 /* Für draußen: der Knopf «Tischaufsteller ansehen» steht ganz in seiner Kachel (Kriterium 28), alle vier Knöpfe gleich gesetzt */

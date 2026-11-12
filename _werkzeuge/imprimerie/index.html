@@ -28,7 +28,7 @@
 <script>/* Rückfall, falls das Studio nicht startet: die Startseite zeigt sich spätestens nach 5 s (start.js setzt «bereit» sonst selbst, sobald die Fotos da sind) */
 addEventListener('DOMContentLoaded',function(){setTimeout(function(){var s=document.getElementById('start');if(s)s.classList.add('bereit')},5000)});</script>
 <link rel="stylesheet" href="lib/auswahl.css?v=36-sf1">
-<link rel="stylesheet" href="studio.css?v=64-nacht">
+<link rel="stylesheet" href="studio.css?v=67-reihen">
 <link rel="stylesheet" href="ms-bureau.css?v=7-sf2">
 <script>/* Hauseigene Stilschicht (Robert 15./16.10.2026: GBR hell mit Bühne und Schweben wie die übrigen Werkzeuge des Hauses). Ein Haus ohne Eintrag bleibt beim Kern. */
 (function(){var HAUS_STIL={unclehung:1},h=new URLSearchParams(location.search).get('haus')||'unclehung';if(!HAUS_STIL[h])return;var b='haeuser/'+h+'/';var o='/assets/oberflaeche/';
@@ -252,7 +252,7 @@ document.write('<link rel="stylesheet" href="'+b+'hell.css?v=16-nacht"><link rel
         <div id="fgListe"></div>
       </div>
       <div id="msMeine" hidden>
-        <div class="ms-titel"><h1>Meine Medien</h1><span class="ms-leise" id="meineSatz"></span></div>
+        <div class="ms-titel ms-titel--kn"><h1>Meine Medien</h1><span class="ms-leise" id="meineSatz"></span><button class="kn kn--klein glanz-kn ms-meine-neu" type="button" data-akt="neu"><span>Neues Medium</span><i><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></i></button></div>
         <div class="ms-raster" id="bibliothek"></div>
       </div>
       <div id="msNeu" class="ms-buehne" hidden>
@@ -280,14 +280,15 @@ document.write('<link rel="stylesheet" href="'+b+'hell.css?v=16-nacht"><link rel
 <script src="lib/auswahl.js?v=35-sf1"></script>
 <script src="satz.js?v=42-sf1"></script>
 <script src="eigene.js?v=36-sf1"></script>
-<script src="vorlagen.js?v=37-sf1-sp2810"></script>
+<script src="vorlagen.js?v=39-reihen"></script>
 <script src="druck.js?v=40-sf1"></script>
 <script src="studio.js?v=56-nacht"></script>
 <script src="instagram.js?v=37-sf1"></script>
 <script src="lelivre.js?v=c1-sf1"></script>
-<script src="katalog.js?v=35-sf1"></script>
+<script src="katalog.js?v=36-reihen"></script>
 <script src="siegel.js?v=1-sf1"></script>
-<script src="start.js?v=60-sf1"></script>
+<script src="start.js?v=61-reihen"></script>
+<script src="volle-reihen.js?v=6-reihen"></script>   <!-- volle Reihen in den Rastern des Studios (Robert 12.11.2026) -->
 <script src="fuehrung.js?v=35-sf1"></script>
 <script>/* Handy (R07, Prüfung 16.10.2026): die Seitenleiste mit den Bereichen war unter 900 px ganz weg. Der Knopf «Bereiche» klappt sie als Fach auf,
    nach der Wahl schließt sie sich; Escape und Tippen daneben schließen auch. */

@@ -9,49 +9,49 @@
    "id": "A01",
    "n": "Laden /_werkzeuge/carte/ (1. Mal)",
    "ok": true,
-   "mehr": "200 · 655 ms"
+   "mehr": "200 · 705 ms"
   },
   {
    "id": "A01",
    "n": "Laden /_werkzeuge/carte/ (2. Mal)",
    "ok": true,
-   "mehr": "200 · 610 ms"
+   "mehr": "200 · 655 ms"
   },
   {
    "id": "A01",
    "n": "Laden /_werkzeuge/carte/satz/blatt.html (1. Mal)",
    "ok": true,
-   "mehr": "200 · 547 ms"
+   "mehr": "200 · 566 ms"
   },
   {
    "id": "A01",
    "n": "Laden /_werkzeuge/carte/satz/blatt.html (2. Mal)",
    "ok": true,
-   "mehr": "200 · 528 ms"
+   "mehr": "200 · 540 ms"
   },
   {
    "id": "A01",
    "n": "Laden /_werkzeuge/carte/anleitung.html (1. Mal)",
    "ok": true,
-   "mehr": "200 · 587 ms"
+   "mehr": "200 · 589 ms"
   },
   {
    "id": "A01",
    "n": "Laden /_werkzeuge/carte/anleitung.html (2. Mal)",
    "ok": true,
-   "mehr": "200 · 594 ms"
+   "mehr": "200 · 563 ms"
   },
   {
    "id": "A01",
    "n": "Laden /_werkzeuge/carte/pruefung.html (1. Mal)",
    "ok": true,
-   "mehr": "200 · 583 ms"
+   "mehr": "200 · 578 ms"
   },
   {
    "id": "A01",
    "n": "Laden /_werkzeuge/carte/pruefung.html (2. Mal)",
    "ok": true,
-   "mehr": "200 · 594 ms"
+   "mehr": "200 · 595 ms"
   },
   {
    "id": "R01",
@@ -175,7 +175,7 @@
   },
   {
    "id": "C07",
-   "n": "Die Karte: «4 Seiten, wie in der PDF», vier Blätter A4 hoch",
+   "n": "Die Karte: «3 Seiten, wie in der PDF», drei Blätter A4 hoch",
    "ok": true,
    "mehr": ""
   },
@@ -195,7 +195,7 @@
    "id": "C07",
    "n": "Zoom + vergrößert die Vorschau",
    "ok": true,
-   "mehr": "489 → 572 px"
+   "mehr": "488 → 572 px"
   },
   {
    "id": "R15",
@@ -231,7 +231,7 @@
    "id": "C04",
    "n": "Klick links: links und rechts auf derselben Höhe (± 60 px), soweit die Vorschau scrollen kann",
    "ok": true,
-   "mehr": "522 / 517 · Vorschau am Rand"
+   "mehr": "522 / 518 · Vorschau am Rand"
   },
   {
    "id": "F10a",
@@ -489,7 +489,7 @@
    "id": "C11",
    "n": "Veröffentlicht: «Die neue Fassung steht», Wörter geprüft",
    "ok": true,
-   "mehr": "1 Seite, 104 Wörter geprüft. Schriftmass 111 bis 111 %. Demo: Die Website bleibt, wie sie "
+   "mehr": "1 Seite, 104 Wörter geprüft. Schriftmass 120 bis 120 %. Demo: Die Website bleibt, wie sie "
   },
   {
    "id": "C11",
@@ -561,7 +561,7 @@
    "id": "C05",
    "n": "Ziehen zeigt das Maß «+x · +y mm» und verschiebt",
    "ok": true,
-   "mehr": "+9.9 · +5.6 mm"
+   "mehr": "+10.5 · +8.4 mm"
   },
   {
    "id": "R08",
@@ -819,7 +819,7 @@
    "id": "S02",
    "n": "Zu viele Änderungen in einer Minute: 429 GRENZE",
    "ok": true,
-   "mehr": "nach 40 Anfragen"
+   "mehr": "nach 44 Anfragen"
   },
   {
    "id": "C14",
@@ -909,7 +909,7 @@
    "id": "R13",
    "n": "Ungespeicherte Verschiebung: Leiste gelb",
    "ok": true,
-   "mehr": "{\"x\":753.265625,\"y\":506.734375,\"width\":247.40625,\"height\":22.390625}"
+   "mehr": "{\"x\":680.1875,\"y\":507.4375,\"width\":239.328125,\"height\":20.796875}"
   },
   {
    "id": "R13",

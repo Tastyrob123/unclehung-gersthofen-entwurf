@@ -18,7 +18,7 @@
      lage = { x, y (mm), s (Faktor) · f Schrift · t Schriftgrösse (Faktor) · a Textart · c Farbe · al Ausrichtung · z Zeilenabstand · mt, mb (mm) · aus ·
      lin {x, y, b, d, c, aus} } an einem Element. Verschoben per transform (Ursprung oben links), der Satz bleibt. Ohne lage ist das HTML das alte. */
   function zahl(x) { return String(Math.round((+x || 0) * 100) / 100); }
-  var SCHRIFT = { titel: "Fraunces,Georgia,serif", instrument: "'Instrument Sans',Arial,sans-serif", mono: "'DM Mono',Menlo,monospace" };
+  var SCHRIFT = { display: "'UH Display',Fraunces,Georgia,serif", titel: "Fraunces,Georgia,serif", instrument: "'Instrument Sans',Arial,sans-serif", mono: "'DM Mono',Menlo,monospace" };
   // Farben des Hauses (satz/satz.css :root, website/assets/uh.css): Tinte, Salbei, Tief, Gold (Linie), Jade, Creme, Papier
   var FARBE = { tinte: '#1F2620', salbei: '#4D5C4E', tief: '#2E3830', jade: '#5E8A73', gold: '#BF982E', goldh: '#D9BC6B', goldt: '#7E6420', creme: '#EBE1D4', papier: '#F9F0E3', weiss: '#ffffff' };
   var ALIGN = { links: ['left', 'flex-start'], mitte: ['center', 'center'], rechts: ['right', 'flex-end'] };
@@ -61,7 +61,7 @@
   var KIND_EINHEIT = /(^| )(nie-vorhanden)( |$)/;   // Kinder dieser Behälter sind je ein Eintrag (im Schäfli keine)
   var RUBRIK = /(^| )(sb-h|sb-band|sb-wart)( |$)/;
   var ZWISCHEN = /(^| )(sb-gut|sb-land|sb-region)( |$)/;
-  var FEST = /(^| )(ts-kopf|ts-weiter|sb-orn|sb-luft|sb-zeichen|sb-gang|sb-chf)( |$)/;   // Rahmen der Seite: Name des Hauses, Lamm, Goldstriche, laufender Kopf
+  var FEST = /(^| )(ts-kopf|ts-weiter|sb-orn|sb-luft|sb-zeichen|sb-gang|sb-chf|sb-deko)( |$)/;   // Rahmen der Seite: Name des Hauses, Goldstriche, laufender Kopf; Uncle Hung 12.11.2026: sb-deko = Foto der Seite, Teller, Strichzeichnung, Bildband
   function klasse(n) { var m = /\sclass="([^"]*)"/.exec(n.a[1] || ''); return m ? m[1] : ''; }
   function art(n, eltern) {
     if (!n || typeof n !== 'object' || n.fn !== 'el') return null;

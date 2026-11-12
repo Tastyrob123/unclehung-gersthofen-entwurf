@@ -27,9 +27,16 @@
   /* Mindestschrift im Druck (Roberts Kriterien, Stilblatt): Lesetext 2 mm, Versalien (DM Mono) 1,9 mm; gilt auch, wenn ein Stapel enger gesetzt wird */
   const MIN_GR = { mono: 1.9, text: 2, kursiv: 2, kapitale: 2.2, titel: 2.4 };
   DS.MIN_GR = MIN_GR;
+  const GR_MAX = new WeakMap();
   function tx(c, rolle, text, w, gr, farbe, o = {}) {
     gr = Math.max(gr, MIN_GR[rolle] || 0);
     const el = Object.assign({ id: neueId(), typ: 'text', rolle, text: String(text), x: o.x ?? (c.w - w) / 2, y: 0, w, gr: +gr.toFixed(2), farbe, ausr: 'c', deck: 1 }, STIL[rolle], o);
+    if (rolle === 'titel') {   // Uncle Hung 12.11.2026: ein Wort des Titels bricht nie mitten im Wort um («Weihnachtsfei-er», «Weihnachtsmen-üs»); passt das längste Wort nicht in die Breite, wird der Titel so weit kleiner
+      let breit = 0;
+      String(text).split(/\s+/).filter(x => x.length > 6).forEach(x => { breit = Math.max(breit, DS.mess(Object.assign({}, el, { text: x, w: 10000 })).bw); });
+      if (breit > 0) GR_MAX.set(el, el.gr * w / breit * .97);   // grösste Schrift, bei der das längste Wort noch ganz in die Zeile passt (gilt auch, wenn der Stapel später vergrössert)
+      if (breit > w) el.gr = +Math.max(MIN_GR[rolle] || 0, el.gr * w / breit * .97).toFixed(2);
+    }
     el.h = DS.mess(el).h;
     return el;
   }
@@ -55,7 +62,7 @@
     let H = stapelHoehe(c, items);
     for (let n = 0, g = 1; n < 5 && H < (y1 - y0) * .6 && g < 1.6; n++) {
       const f = Math.min(1.25, 1.6 / g, Math.sqrt((y1 - y0) * .68 / H)); g *= f;
-      items = items.map(it => { if (typeof it === 'number') return it * f; if (it && it.typ === 'text') { it.gr = +(it.gr * f).toFixed(2); it.h = DS.mess(it).h; } return it; });
+      items = items.map(it => { if (typeof it === 'number') return it * f; if (it && it.typ === 'text') { it.gr = +Math.min(it.gr * f, GR_MAX.has(it) ? Math.max(it.gr, GR_MAX.get(it)) : Infinity).toFixed(2); it.h = DS.mess(it).h; } return it; });
       H = stapelHoehe(c, items);
     }
     // Zu wenig Platz: Schrift und Abstände gemeinsam verkleinern, bis der Stapel passt (höchstens auf 60 %)

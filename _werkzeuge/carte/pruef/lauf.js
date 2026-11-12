@@ -91,7 +91,8 @@ async function api(was, daten, rolle = 'direktion', extra = {}) {
     await bild('00-karte-' + k);
   }
   await karte(EU);
-  ok('C07', 'Die Karte: «4 Seiten, wie in der PDF», vier Blätter A4 hoch', /4 Seiten, wie in der PDF/.test(await p.textContent('#v-zahl')) && (await rahmen().$$eval('.blatt', e => e.length)) === 4);
+  // Karten neu 12.11.2026: Die Karte steht auf drei Seiten (Robert: «die Karte darf dafür weniger Seiten haben»), vorher vier
+  ok('C07', 'Die Karte: «3 Seiten, wie in der PDF», drei Blätter A4 hoch', /3 Seiten, wie in der PDF/.test(await p.textContent('#v-zahl')) && (await rahmen().$$eval('.blatt', e => e.length)) === 3);
   await karte(ES);
   ok('C07', 'Lunchdeals: «1 Seite, wie in der PDF», ein Blatt A4 hoch', /1 Seite, wie in der PDF/.test(await p.textContent('#v-zahl')) && (await rahmen().$$eval('.blatt', e => e.length)) === 1 && await rahmen().evaluate(() => { const b = document.querySelector('.blatt'); return b.offsetHeight > b.offsetWidth; }));
   ok('C07', 'Vorschau verkleinert per transform, nie per zoom', await rahmen().evaluate(() => { const b = document.querySelector('.blatt'); return /scale\(/.test(b.style.transform) && !b.style.zoom; }));
@@ -205,7 +206,7 @@ async function api(was, daten, rolle = 'direktion', extra = {}) {
   ok('C02', 'Rubrik als Block verschieben (in ihrer Spalte): «Veggie / Vegan» steht vor «Uncle Hung’s Green»', await rahmen().evaluate(() => { const t = document.getElementById('seiten').textContent; return t.indexOf('Veggie / Vegan') < t.indexOf('Uncle Hung’s Green'); }));
   const sp0 = await p.$$eval('#liste .teil', e => e.length);
   await (await p.$('#liste .teil[data-teil="1"] [data-akt="s-hoch"]')).click(); await quit(/Seite|Reihenfolge/); await gesetzt();
-  ok('C02', 'Seite verschieben: Seite 2 wird Seite 1', sp0 === 4 && /Uncle Hung’s Green|Snacks/.test(await p.textContent('#liste .teil[data-teil="0"]')));
+  ok('C02', 'Seite verschieben: Seite 2 wird Seite 1', sp0 === 3 && /Uncle Hung’s Green|Snacks/.test(await p.textContent('#liste .teil[data-teil="0"]')));
   await (await p.$('#liste .teil[data-teil="0"] [data-akt="rubrik-neu"]')).scrollIntoViewIfNeeded(); await (await p.$('#liste .teil[data-teil="0"] [data-akt="rubrik-neu"]')).click(); await warte(400);
   await (await p.$('#fenster .felder .feld input, #fenster .felder .feld textarea')).fill('Prüfrubrik'); await p.click('#f-ok'); await quit(/auf der Karte/); await gesetzt();
   ok('C02', 'Neue Rubrik steht in der Karte', await imRahmen('Prüfrubrik'));

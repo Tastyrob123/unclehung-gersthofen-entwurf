@@ -107,6 +107,42 @@
     alle.forEach(function (el) { el.classList.add('da'); });
   }
 
+  /* Säle (Robert 12.11.2026): ein Saal «lebt», solange er im Bild ist. Dann schwebt sein Bildschirm leise (CSS) und die Ansichten
+     des Werkzeugs wechseln darin alle 5 Sekunden: die neue schiebt sich deckend über die alte, nur transform, erst wenn sie geladen ist (M16).
+     Was nicht im Bild ist, rechnet nicht. Bei «Weniger Bewegung» steht die erste Ansicht still. */
+  if ('IntersectionObserver' in window) {
+    var lio = new IntersectionObserver(function (es) { es.forEach(function (e) { e.target.classList.toggle('lebt', e.isIntersecting); }); }, { threshold: 0.12 });
+    $$('.m-saal').forEach(function (s) { lio.observe(s); });
+    $$('[data-wechsel]').forEach(function (f) {
+      var bilder = $$('.m-schirm__bahn img', f), leiste = $('[data-leiste]', f), i = 0, uhr = null, laeuft = false;
+      if (bilder.length < 2 || ruhig) return;
+      var weiter = function () {
+        if (laeuft) return;
+        var alt = bilder[i], j = (i + 1) % bilder.length, neu = bilder[j];
+        var los = function () {
+          if (!uhr || laeuft) return;
+          laeuft = true;
+          neu.classList.add('kommt'); void neu.offsetWidth;
+          neu.classList.remove('kommt'); neu.classList.add('an');
+          alt.classList.remove('an'); alt.classList.add('geht');
+          if (leiste) leiste.textContent = neu.getAttribute('data-ansicht') || leiste.textContent;
+          i = j;
+          setTimeout(function () { alt.classList.remove('geht'); laeuft = false; }, 1300);
+        };
+        if (neu.loading === 'lazy') neu.loading = 'eager';
+        if (neu.complete && neu.naturalWidth) (neu.decode ? neu.decode() : Promise.resolve()).then(los, los);
+        else neu.addEventListener('load', function () { (neu.decode ? neu.decode() : Promise.resolve()).then(los, los); }, { once: true });
+      };
+      new IntersectionObserver(function (es) {
+        clearInterval(uhr); uhr = null;
+        if (es[0].isIntersecting) {
+          bilder.forEach(function (b) { if (b.loading === 'lazy') b.loading = 'eager'; });
+          uhr = setInterval(weiter, 5000);
+        }
+      }, { threshold: 0.35 }).observe(f);
+    });
+  }
+
   /* ---------------- Stand je Werkzeug ---------------- */
   var WEGE = {}; try { WEGE = JSON.parse($('#maison-wege').textContent) || {}; } catch (e) {}
   var hole = function (k) {
@@ -185,7 +221,7 @@
     var res = jt && isFinite(Number(jt.buchung)) ? Number(jt.buchung) : null;
     setze('registre-heute', heute == null ? '–' : n(heute));
     setze('registre-buchung', res == null ? '–' : n(res));
-    if (m.beispiel) $$('.m-zeile').forEach(function (z) { z.classList.add('beispiel'); var b = $('.m-zeile__bsp', z); if (b) b.hidden = false; });
+    if (m.beispiel) $$('.m-zeile__bsp').forEach(function (b) { b.hidden = false; });
     setze('registre-kurz', m.leer || !bs ? 'Noch keine Besuche gezählt' : n(bs) + (bs === 1 ? ' Besuch' : ' Besuche') + ' in ' + n(ganz(m.tage)) + ' Tagen' + (m.beispiel ? '\u00a0· ' + BSP : ''));
     zahl('reg-besuche', bs ? n(bs) : '–'); zahl('reg-seiten', ganz(u.seiten) ? n(u.seiten) : '–'); zahl('reg-laender', ganz(u.laender) ? n(u.laender) : '–');
     /* Vom Besuch zur Anfrage: dieselben Stufen, Namen und Rechnung wie «Der Weg zur Anfrage» in «Besucher» (registre.js trichter, Fehlerbuch 21.10.2026):

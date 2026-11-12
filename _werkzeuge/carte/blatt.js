@@ -104,7 +104,7 @@
     CACHE.karte = opt.vorschau ? d.ziel : null; CACHE.css = css; CACHE.html = s.slice();
     // Doldenhorn 17.10.2026: die Schriften des Satzes ausdrücklich laden, bevor eingepasst wird. «fonts.ready» allein meldet fertig, solange noch
     // keine Schrift angefragt ist; dann wurde mit der Ersatzschrift gemessen und eine Seite (Bistro S. 2, am Handy) fälschlich als «zu hoch» gemeldet.
-    var SCHRIFTEN = ['400 12px Fraunces', '440 12px Fraunces', '480 12px Fraunces', '540 12px Fraunces', '400 12px "Instrument Sans"', '500 12px "Instrument Sans"', '600 12px "Instrument Sans"', '400 12px "DM Mono"'];
+    var SCHRIFTEN = ['900 12px "UH Display"', '400 12px Fraunces', '440 12px Fraunces', '480 12px Fraunces', '540 12px Fraunces', '400 12px "Instrument Sans"', '500 12px "Instrument Sans"', '600 12px "Instrument Sans"', '400 12px "DM Mono"'];
     return Promise.all(SCHRIFTEN.map(function (f) { return document.fonts.load(f).catch(function () { return null; }); })).then(function () { return document.fonts.ready; }).then(function () {
       if (opt.vorschau) return null;   // Vorschau: Bilder haben feste Masse, der Satz steht schon, sie laden nach (Slow 4G: Text zuerst)
       return Promise.all([].map.call(document.images, function (i) { return i.complete ? 0 : new Promise(function (r) { i.onload = i.onerror = r; }); }));

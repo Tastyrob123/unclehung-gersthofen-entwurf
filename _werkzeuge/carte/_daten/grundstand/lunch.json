@@ -21,6 +21,20 @@
      "fn": "el",
      "a": [
       "div",
+      " class=\"sb-deko sb-grund\"",
+      {
+       "fn": "el",
+       "a": [
+        "img",
+        " src=\"bild/grund-reis.jpg\" alt=\"\""
+       ]
+      }
+     ]
+    },
+    {
+     "fn": "el",
+     "a": [
+      "div",
       " class=\"inhalt\"",
       {
        "fn": "el",
@@ -90,278 +104,355 @@
        "fn": "el",
        "a": [
         "div",
-        " class=\"sb-marke\"",
+        " class=\"sb-papier sb-papier--blatt\"",
         {
          "fn": "el",
          "a": [
           "p",
-          " class=\"sb-gl\"",
+          " class=\"sb-gl sb-zacke sb-zacke--gross\"",
           "Täglich gültig bis 14.00 Uhr"
          ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-deals\"",
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"sb-g\"",
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-rn\"",
+              "L1"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-n\"",
+              "Curry Chicken oder Veggie mit Reis"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-p\"",
+              {
+               "fn": "el",
+               "a": [
+                "span",
+                "",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "10,00 €"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"sb-g\"",
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-rn\"",
+              "L2"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-n\"",
+              "Erdnuss Chicken oder Veggie mit Reis"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-p\"",
+              {
+               "fn": "el",
+               "a": [
+                "span",
+                "",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "10,00 €"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"sb-g\"",
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-rn\"",
+              "L3"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-n\"",
+              "Gebratene Nudeln mit Chicken oder Veggie"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-p\"",
+              {
+               "fn": "el",
+               "a": [
+                "span",
+                "",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "9,00 €"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"sb-g\"",
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-rn\"",
+              "L4"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-n\"",
+              "Gebratener Reis mit Chicken oder Veggie"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-p\"",
+              {
+               "fn": "el",
+               "a": [
+                "span",
+                "",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "9,00 €"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"sb-g\"",
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-rn\"",
+              "L5"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-n\"",
+              "Bun Nem, Crispy Chicken Bowl oder Pekingbowl"
+             ]
+            },
+            {
+             "fn": "el",
+             "a": [
+              "p",
+              " class=\"sb-p\"",
+              {
+               "fn": "el",
+               "a": [
+                "span",
+                "",
+                {
+                 "fn": "el",
+                 "a": [
+                  "b",
+                  "",
+                  "13,00 €"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-dazu\"",
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"sb-hw\"",
+            "Bis 14.00 Uhr Frühlingsrollen oder Pekingsuppe zu jedem Hauptgericht gratis dazu, nur so lange der Vorrat reicht."
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "p",
+            " class=\"sb-al\"",
+            "Allergene ",
+            {
+             "fn": "el",
+             "a": [
+              "sup",
+              " class=\"sb-a\"",
+              "A, F, K, L, H, 1, 2, 3, 4, 5, 6, 9"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "fn": "el",
+         "a": [
+          "div",
+          " class=\"sb-fotos\"",
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"sb-deko sb-foto\"",
+            {
+             "fn": "el",
+             "a": [
+              "img",
+              " src=\"bild/curry.jpg\" alt=\"\""
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"sb-deko sb-foto\"",
+            {
+             "fn": "el",
+             "a": [
+              "img",
+              " src=\"bild/nudeln2.jpg\" alt=\"\""
+             ]
+            }
+           ]
+          },
+          {
+           "fn": "el",
+           "a": [
+            "div",
+            " class=\"sb-deko sb-foto\"",
+            {
+             "fn": "el",
+             "a": [
+              "img",
+              " src=\"bild/bowl.jpg\" alt=\"\""
+             ]
+            }
+           ]
+          }
+         ]
         }
        ]
-      },
+      }
+     ]
+    },
+    {
+     "fn": "el",
+     "a": [
+      "div",
+      " class=\"sb-deko sb-teller sb-teller--or\"",
       {
        "fn": "el",
        "a": [
-        "div",
-        " class=\"sb-deals\"",
-        {
-         "fn": "el",
-         "a": [
-          "div",
-          " class=\"sb-g\"",
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-rn\"",
-            "L1"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-n\"",
-            "Curry Chicken oder Veggie mit Reis"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-p\"",
-            {
-             "fn": "el",
-             "a": [
-              "span",
-              "",
-              {
-               "fn": "el",
-               "a": [
-                "b",
-                "",
-                "10,00 €"
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "fn": "el",
-         "a": [
-          "div",
-          " class=\"sb-g\"",
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-rn\"",
-            "L2"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-n\"",
-            "Erdnuss Chicken oder Veggie mit Reis"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-p\"",
-            {
-             "fn": "el",
-             "a": [
-              "span",
-              "",
-              {
-               "fn": "el",
-               "a": [
-                "b",
-                "",
-                "10,00 €"
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "fn": "el",
-         "a": [
-          "div",
-          " class=\"sb-g\"",
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-rn\"",
-            "L3"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-n\"",
-            "Gebratene Nudeln mit Chicken oder Veggie"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-p\"",
-            {
-             "fn": "el",
-             "a": [
-              "span",
-              "",
-              {
-               "fn": "el",
-               "a": [
-                "b",
-                "",
-                "9,00 €"
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "fn": "el",
-         "a": [
-          "div",
-          " class=\"sb-g\"",
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-rn\"",
-            "L4"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-n\"",
-            "Gebratener Reis mit Chicken oder Veggie"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-p\"",
-            {
-             "fn": "el",
-             "a": [
-              "span",
-              "",
-              {
-               "fn": "el",
-               "a": [
-                "b",
-                "",
-                "9,00 €"
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "fn": "el",
-         "a": [
-          "div",
-          " class=\"sb-g\"",
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-rn\"",
-            "L5"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-n\"",
-            "Bun Nem, Crispy Chicken Bowl oder Pekingbowl"
-           ]
-          },
-          {
-           "fn": "el",
-           "a": [
-            "p",
-            " class=\"sb-p\"",
-            {
-             "fn": "el",
-             "a": [
-              "span",
-              "",
-              {
-               "fn": "el",
-               "a": [
-                "b",
-                "",
-                "13,00 €"
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        }
+        "img",
+        " src=\"bild/teller-ente.webp\" alt=\"\""
        ]
-      },
+      }
+     ]
+    },
+    {
+     "fn": "el",
+     "a": [
+      "div",
+      " class=\"sb-deko sb-teller sb-teller--ol\"",
       {
        "fn": "el",
        "a": [
-        "div",
-        " class=\"sb-dazu\"",
-        {
-         "fn": "el",
-         "a": [
-          "p",
-          " class=\"sb-hw\"",
-          "Bis 14.00 Uhr Frühlingsrollen oder Pekingsuppe zu jedem Hauptgericht gratis dazu, nur so lange der Vorrat reicht."
-         ]
-        },
-        {
-         "fn": "el",
-         "a": [
-          "p",
-          " class=\"sb-al\"",
-          "Allergene ",
-          {
-           "fn": "el",
-           "a": [
-            "sup",
-            " class=\"sb-a\"",
-            "A, F, K, L, H, 1, 2, 3, 4, 5, 6, 9"
-           ]
-          }
-         ]
-        }
+        "img",
+        " src=\"bild/teller-padthai.webp\" alt=\"\""
        ]
       }
      ]

@@ -1,0 +1,42 @@
+{
+ "bureau-start": {
+  "von": "bureau",
+  "klick": "Startseite"
+ },
+ "bureau-preise": {
+  "von": "bureau",
+  "klick": "Zeiten & Preise"
+ },
+ "carte-lunch": {
+  "von": "carte",
+  "klick": "Lunchdeals"
+ },
+ "imprimerie-arten": {
+  "von": "imprimerie",
+  "klick": "Arten und Vorlagen"
+ },
+ "reception-eingang": {
+  "von": "reception",
+  "klick": "Eingang"
+ },
+ "reception-gefragt": {
+  "von": "reception",
+  "klick": "Das wurde gefragt"
+ },
+ "livre-pruef": {
+  "von": "livre",
+  "klick": "Markenprüfung"
+ },
+ "registre-herkunft": {
+  "von": "registre",
+  "klick": "Herkunft"
+ },
+ "registre-anruf": {
+  "von": "registre",
+  "klick": "Anruf und Anfrage"
+ },
+ "livre-dateien": {
+  "von": "livre",
+  "klick": "Logo & Dateien"
+ }
+}

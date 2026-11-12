@@ -1,9 +1,12 @@
-/* Karten & Preislisten · Uncle Hung Gersthofen — Satz der Karten (11.11.2026, satz_bau.py). Eine Datei für Vorschau, PDF und Werkbank.
-   Vorlage: satz/satz.css der Taverne zum Schäfli (Aufbau, Masse über --s, Gestalten); Farben und Schriften der Website (website/assets/uh.css, CHARAKTER.md):
-   Papier #F9F0E3, Salbei #4D5C4E, Tief #2E3830, Gold #BF982E nur als Linie, Jade #5E8A73 als leiser Akzent; Fraunces 540 SOFT, Instrument Sans, DM Mono.
-   Masse in mm, Schrift in pt über --s (blatt.js passt je Seite an, damit nichts überläuft). Keine Schatten, keine Verläufe über Text.
-   Sperrung höchstens .08em (darüber liest pdftotext Buchstabe für Buchstabe). */
-/* Feste Schnitte statt variabler Schriften (fonts_statisch.py): Chromium bettet variable Schriften als «Type 3» ein, die Apple-Vorschau zeigt sie weich */
+/* Karten & Preislisten · Uncle Hung Gersthofen — Satz der Karten (Karten neu, 12.11.2026, satz_bau.py). Eine Datei für Vorschau, PDF und Werkbank-Unterlagen.
+   Vorlage des Aufbaus: satz/satz.css der Taverne zum Schäfli (Masse über --s, Gestalten). Haltung der heutigen Canva-Karten (Retro-Display in Versalien,
+   Zackensterne, Strichzeichnungen, freigestellte Teller), Farben und Schriften der Website (website/assets/uh.css, CHARAKTER.md):
+   Papier #F9F0E3, Creme #EBE1D4, Salbei #4D5C4E, Tief #2E3830, Gold #BF982E / hell #D9BC6B, Jade #5E8A73.
+   Titel «UH Display» (Fascinate, Retro-Display wie die Canva-Karte, fonts_statisch.py), Gerichte Instrument Sans, Preise Fraunces 540, Nummern und Allergene DM Mono.
+   Jede Seite: Foto des Hauses vollflächig (abgedunkelt, eingerechnet), darauf Kopf und Titel in Creme, darunter die Papierfläche mit dem Inhalt.
+   Masse in mm, Schrift in pt über --s (blatt.js passt je Seite an). Bewegung keine; keine Schatten; Sperrung höchstens .08em (pdftotext).
+   Formate: A4 hoch (Karte, Lunchdeals, Christmas, Catering), A5 hoch (Signature Drinks), gesetzt in satz_bau.py (@page, data-b, data-h). */
+@font-face{font-family:'UH Display';src:url('../fonts/UHDisplay-Fraunces900.ttf') format('truetype');font-weight:900;font-style:normal;font-display:block}   /* Robert 12.11.2026: Haltung der Canva-Schrift TAN Buster = Fraunces 900, harte Form (opsz 144, SOFT 0, WONK 1), fester Schnitt aus der Website-Schrift (OFL) */
 @font-face{font-family:Fraunces;src:url('../fonts/Fraunces-400.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block}
 @font-face{font-family:Fraunces;src:url('../fonts/Fraunces-440.ttf') format('truetype');font-weight:440;font-style:normal;font-display:block}
 @font-face{font-family:Fraunces;src:url('../fonts/Fraunces-480.ttf') format('truetype');font-weight:480;font-style:normal;font-display:block}
@@ -12,102 +15,161 @@
 @font-face{font-family:'Instrument Sans';src:url('../fonts/InstrumentSans-500.ttf') format('truetype');font-weight:500;font-style:normal;font-display:block}
 @font-face{font-family:'Instrument Sans';src:url('../fonts/InstrumentSans-600.ttf') format('truetype');font-weight:600;font-style:normal;font-display:block}
 @font-face{font-family:'DM Mono';src:url('../fonts/DMMono-normal-400.woff2') format('woff2');font-weight:400;font-style:normal;font-display:block}
-:root{--papier:#F9F0E3;--creme:#EBE1D4;--tinte:#1F2620;--leise:rgba(31,38,32,.7);--salbei:#4D5C4E;--tief:#2E3830;--gold:#BF982E;--gold-hell:#D9BC6B;--gold-tief:#7E6420;--jade:#5E8A73}
+:root{--papier:#F9F0E3;--creme:#EBE1D4;--tinte:#1F2620;--leise:rgba(31,38,32,.72);--salbei:#4D5C4E;--tief:#2E3830;--gold:#BF982E;--gold-hell:#D9BC6B;--gold-tief:#7E6420;--jade:#5E8A73;
+  --zacke:polygon(50% 0%,58% 9.8%,69.1% 3.8%,72.8% 15.9%,85.4% 14.6%,84.1% 27.2%,96.2% 30.9%,90.2% 42%,100% 50%,90.2% 58%,96.2% 69.1%,84.1% 72.8%,85.4% 85.4%,72.8% 84.1%,69.1% 96.2%,58% 90.2%,50% 100%,42% 90.2%,30.9% 96.2%,27.2% 84.1%,14.6% 85.4%,15.9% 72.8%,3.8% 69.1%,9.8% 58%,0% 50%,9.8% 42%,3.8% 30.9%,15.9% 27.2%,14.6% 14.6%,27.2% 15.9%,30.9% 3.8%,42% 9.8%)}
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:#3E4B40;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-.blatt{--s:1;position:relative;overflow:hidden;margin:8mm auto;background:var(--papier);color:var(--tinte);display:flex;flex-direction:column;
+.blatt{--s:1;font-synthesis:none;position:relative;overflow:hidden;margin:8mm auto;background:var(--tief);color:var(--tinte);display:flex;flex-direction:column;
   font-family:'Instrument Sans',Arial,sans-serif;font-size:calc(9pt*var(--s));line-height:1.4;font-feature-settings:'locl' 0;page-break-after:always;break-after:page}
-:where(.blatt) :where(h1,h2,h3,h4,p){margin:0;padding:0;font-weight:inherit}
+:where(.blatt) :where(h1,h2,h3,h4,p,ul){margin:0;padding:0;font-weight:inherit}
 :where(.blatt) b{font-weight:inherit}
-/* Rahmen: eine feine Goldlinie mit runden Ecken, innen eine zweite, leisere (die Ecken der Website sind rund) */
-.blatt::before,.blatt::after{content:'';position:absolute;pointer-events:none;border:.26mm solid var(--gold);border-radius:4mm}
-.blatt::before{inset:7mm;opacity:.75}
-.blatt::after{inset:8.5mm;border-width:.14mm;border-radius:2.8mm;opacity:.45}
-.inhalt{position:relative;z-index:1;flex:1;min-height:0;padding:15mm 20mm 3mm;display:flex;flex-direction:column}
-.ufuss2{position:relative;z-index:1;flex:none;margin:0 22mm;padding:2.4mm 0 12.4mm;font-family:'DM Mono',Menlo,monospace;font-size:6pt;letter-spacing:.04em;text-align:center;color:var(--gold-tief)}
+/* Foto der Seite (vollflächig, abgedunkelt eingerechnet), Teller vom Rand */
+.sb-deko img{display:block}
+.sb-grund{position:absolute;inset:0;z-index:0}
+.sb-grund img{width:100%;height:100%;object-fit:cover}
+.sb-teller{position:absolute;z-index:3;pointer-events:none}
+.sb-teller img{width:100%;height:auto}
+.inhalt{position:relative;z-index:2;flex:1;min-height:0;padding:9mm 9mm 0;display:flex;flex-direction:column}
+.ufuss2{position:relative;z-index:2;flex:none;padding:2.8mm 12mm 4.4mm;font-family:'DM Mono',Menlo,monospace;font-size:6pt;letter-spacing:.04em;text-align:center;color:var(--gold-hell)}
 
-/* Kopf: die Wortmarke UNCLE HUNG (Schale als U), darunter Ort und die Schale mit zwei Stäbchen zwischen zwei Goldlinien */
-.ts-kopf{flex:none;display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:calc(5mm*var(--s))}
-.ts-wm{display:block;width:calc(44mm*var(--s));height:auto;color:var(--salbei)}
-.ts-ort{font-family:'DM Mono',Menlo,monospace;font-size:calc(6pt*var(--s));letter-spacing:.08em;text-transform:uppercase;color:var(--gold-tief);margin-top:calc(2.2mm*var(--s))}
-.sb-orn{display:flex;align-items:center;gap:3.6mm;margin:calc(2.6mm*var(--s)) auto 0;width:100%}
-.sb-orn i{flex:1;height:.22mm;background:var(--gold);opacity:.8}
-.sb-orn i:first-child{-webkit-mask:linear-gradient(90deg,transparent,#000 70%);mask:linear-gradient(90deg,transparent,#000 70%)}
-.sb-orn i:last-child{-webkit-mask:linear-gradient(270deg,transparent,#000 70%);mask:linear-gradient(270deg,transparent,#000 70%)}
-.ts-schale{display:block;width:calc(6.4mm*var(--s));height:auto;color:var(--jade);flex:none}
-.ts-kopf--klein{margin-bottom:calc(4mm*var(--s))}
-.ts-kopf--klein .ts-wm{width:calc(32mm*var(--s))}
-.ts-kopf--klein .ts-schale{width:calc(5mm*var(--s))}
+/* Kopf auf dem Foto: Wortmarke in Creme, Ort, die Schale zwischen zwei Goldlinien */
+.ts-kopf{flex:none;display:flex;flex-direction:column;align-items:center;text-align:center;margin:2mm auto calc(3mm*var(--s));width:62mm}
+.ts-wm{display:block;width:calc(40mm*var(--s));height:auto;color:var(--papier)}
+.ts-ort{font-family:'DM Mono',Menlo,monospace;font-size:calc(6pt*var(--s));letter-spacing:.08em;text-transform:uppercase;color:var(--gold-hell);margin-top:calc(2mm*var(--s))}
+.sb-orn{display:flex;align-items:center;gap:3mm;margin:calc(2.2mm*var(--s)) auto 0;width:100%}
+.sb-orn i{flex:1;height:.22mm;background:var(--gold-hell);opacity:.85}
+.ts-schale{display:block;width:calc(6mm*var(--s));height:auto;color:var(--gold-hell);flex:none}
+.ts-kopf--klein{flex-direction:row;gap:4mm;width:auto;margin:0 auto calc(4mm*var(--s))}
+.ts-kopf--klein .ts-wm{width:calc(30mm*var(--s))}
+.ts-kopf--klein .ts-ort{margin:0}
+.ts-kopf--klein .sb-orn{display:none}
 
-/* Titel */
-.sb-titel{flex:none;text-align:center;font-family:Fraunces,Georgia,serif;font-weight:540;font-size:calc(28pt*var(--s));line-height:1.06;color:var(--tief);letter-spacing:-.01em;text-wrap:balance}
-.sb-unter{flex:none;text-align:center;font-family:'DM Mono',Menlo,monospace;font-size:calc(7pt*var(--s));letter-spacing:.08em;text-transform:uppercase;color:var(--gold-tief);margin-top:calc(2.4mm*var(--s))}
+/* Titel in der Display-Schrift, Versalien, dicht, Creme auf dem Foto */
+.sb-titel{flex:none;text-align:center;font-family:'UH Display',Fraunces,Georgia,serif;font-weight:900;text-transform:uppercase;font-size:calc(52pt*var(--s));line-height:.92;
+  letter-spacing:-.012em;color:var(--papier);text-wrap:balance;margin:calc(1mm*var(--s)) auto calc(6mm*var(--s));max-width:120mm}
+.sb-unter{flex:none;text-align:center;font-family:'DM Mono',Menlo,monospace;font-size:calc(7pt*var(--s));letter-spacing:.08em;text-transform:uppercase;color:var(--gold-hell);margin:calc(-3mm*var(--s)) 0 calc(5mm*var(--s))}
 
-/* Die Karte: zwei Spalten je Seite, dazwischen eine feine Goldlinie; Rubriken verteilt (satz_bau.py misst und packt), keine Rubrik zerteilt */
-.ts--karte .sb-titel{margin-bottom:calc(5mm*var(--s))}
-.sb-spalten{flex:1 0 auto;position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:11mm}
-.sb-spalten::before{content:'';position:absolute;left:50%;top:1mm;bottom:1mm;width:.16mm;background:var(--gold-hell);opacity:.8}
-.sb-sp{display:flex;flex-direction:column;justify-content:flex-start;gap:calc(6mm*var(--s));min-width:0}   /* Uncle Hung 11.11.2026: Rubriken stehen untereinander, kein Loch mitten in der Spalte (space-between schob Seafood und Signature Drinks nach unten) */
-.sb-r{break-inside:avoid;padding-bottom:calc(4.2mm*var(--s))}
-.sb-h{font-family:Fraunces,Georgia,serif;font-weight:540;font-size:calc(13.4pt*var(--s));line-height:1.12;color:var(--tief);letter-spacing:-.005em;
-  padding-bottom:calc(1.6mm*var(--s));margin-bottom:calc(1.8mm*var(--s));border-bottom:.2mm solid var(--gold-hell);text-wrap:balance}
-/* Allergene der Rubrik: klein hochgestellt am Ende der Zeile, wie Fussnoten (Fehlerbuch 10a, Schlössli 20.10.2026), nie als eigene Spalte */
-.sb-a{font-family:'DM Mono',Menlo,monospace;font-weight:400;font-size:calc(5.6pt*var(--s));letter-spacing:0;color:var(--gold-tief);vertical-align:super;line-height:0;margin-left:.6mm;white-space:normal}   /* Kürzel durch geschützte Leerzeichen verbunden (satz_bau.py kuerzel): umbrochen wird nur vor dem ganzen Satz oder bei «·» (Noodle · Rice) */
-.sb-ru{font-size:calc(7.8pt*var(--s));color:var(--leise);margin:calc(-.4mm*var(--s)) 0 calc(1.6mm*var(--s));line-height:1.38}
-.sb-g{display:grid;grid-template-columns:calc(8mm*var(--s)) minmax(0,1fr) auto;column-gap:2.4mm;align-items:baseline;padding:calc(1.05mm*var(--s)) 0;break-inside:avoid}
+/* Papierfläche: Papier, leicht durchscheinend, runde Ecken, innen eine feine Goldlinie */
+.sb-papier{position:relative;flex:1 0 auto;display:flex;flex-direction:column;background:rgba(249,240,227,.95);border-radius:4mm;padding:8mm 9mm 7mm}
+.sb-papier::before{content:'';position:absolute;inset:2mm;border:.22mm solid var(--gold);border-radius:2.8mm;opacity:.5;pointer-events:none}
+
+/* Die Karte: zwei Spalten je Seite, dazwischen eine feine Goldlinie; Rubriken verteilt (satz_bau.py misst und packt), freie Spaltenenden mit Foto */
+.ts--karte1 .sb-titel{font-size:calc(58pt*var(--s));margin-bottom:calc(7mm*var(--s))}
+.sb-spalten{flex:1 0 auto;position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:10mm}
+.sb-spalten::before{content:'';position:absolute;left:50%;top:1mm;bottom:1mm;width:.16mm;background:var(--gold-hell);opacity:.9}
+.sb-sp{display:flex;flex-direction:column;justify-content:flex-start;min-width:0}
+.sb-sp--verteilt{justify-content:space-between}
+.sb-r{position:relative;break-inside:avoid;padding-bottom:calc(5.4mm*var(--s))}
+.sb-h{position:relative;z-index:1;font-family:'UH Display',Fraunces,Georgia,serif;font-weight:900;text-transform:uppercase;font-size:calc(19pt*var(--s));line-height:.98;
+  color:var(--tief);letter-spacing:-.008em;margin-bottom:calc(2.2mm*var(--s));text-wrap:balance}
+/* Allergene der Rubrik: klein unter dem Titel wie auf der Canva-Karte */
+.sb-a{display:block;font-family:'DM Mono',Menlo,monospace;font-weight:400;font-size:calc(5.5pt*var(--s));line-height:1.35;letter-spacing:.05em;text-transform:none;color:var(--gold-tief);vertical-align:baseline;margin-top:calc(1.3mm*var(--s))}
+.sb-ru{position:relative;z-index:1;font-size:calc(7.8pt*var(--s));color:var(--salbei);margin:0 0 calc(1.4mm*var(--s));line-height:1.36}
+.sb-g{position:relative;z-index:1;display:grid;grid-template-columns:calc(7.6mm*var(--s)) minmax(0,1fr) auto;column-gap:2.2mm;align-items:baseline;padding:calc(1.05mm*var(--s)) 0;
+  border-bottom:.15mm dotted rgba(46,56,48,.28);break-inside:avoid}
 .sb-g--ohne{grid-template-columns:minmax(0,1fr) auto}
-.sb-rn{grid-column:1;grid-row:1;font-family:'DM Mono',Menlo,monospace;font-size:calc(7pt*var(--s));color:var(--jade);letter-spacing:0;white-space:nowrap}
-.sb-g .sb-n{grid-row:1;font-weight:500;font-size:calc(9pt*var(--s));line-height:1.3;color:var(--tinte)}
-.sb-g .sb-p{grid-row:1;grid-column:-2;font-family:Fraunces,Georgia,serif;font-weight:480;font-size:calc(9.4pt*var(--s));color:var(--salbei);white-space:nowrap;text-align:right}
-.sb-g .sb-t{grid-column:2/-1;font-size:calc(7.7pt*var(--s));line-height:1.36;color:var(--leise);margin-top:calc(.3mm*var(--s))}
+.sb-rn{grid-column:1;grid-row:1;font-family:'DM Mono',Menlo,monospace;font-size:calc(6.8pt*var(--s));color:var(--jade);letter-spacing:0;white-space:nowrap}
+.sb-g .sb-n{grid-row:1;font-weight:600;font-size:calc(8.8pt*var(--s));line-height:1.25;color:var(--tinte)}
+.sb-g .sb-p{grid-row:1;grid-column:-2;font-family:Fraunces,Georgia,serif;font-weight:540;font-size:calc(9.6pt*var(--s));color:var(--salbei);white-space:nowrap;text-align:right}
+.sb-g .sb-t{grid-column:2/-1;font-size:calc(7.4pt*var(--s));line-height:1.34;color:var(--leise);margin-top:calc(.3mm*var(--s))}
 .sb-g--ohne .sb-t{grid-column:1/-1}
-.sb-hw{font-size:calc(7.8pt*var(--s));line-height:1.38;color:var(--jade);margin-top:calc(1.4mm*var(--s))}
+.sb-hw{position:relative;z-index:1;font-size:calc(7.8pt*var(--s));line-height:1.38;color:var(--jade);margin-top:calc(1.6mm*var(--s))}
 .sb-gl{font-family:'DM Mono',Menlo,monospace;font-size:calc(6.4pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--gold-tief);margin-top:calc(1.2mm*var(--s))}
-.sb-legende{flex:none;margin-top:calc(3mm*var(--s));padding-top:calc(3mm*var(--s));border-top:.2mm solid var(--gold-hell);text-align:center}
-.sb-lt{font-family:'DM Mono',Menlo,monospace;font-size:calc(6pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--gold-tief);margin-bottom:calc(1.2mm*var(--s))}
-.sb-lx{font-size:calc(6.9pt*var(--s));line-height:1.5;color:var(--leise);text-wrap:pretty}
+/* Zackenstern wie auf der Canva-Karte (Gold statt Gelb), nur mit dem Hinweis der Karte; liegt rechts neben dem Titel der Rubrik */
+.sb-zacke{position:absolute;z-index:3;right:calc(3.5mm*var(--s));top:calc(.6mm*var(--s));width:calc(16.5mm*var(--s));height:calc(16.5mm*var(--s));margin:0;padding:calc(2.8mm*var(--s));
+  display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Instrument Sans',Arial,sans-serif;font-weight:600;font-size:calc(5.5pt*var(--s));
+  line-height:1.1;letter-spacing:.01em;text-transform:uppercase;color:var(--tief)}   /* Schrift waagrecht: gedrehte Schrift liest pdftotext Buchstabe für Buchstabe; gedreht ist nur der Stern */
+.sb-zacke::before{content:'';position:absolute;inset:0;z-index:-1;transform:rotate(-9deg);background:var(--gold-hell);-webkit-clip-path:var(--zacke);clip-path:var(--zacke)}
+.sb-zacke{isolation:isolate}
+.sb-r--zacke .sb-h{padding-right:calc(22mm*var(--s));min-height:calc(18.6mm*var(--s))}   /* Stern steht ganz neben dem Titel, nie über Zeilen oder am Rand (Robert 12.11.2026) */
+/* Strichzeichnungen des Hauses hinter der Rubrik (Huhn, Rind, Fisch, Pak Choi), leise in Salbei */
+.sb-strich{position:absolute;z-index:0;right:calc(10mm*var(--s));bottom:calc(2mm*var(--s));width:58%;height:84%;opacity:.27;pointer-events:none}
+.sb-strich img{width:100%;height:100%;object-fit:contain;object-position:right bottom}
+.sb-strich--chicken{height:92%;width:46%}
+.sb-strich--seafood{right:calc(2mm*var(--s))}
+/* Foto am Spaltenende: füllt, was frei bleibt */
+.sb-foto{position:relative;overflow:hidden;border-radius:3mm;background:var(--creme)}
+.sb-foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.sb-fuell{flex:1 1 0;min-height:24mm;margin:calc(1mm*var(--s)) 0 calc(1.5mm*var(--s))}
+.sb-legende{position:relative;z-index:1;flex:none;margin-top:calc(2.4mm*var(--s));padding-top:calc(2.8mm*var(--s));border-top:.2mm solid var(--gold-hell);text-align:center}
+.sb-lt{font-family:'UH Display',Fraunces,Georgia,serif;font-weight:900;text-transform:uppercase;font-size:calc(11pt*var(--s));color:var(--tief);margin-bottom:calc(1.2mm*var(--s))}
+.sb-lx{font-size:calc(6.8pt*var(--s));line-height:1.5;color:var(--leise);text-wrap:pretty}
+/* Teller der ersten Kartenseite: links und rechts oben vom Rand herein, neben dem Titel */
+.ts--karte1 .sb-teller--or{right:-17mm;top:-14mm;width:68mm;transform:rotate(14deg)}
+.ts--karte1 .sb-teller--ol{left:-19mm;top:-10mm;width:62mm;transform:rotate(-20deg)}
 
-/* Lunchdeals (Tageskarte Mittag) und Signature Drinks: mittig und edel, wenig Inhalt gross (C08 sinngemäss) */
-.sb-marke{flex:none;display:flex;justify-content:center;margin-top:calc(4.6mm*var(--s))}
-.sb-marke .sb-gl{margin:0;padding:calc(2mm*var(--s)) 9mm;border-top:.22mm solid var(--gold-hell);border-bottom:.22mm solid var(--gold-hell);font-size:calc(7.2pt*var(--s))}
-.sb-deals{flex:1 0 auto;display:flex;flex-direction:column;justify-content:space-evenly;padding:calc(4mm*var(--s)) 0}
-.sb-deals .sb-g{display:flex;flex-direction:column;align-items:center;text-align:center;padding:0}
-.sb-deals .sb-g+.sb-g::before{content:'';display:block;width:9mm;height:.22mm;background:var(--gold);margin:0 auto calc(4.4mm*var(--s))}
-.sb-deals .sb-rn{font-size:calc(7.6pt*var(--s));letter-spacing:.04em;margin-bottom:calc(1.2mm*var(--s))}
-.sb-deals .sb-n{font-family:Fraunces,Georgia,serif;font-weight:480;font-size:calc(15pt*var(--s));line-height:1.2;color:var(--tief);text-wrap:balance;max-width:130mm}
-.sb-deals .sb-p{font-family:Fraunces,Georgia,serif;font-weight:440;font-size:calc(13pt*var(--s));color:var(--salbei);margin-top:calc(1.2mm*var(--s))}
-.sb-deals .sb-t{font-size:calc(9pt*var(--s));color:var(--leise);max-width:112mm;margin-top:calc(1mm*var(--s));text-wrap:balance}
-.sb-dazu{flex:none;text-align:center;padding-top:calc(3.4mm*var(--s));border-top:.2mm solid var(--gold-hell);margin:0 8mm}
-.sb-dazu .sb-hw{margin:0 auto;max-width:138mm;font-size:calc(9pt*var(--s));line-height:1.45;color:var(--salbei);text-wrap:balance}
+/* Lunchdeals, Signature Drinks, Christmas, Catering: Papierfläche mit grossen Einträgen, unten das Bildband */
+.sb-papier--blatt{padding:10mm 11mm 9mm}
+.sb-deals{flex:none;display:flex;flex-direction:column}
+.sb-deals .sb-g{grid-template-columns:calc(12mm*var(--s)) minmax(0,1fr) auto;column-gap:5mm;padding:calc(3mm*var(--s)) 0;border-bottom:.2mm dotted rgba(46,56,48,.35)}
+.sb-deals .sb-g--ohne{grid-template-columns:minmax(0,1fr) auto}
+.sb-deals .sb-rn{font-size:calc(10pt*var(--s));color:var(--jade)}
+.sb-deals .sb-n{font-size:calc(13pt*var(--s));line-height:1.22;text-wrap:balance}
+.sb-deals .sb-p{font-size:calc(14pt*var(--s))}
+.sb-deals .sb-t{font-size:calc(9pt*var(--s))}
+.sb-dazu{flex:none;text-align:center;padding:calc(4mm*var(--s)) 6mm 0}
+.sb-dazu .sb-hw{margin:0 auto;max-width:150mm;font-size:calc(9.4pt*var(--s));line-height:1.45;color:var(--salbei);text-wrap:balance}
 .sb-al{font-family:'DM Mono',Menlo,monospace;font-size:calc(6.2pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--gold-tief);margin-top:calc(2.2mm*var(--s))}
-.sb-al .sb-a{font-size:calc(6.2pt*var(--s));text-transform:none;vertical-align:baseline;margin-left:1mm}
-.ts--drinks .inhalt{padding:13mm 15mm 2mm}
-.ts--drinks .ufuss2{margin:0 15mm;padding-bottom:12mm;font-size:5.6pt}
-.ts--drinks .ts-wm{width:calc(36mm*var(--s))}
-.ts--drinks .sb-titel{font-size:calc(24pt*var(--s))}
-.sb-deals--drinks .sb-n{font-size:calc(14pt*var(--s))}
-.sb-deals--drinks .sb-t{max-width:96mm}
-.ts--drinks .sb-dazu{margin:0 4mm}
-.ts--drinks .sb-dazu .sb-hw{font-size:calc(8.2pt*var(--s))}
+.sb-al .sb-a{display:inline;font-size:calc(6.2pt*var(--s));margin-left:1mm}
+.sb-fotos{flex:1 1 0;min-height:42mm;display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:3mm;margin-top:calc(6mm*var(--s))}
+.sb-fotos--vier{grid-template-columns:1.2fr 1fr 1fr 1fr}
+.sb-zacke--gross{top:5.5mm;right:5.5mm;width:calc(26mm*var(--s));height:calc(26mm*var(--s));padding:calc(4.6mm*var(--s));font-size:calc(8pt*var(--s))}   /* ganz im Papier, neben den Preisen (Robert 12.11.2026) */
+.ts--lunch .sb-titel{font-size:55pt;max-width:none}   /* fest: ein Wort, das nie umbricht (bei --s 1,3 lief es über den Rand) */
+.ts--lunch .sb-teller--or{right:-22mm;top:-6mm;width:76mm;transform:rotate(18deg)}
+.ts--lunch .sb-teller--ol{left:-24mm;top:-8mm;width:70mm;transform:rotate(-12deg)}
+.ts--lunch .sb-deals{padding-right:24mm}
+/* Signature Drinks (A5) */
+.ts--drinks .inhalt{padding:7mm 7mm 0}
+.ts--drinks .ufuss2{padding:2.4mm 8mm 3.6mm;font-size:5.6pt}
+.ts--drinks .ts-wm{width:calc(32mm*var(--s))}
+.ts--drinks .sb-titel{font-size:calc(38pt*var(--s));margin-bottom:calc(5mm*var(--s))}
+.ts--drinks .sb-papier--blatt{padding:7mm 8mm 7mm}
+.sb-deals--drinks .sb-n{font-size:calc(11.5pt*var(--s))}
+.sb-deals--drinks .sb-p{font-size:calc(12pt*var(--s))}
+.sb-deals--drinks .sb-t{font-size:calc(8pt*var(--s))}
+.ts--drinks .sb-dazu .sb-hw{font-size:calc(8pt*var(--s))}
+.ts--drinks .sb-fotos{min-height:30mm;gap:2.4mm;margin-top:calc(4.4mm*var(--s))}
 
-/* Uncle’s Christmas: A4 quer, drei Menüs nebeneinander wie auf der Seite «Feiern», Gänge durch kurze Goldstriche getrennt, Regeln unten */
-.ts--christmas .inhalt{padding:12mm 22mm 2mm;justify-content:space-between}
-.ts--christmas .ts-kopf{margin-bottom:calc(3mm*var(--s))}
-.ts--christmas .ts-wm{width:calc(34mm*var(--s))}
-.sb-gruss{flex:none;max-width:170mm;margin:calc(2.6mm*var(--s)) auto 0;text-align:center;font-size:calc(9pt*var(--s));line-height:1.5;color:var(--leise);text-wrap:balance}
-.sb-xmenues{flex:1 0 auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:9mm;align-items:stretch;padding:calc(5mm*var(--s)) 0 calc(3mm*var(--s))}
-.sb-xm{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;padding:0;border-top:.22mm solid var(--gold-hell);padding-top:calc(3.6mm*var(--s))}
-.sb-xk{display:flex;flex-direction:column;align-items:center;padding:0;margin-bottom:calc(2mm*var(--s))}
-.sb-xk .sb-n{font-family:Fraunces,Georgia,serif;font-weight:540;font-size:calc(15pt*var(--s));line-height:1.1;color:var(--tief)}
-.sb-xk .sb-p{font-family:Fraunces,Georgia,serif;font-weight:440;font-size:calc(19pt*var(--s));line-height:1.1;color:var(--salbei);margin-top:calc(1.6mm*var(--s))}
-.sb-xk .sb-t{font-family:'DM Mono',Menlo,monospace;font-size:calc(6.2pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--gold-tief);margin-top:calc(1.4mm*var(--s))}
-.sb-m{break-inside:avoid;display:flex;flex-direction:column;align-items:center}
-.sb-m::before{content:'';display:block;width:8mm;height:.22mm;background:var(--gold);margin:calc(3mm*var(--s)) auto}
-.sb-gn{font-family:'DM Mono',Menlo,monospace;font-size:calc(6.2pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--jade);margin-bottom:calc(1.2mm*var(--s))}
-.sb-m .sb-t{font-size:calc(8.2pt*var(--s));line-height:1.45;color:var(--tinte);text-wrap:balance}
-.sb-regeln{flex:none;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:calc(1.6mm*var(--s)) 0;padding-top:calc(3mm*var(--s));border-top:.2mm solid var(--gold-hell)}
-.sb-rg{font-family:'DM Mono',Menlo,monospace;font-size:calc(6.4pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--gold-tief);display:flex;align-items:center}
-.sb-rg+.sb-rg::before{content:'';display:block;width:1.2mm;height:1.2mm;border-radius:50%;background:var(--jade);margin:0 4mm;opacity:.8}
+/* Uncle’s Christmas: drei Menüs untereinander, links Name und Preis, rechts die Gänge */
+.sb-gruss{flex:none;max-width:160mm;margin:0 auto calc(3mm*var(--s));text-align:center;font-size:calc(9.4pt*var(--s));line-height:1.5;color:var(--salbei);text-wrap:balance}
+.sb-xmenues{flex:none;display:flex;flex-direction:column}
+.sb-xm{display:grid;grid-template-columns:48mm minmax(0,1fr);column-gap:7mm;row-gap:calc(1.6mm*var(--s));padding:calc(4mm*var(--s)) 0;border-top:.22mm solid var(--gold-hell)}
+.sb-xk{grid-column:1;grid-row:1/span 3;display:flex;flex-direction:column;align-items:flex-start;padding:0;border:0}
+.sb-xk .sb-n{font-family:'UH Display',Fraunces,Georgia,serif;font-weight:900;text-transform:uppercase;font-size:calc(20pt*var(--s));line-height:.98;color:var(--tief)}
+.sb-xk .sb-p{font-family:Fraunces,Georgia,serif;font-weight:540;font-size:calc(19pt*var(--s));line-height:1.1;color:var(--salbei);margin-top:calc(1.6mm*var(--s));text-align:left}
+.sb-xk .sb-t{font-family:'DM Mono',Menlo,monospace;font-size:calc(6.2pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--gold-tief);margin-top:calc(1mm*var(--s))}
+.sb-m{grid-column:2;break-inside:avoid}
+.sb-gn{font-family:'DM Mono',Menlo,monospace;font-size:calc(6.2pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--jade);margin-bottom:calc(.4mm*var(--s))}
+.sb-m .sb-t{font-size:calc(8.4pt*var(--s));line-height:1.42;color:var(--tinte)}
+.sb-regeln{flex:none;display:flex;flex-wrap:wrap;justify-content:center;gap:calc(2mm*var(--s)) calc(2mm*var(--s));padding-top:calc(3.6mm*var(--s));border-top:.22mm solid var(--gold-hell)}
+.sb-rg{font-family:'DM Mono',Menlo,monospace;font-size:calc(6.2pt*var(--s));letter-spacing:.05em;text-transform:uppercase;color:var(--tief);background:rgba(217,188,107,.35);border-radius:9mm;padding:calc(1.4mm*var(--s)) calc(3.2mm*var(--s))}
+.ts--christmas .sb-titel{font-size:calc(50pt*var(--s))}
+
+/* Catering (Unterlagen der Werkbank) */
+.sb-titel--zwei .sb-tz{display:block}
+.sb-titel--zwei .sb-tz+.sb-tz{font-size:.56em;line-height:1.05;margin-top:1mm;color:var(--gold-hell)}
+.sb-titel--klein{font-size:calc(40pt*var(--s))}
+.sb-gruss--gross{font-size:calc(10.6pt*var(--s));color:var(--tinte)}
+.sb-zt{flex:none;text-align:center;font-family:'UH Display',Fraunces,Georgia,serif;font-weight:900;text-transform:uppercase;font-size:calc(21pt*var(--s));line-height:1;color:var(--tief);margin:calc(3mm*var(--s)) 0 calc(2mm*var(--s))}
+.sb-anlaesse{flex:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5mm;margin-top:calc(3mm*var(--s));padding-top:calc(4mm*var(--s));border-top:.22mm solid var(--gold-hell)}
+.sb-anlass{text-align:center}
+.sb-ah{font-family:'UH Display',Fraunces,Georgia,serif;font-weight:900;text-transform:uppercase;font-size:calc(14.5pt*var(--s));line-height:1;color:var(--tief);margin-bottom:calc(1.6mm*var(--s))}
+.sb-at{font-size:calc(8.6pt*var(--s));line-height:1.45;color:var(--leise)}
+.sb-schritte{flex:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6mm;margin-top:calc(3mm*var(--s))}
+.sb-schritt{border-top:.22mm solid var(--gold-hell);padding-top:calc(3mm*var(--s))}
+.sb-sm{font-family:'DM Mono',Menlo,monospace;font-size:calc(6.2pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--jade)}
+.sb-sg{font-family:'UH Display',Fraunces,Georgia,serif;font-weight:900;font-size:calc(26pt*var(--s));line-height:1;color:var(--gold);margin:calc(1.4mm*var(--s)) 0 calc(1.8mm*var(--s))}
+.sb-li{list-style:none;columns:2;column-gap:3mm;margin-top:calc(2mm*var(--s))}
+.sb-li li{display:flex;align-items:baseline;break-inside:avoid;font-size:calc(8.2pt*var(--s));line-height:1.5}
+.sb-li li::before{content:'';flex:none;width:1.2mm;height:1.2mm;border-radius:50%;background:var(--jade);margin:0 1.6mm .4mm 0;align-self:center}
+.sb-dl{margin-top:calc(2mm*var(--s))}
+.sb-dt{font-family:'DM Mono',Menlo,monospace;font-size:calc(6pt*var(--s));letter-spacing:.06em;text-transform:uppercase;color:var(--gold-tief)}
+.sb-dd{font-size:calc(8.2pt*var(--s));line-height:1.4}
+.sb-fotos--band{position:relative;grid-template-columns:1fr 1fr 1fr}
+.sb-ruhe{position:absolute;left:0;right:0;bottom:0;padding:5mm 6mm 4mm;border-radius:0 0 3mm 3mm;background:rgba(46,56,48,.82);text-align:center;font-family:'UH Display',Fraunces,Georgia,serif;font-weight:900;text-transform:uppercase;
+  font-size:calc(21pt*var(--s));line-height:1;color:var(--papier)}
+.sb-kontakt{flex:none;text-align:center;font-family:'DM Mono',Menlo,monospace;font-size:calc(7pt*var(--s));letter-spacing:.06em;color:var(--gold-tief);margin-top:calc(3.6mm*var(--s))}
+.ts--catering .sb-teller--or{right:-24mm;top:-10mm;width:74mm;transform:rotate(16deg)}
 
 /* Gestalten (Fortgeschritten): Stile, die satz.js an ein Element legt */
 [data-gf]{font-family:var(--gf)!important}

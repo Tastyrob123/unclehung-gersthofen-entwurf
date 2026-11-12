@@ -403,7 +403,7 @@
     $('#meineZahl').textContent = alle.length;
     $('#meineSatz').textContent = nurBeispiele ? `${alle.length} Beispiele aus den Vorlagen des Hauses. Sobald Sie selbst etwas speichern, machen sie Platz.` : alle.length ? `${alle.length} ${alle.length === 1 ? 'Medium' : 'Medien'}, gespeichert in diesem Browser` : 'Noch keine Medien angelegt';
     const box = $('#bibliothek'); box.innerHTML = ''; box.className = 'atelier wv ms-buehne kv-buehne';
-    box.appendChild(neuStueck());
+    /* Uncle Hung 12.11.2026 (volle Reihen): «Neues Medium» steht als Knopf im Kopf der Gruppe (index.html, #msMeine), nicht mehr als erste Kachel; die Medien stehen in vollen Reihen */
     alle.forEach((x, i) => box.appendChild(x.el(i + 1)));
     const zl = $('#startZuletzt'); zl.innerHTML = ''; zl.className = 'atelier wv ms-buehne kv-buehne';
     alle.slice(0, 6).forEach((x, i) => zl.appendChild(x.el(i)));   // nie ein leeres Blatt als «Zuletzt» (Oberflächenprüfung 09.11.2026, wie Chalet)
