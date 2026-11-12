@@ -1,0 +1,16 @@
+/* Uncle Hung · Farben der Marke (Markenbuch, 11.11.2026), Werte der Website */
+:root{
+  --salbei:#4d5c4e; /* Salbei: die dunkle Fläche: Leiste, Bühnen, Knöpfe, immer mit der Schalen-Tapete */
+  --tief3:#3e4b40; /* Salbei tief: zweite dunkle Fläche, Platten auf Salbei */
+  --tief:#2b342d; /* Tief: die tiefste Fläche: Fuß, Grund unter Fotos */
+  --creme:#ebe1d4; /* Creme: die helle Fläche, Schrift auf Salbei */
+  --papier:#f7efe3; /* Papier: Grund der hellen Seiten, auf dem gelesen wird */
+  --papier2:#f1e7d8; /* Papier warm: zweite helle Fläche, Karten auf Papier */
+  --sand:#dccfbc; /* Sand: Linien und Felder auf Papier */
+  --gold:#bf982e; /* Gold: nur Linie, Etikett und Knauf, nie eine Fläche, nie Lesetext */
+  --gold-h:#d9bc6b; /* Gold hell: Betonung in Titeln und kleine Angaben auf Salbei */
+  --jade:#86ae98; /* Jade: leiser Akzent auf Dunkel, Fugen zwischen Bildern */
+  --jade-t:#5e8a73; /* Jade tief: Akzent auf Hell: Betonung in Titeln, kleine Angaben */
+  --tinte:#1f2620; /* Tinte: Lesetext auf hellen Flächen, nie reines Schwarz */
+  --hell:#f4ece0; /* Hell: Lesetext auf Salbei und Tief */
+}

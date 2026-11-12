@@ -1,0 +1,166 @@
+{
+ "art": "instagram",
+ "format": "insta",
+ "vorlagen": [
+  {
+   "id": "instagram-001",
+   "titel": "Beitrag Lunchdeals",
+   "bereich": "Instagram & Story",
+   "vorlage": "geteilt",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "reis2",
+    "ueber": "Lunchdeals",
+    "titel": "Täglich gültig bis 14.00 Uhr",
+    "text": "Frühlingsrollen oder Pekingsuppe gratis dazu.",
+    "aktion": "@unclehung.official",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "instagram-002",
+   "titel": "Beitrag Weihnachten",
+   "bereich": "Instagram & Story",
+   "vorlage": "fenster",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ab4",
+    "ueber": "Uncle’s Christmas",
+    "titel": "Book your Christmas Menu",
+    "unter": "November und Dezember",
+    "text": "Drei Menüs, ab 2 Personen, mindestens 3 Tage Vorlauf.",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "instagram-003",
+   "titel": "Beitrag Matcha",
+   "bereich": "Instagram & Story",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "v-dri03",
+    "ueber": "Matcha & Drinks",
+    "titel": "Matcha, auch to go",
+    "text": "Mango, Banana, Classy, Strawberry, Lavendel u. v. m.",
+    "aktion": "@unclehung.official",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "instagram-004",
+   "titel": "Beitrag Did you eat today?",
+   "bereich": "Instagram & Story",
+   "vorlage": "deckel",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle Hung",
+    "titel": "Did you eat today?",
+    "unter": "Seit 2009 in Familienhand",
+    "text": "",
+    "fuss": "@unclehung.official"
+   }
+  },
+  {
+   "id": "instagram-005",
+   "titel": "Beitrag Pho",
+   "bereich": "Instagram & Story",
+   "vorlage": "geteilt",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "v-ess07",
+    "ueber": "V5 · Uncle Hung’s Favorite",
+    "titel": "Pho Soup",
+    "text": "24 h gekochte kräftige Fleischbrühe, Reisbandnudeln, Sojasprossen, Koriander.",
+    "aktion": "@unclehung.official",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "instagram-006",
+   "titel": "Beitrag Catering",
+   "bereich": "Instagram & Story",
+   "vorlage": "fenster",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "cat2",
+    "ueber": "Catering",
+    "titel": "Ganz nach deinem Geschmack",
+    "unter": "Private Feier · Firmen-Event",
+    "text": "Schick uns deine Wünsche, wir stellen dir dein Angebot zusammen.",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "instagram-007",
+   "titel": "Beitrag Specials",
+   "bereich": "Specials & Sweets",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ka1",
+    "ueber": "Seit 5. Oktober",
+    "titel": "Neue Special-Karte",
+    "text": "Wechselnde Specials mit neuen Gerichten und Drinks.",
+    "aktion": "@unclehung.official",
+    "fuss": ""
+   }
+  }
+ ]
+}

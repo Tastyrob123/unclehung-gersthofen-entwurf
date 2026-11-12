@@ -1,0 +1,41 @@
+{
+ "zeit": "2026-11-10T19:12:00+01:00",
+ "art": "weihnachten",
+ "name": "Daniel Hofbauer",
+ "kontakt": "daniel.hofbauer@example.com",
+ "datum": "Donnerstag, 17. Dezember 2026",
+ "personen": 6,
+ "anliegen": "Wir wären zu sechst am Donnerstag, 17. Dezember, um 18.30 Uhr und hätten gern das Hot Pot Menu.",
+ "sprache": "de",
+ "gespraech": "beispiel-2",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Was kostet bei euch das Weihnachtsmenü?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Im November und Dezember gibt es drei Weihnachtsmenüs am festlich gedeckten Tisch.\n- Comfort Menu: 58 € pro Person\n- Botanical Menu: 58 € pro Person, vegan\n- Hot Pot Menu: 65 € pro Person\n- Ab 2 Personen, mindestens 3 Tage Vorlauf"
+  },
+  {
+   "rolle": "user",
+   "text": "Wir wären zu sechst am Donnerstag, 17. Dezember, um 18.30 Uhr und hätten gern das Hot Pot Menu. Ich bin Daniel Hofbauer, daniel.hofbauer@example.com"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Danke dir, Daniel. Deine Anfrage liegt jetzt bei der Familie, sie meldet sich persönlich bei dir."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "abteilung": "Weihnachten",
+ "uhrzeit": "18.30 Uhr",
+ "entwurf": {
+  "betreff": "Uncle’s Christmas am Donnerstag, 17. Dezember 2026",
+  "text": "Hallo Daniel,\n\ndanke für deine Anfrage zu Uncle’s Christmas. Der Tisch ist festlich gedeckt, die Familie kümmert sich ums Essen.\n\nFür Donnerstag, den 17. Dezember 2026 mit 6 Personen decken wir gern für euch.\n\nZur Wahl stehen das Comfort Menu und das vegane Botanical Menu für je 58 € pro Person und das Hot Pot Menu für 65 € pro Person, ab 2 Personen und mit mindestens 3 Tagen Vorlauf. Beim Hot Pot gart ihr frische Zutaten wie Fleisch, Gemüse und Nudeln direkt am Tisch in einer aromatischen, heißen Brühe.\n\nDamit wir alles in Ruhe vorbereiten können, schreib uns noch:\n- welches Menü ihr nehmen möchtet\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/weihnachten.txt)\nOffen: Tisch für den Abend prüfen",
+  "vorlage": "weihnachten",
+  "absender": "v.nguyen2@gmx.de",
+  "zeit": "2026-11-10T19:12:00+01:00"
+ }
+}

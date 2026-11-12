@@ -1,0 +1,4426 @@
+{
+ "haus": "Uncle Hung",
+ "ort": "Gersthofen",
+ "fotos": [
+  {
+   "k": "tisch",
+   "t": {
+    "de": "Gedeckter Tisch von oben: Pho, gebratener Reis, Sommerrollen und Matcha"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1800,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/tisch-2000.webp",
+   "fm": "../../assets/bild/tisch-1280.webp",
+   "fs": "klein/tisch.webp"
+  },
+  {
+   "k": "tisch2",
+   "t": {
+    "de": "Gedeckter Tisch mit Sommerrollen und Salaten"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1800,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/tisch2-2000.webp",
+   "fm": "../../assets/bild/tisch2-1280.webp",
+   "fs": "klein/tisch2.webp"
+  },
+  {
+   "k": "hung",
+   "t": {
+    "de": "Uncle Hung"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3600,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/hung-2000.webp",
+   "fm": "../../assets/bild/hung-1280.webp",
+   "fs": "klein/hung.webp"
+  },
+  {
+   "k": "hung-sw",
+   "t": {
+    "de": "Uncle Hung, Schwarzweiß"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1600,
+   "h": 2400,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/hung-sw-1280.webp",
+   "fm": "../../assets/bild/hung-sw-1280.webp",
+   "fs": "klein/hung-sw.webp"
+  },
+  {
+   "k": "familie",
+   "t": {
+    "de": "Die Familie von Uncle Hung"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2399,
+   "h": 1599,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/familie-2000.webp",
+   "fm": "../../assets/bild/familie-1280.webp",
+   "fs": "klein/familie.webp"
+  },
+  {
+   "k": "familie-sw",
+   "t": {
+    "de": "Die Familie von Uncle Hung, Schwarzweiß"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1066,
+   "h": 1599,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/familie-sw-720.webp",
+   "fm": "../../assets/bild/familie-sw-720.webp",
+   "fs": "klein/familie-sw.webp"
+  },
+  {
+   "k": "opa",
+   "t": {
+    "de": "Ein Familienmitglied am Tisch, Schwarzweiß"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/opa-2000.webp",
+   "fm": "../../assets/bild/opa-1280.webp",
+   "fs": "klein/opa.webp"
+  },
+  {
+   "k": "runde-sw",
+   "t": {
+    "de": "Runde am Tisch vor der Bilderwand, Schwarzweiß"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1440,
+   "h": 1920,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/runde-sw-1280.webp",
+   "fm": "../../assets/bild/runde-sw-1280.webp",
+   "fs": "klein/runde-sw.webp"
+  },
+  {
+   "k": "nudeln",
+   "t": {
+    "de": "Reisbandnudeln werden mit Stäbchen aus der Pho gehoben, jadegrüne Schale"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/nudeln-2000.webp",
+   "fm": "../../assets/bild/nudeln-1280.webp",
+   "fs": "klein/nudeln.webp"
+  },
+  {
+   "k": "nudeln2",
+   "t": {
+    "de": "Nudeln werden aus der Schale gehoben"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/nudeln2-2000.webp",
+   "fm": "../../assets/bild/nudeln2-1280.webp",
+   "fs": "klein/nudeln2.webp"
+  },
+  {
+   "k": "pakchoi",
+   "t": {
+    "de": "Pak Choi wird mit Stäbchen aus der Schale gehoben, daneben Matcha"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/pakchoi-2000.webp",
+   "fm": "../../assets/bild/pakchoi-1280.webp",
+   "fs": "klein/pakchoi.webp"
+  },
+  {
+   "k": "reis",
+   "t": {
+    "de": "Gebratener Reis mit Gemüse, dahinter Sommerrollen"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2667,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/reis-2000.webp",
+   "fm": "../../assets/bild/reis-1280.webp",
+   "fs": "klein/reis.webp"
+  },
+  {
+   "k": "curry",
+   "t": {
+    "de": "Curry mit Garnelen"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/curry-2000.webp",
+   "fm": "../../assets/bild/curry-1280.webp",
+   "fs": "klein/curry.webp"
+  },
+  {
+   "k": "teller",
+   "t": {
+    "de": "Gerichte auf dem Tisch"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/teller-2000.webp",
+   "fm": "../../assets/bild/teller-1280.webp",
+   "fs": "klein/teller.webp"
+  },
+  {
+   "k": "salat",
+   "t": {
+    "de": "Nudelsalat und Bowl"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1800,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/salat-2000.webp",
+   "fm": "../../assets/bild/salat-1280.webp",
+   "fs": "klein/salat.webp"
+  },
+  {
+   "k": "bowl",
+   "t": {
+    "de": "Schale mit Garnelen"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/bowl-2000.webp",
+   "fm": "../../assets/bild/bowl-1280.webp",
+   "fs": "klein/bowl.webp"
+  },
+  {
+   "k": "reis2",
+   "t": {
+    "de": "Gebratener Reis"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/reis2-2000.webp",
+   "fm": "../../assets/bild/reis2-1280.webp",
+   "fs": "klein/reis2.webp"
+  },
+  {
+   "k": "kuchen",
+   "t": {
+    "de": "Käsekuchen mit Matcha"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/kuchen-2000.webp",
+   "fm": "../../assets/bild/kuchen-1280.webp",
+   "fs": "klein/kuchen.webp"
+  },
+  {
+   "k": "matcha",
+   "t": {
+    "de": "Matcha neben Gerichten"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/matcha-2000.webp",
+   "fm": "../../assets/bild/matcha-1280.webp",
+   "fs": "klein/matcha.webp"
+  },
+  {
+   "k": "icetea",
+   "t": {
+    "de": "Hungmade Ice Tea im Becher mit Logo"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/icetea-2000.webp",
+   "fm": "../../assets/bild/icetea-1280.webp",
+   "fs": "klein/icetea.webp"
+  },
+  {
+   "k": "freunde",
+   "t": {
+    "de": "Drei Freundinnen lachen beim Essen"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1800,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/freunde-2000.webp",
+   "fm": "../../assets/bild/freunde-1280.webp",
+   "fs": "klein/freunde.webp"
+  },
+  {
+   "k": "freunde2",
+   "t": {
+    "de": "Freundinnen stoßen am Tisch an, vor der Palmentapete"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/freunde2-2000.webp",
+   "fm": "../../assets/bild/freunde2-1280.webp",
+   "fs": "klein/freunde2.webp"
+  },
+  {
+   "k": "leucht",
+   "t": {
+    "de": "Gäste unter der Leuchtschrift «pho-gettable»"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/leucht-2000.webp",
+   "fm": "../../assets/bild/leucht-1280.webp",
+   "fs": "klein/leucht.webp"
+  },
+  {
+   "k": "raum",
+   "t": {
+    "de": "Gastraum mit Leuchtschrift «pho-gettable», Palmentapete und gedecktem Tisch"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "canva",
+   "q": "Foto der heutigen Website des Hauses (Canva-Seite); Rechte beim Haus",
+   "u": "",
+   "d": "",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/raum-2000.webp",
+   "fm": "../../assets/bild/raum-1280.webp",
+   "fs": "klein/raum.webp"
+  },
+  {
+   "k": "ig-turm",
+   "t": {
+    "de": "Matcha-Kreationen im Glas, mit Erdbeere"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWwGFOICHTg/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-turm-2000.webp",
+   "fm": "../../assets/bild/ig-turm-1280.webp",
+   "fs": "klein/ig-turm.webp"
+  },
+  {
+   "k": "ig-giessen",
+   "t": {
+    "de": "Matcha wird über Ube gegossen"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWwGFOICHTg/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-giessen-2000.webp",
+   "fm": "../../assets/bild/ig-giessen-1280.webp",
+   "fs": "klein/ig-giessen.webp"
+  },
+  {
+   "k": "ig-drinks",
+   "t": {
+    "de": "Matcha und Drinks auf dem Tisch"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DXXGMCOiPB3/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-drinks-2000.webp",
+   "fm": "../../assets/bild/ig-drinks-1280.webp",
+   "fs": "klein/ig-drinks.webp"
+  },
+  {
+   "k": "ig-tafel",
+   "t": {
+    "de": "Gedeckte Tafel mit Gerichten der Saison"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWwGFOICHTg/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-tafel-2000.webp",
+   "fm": "../../assets/bild/ig-tafel-1280.webp",
+   "fs": "klein/ig-tafel.webp"
+  },
+  {
+   "k": "ig-wintergarten",
+   "t": {
+    "de": "Gäste im Wintergarten unter Rattanlampen, mit Schriftzug «Folge uns für noch mehr Gastrodrama.»"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1080,
+   "h": 1440,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DXbV-tBiIyc/",
+   "d": "2026-04",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/ig-wintergarten-720.webp",
+   "fm": "../../assets/bild/ig-wintergarten-720.webp",
+   "fs": "klein/ig-wintergarten.webp"
+  },
+  {
+   "k": "ig-garten2",
+   "t": {
+    "de": "Gäste im Wintergarten"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQoWrLECCdg/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-garten2-2000.webp",
+   "fm": "../../assets/bild/ig-garten2-1280.webp",
+   "fs": "klein/ig-garten2.webp"
+  },
+  {
+   "k": "ig-raum",
+   "t": {
+    "de": "Gastraum mit Holztischen"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1600,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-raum-2000.webp",
+   "fm": "../../assets/bild/ig-raum-1280.webp",
+   "fs": "klein/ig-raum.webp"
+  },
+  {
+   "k": "ig-raum2",
+   "t": {
+    "de": "Gastraum am Abend"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1600,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-raum2-2000.webp",
+   "fm": "../../assets/bild/ig-raum2-1280.webp",
+   "fs": "klein/ig-raum2.webp"
+  },
+  {
+   "k": "ig-nacht",
+   "t": {
+    "de": "Der Gastraum am Abend, Gäste am langen Tisch"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-nacht-2000.webp",
+   "fm": "../../assets/bild/ig-nacht-1280.webp",
+   "fs": "klein/ig-nacht.webp"
+  },
+  {
+   "k": "ig-abend",
+   "t": {
+    "de": "Abendessen bei Kerzenlicht"
+   },
+   "b": "raum",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-abend-2000.webp",
+   "fm": "../../assets/bild/ig-abend-1280.webp",
+   "fs": "klein/ig-abend.webp"
+  },
+  {
+   "k": "ig-teller",
+   "t": {
+    "de": "Eine Platte mit Gerichten wird zum Fest getragen"
+   },
+   "b": "team",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-teller-2000.webp",
+   "fm": "../../assets/bild/ig-teller-1280.webp",
+   "fs": "klein/ig-teller.webp"
+  },
+  {
+   "k": "ig-schalen",
+   "t": {
+    "de": "Viele Schalen stehen für ein Fest bereit, dahinter das Team"
+   },
+   "b": "catering",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQoWrLECCdg/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-schalen-2000.webp",
+   "fm": "../../assets/bild/ig-schalen-1280.webp",
+   "fs": "klein/ig-schalen.webp"
+  },
+  {
+   "k": "ig-pho",
+   "t": {
+    "de": "Schalen mit Pho werden angerichtet"
+   },
+   "b": "catering",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQoWrLECCdg/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-pho-2000.webp",
+   "fm": "../../assets/bild/ig-pho-1280.webp",
+   "fs": "klein/ig-pho.webp"
+  },
+  {
+   "k": "ig-kueche",
+   "t": {
+    "de": "In der Küche wird angerichtet"
+   },
+   "b": "team",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dau8r88iKr1/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-kueche-2000.webp",
+   "fm": "../../assets/bild/ig-kueche-1280.webp",
+   "fs": "klein/ig-kueche.webp"
+  },
+  {
+   "k": "ig-tablett",
+   "t": {
+    "de": "Ein Tablett mit Schalen wird zum Fest getragen"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-tablett-2000.webp",
+   "fm": "../../assets/bild/ig-tablett-1280.webp",
+   "fs": "klein/ig-tablett.webp"
+  },
+  {
+   "k": "ig-buffet",
+   "t": {
+    "de": "Buffet mit Früchten, Trauben und Blüten"
+   },
+   "b": "catering",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1600,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ig-buffet-2000.webp",
+   "fm": "../../assets/bild/ig-buffet-1280.webp",
+   "fs": "klein/ig-buffet.webp"
+  },
+  {
+   "k": "cat1",
+   "t": {
+    "de": "Gefüllte Wraps mit Limette, dicht an dicht"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3000,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2023; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/CutchT1o-Dd/",
+   "d": "2023-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/cat1-2000.webp",
+   "fm": "../../assets/bild/cat1-1280.webp",
+   "fs": "klein/cat1.webp"
+  },
+  {
+   "k": "cat2",
+   "t": {
+    "de": "Catering-Platten mit Granatapfel und Kräutern"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3000,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2023; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/CutchT1o-Dd/",
+   "d": "2023-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/cat2-2000.webp",
+   "fm": "../../assets/bild/cat2-1280.webp",
+   "fs": "klein/cat2.webp"
+  },
+  {
+   "k": "cat3",
+   "t": {
+    "de": "Buffet von Uncle Hung mit Sommerrollen"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3000,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2023; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/CutchT1o-Dd/",
+   "d": "2023-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/cat3-2000.webp",
+   "fm": "../../assets/bild/cat3-1280.webp",
+   "fs": "klein/cat3.webp"
+  },
+  {
+   "k": "cat4",
+   "t": {
+    "de": "Platte mit Oliven, Kapern und Tomaten"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3000,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2023; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/CutchT1o-Dd/",
+   "d": "2023-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/cat4-2000.webp",
+   "fm": "../../assets/bild/cat4-1280.webp",
+   "fs": "klein/cat4.webp"
+  },
+  {
+   "k": "cat5",
+   "t": {
+    "de": "Catering mit Sonnenblumen"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3000,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2023; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/CuPUOUjI0qh/",
+   "d": "2023-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/cat5-2000.webp",
+   "fm": "../../assets/bild/cat5-1280.webp",
+   "fs": "klein/cat5.webp"
+  },
+  {
+   "k": "cat6",
+   "t": {
+    "de": "Gedeckter Buffettisch mit Sonnenblumen"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3000,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2023; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/CuPUOUjI0qh/",
+   "d": "2023-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/cat6-2000.webp",
+   "fm": "../../assets/bild/cat6-1280.webp",
+   "fs": "klein/cat6.webp"
+  },
+  {
+   "k": "cat7",
+   "t": {
+    "de": "Warmes Gericht im Chafing Dish"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3000,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2023; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/CuPUOUjI0qh/",
+   "d": "2023-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/cat7-2000.webp",
+   "fm": "../../assets/bild/cat7-1280.webp",
+   "fs": "klein/cat7.webp"
+  },
+  {
+   "k": "cat8",
+   "t": {
+    "de": "Spiesse, Edamame und Frühlingsrollen auf einer Platte"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3000,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2023; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/CutchT1o-Dd/",
+   "d": "2023-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/cat8-2000.webp",
+   "fm": "../../assets/bild/cat8-1280.webp",
+   "fs": "klein/cat8.webp"
+  },
+  {
+   "k": "xmas",
+   "t": {
+    "de": "Plakat «Uncle's Christmas»: Book your Christmas Menu, November und Dezember"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2667,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DezCLDmCJKv/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/xmas-2000.webp",
+   "fm": "../../assets/bild/xmas-1280.webp",
+   "fs": "klein/xmas.webp"
+  },
+  {
+   "k": "tasche",
+   "t": {
+    "de": "Stofftasche «Did you eat today?» mit dem Namen Uncle Hung"
+   },
+   "b": "team",
+   "s": "sommer",
+   "f": "quadrat",
+   "w": 1320,
+   "h": 1320,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DN3NIR8UL7P/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/tasche-1280.webp",
+   "fm": "../../assets/bild/tasche-1280.webp",
+   "fs": "klein/tasche.webp"
+  },
+  {
+   "k": "festival",
+   "t": {
+    "de": "Der Stand von Uncle Hung auf dem Schmeckfestival"
+   },
+   "b": "fest",
+   "s": "sommer",
+   "f": "quadrat",
+   "w": 2400,
+   "h": 2400,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juni 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DKZFctEoC2s/",
+   "d": "2025-06",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/festival-2000.webp",
+   "fm": "../../assets/bild/festival-1280.webp",
+   "fs": "klein/festival.webp"
+  },
+  {
+   "k": "fest2",
+   "t": {
+    "de": "Zwei Frauen vor dem Stand mit dem Schriftzug Uncle Hung, Schwarzweiß"
+   },
+   "b": "fest",
+   "s": "sommer",
+   "f": "quadrat",
+   "w": 2358,
+   "h": 2358,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juni 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DKZFctEoC2s/",
+   "d": "2025-06",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/fest2-2000.webp",
+   "fm": "../../assets/bild/fest2-1280.webp",
+   "fs": "klein/fest2.webp"
+  },
+  {
+   "k": "fest3",
+   "t": {
+    "de": "Ein Kind trinkt aus einem Becher von Uncle Hung, Schwarzweiß"
+   },
+   "b": "fest",
+   "s": "sommer",
+   "f": "quadrat",
+   "w": 2400,
+   "h": 2400,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juni 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DKZFctEoC2s/",
+   "d": "2025-06",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/fest3-2000.webp",
+   "fm": "../../assets/bild/fest3-1280.webp",
+   "fs": "klein/fest3.webp"
+  },
+  {
+   "k": "fest4",
+   "t": {
+    "de": "Gäste sitzen vor dem Festivalstand, Schwarzweiß"
+   },
+   "b": "fest",
+   "s": "sommer",
+   "f": "quadrat",
+   "w": 2400,
+   "h": 2400,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juni 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DKZFctEoC2s/",
+   "d": "2025-06",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/fest4-2000.webp",
+   "fm": "../../assets/bild/fest4-1280.webp",
+   "fs": "klein/fest4.webp"
+  },
+  {
+   "k": "v-ess01",
+   "t": {
+    "de": "Sommerrollen und Dips auf kleinen Tellern"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-ess01-2000.webp",
+   "fm": "../../assets/bild/v-ess01-1280.webp",
+   "fs": "klein/v-ess01.webp"
+  },
+  {
+   "k": "v-ess02",
+   "t": {
+    "de": "Gegrillter Fisch auf der Platte"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3556,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), September 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DdBOgcPo7qY/",
+   "d": "2026-09",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-ess02-2000.webp",
+   "fm": "../../assets/bild/v-ess02-1280.webp",
+   "fs": "klein/v-ess02.webp"
+  },
+  {
+   "k": "v-ess03",
+   "t": {
+    "de": "Ein Gast mit Geburtstagstorte unter der Leuchtschrift"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3550,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dbc8zsrIB79/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-ess03-2000.webp",
+   "fm": "../../assets/bild/v-ess03-1280.webp",
+   "fs": "klein/v-ess03.webp"
+  },
+  {
+   "k": "v-ess04",
+   "t": {
+    "de": "Drei Schalen werden an den Tisch getragen"
+   },
+   "b": "essen",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-ess04-2000.webp",
+   "fm": "../../assets/bild/v-ess04-1280.webp",
+   "fs": "klein/v-ess04.webp"
+  },
+  {
+   "k": "v-ess05",
+   "t": {
+    "de": "Zutaten in Schalen von oben, grüner Reis und Fleisch"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), September 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPR4aj8iLmI/",
+   "d": "2025-09",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess05-2000.webp",
+   "fm": "../../assets/bild/v-ess05-1280.webp",
+   "fs": "klein/v-ess05.webp"
+  },
+  {
+   "k": "v-ess06",
+   "t": {
+    "de": "Zutaten für die Brühe: Rind, Karotte, Zwiebel, Sternanis und Zimt"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), September 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DO_LdHVCPM6/",
+   "d": "2025-09",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess06-2000.webp",
+   "fm": "../../assets/bild/v-ess06-1280.webp",
+   "fs": "klein/v-ess06.webp"
+  },
+  {
+   "k": "v-ess07",
+   "t": {
+    "de": "Pho, Bowl und Dips von oben auf dem Steintisch"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3068,
+   "h": 5454,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), September 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DOqgQJ4iD0x/",
+   "d": "2025-09",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess07-2000.webp",
+   "fm": "../../assets/bild/v-ess07-1280.webp",
+   "fs": "klein/v-ess07.webp"
+  },
+  {
+   "k": "v-ess08",
+   "t": {
+    "de": "Pho mit rohem Rind, Bowl und Dips von oben"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1440,
+   "h": 1800,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @hettenbach45 mit @unclehung.official, @rafontherocks, September 2025; Rechte beim Konto @hettenbach45 und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DOghPDRjIoN/",
+   "d": "2025-09",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess08-1280.webp",
+   "fm": "../../assets/bild/v-ess08-1280.webp",
+   "fs": "klein/v-ess08.webp"
+  },
+  {
+   "k": "v-ess09",
+   "t": {
+    "de": "Schale mit Ei, Pak Choi und Knusprigem"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), September 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DOeJV9gCLz2/",
+   "d": "2025-09",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess09-2000.webp",
+   "fm": "../../assets/bild/v-ess09-1280.webp",
+   "fs": "klein/v-ess09.webp"
+  },
+  {
+   "k": "v-ess10",
+   "t": {
+    "de": "Pho in der jadegrünen Schale, darunter Hähnchen mit Sesam"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3556,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), September 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DOMFyhfCCjJ/",
+   "d": "2025-09",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-ess10-2000.webp",
+   "fm": "../../assets/bild/v-ess10-1280.webp",
+   "fs": "klein/v-ess10.webp"
+  },
+  {
+   "k": "v-ess11",
+   "t": {
+    "de": "Pho, Bowl und Dips auf dem Steintisch, Ausschnitt"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3120,
+   "h": 5544,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), September 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DOIbzIACIkk/",
+   "d": "2025-09",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess11-2000.webp",
+   "fm": "../../assets/bild/v-ess11-1280.webp",
+   "fs": "klein/v-ess11.webp"
+  },
+  {
+   "k": "v-ess12",
+   "t": {
+    "de": "Gebratener Reis mit Garnele, dazu Matcha"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3556,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DN7VEqECJw7/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-ess12-2000.webp",
+   "fm": "../../assets/bild/v-ess12-1280.webp",
+   "fs": "klein/v-ess12.webp"
+  },
+  {
+   "k": "v-ess13",
+   "t": {
+    "de": "Reisnudeln werden mit Stäbchen gehoben, darunter gebratener Reis"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 1080,
+   "h": 1920,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DN3luyiUMum/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess13-720.webp",
+   "fm": "../../assets/bild/v-ess13-720.webp",
+   "fs": "klein/v-ess13.webp"
+  },
+  {
+   "k": "v-ess14",
+   "t": {
+    "de": "Frischer Salat, Kräuter und Reisnudeln mit Garnelen"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 1080,
+   "h": 1920,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DOEQdoDoKaC/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess14-720.webp",
+   "fm": "../../assets/bild/v-ess14-720.webp",
+   "fs": "klein/v-ess14.webp"
+  },
+  {
+   "k": "v-ess15",
+   "t": {
+    "de": "Knuspriges mit Sauce und Johannisbeeren"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNyTrwtUJOe/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess15-2000.webp",
+   "fm": "../../assets/bild/v-ess15-1280.webp",
+   "fs": "klein/v-ess15.webp"
+  },
+  {
+   "k": "v-ess16",
+   "t": {
+    "de": "Gäste greifen zu Bowl und Chilisauce"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 1080,
+   "h": 1920,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNp0jLBIwMT/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess16-720.webp",
+   "fm": "../../assets/bild/v-ess16-720.webp",
+   "fs": "klein/v-ess16.webp"
+  },
+  {
+   "k": "v-ess17",
+   "t": {
+    "de": "Stäbchen heben Pak Choi und Nudeln, dazu ein Drink"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 1080,
+   "h": 1920,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNkooa-ocY4/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess17-720.webp",
+   "fm": "../../assets/bild/v-ess17-720.webp",
+   "fs": "klein/v-ess17.webp"
+  },
+  {
+   "k": "v-ess18",
+   "t": {
+    "de": "Gebratener Reis mit Garnele, dahinter Matcha"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1440,
+   "h": 1080,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNbBXIJoS5D/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess18-1280.webp",
+   "fm": "../../assets/bild/v-ess18-1280.webp",
+   "fs": "klein/v-ess18.webp"
+  },
+  {
+   "k": "v-ess19",
+   "t": {
+    "de": "Viele Gerichte auf dem langen Tisch"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DMOIELsoH69/",
+   "d": "2025-07",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess19-2000.webp",
+   "fm": "../../assets/bild/v-ess19-1280.webp",
+   "fs": "klein/v-ess19.webp"
+  },
+  {
+   "k": "v-ess20",
+   "t": {
+    "de": "Schale mit Hähnchen, Erdnüssen und Zwiebeln"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DL7TTD-InoA/",
+   "d": "2025-07",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess20-2000.webp",
+   "fm": "../../assets/bild/v-ess20-1280.webp",
+   "fs": "klein/v-ess20.webp"
+  },
+  {
+   "k": "v-ess21",
+   "t": {
+    "de": "Curry mit Reis und Hähnchen von oben"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DL23Iveo6rN/",
+   "d": "2025-07",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess21-2000.webp",
+   "fm": "../../assets/bild/v-ess21-1280.webp",
+   "fs": "klein/v-ess21.webp"
+  },
+  {
+   "k": "v-ess22",
+   "t": {
+    "de": "Rind mit Salat und Reis von oben"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juni 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DLSf4tuI2_r/",
+   "d": "2025-06",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess22-2000.webp",
+   "fm": "../../assets/bild/v-ess22-1280.webp",
+   "fs": "klein/v-ess22.webp"
+  },
+  {
+   "k": "v-ess23",
+   "t": {
+    "de": "Gefüllte Teigtaschen mit Kräutern"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Mai 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DJXaTrCox7f/",
+   "d": "2025-05",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess23-2000.webp",
+   "fm": "../../assets/bild/v-ess23-1280.webp",
+   "fs": "klein/v-ess23.webp"
+  },
+  {
+   "k": "v-ess24",
+   "t": {
+    "de": "Tacos und Gerichte im Garten"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DI_Av1VIk_X/",
+   "d": "2025-04",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess24-2000.webp",
+   "fm": "../../assets/bild/v-ess24-1280.webp",
+   "fs": "klein/v-ess24.webp"
+  },
+  {
+   "k": "v-ess25",
+   "t": {
+    "de": "Sommerrollen und Gläser auf dem Buffet"
+   },
+   "b": "catering",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1440,
+   "h": 1800,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DGttl-2Ivwy/",
+   "d": "2025-03",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess25-1280.webp",
+   "fm": "../../assets/bild/v-ess25-1280.webp",
+   "fs": "klein/v-ess25.webp"
+  },
+  {
+   "k": "v-ess26",
+   "t": {
+    "de": "Menükarte im Rahmen über einer Platte"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1440,
+   "h": 1800,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DGttl-2Ivwy/",
+   "d": "2025-03",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-ess26-1280.webp",
+   "fm": "../../assets/bild/v-ess26-1280.webp",
+   "fs": "klein/v-ess26.webp"
+  },
+  {
+   "k": "v-leu01",
+   "t": {
+    "de": "Ein Gast mit Drink lacht"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2664,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @the.untamed.frame mit @unclehung.official, Oktober 2025; Rechte beim Konto @the.untamed.frame und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DPj-qdcCL8D/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu01-2000.webp",
+   "fm": "../../assets/bild/v-leu01-1280.webp",
+   "fs": "klein/v-leu01.webp"
+  },
+  {
+   "k": "v-leu02",
+   "t": {
+    "de": "Freundinnen im Wintergarten am Tisch"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPgFcu7CC5j/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu02-2000.webp",
+   "fm": "../../assets/bild/v-leu02-1280.webp",
+   "fs": "klein/v-leu02.webp"
+  },
+  {
+   "k": "v-leu03",
+   "t": {
+    "de": "Zwei Gäste lachen am Tisch"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPgFcu7CC5j/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu03-2000.webp",
+   "fm": "../../assets/bild/v-leu03-1280.webp",
+   "fs": "klein/v-leu03.webp"
+  },
+  {
+   "k": "v-leu04",
+   "t": {
+    "de": "Gäste und Service im hellen Gastraum"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPgFcu7CC5j/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu04-2000.webp",
+   "fm": "../../assets/bild/v-leu04-1280.webp",
+   "fs": "klein/v-leu04.webp"
+  },
+  {
+   "k": "v-leu05",
+   "t": {
+    "de": "Freundinnen unter der Leuchtschrift"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3556,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNivSccoP6z/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu05-2000.webp",
+   "fm": "../../assets/bild/v-leu05-1280.webp",
+   "fs": "klein/v-leu05.webp"
+  },
+  {
+   "k": "v-leu06",
+   "t": {
+    "de": "Ein Gast lacht beim Essen"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3556,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNgMy4Cojsm/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu06-2000.webp",
+   "fm": "../../assets/bild/v-leu06-1280.webp",
+   "fs": "klein/v-leu06.webp"
+  },
+  {
+   "k": "v-leu07",
+   "t": {
+    "de": "Gäste essen unter der Leuchtschrift"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3556,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNfbfLjIaSw/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu07-2000.webp",
+   "fm": "../../assets/bild/v-leu07-1280.webp",
+   "fs": "klein/v-leu07.webp"
+  },
+  {
+   "k": "v-leu08",
+   "t": {
+    "de": "Ein Stück Käsekuchen mit Erdbeere wird gezeigt"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3556,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNbNg_FIXs7/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu08-2000.webp",
+   "fm": "../../assets/bild/v-leu08-1280.webp",
+   "fs": "klein/v-leu08.webp"
+  },
+  {
+   "k": "v-leu09",
+   "t": {
+    "de": "Nudeln werden mit Stäbchen aus der Schale gehoben"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNbBXIJoS5D/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu09-2000.webp",
+   "fm": "../../assets/bild/v-leu09-1280.webp",
+   "fs": "klein/v-leu09.webp"
+  },
+  {
+   "k": "v-leu10",
+   "t": {
+    "de": "Ein Gast isst mit Stäbchen"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNbBXIJoS5D/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu10-2000.webp",
+   "fm": "../../assets/bild/v-leu10-1280.webp",
+   "fs": "klein/v-leu10.webp"
+  },
+  {
+   "k": "v-leu11",
+   "t": {
+    "de": "Käsekuchen mit Erdbeere auf dem Teller"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "quer",
+   "w": 1440,
+   "h": 1080,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNbBXIJoS5D/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-leu11-1280.webp",
+   "fm": "../../assets/bild/v-leu11-1280.webp",
+   "fs": "klein/v-leu11.webp"
+  },
+  {
+   "k": "v-leu12",
+   "t": {
+    "de": "Nudeln mit Stäbchen, ganz nah"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNbBXIJoS5D/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu12-2000.webp",
+   "fm": "../../assets/bild/v-leu12-1280.webp",
+   "fs": "klein/v-leu12.webp"
+  },
+  {
+   "k": "v-leu13",
+   "t": {
+    "de": "Drei Freundinnen essen vor der Palmentapete"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNbBXIJoS5D/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-leu13-2000.webp",
+   "fm": "../../assets/bild/v-leu13-1280.webp",
+   "fs": "klein/v-leu13.webp"
+  },
+  {
+   "k": "v-tea01",
+   "t": {
+    "de": "In der Küche am Herd"
+   },
+   "b": "team",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2667,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dau8r88iKr1/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea01-2000.webp",
+   "fm": "../../assets/bild/v-tea01-1280.webp",
+   "fs": "klein/v-tea01.webp"
+  },
+  {
+   "k": "v-tea02",
+   "t": {
+    "de": "In der Küche wird angerichtet"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3910,
+   "h": 6948,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQUdaiPiL5O/",
+   "d": "2025-10",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-tea02-2000.webp",
+   "fm": "../../assets/bild/v-tea02-1280.webp",
+   "fs": "klein/v-tea02.webp"
+  },
+  {
+   "k": "v-tea03",
+   "t": {
+    "de": "Das Team am Tresen"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2664,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @the.untamed.frame mit @unclehung.official, Oktober 2025; Rechte beim Konto @the.untamed.frame und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DPj-qdcCL8D/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea03-2000.webp",
+   "fm": "../../assets/bild/v-tea03-1280.webp",
+   "fs": "klein/v-tea03.webp"
+  },
+  {
+   "k": "v-tea04",
+   "t": {
+    "de": "Am Tresen wird telefoniert"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2664,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @the.untamed.frame mit @unclehung.official, Oktober 2025; Rechte beim Konto @the.untamed.frame und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DPj-qdcCL8D/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea04-2000.webp",
+   "fm": "../../assets/bild/v-tea04-1280.webp",
+   "fs": "klein/v-tea04.webp"
+  },
+  {
+   "k": "v-tea05",
+   "t": {
+    "de": "Am Tresen wird gearbeitet"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2664,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @the.untamed.frame mit @unclehung.official, Oktober 2025; Rechte beim Konto @the.untamed.frame und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DPj-qdcCL8D/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea05-2000.webp",
+   "fm": "../../assets/bild/v-tea05-1280.webp",
+   "fs": "klein/v-tea05.webp"
+  },
+  {
+   "k": "v-tea06",
+   "t": {
+    "de": "Am Tresen wird gelacht"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2664,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @the.untamed.frame mit @unclehung.official, Oktober 2025; Rechte beim Konto @the.untamed.frame und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DPj-qdcCL8D/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea06-2000.webp",
+   "fm": "../../assets/bild/v-tea06-1280.webp",
+   "fs": "klein/v-tea06.webp"
+  },
+  {
+   "k": "v-tea07",
+   "t": {
+    "de": "Im Service, im Shirt mit Logo"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2667,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @the.untamed.frame mit @unclehung.official, Oktober 2025; Rechte beim Konto @the.untamed.frame und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DPj-qdcCL8D/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea07-2000.webp",
+   "fm": "../../assets/bild/v-tea07-1280.webp",
+   "fs": "klein/v-tea07.webp"
+  },
+  {
+   "k": "v-tea08",
+   "t": {
+    "de": "Am Tresen mit den Stofftaschen «Did you eat today?»"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPgFcu7CC5j/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea08-2000.webp",
+   "fm": "../../assets/bild/v-tea08-1280.webp",
+   "fs": "klein/v-tea08.webp"
+  },
+  {
+   "k": "v-tea09",
+   "t": {
+    "de": "Am Pass, im Shirt mit Logo"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPgFcu7CC5j/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea09-2000.webp",
+   "fm": "../../assets/bild/v-tea09-1280.webp",
+   "fs": "klein/v-tea09.webp"
+  },
+  {
+   "k": "v-tea10",
+   "t": {
+    "de": "Zwei aus dem Team im Gespräch"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPgFcu7CC5j/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea10-2000.webp",
+   "fm": "../../assets/bild/v-tea10-1280.webp",
+   "fs": "klein/v-tea10.webp"
+  },
+  {
+   "k": "v-tea11",
+   "t": {
+    "de": "In der Küche wird gekocht"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPgFcu7CC5j/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea11-2000.webp",
+   "fm": "../../assets/bild/v-tea11-1280.webp",
+   "fs": "klein/v-tea11.webp"
+  },
+  {
+   "k": "v-tea12",
+   "t": {
+    "de": "Das Team im Wintergarten"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPgFcu7CC5j/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea12-2000.webp",
+   "fm": "../../assets/bild/v-tea12-1280.webp",
+   "fs": "klein/v-tea12.webp"
+  },
+  {
+   "k": "v-tea13",
+   "t": {
+    "de": "Das ganze Team vor dem Haus"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPgFcu7CC5j/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea13-2000.webp",
+   "fm": "../../assets/bild/v-tea13-1280.webp",
+   "fs": "klein/v-tea13.webp"
+  },
+  {
+   "k": "v-tea14",
+   "t": {
+    "de": "Das Team als Gruppe, Abend"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), September 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DO3oYLJiP7y/",
+   "d": "2025-09",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-tea14-2000.webp",
+   "fm": "../../assets/bild/v-tea14-1280.webp",
+   "fs": "klein/v-tea14.webp"
+  },
+  {
+   "k": "v-tea15",
+   "t": {
+    "de": "Am Eingang, mit Stofftasche"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2664,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @the.untamed.frame mit @unclehung.official, Oktober 2025; Rechte beim Konto @the.untamed.frame und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DPj-qdcCL8D/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea15-2000.webp",
+   "fm": "../../assets/bild/v-tea15-1280.webp",
+   "fs": "klein/v-tea15.webp"
+  },
+  {
+   "k": "v-tea16",
+   "t": {
+    "de": "Im Wintergarten, Abend"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2664,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @the.untamed.frame mit @unclehung.official, Oktober 2025; Rechte beim Konto @the.untamed.frame und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DPj-qdcCL8D/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-tea16-2000.webp",
+   "fm": "../../assets/bild/v-tea16-1280.webp",
+   "fs": "klein/v-tea16.webp"
+  },
+  {
+   "k": "v-tea17",
+   "t": {
+    "de": "Mit der Stofftasche «Did you eat today?»"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 4644,
+   "h": 8256,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DPnsK0-iOVl/",
+   "d": "2025-10",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-tea17-2000.webp",
+   "fm": "../../assets/bild/v-tea17-1280.webp",
+   "fs": "klein/v-tea17.webp"
+  },
+  {
+   "k": "v-rau01",
+   "t": {
+    "de": "Der Wintergarten mit Holztischen am Tag"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), September 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DOqtn1UiF7B/",
+   "d": "2025-09",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-rau01-2000.webp",
+   "fm": "../../assets/bild/v-rau01-1280.webp",
+   "fs": "klein/v-rau01.webp"
+  },
+  {
+   "k": "v-rau02",
+   "t": {
+    "de": "Gedeckter Tisch unter der Leuchtschrift «pho-gettable»"
+   },
+   "b": "raum",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3556,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DN5fAMpUEC9/",
+   "d": "2025-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-rau02-2000.webp",
+   "fm": "../../assets/bild/v-rau02-1280.webp",
+   "fs": "klein/v-rau02.webp"
+  },
+  {
+   "k": "v-rau03",
+   "t": {
+    "de": "Gedeckter Tisch am Abend"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1178,
+   "h": 2096,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Mai 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DJSJnFJuz6b/",
+   "d": "2025-05",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-rau03-720.webp",
+   "fm": "../../assets/bild/v-rau03-720.webp",
+   "fs": "klein/v-rau03.webp"
+  },
+  {
+   "k": "v-rau04",
+   "t": {
+    "de": "Tafel mit Früchten und Kerzen"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DHCKV8rIO7s/",
+   "d": "2025-03",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-rau04-2000.webp",
+   "fm": "../../assets/bild/v-rau04-1280.webp",
+   "fs": "klein/v-rau04.webp"
+  },
+  {
+   "k": "v-rau05",
+   "t": {
+    "de": "Festtafel am Fenster"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DGttl-2Ivwy/",
+   "d": "2025-03",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-rau05-2000.webp",
+   "fm": "../../assets/bild/v-rau05-1280.webp",
+   "fs": "klein/v-rau05.webp"
+  },
+  {
+   "k": "v-rau06",
+   "t": {
+    "de": "Lilien in der Vase, Kerzen auf der Tafel"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DGttl-2Ivwy/",
+   "d": "2025-03",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-rau06-2000.webp",
+   "fm": "../../assets/bild/v-rau06-1280.webp",
+   "fs": "klein/v-rau06.webp"
+  },
+  {
+   "k": "v-rau07",
+   "t": {
+    "de": "Der Gastraum am Abend, voll besetzt"
+   },
+   "b": "raum",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-rau07-2000.webp",
+   "fm": "../../assets/bild/v-rau07-1280.webp",
+   "fs": "klein/v-rau07.webp"
+  },
+  {
+   "k": "v-rau08",
+   "t": {
+    "de": "Unter den Rattanlampen am Abend"
+   },
+   "b": "raum",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2667,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-rau08-2000.webp",
+   "fm": "../../assets/bild/v-rau08-1280.webp",
+   "fs": "klein/v-rau08.webp"
+  },
+  {
+   "k": "v-rau09",
+   "t": {
+    "de": "Gäste im Gespräch am Abend"
+   },
+   "b": "raum",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-rau09-2000.webp",
+   "fm": "../../assets/bild/v-rau09-1280.webp",
+   "fs": "klein/v-rau09.webp"
+  },
+  {
+   "k": "v-fes01",
+   "t": {
+    "de": "Anstoßen am festlichen Tisch"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-fes01-2000.webp",
+   "fm": "../../assets/bild/v-fes01-1280.webp",
+   "fs": "klein/v-fes01.webp"
+  },
+  {
+   "k": "v-fes02",
+   "t": {
+    "de": "Feier mit Ballons"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-fes02-2000.webp",
+   "fm": "../../assets/bild/v-fes02-1280.webp",
+   "fs": "klein/v-fes02.webp"
+  },
+  {
+   "k": "v-fes03",
+   "t": {
+    "de": "Tanzen unter Ballons"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-fes03-2000.webp",
+   "fm": "../../assets/bild/v-fes03-1280.webp",
+   "fs": "klein/v-fes03.webp"
+  },
+  {
+   "k": "v-fes04",
+   "t": {
+    "de": "Anstoßen am rot gedeckten Tisch"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWAEuEJiNNa/",
+   "d": "2026-03",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-fes04-2000.webp",
+   "fm": "../../assets/bild/v-fes04-1280.webp",
+   "fs": "klein/v-fes04.webp"
+  },
+  {
+   "k": "v-fes05",
+   "t": {
+    "de": "Rot gedeckte Tafel für ein Fest"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWAEuEJiNNa/",
+   "d": "2026-03",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-fes05-2000.webp",
+   "fm": "../../assets/bild/v-fes05-1280.webp",
+   "fs": "klein/v-fes05.webp"
+  },
+  {
+   "k": "v-fes06",
+   "t": {
+    "de": "Gruppe in Rot und Schwarz beim Fest"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWAEuEJiNNa/",
+   "d": "2026-03",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-fes06-2000.webp",
+   "fm": "../../assets/bild/v-fes06-1280.webp",
+   "fs": "klein/v-fes06.webp"
+  },
+  {
+   "k": "v-fes07",
+   "t": {
+    "de": "Das Team beim Fest"
+   },
+   "b": "fest",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-fes07-2000.webp",
+   "fm": "../../assets/bild/v-fes07-1280.webp",
+   "fs": "klein/v-fes07.webp"
+  },
+  {
+   "k": "v-fes08",
+   "t": {
+    "de": "Ballonbogen und Plakat «We are sixteen now.»"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1440,
+   "h": 1920,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQoWrLECCdg/",
+   "d": "2025-11",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-fes08-1280.webp",
+   "fm": "../../assets/bild/v-fes08-1280.webp",
+   "fs": "klein/v-fes08.webp"
+  },
+  {
+   "k": "v-fes09",
+   "t": {
+    "de": "Gruppe vor dem Plakat «We are sixteen now.»"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2667,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQoWrLECCdg/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-fes09-2000.webp",
+   "fm": "../../assets/bild/v-fes09-1280.webp",
+   "fs": "klein/v-fes09.webp"
+  },
+  {
+   "k": "v-fes10",
+   "t": {
+    "de": "DJ am Pult beim Fest"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2665,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQoWrLECCdg/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-fes10-2000.webp",
+   "fm": "../../assets/bild/v-fes10-1280.webp",
+   "fs": "klein/v-fes10.webp"
+  },
+  {
+   "k": "v-fes11",
+   "t": {
+    "de": "Drei Gäste am vollen Tisch"
+   },
+   "b": "fest",
+   "s": "winter",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Januar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DTgOhC8CGxC/",
+   "d": "2026-01",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-fes11-2000.webp",
+   "fm": "../../assets/bild/v-fes11-1280.webp",
+   "fs": "klein/v-fes11.webp"
+  },
+  {
+   "k": "v-dri01",
+   "t": {
+    "de": "Ein Cocktail wird serviert"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2666,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-dri01-2000.webp",
+   "fm": "../../assets/bild/v-dri01-1280.webp",
+   "fs": "klein/v-dri01.webp"
+  },
+  {
+   "k": "v-dri02",
+   "t": {
+    "de": "Getränk im Glaskrug, daneben eine Schale"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2667,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWwGFOICHTg/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-dri02-2000.webp",
+   "fm": "../../assets/bild/v-dri02-1280.webp",
+   "fs": "klein/v-dri02.webp"
+  },
+  {
+   "k": "v-dri03",
+   "t": {
+    "de": "Matcha-Gläser mit Gerbera"
+   },
+   "b": "drinks",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNdnyNCoD0v/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-dri03-2000.webp",
+   "fm": "../../assets/bild/v-dri03-1280.webp",
+   "fs": "klein/v-dri03.webp"
+  },
+  {
+   "k": "v-dri04",
+   "t": {
+    "de": "Matcha im Glas, in der Hand"
+   },
+   "b": "drinks",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DMYc2YRo9GD/",
+   "d": "2025-07",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-dri04-2000.webp",
+   "fm": "../../assets/bild/v-dri04-1280.webp",
+   "fs": "klein/v-dri04.webp"
+  },
+  {
+   "k": "v-dri05",
+   "t": {
+    "de": "Kaffee mit Schaum und Gebäck"
+   },
+   "b": "drinks",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juni 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DLUxScYIHxL/",
+   "d": "2025-06",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-dri05-2000.webp",
+   "fm": "../../assets/bild/v-dri05-1280.webp",
+   "fs": "klein/v-dri05.webp"
+  },
+  {
+   "k": "v-dri06",
+   "t": {
+    "de": "Matcha im Becher mit Logo, auf dem Schmeckfestival"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "fremd",
+   "q": "Gemeinschaftsbeitrag auf Instagram von @funki.fromseblock mit @unclehung.official, Mai 2025; Rechte beim Konto @funki.fromseblock und seinen Fotografen",
+   "u": "https://www.instagram.com/p/DKSBJRFI_J_/",
+   "d": "2025-05",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-dri06-2000.webp",
+   "fm": "../../assets/bild/v-dri06-1280.webp",
+   "fs": "klein/v-dri06.webp"
+  },
+  {
+   "k": "v-dri07",
+   "t": {
+    "de": "Matcha im Becher mit Logo"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DIqQq-_IhTV/",
+   "d": "2025-04",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-dri07-2000.webp",
+   "fm": "../../assets/bild/v-dri07-1280.webp",
+   "fs": "klein/v-dri07.webp"
+  },
+  {
+   "k": "v-cat01",
+   "t": {
+    "de": "Buffet mit Gemüse und Mango"
+   },
+   "b": "catering",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 3556,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DRCF3ZAiDqA/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-cat01-2000.webp",
+   "fm": "../../assets/bild/v-cat01-1280.webp",
+   "fs": "klein/v-cat01.webp"
+  },
+  {
+   "k": "v-cat02",
+   "t": {
+    "de": "Kleine Boxen auf dem Buffet"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DN1A9okUIwN/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-cat02-2000.webp",
+   "fm": "../../assets/bild/v-cat02-1280.webp",
+   "fs": "klein/v-cat02.webp"
+  },
+  {
+   "k": "v-cat03",
+   "t": {
+    "de": "Gläser und Blumen auf dem Buffet"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DMsod2Ho5fA/",
+   "d": "2025-07",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-cat03-2000.webp",
+   "fm": "../../assets/bild/v-cat03-1280.webp",
+   "fs": "klein/v-cat03.webp"
+  },
+  {
+   "k": "v-cat04",
+   "t": {
+    "de": "Buffet mit Blumen und Gebäck"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DMpQeFFI-Ej/",
+   "d": "2025-07",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-cat04-2000.webp",
+   "fm": "../../assets/bild/v-cat04-1280.webp",
+   "fs": "klein/v-cat04.webp"
+  },
+  {
+   "k": "v-cat05",
+   "t": {
+    "de": "Grüne Anthurien und Blumen fürs Buffet"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DMfDr8YIxXF/",
+   "d": "2025-07",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-cat05-2000.webp",
+   "fm": "../../assets/bild/v-cat05-1280.webp",
+   "fs": "klein/v-cat05.webp"
+  },
+  {
+   "k": "v-cat06",
+   "t": {
+    "de": "Ein Gast am Buffet"
+   },
+   "b": "catering",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2000,
+   "h": 2500,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DGttl-2Ivwy/",
+   "d": "2025-03",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/v-cat06-2000.webp",
+   "fm": "../../assets/bild/v-cat06-1280.webp",
+   "fs": "klein/v-cat06.webp"
+  },
+  {
+   "k": "v-cat07",
+   "t": {
+    "de": "Hortensien für den Tisch"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DNBScveot-n/",
+   "d": "2025-08",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/v-cat07-2000.webp",
+   "fm": "../../assets/bild/v-cat07-1280.webp",
+   "fs": "klein/v-cat07.webp"
+  },
+  {
+   "k": "mi1",
+   "t": {
+    "de": "Ein Gast isst Nudeln aus der Schale"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 4267,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dbh3xSnoGFV/",
+   "d": "2026-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/mi1-2000.webp",
+   "fm": "../../assets/bild/mi1-1280.webp",
+   "fs": "klein/mi1.webp"
+  },
+  {
+   "k": "mi2",
+   "t": {
+    "de": "Eine Schale Salat wird gezeigt"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 4267,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juni 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DZ5mXwpIIEx/",
+   "d": "2026-06",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/mi2-2000.webp",
+   "fm": "../../assets/bild/mi2-1280.webp",
+   "fs": "klein/mi2.webp"
+  },
+  {
+   "k": "mi3",
+   "t": {
+    "de": "Ein Gast isst Pho im Gastraum"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQoWrLECCdg/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/mi3-2000.webp",
+   "fm": "../../assets/bild/mi3-1280.webp",
+   "fs": "klein/mi3.webp"
+  },
+  {
+   "k": "mi4",
+   "t": {
+    "de": "Pho wird an den Tisch gebracht"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQoWrLECCdg/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/mi4-2000.webp",
+   "fm": "../../assets/bild/mi4-1280.webp",
+   "fs": "klein/mi4.webp"
+  },
+  {
+   "k": "mi5",
+   "t": {
+    "de": "Pho mit Chilisauce am Tisch"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQoWrLECCdg/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/mi5-2000.webp",
+   "fm": "../../assets/bild/mi5-1280.webp",
+   "fs": "klein/mi5.webp"
+  },
+  {
+   "k": "mi6",
+   "t": {
+    "de": "Pho mit Tofu von oben"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1598,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/mi6-2000.webp",
+   "fm": "../../assets/bild/mi6-1280.webp",
+   "fs": "klein/mi6.webp"
+  },
+  {
+   "k": "mi7",
+   "t": {
+    "de": "Pho auf dem Tresen"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1600,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/mi7-2000.webp",
+   "fm": "../../assets/bild/mi7-1280.webp",
+   "fs": "klein/mi7.webp"
+  },
+  {
+   "k": "mi8",
+   "t": {
+    "de": "Salat in der Schale, daneben eine Limonade"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1600,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/mi8-2000.webp",
+   "fm": "../../assets/bild/mi8-1280.webp",
+   "fs": "klein/mi8.webp"
+  },
+  {
+   "k": "mi9",
+   "t": {
+    "de": "Desserts mit Erdbeeren und Grapefruit"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2000,
+   "h": 1333,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/mi9-2000.webp",
+   "fm": "../../assets/bild/mi9-1280.webp",
+   "fs": "klein/mi9.webp"
+  },
+  {
+   "k": "ka1",
+   "t": {
+    "de": "Gebratenes aus dem Wok"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 4260,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dauqp7EIahj/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ka1-2000.webp",
+   "fm": "../../assets/bild/ka1-1280.webp",
+   "fs": "klein/ka1.webp"
+  },
+  {
+   "k": "ka2",
+   "t": {
+    "de": "Viele Gerichte auf einer gedeckten Tafel"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DXXGMCOiPB3/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ka2-2000.webp",
+   "fm": "../../assets/bild/ka2-1280.webp",
+   "fs": "klein/ka2.webp"
+  },
+  {
+   "k": "ka3",
+   "t": {
+    "de": "Kuchen und Teller auf einem Holztisch"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1600,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ka3-2000.webp",
+   "fm": "../../assets/bild/ka3-1280.webp",
+   "fs": "klein/ka3.webp"
+  },
+  {
+   "k": "ka4",
+   "t": {
+    "de": "Klebreis mit Mango"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWRFGZliMva/",
+   "d": "2026-03",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/ka4-2000.webp",
+   "fm": "../../assets/bild/ka4-1280.webp",
+   "fs": "klein/ka4.webp"
+  },
+  {
+   "k": "ka5",
+   "t": {
+    "de": "Kleine Schalen mit Beilagen von oben"
+   },
+   "b": "essen",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 4260,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), August 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DcQ46EZIpPv/",
+   "d": "2026-08",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ka5-2000.webp",
+   "fm": "../../assets/bild/ka5-1280.webp",
+   "fs": "klein/ka5.webp"
+  },
+  {
+   "k": "ka6",
+   "t": {
+    "de": "Bowl mit Salat und Gegrilltem"
+   },
+   "b": "essen",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 1096,
+   "h": 1946,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DW3VMK9iHW4/",
+   "d": "2026-04",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/ka6-720.webp",
+   "fm": "../../assets/bild/ka6-720.webp",
+   "fs": "klein/ka6.webp"
+  },
+  {
+   "k": "ma1",
+   "t": {
+    "de": "Matcha und Beerendrinks auf dem Tisch"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWwGFOICHTg/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ma1-2000.webp",
+   "fm": "../../assets/bild/ma1-1280.webp",
+   "fs": "klein/ma1.webp"
+  },
+  {
+   "k": "ma2",
+   "t": {
+    "de": "Hausgemachte Getränke in Flasche und Glas"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2268,
+   "h": 4032,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQutjTECLSx/",
+   "d": "2025-11",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/ma2-2000.webp",
+   "fm": "../../assets/bild/ma2-1280.webp",
+   "fs": "klein/ma2.webp"
+  },
+  {
+   "k": "ma3",
+   "t": {
+    "de": "Drinks und Gerichte auf dem Tisch"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DXXGMCOiPB3/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ma3-2000.webp",
+   "fm": "../../assets/bild/ma3-1280.webp",
+   "fs": "klein/ma3.webp"
+  },
+  {
+   "k": "ma4",
+   "t": {
+    "de": "Zwei Drinks stoßen an"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ma4-2000.webp",
+   "fm": "../../assets/bild/ma4-1280.webp",
+   "fs": "klein/ma4.webp"
+  },
+  {
+   "k": "ma5",
+   "t": {
+    "de": "Drinks werden eingeschenkt"
+   },
+   "b": "drinks",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1600,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ma5-2000.webp",
+   "fm": "../../assets/bild/ma5-1280.webp",
+   "fs": "klein/ma5.webp"
+  },
+  {
+   "k": "ab1",
+   "t": {
+    "de": "Gäste am Abend unter Laternen"
+   },
+   "b": "raum",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ab1-2000.webp",
+   "fm": "../../assets/bild/ab1-1280.webp",
+   "fs": "klein/ab1.webp"
+  },
+  {
+   "k": "ab2",
+   "t": {
+    "de": "Am Abend zwischen Palmen und roten Laternen"
+   },
+   "b": "raum",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ab2-2000.webp",
+   "fm": "../../assets/bild/ab2-1280.webp",
+   "fs": "klein/ab2.webp"
+  },
+  {
+   "k": "ab3",
+   "t": {
+    "de": "Eine Platte wird am Abend an den Tisch gebracht"
+   },
+   "b": "raum",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ab3-2000.webp",
+   "fm": "../../assets/bild/ab3-1280.webp",
+   "fs": "klein/ab3.webp"
+  },
+  {
+   "k": "ab4",
+   "t": {
+    "de": "Gäste am rot gedeckten Tisch"
+   },
+   "b": "raum",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ab4-2000.webp",
+   "fm": "../../assets/bild/ab4-1280.webp",
+   "fs": "klein/ab4.webp"
+  },
+  {
+   "k": "ab5",
+   "t": {
+    "de": "Gäste beim Essen an der Tafel"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dau8r88iKr1/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ab5-2000.webp",
+   "fm": "../../assets/bild/ab5-1280.webp",
+   "fs": "klein/ab5.webp"
+  },
+  {
+   "k": "fe1",
+   "t": {
+    "de": "Lange Tafel mit Blumen für ein Fest"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 4267,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DeR9icNI1dr/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/fe1-2000.webp",
+   "fm": "../../assets/bild/fe1-1280.webp",
+   "fs": "klein/fe1.webp"
+  },
+  {
+   "k": "fe2",
+   "t": {
+    "de": "Festtafel mit Musik im Gastraum"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), März 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DWAEuEJiNNa/",
+   "d": "2026-03",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/fe2-2000.webp",
+   "fm": "../../assets/bild/fe2-1280.webp",
+   "fs": "klein/fe2.webp"
+  },
+  {
+   "k": "fe3",
+   "t": {
+    "de": "Geiger beim Fest"
+   },
+   "b": "fest",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/fe3-2000.webp",
+   "fm": "../../assets/bild/fe3-1280.webp",
+   "fs": "klein/fe3.webp"
+  },
+  {
+   "k": "fe4",
+   "t": {
+    "de": "Ein Fest mit Ballons im Gastraum"
+   },
+   "b": "fest",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DemMgnECBBP/",
+   "d": "2026-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/fe4-2000.webp",
+   "fm": "../../assets/bild/fe4-1280.webp",
+   "fs": "klein/fe4.webp"
+  },
+  {
+   "k": "ca1",
+   "t": {
+    "de": "Platten mit Sommerrollen und Salaten für ein Buffet"
+   },
+   "b": "catering",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DRM7DTRCFw9/",
+   "d": "2025-11",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/ca1-2000.webp",
+   "fm": "../../assets/bild/ca1-1280.webp",
+   "fs": "klein/ca1.webp"
+  },
+  {
+   "k": "ca2",
+   "t": {
+    "de": "Buffet mit Salaten und Blumen"
+   },
+   "b": "catering",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2160,
+   "h": 3840,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DQ93X9viIL4/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ca2-2000.webp",
+   "fm": "../../assets/bild/ca2-1280.webp",
+   "fs": "klein/ca2.webp"
+  },
+  {
+   "k": "ca3",
+   "t": {
+    "de": "Buffet mit Blumen und Gerichten"
+   },
+   "b": "catering",
+   "s": "winter",
+   "f": "hoch",
+   "w": 3216,
+   "h": 5712,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Dezember 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DRt5tA2CP36/",
+   "d": "2025-12",
+   "ue": false,
+   "alt": false,
+   "vn": false,
+   "fl": "../../assets/bild/ca3-2000.webp",
+   "fm": "../../assets/bild/ca3-1280.webp",
+   "fs": "klein/ca3.webp"
+  },
+  {
+   "k": "ca4",
+   "t": {
+    "de": "Buffet mit Blumen und Kräutern"
+   },
+   "b": "catering",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 4260,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juni 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DaChvlFougR/",
+   "d": "2026-06",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ca4-2000.webp",
+   "fm": "../../assets/bild/ca4-1280.webp",
+   "fs": "klein/ca4.webp"
+  },
+  {
+   "k": "ca5",
+   "t": {
+    "de": "Platten auf einem Buffet"
+   },
+   "b": "catering",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2160,
+   "h": 3840,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), November 2025; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DRCF3ZAiDqA/",
+   "d": "2025-11",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ca5-2000.webp",
+   "fm": "../../assets/bild/ca5-1280.webp",
+   "fs": "klein/ca5.webp"
+  },
+  {
+   "k": "ku1",
+   "t": {
+    "de": "In der Küche wird angerichtet"
+   },
+   "b": "team",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dau8r88iKr1/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ku1-2000.webp",
+   "fm": "../../assets/bild/ku1-1280.webp",
+   "fs": "klein/ku1.webp"
+  },
+  {
+   "k": "ku2",
+   "t": {
+    "de": "Teller werden in der Küche angerichtet"
+   },
+   "b": "team",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dau8r88iKr1/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ku2-2000.webp",
+   "fm": "../../assets/bild/ku2-1280.webp",
+   "fs": "klein/ku2.webp"
+  },
+  {
+   "k": "ku3",
+   "t": {
+    "de": "In der Küche am Pass"
+   },
+   "b": "team",
+   "s": "jahr",
+   "f": "quer",
+   "w": 2400,
+   "h": 1600,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Oktober 2025, Foto @the_seidels; Rechte beim Haus und bei der Fotografin",
+   "u": "https://www.instagram.com/p/DQChecpCLzl/",
+   "d": "2025-10",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ku3-2000.webp",
+   "fm": "../../assets/bild/ku3-1280.webp",
+   "fs": "klein/ku3.webp"
+  },
+  {
+   "k": "ku4",
+   "t": {
+    "de": "In der Küche wird gekocht"
+   },
+   "b": "team",
+   "s": "winter",
+   "f": "hoch",
+   "w": 2048,
+   "h": 2730,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Februar 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DVCbBeHiFJR/",
+   "d": "2026-02",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ku4-2000.webp",
+   "fm": "../../assets/bild/ku4-1280.webp",
+   "fs": "klein/ku4.webp"
+  },
+  {
+   "k": "se1",
+   "t": {
+    "de": "Ein Tablett mit Gerichten wird serviert"
+   },
+   "b": "team",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dau8r88iKr1/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/se1-2000.webp",
+   "fm": "../../assets/bild/se1-1280.webp",
+   "fs": "klein/se1.webp"
+  },
+  {
+   "k": "ga1",
+   "t": {
+    "de": "Ein Gast mit Weißwein am gedeckten Tisch"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dau8r88iKr1/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ga1-2000.webp",
+   "fm": "../../assets/bild/ga1-1280.webp",
+   "fs": "klein/ga1.webp"
+  },
+  {
+   "k": "ga2",
+   "t": {
+    "de": "Zwei Gäste auf dem Tresen mit Schale und Stäbchen"
+   },
+   "b": "leute",
+   "s": "sommer",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), Juli 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/Dau8r88iKr1/",
+   "d": "2026-07",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ga2-2000.webp",
+   "fm": "../../assets/bild/ga2-1280.webp",
+   "fs": "klein/ga2.webp"
+  },
+  {
+   "k": "ga3",
+   "t": {
+    "de": "Ein Gast mit Bowl im Wintergarten"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DXXGMCOiPB3/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ga3-2000.webp",
+   "fm": "../../assets/bild/ga3-1280.webp",
+   "fs": "klein/ga3.webp"
+  },
+  {
+   "k": "ga5",
+   "t": {
+    "de": "Gäste mit Gerichten und Drinks am Tisch"
+   },
+   "b": "leute",
+   "s": "jahr",
+   "f": "hoch",
+   "w": 2400,
+   "h": 3200,
+   "art": "instagram",
+   "q": "Foto von Instagram des Hauses (@unclehung.official), April 2026; Rechte beim Haus",
+   "u": "https://www.instagram.com/p/DXXGMCOiPB3/",
+   "d": "2026-04",
+   "ue": true,
+   "alt": false,
+   "vn": true,
+   "fl": "../../assets/bild/ga5-2000.webp",
+   "fm": "../../assets/bild/ga5-1280.webp",
+   "fs": "klein/ga5.webp"
+  }
+ ],
+ "dateien": [
+  {
+   "k": "zeichen",
+   "var": [
+    {
+     "k": "creme",
+     "grund": "dunkel",
+     "dateien": [
+      "uncle-hung-zeichen-creme.svg",
+      "uncle-hung-zeichen-creme.png"
+     ],
+     "px": [
+      800,
+      913
+     ]
+    },
+    {
+     "k": "tinte",
+     "grund": "hell",
+     "dateien": [
+      "uncle-hung-zeichen-tinte.svg",
+      "uncle-hung-zeichen-tinte.png"
+     ],
+     "px": [
+      800,
+      913
+     ]
+    },
+    {
+     "k": "salbei",
+     "grund": "hell",
+     "dateien": [
+      "uncle-hung-zeichen-salbei.svg",
+      "uncle-hung-zeichen-salbei.png"
+     ],
+     "px": [
+      800,
+      913
+     ]
+    }
+   ]
+  },
+  {
+   "k": "logo",
+   "var": [
+    {
+     "k": "creme",
+     "grund": "dunkel",
+     "dateien": [
+      "uncle-hung-wortmarke-creme.svg",
+      "uncle-hung-wortmarke-creme.png"
+     ],
+     "px": [
+      2000,
+      816
+     ]
+    },
+    {
+     "k": "tinte",
+     "grund": "hell",
+     "dateien": [
+      "uncle-hung-wortmarke-tinte.svg",
+      "uncle-hung-wortmarke-tinte.png"
+     ],
+     "px": [
+      2000,
+      816
+     ]
+    },
+    {
+     "k": "salbei",
+     "grund": "hell",
+     "dateien": [
+      "uncle-hung-wortmarke-salbei.svg",
+      "uncle-hung-wortmarke-salbei.png"
+     ],
+     "px": [
+      2000,
+      816
+     ]
+    }
+   ]
+  },
+  {
+   "k": "profil",
+   "var": [
+    {
+     "k": "instagram",
+     "grund": "hell",
+     "dateien": [
+      "uncle-hung-profilbild-instagram.jpg"
+     ],
+     "px": [
+      150,
+      150
+     ]
+    },
+    {
+     "k": "facebook",
+     "grund": "hell",
+     "dateien": [
+      "uncle-hung-profilbild-facebook.jpg"
+     ],
+     "px": [
+      480,
+      480
+     ]
+    }
+   ]
+  },
+  {
+   "k": "tapete",
+   "var": [
+    {
+     "k": "dunkel",
+     "grund": "dunkel",
+     "dateien": [
+      "uncle-hung-tapete-dunkel.png",
+      "uncle-hung-tapete-dunkel.svg",
+      "uncle-hung-tapete-dunkel.webp"
+     ],
+     "px": [
+      240,
+      240
+     ],
+     "farbe": "#2b342d"
+    },
+    {
+     "k": "hell",
+     "grund": "hell",
+     "dateien": [
+      "uncle-hung-tapete-hell.png",
+      "uncle-hung-tapete-hell.svg",
+      "uncle-hung-tapete-hell.webp"
+     ],
+     "px": [
+      240,
+      240
+     ],
+     "farbe": "#f7efe3"
+    }
+   ]
+  },
+  {
+   "k": "farben",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "uncle-hung-farben.css",
+      "uncle-hung-farben.json",
+      "uncle-hung-farben.ase"
+     ]
+    }
+   ]
+  },
+  {
+   "k": "schriften",
+   "var": [
+    {
+     "k": "alle",
+     "grund": "hell",
+     "dateien": [
+      "uncle-hung-schriften.zip"
+     ]
+    }
+   ]
+  }
+ ],
+ "farben": [
+  {
+   "k": "salbei",
+   "n": "Salbei",
+   "h": "#4D5C4E",
+   "rgb": [
+    77,
+    92,
+    78
+   ],
+   "r": "die dunkle Fläche: Leiste, Bühnen, Knöpfe, immer mit der Schalen-Tapete",
+   "g": "dunkel",
+   "woher": "Wert der Website (--salbei in der Gestaltung der Seite)"
+  },
+  {
+   "k": "tief3",
+   "n": "Salbei tief",
+   "h": "#3E4B40",
+   "rgb": [
+    62,
+    75,
+    64
+   ],
+   "r": "zweite dunkle Fläche, Platten auf Salbei",
+   "g": "dunkel",
+   "woher": "Wert der Website (--tief3 in der Gestaltung der Seite)"
+  },
+  {
+   "k": "tief",
+   "n": "Tief",
+   "h": "#2B342D",
+   "rgb": [
+    43,
+    52,
+    45
+   ],
+   "r": "die tiefste Fläche: Fuß, Grund unter Fotos",
+   "g": "dunkel",
+   "woher": "Wert der Website (--tief in der Gestaltung der Seite)"
+  },
+  {
+   "k": "creme",
+   "n": "Creme",
+   "h": "#EBE1D4",
+   "rgb": [
+    235,
+    225,
+    212
+   ],
+   "r": "die helle Fläche, Schrift auf Salbei",
+   "g": "hell",
+   "woher": "Wert der Website (--creme in der Gestaltung der Seite)"
+  },
+  {
+   "k": "papier",
+   "n": "Papier",
+   "h": "#F7EFE3",
+   "rgb": [
+    247,
+    239,
+    227
+   ],
+   "r": "Grund der hellen Seiten, auf dem gelesen wird",
+   "g": "hell",
+   "woher": "Wert der Website (--papier in der Gestaltung der Seite)"
+  },
+  {
+   "k": "papier2",
+   "n": "Papier warm",
+   "h": "#F1E7D8",
+   "rgb": [
+    241,
+    231,
+    216
+   ],
+   "r": "zweite helle Fläche, Karten auf Papier",
+   "g": "hell",
+   "woher": "Wert der Website (--papier2 in der Gestaltung der Seite)"
+  },
+  {
+   "k": "sand",
+   "n": "Sand",
+   "h": "#DCCFBC",
+   "rgb": [
+    220,
+    207,
+    188
+   ],
+   "r": "Linien und Felder auf Papier",
+   "g": "hell",
+   "woher": "Wert der Website (--sand in der Gestaltung der Seite)"
+  },
+  {
+   "k": "gold",
+   "n": "Gold",
+   "h": "#BF982E",
+   "rgb": [
+    191,
+    152,
+    46
+   ],
+   "r": "nur Linie, Etikett und Knauf, nie eine Fläche, nie Lesetext",
+   "g": "gold",
+   "woher": "Wert der Website (--gold in der Gestaltung der Seite)"
+  },
+  {
+   "k": "gold-h",
+   "n": "Gold hell",
+   "h": "#D9BC6B",
+   "rgb": [
+    217,
+    188,
+    107
+   ],
+   "r": "Betonung in Titeln und kleine Angaben auf Salbei",
+   "g": "gold",
+   "woher": "Wert der Website (--gold-h in der Gestaltung der Seite)"
+  },
+  {
+   "k": "jade",
+   "n": "Jade",
+   "h": "#86AE98",
+   "rgb": [
+    134,
+    174,
+    152
+   ],
+   "r": "leiser Akzent auf Dunkel, Fugen zwischen Bildern",
+   "g": "jade",
+   "woher": "Wert der Website (--jade in der Gestaltung der Seite)"
+  },
+  {
+   "k": "jade-t",
+   "n": "Jade tief",
+   "h": "#5E8A73",
+   "rgb": [
+    94,
+    138,
+    115
+   ],
+   "r": "Akzent auf Hell: Betonung in Titeln, kleine Angaben",
+   "g": "jade",
+   "woher": "Wert der Website (--jade-t in der Gestaltung der Seite)"
+  },
+  {
+   "k": "tinte",
+   "n": "Tinte",
+   "h": "#1F2620",
+   "rgb": [
+    31,
+    38,
+    32
+   ],
+   "r": "Lesetext auf hellen Flächen, nie reines Schwarz",
+   "g": "schrift",
+   "woher": "Wert der Website (--tinte in der Gestaltung der Seite)"
+  },
+  {
+   "k": "hell",
+   "n": "Hell",
+   "h": "#F4ECE0",
+   "rgb": [
+    244,
+    236,
+    224
+   ],
+   "r": "Lesetext auf Salbei und Tief",
+   "g": "schrift",
+   "woher": "Wert der Website (--hell in der Gestaltung der Seite)"
+  }
+ ],
+ "gruppen": [
+  {
+   "k": "dunkel",
+   "n": "Salbei",
+   "s": "Die dunklen Flächen. Das Salbei der heutigen Canva-Seite des Hauses, für die Tiefe zweimal dunkler. Sie tragen die Schalen-Tapete.",
+   "bild": "buch/bilder/canva-start.webp",
+   "bild_t": "Aufnahme der heutigen Canva-Seite des Hauses, Startseite. Daraus kommt Salbei (60 % der Fläche), gemessen."
+  },
+  {
+   "k": "hell",
+   "n": "Creme und Papier",
+   "s": "Die hellen Flächen, auf denen gelesen wird. Aus den Karten der heutigen Canva-Seite.",
+   "bild": "buch/bilder/canva-karte.webp",
+   "bild_t": "Aufnahme der heutigen Canva-Seite des Hauses, Karte. Daraus kommt Creme (51 % der Fläche), Papier (50 % der Fläche), Papier warm (50 % der Fläche), Sand (44 % der Fläche), gemessen."
+  },
+  {
+   "k": "gold",
+   "n": "Gold",
+   "s": "Gold zieht Linien, steht auf Etiketten und im Knauf der Knöpfe. Nie eine Fläche, nie der Lesetext.",
+   "bild": "buch/bilder/buffet.webp",
+   "bild_t": "Foto der heutigen Website: Platten auf einem Buffet des Caterings. Daraus kommt Gold (2,4 % der Fläche), gemessen."
+  },
+  {
+   "k": "jade",
+   "n": "Jade",
+   "s": "Das Grün der jadefarbenen Schalen, in denen Uncle Hung serviert. Ein leiser Akzent, nie eine große Fläche.",
+   "bild": "buch/bilder/schale.webp",
+   "bild_t": "Foto der heutigen Website: Reisbandnudeln aus der Pho in der jadegrünen Schale. Daraus kommt Jade (1,1 % der Fläche), gemessen."
+  },
+  {
+   "k": "schrift",
+   "n": "Schrift",
+   "s": "Tinte für den Lesetext auf Hell, Hell für den Lesetext auf Salbei. Nie reines Schwarz.",
+   "bild": "listen/schrift-s.webp",
+   "bild_t": "So stehen Tinte und Lesetext auf der Website."
+  }
+ ],
+ "glanz": [],
+ "groessen": {
+  "uncle-hung-farben.ase": 540,
+  "uncle-hung-farben.css": 1128,
+  "uncle-hung-farben.json": 3053,
+  "uncle-hung-marke.zip": 702753,
+  "uncle-hung-profilbild-facebook.jpg": 13370,
+  "uncle-hung-profilbild-instagram.jpg": 5299,
+  "uncle-hung-schriften.zip": 380882,
+  "uncle-hung-tapete-dunkel.png": 3007,
+  "uncle-hung-tapete-dunkel.svg": 264,
+  "uncle-hung-tapete-dunkel.webp": 918,
+  "uncle-hung-tapete-hell.png": 2875,
+  "uncle-hung-tapete-hell.svg": 264,
+  "uncle-hung-tapete-hell.webp": 730,
+  "uncle-hung-wortmarke-creme.png": 73030,
+  "uncle-hung-wortmarke-creme.svg": 7670,
+  "uncle-hung-wortmarke-salbei.png": 74371,
+  "uncle-hung-wortmarke-salbei.svg": 7670,
+  "uncle-hung-wortmarke-tinte.png": 72724,
+  "uncle-hung-wortmarke-tinte.svg": 7670,
+  "uncle-hung-zeichen-creme.png": 24973,
+  "uncle-hung-zeichen-creme.svg": 2545,
+  "uncle-hung-zeichen-salbei.png": 25297,
+  "uncle-hung-zeichen-salbei.svg": 2545,
+  "uncle-hung-zeichen-tinte.png": 25244,
+  "uncle-hung-zeichen-tinte.svg": 2545
+ },
+ "bereiche": [
+  "essen",
+  "drinks",
+  "raum",
+  "leute",
+  "fest",
+  "catering",
+  "team"
+ ],
+ "schriften": [
+  {
+   "k": "t",
+   "n": "Fraunces",
+   "d": "fraunces-soft.woff2",
+   "r": "Titel, weiche Antiqua wie die fetten Titel der Canva-Karte",
+   "e": "540, SOFT 100, Zeichenabstand −0,012 em, Betonung über die Farbe",
+   "p": "Did you eat today?",
+   "w": 540,
+   "bild": "listen/schrift-t.webp"
+  },
+  {
+   "k": "s",
+   "n": "Instrument Sans",
+   "d": "InstrumentSans-normal-400_600.woff2",
+   "r": "Lesetext",
+   "e": "400, 18 px, Zeilenabstand 1,64",
+   "p": "Seit 2009 in Familienhand: ehrliche Küche und eine Atmosphäre, in der sich jeder willkommen fühlt.",
+   "w": 400,
+   "bild": "listen/schrift-s.webp"
+  },
+  {
+   "k": "m",
+   "n": "DM Mono",
+   "d": "DMMono-normal-400.woff2",
+   "r": "Kleine Angaben und Knöpfe",
+   "e": "400, 13 px, Versalien, 0,14 em gesperrt",
+   "p": "Dieselstraße 2 · 86368 Gersthofen",
+   "w": 400,
+   "bild": "listen/schrift-m.webp"
+  }
+ ],
+ "namen": {
+  "zentrale": "Kontrollpanel",
+  "website": "Website bearbeiten",
+  "karten": "Karten & Preislisten",
+  "gaeste": "Anfragen & Chat",
+  "marke": "Markenbuch",
+  "besuche": "Besucher",
+  "druck": "Drucksachen & Feed"
+ },
+ "zusammen": {},
+ "messung": {
+  "canva-start": {
+   "salbei": 0.6002
+  },
+  "canva-karte": {
+   "creme": 0.5067,
+   "papier": 0.4962,
+   "papier2": 0.5003,
+   "sand": 0.4355,
+   "hell": 0.4983
+  },
+  "schale": {
+   "jade": 0.0109
+  },
+  "buffet": {
+   "gold": 0.0237
+  },
+  "matcha": {
+   "tinte": 0.1596
+  }
+ },
+ "stand": {
+  "fotos": 187,
+  "haus": 177,
+  "canva": 24,
+  "instagram": 153,
+  "frei": 0,
+  "ki": 0,
+  "fremd": 10,
+  "partner": 0,
+  "ue": 137,
+  "vn": 137,
+  "original": 187,
+  "dateien": 25,
+  "datum": "11.11.2026"
+ }
+}

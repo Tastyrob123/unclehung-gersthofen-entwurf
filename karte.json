@@ -1,0 +1,73 @@
+{
+ "quelle": "Canva-Seite hello-unclehung.my.canva.site, Abschnitt Menü, Aufnahmen _quelle/website/aufnahmen/04-1 bis 04-6.jpg und Text _quelle/website/text/menue.md, gelesen am 11.11.2026",
+ "lunch": {
+  "titel": "Lunchdeals", "allergene": "A, F, K, L, H, 1, 2, 3, 4, 5, 6, 9",
+  "posten": [
+   ["L1", "Curry Chicken oder Veggie mit Reis", "", "10,00 €"],
+   ["L2", "Erdnuss Chicken oder Veggie mit Reis", "", "10,00 €"],
+   ["L3", "Gebratene Nudeln mit Chicken oder Veggie", "", "9,00 €"],
+   ["L4", "Gebratener Reis mit Chicken oder Veggie", "", "9,00 €"],
+   ["L5", "Bun Nem, Crispy Chicken Bowl oder Pekingbowl", "", "13,00 €"]
+  ],
+  "dazu": "Bis 14.00 Uhr Frühlingsrollen oder Pekingsuppe zu jedem Hauptgericht gratis dazu, nur so lange der Vorrat reicht.",
+  "gueltig": "Täglich gültig bis 14.00 Uhr"
+ },
+ "rubriken": [
+  {"id": "snacks", "titel": "Uncle Hung’s Snacks", "allergene": "A, F, K, H, L, 1, 3, 4, 5", "posten": [
+   ["1", "Pekingsuppe", "", "4,00 €"], ["2", "Wantansuppe", "", "5,00 €"], ["2A", "Knusprige Wantans (6 St.)", "", "5,00 €"],
+   ["3", "Hühnerfleischsuppe", "", "4,00 €"], ["4", "Veggie Frühlingsrollen (8 St.)", "", "4,00 €"],
+   ["5", "Große Frühlingsrolle", "mit Fleisch und Gemüse", "4,50 €"], ["6", "Nem (3 St.)", "vietnamesische Frühlingsrolle mit Fleisch", "4,50 €"],
+   ["7", "Portion Pommes", "", "4,00 €"]]},
+  {"id": "green", "titel": "Uncle Hung’s Green", "allergene": "F, K, H, L, 1, 2, 3, 4, 5, 6, 9", "posten": [
+   ["8", "Gemischter Salat", "", "6,00 €"], ["8A", "Edamame", "", "5,00 €"],
+   ["9", "Gemischter Salat mit Shrimps", "", "9,00 €"], ["10", "Gemischter Salat mit Wok Huhn", "", "9,50 €"],
+   ["11", "Gemischter Salat mit Wok Garnelen", "", "14,90 €"], ["12", "Gemischter Salat mit Wok Rind", "", "12,00 €"]]},
+  {"id": "veggie", "titel": "Veggie / Vegan", "dunkel": true, "allergene": "C, D, E, F, K, H, L, 2, 3, 9", "unter": "Wok-Gemüse mit Reis und Sauce deiner Wahl. 30 bis 31A vegan.", "hinweis": "Extra Tofu nur 2,50 €", "posten": [
+   ["30", "Süß Sauer Sauce", "", "10,50 €"], ["31", "Thai Curry Sauce", "", "10,50 €"], ["31A", "Erdnuss Sauce", "", "10,50 €"],
+   ["32", "Hoi Sin Sauce", "", "10,50 €"], ["33", "Glasnudeln", "aus Süßkartoffeln, gebratenem Gemüse & Tofu", "11,00 €"],
+   ["34", "Eiernudeln & allerlei Gemüse", "", "10,50 €"], ["35", "Eierreis & allerlei Gemüse", "", "10,50 €"],
+   ["36", "Chop Suey", "würzige Austernsauce", "10,50 €"], ["37", "Veggie Hanoi Bowl", "Tofu, Reis, Salat, woked Tofu, crunchy Topping", "13,00 €"],
+   ["38", "Bun Bowl", "Reisnudeln, Salat, woked Tofu, crunchy Topping", "13,00 €"], ["39", "Pho Xao", "gebr. Reisbandnudeln pikant mit Gemüse & Tofu", "13,50 €"]]},
+  {"id": "chicken", "titel": "Chicken", "allergene": "A, F, K, L, H, 1, 2, 3, 4, 5, 6, 9", "hinweis": "Nudeln statt Reis nur 3 €", "posten": [
+   ["40", "Chilisauce", "Zwiebeln & Lauch, würzig scharf", "11,50 €"], ["41", "Thai Curry", "Kokosmilch & Gemüse, scharf", "11,50 €"],
+   ["42", "Kong Pao", "allerlei Gemüse, würzig scharf", "11,50 €"], ["43", "Hoi Sin", "allerlei Gemüse, pikant süß", "11,50 €"],
+   ["44", "Erdnusssauce", "Kokosmilch & Gemüse", "11,50 €"], ["45", "Crispy Chicken Bällchen", "Süßsauer Sauce", "12,50 €"],
+   ["46", "Crispy Chicken", "Thai Curry & Erdnusssaucen Duo", "14,90 €"], ["47", "Crispy Chicken", "süß sauer & Gemüse", "14,90 €"],
+   ["48", "Crispy Chicken", "Sacha Sauce, würzig pikant", "14,90 €"], ["49", "Crispy Chicken", "Thai Curry Sauce, scharf", "14,90 €"]]},
+  {"id": "beef", "titel": "Beef", "dunkel": true, "allergene": "F, K, L, H, 1, 2, 3, 4, 5, 6, 9", "hinweis": "Nudeln statt Reis nur 3 €", "posten": [
+   ["50", "Chilisauce", "Zwiebeln, Lauch, Karotten, würzig scharf", "13,00 €"], ["51", "Thai Curry", "Kokosmilch & Gemüse, scharf", "13,00 €"],
+   ["52", "Kong Pao", "allerlei Gemüse, würzig scharf", "13,00 €"], ["53", "Hoi Sin", "allerlei Gemüse, pikant süß", "13,00 €"],
+   ["54", "Erdnuss Sauce", "Kokosmilch & Gemüse", "13,00 €"], ["55", "Chop Suey", "würzige Austernsauce", "13,00 €"]]},
+  {"id": "duck", "titel": "Crispy Duck", "allergene": "A, F, K, L, H, 1, 2, 3, 4, 5, 6, 9", "posten": [
+   ["80", "Süß Sauer Soße", "süß-fruchtig mit Gemüse", "16,90 €"], ["81", "Thai Curry Soße", "Kokosmilch & Gemüse, scharf", "16,90 €"],
+   ["82", "Chilisauce", "Zwiebeln, Lauch, Karotten, würzig scharf", "16,90 €"], ["83", "Kong Pao", "allerlei Gemüse, würzig scharf", "16,90 €"],
+   ["84", "Hoi Sin", "allerlei Gemüse, pikant süß", "16,90 €"], ["85", "Erdnusssauce", "Kokosmilch & Gemüse", "16,90 €"],
+   ["86", "Chop Suey", "würzige Austernsauce", "16,90 €"]]},
+  {"id": "seafood", "titel": "Seafood", "dunkel": true, "allergene": "B, D, E, F, K, L, 1, 2, 3, 4, 5, 6, 9, O", "unter": "Wahl aus: Tintenfisch, Black Tiger Garnelen oder Lachsfilet Bites.", "hinweis": "Gebacken statt natur 3 €", "posten": [
+   ["90", "Chili Sauce", "Zwiebeln, Lauch, Karotten, würzig scharf", "16,90 €"], ["91", "Thai Curry", "Kokosmilch & Gemüse, scharf", "16,90 €"],
+   ["93", "Kong Pao", "allerlei Gemüse, würzig scharf", "16,90 €"], ["94", "Hoi Sin", "allerlei Gemüse, pikant süß", "16,90 €"]]},
+  {"id": "wok", "titel": "Stir Fry Noodle & Rice", "allergene": "Noodle: A, C, F, L, 1, 2, 3, 4, 5, 6 · Rice: A, C, E, F, L, 1, 2, 3, 4, 5, 6, 9", "posten": [
+   ["100", "Chicken Noodle", "", "11,00 €"], ["102", "Beef Noodle", "", "13,00 €"], ["103", "Shrimp Noodle", "", "11,00 €"],
+   ["104", "Scampi Noodle", "", "16,90 €"], ["105", "Crispy Duck Noodle", "", "16,90 €"], ["106", "Crispy Chicken Noodle", "", "14,90 €"],
+   ["107", "Bami Goreng", "gebr. Nudeln & allerlei Fleisch", "14,90 €"], ["110", "Chicken Rice", "", "11,00 €"], ["112", "Beef Rice", "", "13,00 €"],
+   ["113", "Shrimp Rice", "", "11,00 €"], ["114", "Scampi Rice", "", "16,90 €"], ["115", "Crispy Duck Rice", "", "16,90 €"],
+   ["116", "Crispy Chicken Rice", "", "14,90 €"], ["117", "Nasi Goreng", "gebr. Reis & allerlei Fleisch", "14,90 €"]]},
+  {"id": "favorite", "titel": "Uncle Hung’s Favorite", "breit": true, "allergene": "A, E, F, H, K, L, D, 1, 2, 3, 4, 5, 6, 9", "posten": [
+   ["V1", "Pho Xao", "gebratene Reisbandnudeln mit Gemüse, wahlweise mit Chicken, Beef oder Shrimps, crispy Topping", "13,50 €"],
+   ["V2", "Bun Nem", "viet. Frühlingsrollen mit Fleisch, Reisnudeln, Salat, Limetten-Vinaigrette, crispy Topping", "13,00 €"],
+   ["V3", "Bun Tom", "gegrillte Scampis, Reisnudeln, Salat, Kräuter, crispy Topping", "16,90 €"],
+   ["V4", "Bun Bo Kho", "würziges Rindfleisch, Reisnudeln, Salat, Kräuter, Nüsse / Sesam / Röstzwiebeln", "13,50 €"],
+   ["V5", "Pho Soup mit Chicken oder Beef", "24 h gekochte kräftige Fleischbrühe, Reisbandnudeln, Sojasprossen, Koriander", "12,50 €"],
+   ["V6", "Goi Cuon aka Sommerrollen (5 St.)", "in Reispapier gewickelte Reisnudeln mit Salat, Koriander, wahlweise mit Crispy Duck / Garnelen / Tofu oder Huhn", "17,50 €"],
+   ["V7", "Peking Bowl", "Crispy Duck auf Reis, würziger Pekingsauce, Salat, crispy Topping & Kräutergarnitur", "16,90 €"],
+   ["V8", "Hanoi Bowl", "würzig gebratenes Huhn auf Salat, Reis und Kräutern mit Nüssen / Sesam / Röstzwiebeln", "13,50 €"],
+   ["V9", "Crispy Chicken Bowl", "knuspriges Huhn auf Reisnudeln, Salat, Limetten-Vinaigrette, Röstzwiebeln / Erdnüsse / Kräuter, Spicy Mayo", "14,90 €"]]},
+  {"id": "sweets", "titel": "Sweets", "posten": [
+   ["", "Gebackene Banane mit Eis", "", "7,00 €"], ["", "Wöchentlich wechselnde Desserts", "", "Preis variiert"]]},
+  {"id": "drinks", "titel": "Signature Drinks", "dunkel": true, "unter": "Eine größere Getränkeauswahl findet ihr im Lokal. Alle Getränke auch to go erhältlich.", "posten": [
+   ["", "Diverse Matcha-Kreationen", "Mango, Banana, Classy, Strawberry, Lavendel u. v. m.", "6,50 €"],
+   ["", "Hungmade Icetea", "", "5,50 €"],
+   ["", "Spritz-Variationen", "Lychee, Mango, Aperol", "6,50 €"]]}
+ ],
+ "legende": "A: glutenhaltiges Getreide · B: Krebstiere · C: Eier · D: Fisch · E: Erdnüsse · F: Sojabohnen · G: Milch · H: Schalenfrüchte · I: Sellerie · J: Senf · K: Sesamsamen · L: Schwefeldioxid · M: Sulfite · N: Lupinen · O: Weichtiere · 1: Konservierungsstoffe · 2: Farbstoffe · 3: Süßstoffe · 4: Geschmacksverstärker · 5: Phosphat · 6: Schwefel · 7: Chinin · 8: Koffein · 9: Gentechnik"
+}

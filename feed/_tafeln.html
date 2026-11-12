@@ -1,0 +1,44 @@
+<meta name="robots" content="noindex, nofollow"><!doctype html><meta charset="utf-8"><style>@font-face{font-family:'B';src:url('../_werkbank/fonts/Fraunces-Regular.ttf') format('truetype')}
+@font-face{font-family:'M';src:url('../_werkbank/fonts/DMMono-Regular.ttf') format('truetype')}
+@font-face{font-family:'S';src:url('../_werkbank/fonts/InstrumentSans-Regular.ttf') format('truetype')}
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#333333}
+.k{position:relative;width:1080px;height:1350px;overflow:hidden;margin:0 0 20px;font-family:'B',Georgia,serif}
+.k--t,.k--e{background:#3e4b40 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTIwIDEyMCI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRjRFQ0UwIiBzdHJva2Utb3BhY2l0eT0iLjE2IiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48cGF0aCBkPSJNNDAgNThhMjAgMjAgMCAwIDAgNDAgMHoiLz48cGF0aCBkPSJNNjYgNTBsMTAtMTZNNzEgNTJsMTAtMTYiLz48L2c+PC9zdmc+") 50% 50%/360px auto;color:#f7efe3}
+.k--a{background:#f7efe3;color:#3e4b40}
+/* das Raster zeigt 3:4, also 34 px weniger je Seite: der Rahmen hält Abstand */
+.k i.r{position:absolute;inset:86px 96px;border:1.5px solid rgba(217,188,107,.62)}
+.k--a i.r{border-color:rgba(127,109,58,.6)}
+.k .ce{position:absolute;left:0;right:0;top:170px;display:flex;justify-content:center}
+.k .satz{position:absolute;left:120px;right:120px;top:50%;transform:translateY(-46%);text-align:center;font-size:112px;line-height:1.14;letter-spacing:-.005em}
+.k .satz b{font-weight:400;color:#d9bc6b;display:block}
+.k .satz span{display:block}
+.k .lin{position:absolute;left:50%;bottom:262px;width:110px;height:2px;margin-left:-55px;background:#d9bc6b}
+.k .kl{position:absolute;left:120px;right:120px;bottom:186px;text-align:center;font-family:'M',monospace;font-size:23px;letter-spacing:.2em;text-transform:uppercase;color:#d9bc6b}
+.k--a .kl{color:#7f6d3a}.k--a .lin{background:#9d8238}
+.k--a .name{position:absolute;left:0;right:0;top:268px;text-align:center;font-size:92px;line-height:1.1}
+.k--a .bild{position:absolute;left:138px;right:138px;top:424px;height:640px;display:flex;align-items:center;justify-content:center}
+.k--a .bild img{width:100%;height:100%;object-fit:cover;object-position:var(--op,50% 50%);display:block;border:1.5px solid rgba(62,75,64,.5);padding:12px;background:#fcf7ee}
+.k--a .lin{bottom:236px}.k--a .kl{bottom:164px}.k--a .ce{top:150px}
+.k--a .bild svg{height:100%;width:auto}
+.k--e .et{position:absolute;left:50%;top:50%;width:700px;transform:translate(-50%,-50%) rotate(-5deg)}
+.k--e .et img{width:100%;display:block;filter:drop-shadow(0 30px 34px rgba(0,0,0,.5))}
+.k--t.hell{background:#f7efe3;color:#3e4b40}
+.k--t.hell i.r{border-color:rgba(127,109,58,.6)}.k--t.hell .satz b{color:#7f6d3a}.k--t.hell .kl{color:#7f6d3a}.k--t.hell .lin{background:#9d8238}
+/* Blatt aus der Karte: Stube, Name des Gerichts, seine Zeile und der Preis, wie auf der Karte des Hauses */
+.k--k{background:#f7efe3;color:#3e4b40}
+.k--k i.r{border-color:rgba(127,109,58,.6)}
+.k--k i.r::after{content:'';position:absolute;inset:10px;border:1px solid rgba(127,109,58,.35)}
+.k--k .ce{top:158px}
+.k--k .mit{position:absolute;left:150px;right:150px;top:330px;bottom:330px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.k--k .name{font-size:104px;line-height:1.08}
+.k--k .name span{display:block}
+.k--k .zl{margin-top:44px;font-family:'S',Arial,sans-serif;font-size:45px;line-height:1.42;color:rgba(62,75,64,.8);max-width:660px}
+.k--k .pr{position:absolute;left:150px;right:150px;bottom:236px;display:flex;align-items:baseline;gap:16px;font-size:62px}
+.k--k .pr i{flex:1;border-bottom:3px dotted rgba(62,75,64,.4);transform:translateY(-10px)}
+.k--k .pr small{font-family:'M',monospace;font-size:23px;letter-spacing:.2em;text-transform:uppercase;color:#7f6d3a}
+.k--k .kl{position:absolute;left:120px;right:120px;bottom:160px;text-align:center;font-family:'M',monospace;font-size:21px;letter-spacing:.2em;text-transform:uppercase;color:#7f6d3a}
+.av{width:640px;height:640px;border-radius:50%;background:#3e4b40 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTIwIDEyMCI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRjRFQ0UwIiBzdHJva2Utb3BhY2l0eT0iLjE2IiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48cGF0aCBkPSJNNDAgNThhMjAgMjAgMCAwIDAgNDAgMHoiLz48cGF0aCBkPSJNNjYgNTBsMTAtMTZNNzEgNTJsMTAtMTYiLz48L2c+PC9zdmc+") 50% 50%/360px auto;display:flex;align-items:center;justify-content:center;position:relative}
+.av::after{content:'';position:absolute;inset:34px;border-radius:50%;border:3px solid rgba(217,188,107,.7)}
+.av{border-radius:0}.av::after{border-radius:50%}</style><div class="av" id="av"><svg viewBox="14 13 546 623" width="330" height="377" fill="#d9bc6b"><g transform="translate(0.000000,650.000000) scale(0.100000,-0.100000)"><path d="M4975 6351 c-76 -31 -150 -97 -227 -204 -57 -80 -264 -388 -282 -422 -9 -16 -28 -48 -41 -70 -13 -22 -27 -47 -31 -55 -4 -8 -22 -35 -39 -60 -17 -25 -49 -76 -70 -115 -21 -38 -48 -83 -60 -100 -12 -16 -28 -44 -34 -62 -7 -18 -19 -38 -27 -44 -8 -6 -14 -19 -14 -27 0 -9 -17 -41 -39 -72 -21 -30 -60 -95 -87 -145 -27 -49 -63 -112 -81 -140 -18 -27 -33 -57 -33 -65 0 -9 -11 -31 -25 -50 -14 -19 -25 -37 -25 -42 0 -4 -16 -32 -35 -62 -19 -30 -35 -61 -35 -69 0 -8 -8 -25 -19 -38 -32 -41 -81 -141 -81 -164 0 -30 16 -35 104 -35 85 0 102 9 154 88 21 32 47 71 59 87 12 17 116 174 232 350 116 176 225 340 242 365 61 89 98 146 130 200 18 30 46 73 64 95 17 22 42 58 55 80 12 22 44 71 69 108 65 97 99 149 110 172 6 11 23 37 38 58 43 58 77 106 122 177 39 61 41 69 41 140 0 73 -1 77 -33 108 -37 36 -45 37 -102 13z"/><path d="M5451 6347 c-68 -28 -168 -129 -264 -267 -36 -53 -105 -157 -137 -210 -18 -30 -57 -91 -85 -135 -28 -44 -68 -105 -87 -135 -19 -30 -46 -75 -59 -99 -13 -24 -29 -51 -34 -60 -28 -43 -112 -189 -123 -211 -14 -29 -26 -49 -62 -105 -15 -22 -58 -96 -96 -165 -93 -169 -96 -175 -138 -255 -20 -38 -48 -88 -61 -110 -13 -22 -29 -52 -36 -67 -6 -16 -15 -28 -20 -28 -14 0 -70 -133 -67 -160 3 -25 4 -25 98 -25 89 0 97 2 123 27 15 14 27 33 27 41 0 8 7 20 15 27 8 6 30 40 50 73 20 34 63 100 96 147 79 113 129 187 237 355 50 77 97 147 105 155 8 8 21 29 30 45 8 17 44 74 80 127 36 53 68 106 72 117 3 12 10 21 14 21 5 0 26 28 47 61 21 34 46 72 54 84 82 127 130 197 216 323 148 215 158 237 151 327 -5 66 -9 78 -34 99 -34 30 -42 30 -112 3z"/><path d="M3927 4254 c-2 -3 -848 -5 -1879 -4 -1822 0 -1875 -1 -1892 -19 -16 -17 -17 -92 -14 -1082 3 -960 5 -1068 20 -1105 9 -23 19 -68 23 -100 6 -53 27 -135 56 -219 6 -16 16 -48 21 -70 6 -22 17 -49 25 -60 7 -11 13 -26 13 -35 0 -8 15 -44 34 -80 18 -36 50 -99 71 -140 64 -126 197 -319 290 -420 235 -255 435 -411 695 -540 58 -29 114 -57 125 -63 30 -16 230 -85 315 -109 41 -11 107 -24 146 -29 39 -5 100 -15 135 -24 87 -20 520 -21 599 -1 30 7 82 16 115 20 33 3 94 16 135 27 159 46 241 72 246 80 3 5 14 9 25 9 23 0 297 133 374 182 28 18 92 64 144 102 52 39 103 78 115 85 37 26 148 133 218 211 122 135 138 154 188 230 27 41 58 86 69 101 21 27 38 58 119 213 29 55 55 110 58 121 4 11 12 34 20 50 32 73 77 220 94 306 4 26 14 64 20 85 6 22 18 98 27 169 23 192 32 2050 9 2080 -14 19 -27 20 -370 21 -196 1 -362 4 -370 7 -8 3 -16 4 -19 1z"/></g></svg></div>

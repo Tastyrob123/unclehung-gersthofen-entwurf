@@ -1,0 +1,38 @@
+[
+ {
+  "nr": 79,
+  "t": "Suche mit 5’000 Zeichen, <script>, Emoji, Umlauten (gross/klein gleich), nur Leerzeichen",
+  "ok": true,
+  "m": "200 Zeichen · Gläser 3/3/3 · Leer 48 · "
+ },
+ {
+  "nr": 80,
+  "t": "L10 Prüfung: über 30 MB abgewiesen, knapp 30 MB und 169 MP verkleinert geprüft, 400 px, «Bild» ohne Bild mit Meldung, PDF mit drei Seiten",
+  "ok": true,
+  "m": "{\"zuGross\":true,\"knapp\":true,\"klein\":true,\"riesig\":true,\"keinBild\":true,\"pdf\":true}"
+ },
+ {
+  "nr": 81,
+  "t": "Netz weg beim Prüfen: Meldung, Datei bleibt; Netz zurück: prüfen geht",
+  "ok": true,
+  "m": "Die Prüfung ging nicht durch: Keine Verbindung. Der Entwurf bleibt gewählt, bitte noch einmal prüfen"
+ },
+ {
+  "nr": 82,
+  "t": "Zwei Fenster prüfen gleichzeitig, je eigene Rückmeldung",
+  "ok": true,
+  "m": "klein-400.png | drei-seiten.pdf 3 Seiten, geprüft die er"
+ },
+ {
+  "nr": 83,
+  "t": "320 und 390 px: alle Ansichten, Foto-Fenster, Markenbuch und Anleitung ohne seitliches Verrutschen",
+  "ok": true,
+  "m": "16 Messungen"
+ },
+ {
+  "nr": 87,
+  "t": "L05 Markenbuch: zehn Blätter (Zeichen, Wortmarke, Schriften, Farben, Farbwelt, Richtig und falsch, Bildwelt, Stimmen, Ton, Welt), alle Bilder, «Als PDF sichern» öffnet den Druck",
+  "ok": true,
+  "m": "zeichen,wortmarke,schrift,farben,farbwelten,logo,bildwelt,stimmen,ton,welt · 0 Bilder fehlen"
+ }
+]

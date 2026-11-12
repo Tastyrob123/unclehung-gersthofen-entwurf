@@ -1,0 +1,135 @@
+{
+ "art": "tuerschild",
+ "format": "a5h",
+ "vorlagen": [
+  {
+   "id": "tuerschild-001",
+   "titel": "Türschild Öffnungszeiten",
+   "bereich": "Zeiten & Hinweise",
+   "vorlage": "aushang",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Willkommen bei Uncle Hung",
+    "titel": "Montag bis Freitag",
+    "text": "11.00 – 14.30 Uhr\n17.00 – 20.30 Uhr",
+    "aktion": "Samstag, Sonn- und Feiertage geöffnet nach Vereinbarung"
+   }
+  },
+  {
+   "id": "tuerschild-002",
+   "titel": "Heute geschlossene Gesellschaft",
+   "bereich": "Zeiten & Hinweise",
+   "vorlage": "aushang",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Heute",
+    "titel": "Geschlossene Gesellschaft",
+    "text": "Heute feiert eine Gesellschaft im Haus.\nMontag bis Freitag sind wir wieder für dich da.",
+    "aktion": "0821 / 2185710"
+   }
+  },
+  {
+   "id": "tuerschild-003",
+   "titel": "Mittagspause",
+   "bereich": "Zeiten & Hinweise",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Zwischen Mittag und Abend",
+    "titel": "Ab 17 Uhr wieder offen",
+    "text": "Mittags 11.00 – 14.30 Uhr\nabends 17.00 – 20.30 Uhr",
+    "aktion": "Montag bis Freitag"
+   }
+  },
+  {
+   "id": "tuerschild-004",
+   "titel": "To go und Abholen",
+   "bereich": "Zeiten & Hinweise",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle Hung",
+    "titel": "Alles auch to go",
+    "unter": "Zum Hinsetzen, zum Mitnehmen oder zum Abholen",
+    "text": "Alle Gerichte und alle Getränke gibt es auch to go.",
+    "fuss": "0821 / 2185710"
+   }
+  },
+  {
+   "id": "tuerschild-005",
+   "titel": "Wintergarten",
+   "bereich": "Feiern & Wintergarten",
+   "vorlage": "deckel",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Beheizt",
+    "titel": "Wintergarten",
+    "unter": "Platz für 25 weitere Gäste",
+    "text": "",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "tuerschild-006",
+   "titel": "Herzlich willkommen",
+   "bereich": "Zeiten & Hinweise",
+   "vorlage": "deckel",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Seit 2009",
+    "titel": "Schön, dass du da bist",
+    "unter": "Did you eat today?",
+    "text": "",
+    "fuss": "Dieselstraße 2 · 86368 Gersthofen"
+   }
+  }
+ ]
+}

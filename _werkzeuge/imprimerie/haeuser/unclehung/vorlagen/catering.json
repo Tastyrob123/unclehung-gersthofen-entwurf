@@ -1,0 +1,210 @@
+{
+ "art": "catering",
+ "format": "a4h",
+ "vorlagen": [
+  {
+   "id": "catering-001",
+   "titel": "Catering-Blatt",
+   "bereich": "Catering",
+   "vorlage": "programm",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Catering · Uncle Hung",
+    "titel": "Ganz nach deinem Geschmack",
+    "termine": [
+     {
+      "wann": "Schritt 1 · Anfrage",
+      "was": "Erzähl uns von deinem Event",
+      "wo": "Schick uns deine Wünsche, wir stellen dir dein Angebot zusammen. Je mehr wir wissen, desto besser wird dein Event."
+     },
+     {
+      "wann": "Schritt 2 · Einigung",
+      "was": "Anzahlung, dann steht dein Termin",
+      "wo": "Nach deiner Anfrage und einer erfolgreichen Einigung bekommst du eine schriftliche Zusammenfassung. Mit einer Anzahlung von in der Regel 30 % ist der Termin für beide Seiten verbindlich."
+     },
+     {
+      "wann": "Anfrage",
+      "was": "v.nguyen2@gmx.de",
+      "wo": "Name, Ort, Anlass, Datum, Gruppengröße und deine Wünsche"
+     }
+    ],
+    "fuss": "Uncle Hung · Dieselstraße 2 · 86368 Gersthofen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "catering-002",
+   "titel": "Anlässe und Gruppengrößen",
+   "bereich": "Catering",
+   "vorlage": "programm",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Catering · Feiern",
+    "titel": "Wofür wir kochen",
+    "termine": [
+     {
+      "wann": "Private Feiern",
+      "was": "Geburtstage, Hochzeiten, Familienfeste",
+      "wo": ""
+     },
+     {
+      "wann": "Firmen-Events",
+      "was": "Vom Lunch im Pausenraum bis zur Firmenfeier",
+      "wo": ""
+     },
+     {
+      "wann": "Im Haus",
+      "was": "Bis zu 45 Gäste",
+      "wo": "Dazu im beheizten Wintergarten Platz für 25 weitere Gäste."
+     },
+     {
+      "wann": "Anfrage",
+      "was": "v.nguyen2@gmx.de",
+      "wo": "oder 0821 / 2185710"
+     }
+    ],
+    "fuss": "Uncle Hung · Dieselstraße 2 · 86368 Gersthofen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "catering-003",
+   "titel": "Catering, Salbei",
+   "bereich": "Catering",
+   "vorlage": "programm",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Catering · Uncle Hung",
+    "titel": "Ein Fest, voller Geschmack",
+    "termine": [
+     {
+      "wann": "Schritt 1 · Anfrage",
+      "was": "Erzähl uns von deinem Event",
+      "wo": "Schick uns deine Wünsche, wir stellen dir dein Angebot zusammen. Je mehr wir wissen, desto besser wird dein Event."
+     },
+     {
+      "wann": "Schritt 2 · Einigung",
+      "was": "Anzahlung, dann steht dein Termin",
+      "wo": "Nach deiner Anfrage und einer erfolgreichen Einigung bekommst du eine schriftliche Zusammenfassung. Mit einer Anzahlung von in der Regel 30 % ist der Termin für beide Seiten verbindlich."
+     },
+     {
+      "wann": "Storno",
+      "was": "Bis drei Wochen vorher kostenfrei",
+      "wo": "Die Anzahlung wird zurückgezahlt."
+     }
+    ],
+    "fuss": "Uncle Hung · Dieselstraße 2 · 86368 Gersthofen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "catering-004",
+   "titel": "Catering mit Foto",
+   "bereich": "Catering",
+   "vorlage": "fenster",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "cat3",
+    "ueber": "Catering",
+    "titel": "Ganz nach deinem Geschmack",
+    "unter": "Private Feier · Firmen-Event · Get-together",
+    "text": "Gemeinsam mit erfahrenen Partnern wird aus deiner Idee ein Fest, voller Geschmack, Atmosphäre und Liebe zum Detail.",
+    "fuss": "v.nguyen2@gmx.de · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "catering-005",
+   "titel": "Catering, Foto und Text",
+   "bereich": "Catering",
+   "vorlage": "geteilt",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ig-buffet",
+    "ueber": "Catering · Uncle Hung",
+    "titel": "Dann kommt die Familie zu dir",
+    "text": "Mit allem, was dazugehört: Location, Menü, Deko und Entertainment, über erfahrene Partner.",
+    "aktion": "Anfrage · v.nguyen2@gmx.de"
+   }
+  },
+  {
+   "id": "catering-006",
+   "titel": "Catering mit grossem Foto",
+   "bereich": "Catering",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "cat6",
+    "ueber": "Catering",
+    "titel": "Ein besonderer Abend",
+    "text": "Die traditionellen Kochkünste von Uncle Hung sorgen für das Authentische, Hani, seine Tochter, bringt den kreativen und modernen Einfluss ein.",
+    "aktion": "Anfrage · v.nguyen2@gmx.de"
+   }
+  },
+  {
+   "id": "catering-007",
+   "titel": "Lunch-Catering, Blatt",
+   "bereich": "Catering",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Lunch-Catering für Firmen",
+    "titel": "Teams, Meetings, Firmenfeiern",
+    "text": "Uncle Hung bringt den Mittag auch in den Pausenraum.\nErzähl, wie viele ihr seid und was euch schmeckt,\ndie Familie stellt dir das passende Angebot zusammen.",
+    "aktion": "Anfrage schicken, Angebot bekommen · v.nguyen2@gmx.de"
+   }
+  }
+ ]
+}

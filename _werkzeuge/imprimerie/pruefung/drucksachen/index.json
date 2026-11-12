@@ -1,0 +1,162 @@
+[
+ {
+  "titel": "Tageskarte Lunch",
+  "vorlage": "Lunchdeals am Tisch",
+  "format": "a5h",
+  "pdf": "01-lunch-lunchdeals-am-tisch.pdf",
+  "bild": "01-lunch-lunchdeals-am-tisch.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Tageskarte Lunch, Salbei",
+  "vorlage": "Lunchdeals, Salbei",
+  "format": "a5h",
+  "pdf": "02-lunch-lunchdeals-salbei.pdf",
+  "bild": "02-lunch-lunchdeals-salbei.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Weihnachtsmenü Comfort",
+  "vorlage": "Comfort Menu",
+  "format": "a5h",
+  "pdf": "03-weihnachten-comfort-menu.pdf",
+  "bild": "03-weihnachten-comfort-menu.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Weihnachtsmenü Botanical",
+  "vorlage": "Botanical Menu",
+  "format": "a5h",
+  "pdf": "04-weihnachten-botanical-menu.pdf",
+  "bild": "04-weihnachten-botanical-menu.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Weihnachtsmenü Hot Pot",
+  "vorlage": "Hot Pot Menu",
+  "format": "a5h",
+  "pdf": "05-weihnachten-hot-pot-menu.pdf",
+  "bild": "05-weihnachten-hot-pot-menu.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Catering-Blatt",
+  "vorlage": "Catering-Blatt",
+  "format": "a4h",
+  "pdf": "06-catering-catering-blatt.pdf",
+  "bild": "06-catering-catering-blatt.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Catering mit Foto",
+  "vorlage": "Catering mit Foto",
+  "format": "a4h",
+  "pdf": "07-catering-catering-mit-foto.pdf",
+  "bild": "07-catering-catering-mit-foto.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Aushang Öffnungszeiten",
+  "vorlage": "Öffnungszeiten",
+  "format": "a4h",
+  "pdf": "08-aushang-offnungszeiten.pdf",
+  "bild": "08-aushang-offnungszeiten.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Aushang Weihnachtsmenüs",
+  "vorlage": "Weihnachtsmenüs, Aushang",
+  "format": "a4h",
+  "pdf": "09-aushang-weihnachtsmenus-aushang.pdf",
+  "bild": "09-aushang-weihnachtsmenus-aushang.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Gutschein",
+  "vorlage": "Gutschein, Salbei",
+  "format": "dlq",
+  "pdf": "10-gutschein-gutschein-salbei.pdf",
+  "bild": "10-gutschein-gutschein-salbei.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Gutschein Hot Pot",
+  "vorlage": "Gutschein Hot Pot",
+  "format": "dlq",
+  "pdf": "11-gutschein-gutschein-hot-pot.pdf",
+  "bild": "11-gutschein-gutschein-hot-pot.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Tischaufsteller Matcha",
+  "vorlage": "Matcha-Kreationen",
+  "format": "a6h",
+  "pdf": "12-tisch-matcha-kreationen.pdf",
+  "bild": "12-tisch-matcha-kreationen.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Tischaufsteller Signature Drinks",
+  "vorlage": "Signature Drinks",
+  "format": "a6h",
+  "pdf": "13-tisch-signature-drinks.pdf",
+  "bild": "13-tisch-signature-drinks.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Tischaufsteller «Did you eat today?»",
+  "vorlage": "Did you eat today?",
+  "format": "a6h",
+  "pdf": "14-tisch-did-you-eat-today.pdf",
+  "bild": "14-tisch-did-you-eat-today.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Speisekarte Favoriten",
+  "vorlage": "Uncle Hung’s Favorite",
+  "format": "a4h",
+  "pdf": "15-speisekarte-uncle-hung-s-favorite.pdf",
+  "bild": "15-speisekarte-uncle-hung-s-favorite.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Visitenkarte",
+  "vorlage": "Visitenkarte Inhaberin",
+  "format": "vk",
+  "pdf": "16-visitenkarte-visitenkarte-inhaberin.pdf",
+  "bild": "16-visitenkarte-visitenkarte-inhaberin.jpg",
+  "rueckseite": "16-visitenkarte-visitenkarte-inhaberin-2.jpg"
+ },
+ {
+  "titel": "Instagram-Beitrag",
+  "vorlage": "Beitrag Weihnachten",
+  "format": "insta",
+  "pdf": "17-instagram-beitrag-weihnachten.pdf",
+  "bild": "17-instagram-beitrag-weihnachten.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Türschild",
+  "vorlage": "Türschild Öffnungszeiten",
+  "format": "a5h",
+  "pdf": "18-tuerschild-turschild-offnungszeiten.pdf",
+  "bild": "18-tuerschild-turschild-offnungszeiten.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Einladung",
+  "vorlage": "Einladung zur Weihnachtsfeier",
+  "format": "q148",
+  "pdf": "19-einladung-einladung-zur-weihnachtsfeier.pdf",
+  "bild": "19-einladung-einladung-zur-weihnachtsfeier.jpg",
+  "rueckseite": null
+ },
+ {
+  "titel": "Flyer Lunchdeals",
+  "vorlage": "Flyer Lunchdeals",
+  "format": "a5h",
+  "pdf": "20-flyer-flyer-lunchdeals.pdf",
+  "bild": "20-flyer-flyer-lunchdeals.jpg",
+  "rueckseite": "20-flyer-flyer-lunchdeals-2.jpg"
+ }
+]

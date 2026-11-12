@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="de">
+<head><!--demo-weiche--><script src="/_demo/karte.js"></script><script src="/_demo/shim.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anleitung · Markenbuch · Uncle Hung</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2B342D">
+<link rel="icon" href="dateien/uncle-hung-zeichen-salbei.svg" type="image/svg+xml">
+<link rel="preload" href="../../assets/schrift/fraunces-soft.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:Fraunces;font-style:normal;font-weight:100 900;font-display:block;src:url('../../assets/schrift/fraunces-soft.woff2') format('woff2')}
+@font-face{font-family:'Instrument Sans';font-style:normal;font-weight:400 600;font-display:swap;src:url('../../assets/schrift/InstrumentSans-normal-400_600.woff2') format('woff2')}
+@font-face{font-family:'DM Mono';font-style:normal;font-weight:400;font-display:swap;src:url('../../assets/schrift/DMMono-normal-400.woff2') format('woff2')}
+:root{--nacht:#2B342D;--navy:#2B342D;--blau:#3E4B40;--papier:#F1E7D8;--weiss:#F7EFE3;--gold:#D9BC6B;--taupe:#4D5C4E;--tinte:#1F2620;--blatt:#F7EFE3;--linie:rgba(31,38,32,.12);--leise:rgba(31,38,32,.64);
+  --serif:Fraunces,Georgia,serif;--sans:'Instrument Sans',system-ui,sans-serif;--mono:'DM Mono',ui-monospace,monospace;--e1:cubic-bezier(.16,1,.3,1);--e2:cubic-bezier(.32,.72,0,1)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--papier);color:var(--tinte);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+h1,h2,h3,p,ol,ul,figure{margin:0;padding:0}ol,ul{list-style:none}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+h1,h2,h3{font-family:var(--serif);font-weight:540;letter-spacing:-.005em}
+:focus-visible{outline:1.5px solid var(--taupe);outline-offset:3px;border-radius:6px}
+.mono{font-family:var(--mono);font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--taupe)}
+.kn{position:relative;display:inline-flex;align-items:center;gap:12px;height:48px;padding:0 6px 0 22px;border-radius:999px;font:13px var(--mono);letter-spacing:.15em;text-transform:uppercase;color:#fff;background:linear-gradient(180deg,#4D5C4E,#3E4B40 46%,#1F2620);box-shadow:inset 0 1px 0 rgba(255,255,255,.26),inset 0 -3px 0 rgba(0,0,0,.55),0 14px 22px -14px rgba(31,38,32,.55);transition:transform .5s var(--e2)}
+.kn:hover{transform:translateY(-2px)}
+.kn i{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(180deg,#F7EFE3,#EBE1D4);color:var(--tinte);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),inset 0 -2px 0 rgba(0,0,0,.22)}
+.kn svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:1.3}
+.kn--hell{background:linear-gradient(180deg,#F7EFE3,#EBE1D4 50%,#EBE1D4);color:var(--tinte);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),inset 0 -3px 0 rgba(77,92,78,.38),0 14px 22px -14px rgba(0,0,0,.5)}
+.kn--hell i{background:linear-gradient(180deg,#4D5C4E,#2B342D);color:var(--weiss)}
+/* Kopf */
+.kopf{position:relative;isolation:isolate;color:var(--weiss);background-color:var(--navy);background-image:url(/assets/oberflaeche/kleid/unclehung-tapete.svg);background-size:120px 120px;background-position:0 0;border-radius:0 0 34px 34px;overflow:hidden}
+.kopf::after{content:'';position:absolute;inset:auto 0 0 0;height:60%;z-index:-1;background:linear-gradient(0deg,rgba(31,38,32,.8),transparent)}
+.kopf__in{max-width:1180px;margin:0 auto;padding:36px 28px 74px}
+.kopf nav{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:56px;font:13px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.kopf nav a:hover{color:#fff}
+.kopf h1{font-size:clamp(2.6rem,6vw,5.2rem);line-height:1.02;max-width:14ch}.kopf h1 em{font-style:normal;color:var(--gold)}
+.kopf p{margin-top:22px;max-width:56ch;font-size:1.08rem;color:rgba(242,245,248,.84)}
+.kopf .kn{margin-top:30px}
+.kopf .kn+.kn{margin-left:10px}
+/* Inhalt */
+main{max-width:1180px;margin:0 auto;padding:0 28px 120px}
+.inhalt{margin:58px 0 70px}
+.inhalt h2{font-size:clamp(2rem,3.6vw,3rem);line-height:1.08;margin:8px 0 8px}.inhalt h2 em{font-style:normal;color:var(--taupe)}
+.inhalt>p{max-width:60ch;color:var(--leise)}
+.themen{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:30px}
+.thema{background:var(--blatt);border-radius:22px;box-shadow:inset 0 0 0 1px var(--linie);padding:22px 24px}
+.thema h3{font-size:1.35rem;line-height:1.15;display:grid;gap:3px}.thema h3 small{font:13px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--taupe)}.thema h3 em{font:13px var(--mono);font-style:normal;color:var(--leise)}
+.thema ol{margin-top:12px;display:grid;gap:2px}
+.thema a{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:10px;align-items:baseline;padding:9px 6px;border-radius:12px;transition:background-color .3s}
+.thema a:hover{background:rgba(255,255,255,.7)}.thema a b{font:13px var(--mono);color:var(--taupe)}.thema a span{font-family:var(--serif)}.thema a i{font:13px var(--mono);font-style:normal;letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+/* Kapitel */
+.kap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,4vw,60px);align-items:start;padding:54px 0;border-top:1px solid var(--linie);scroll-margin-top:20px}
+.kap:nth-of-type(even) .kap__t{order:2}
+.kap h2{font-size:clamp(1.9rem,3.2vw,2.8rem);line-height:1.08;margin:12px 0 14px;text-wrap:balance}
+.einl{color:rgba(31,38,32,.78);max-width:54ch}
+.schritte{display:grid;gap:12px;margin:22px 0}
+.schritte li{display:grid;grid-template-columns:30px minmax(0,1fr);gap:14px;align-items:start}
+.schritte li span{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:var(--gold);font:13px var(--mono)}
+.schritte p{padding-top:3px}
+.wissen{padding:16px 18px;border-radius:16px;background:rgba(217,188,107,.34);font-size:14.5px;color:var(--tinte)}.wissen b{display:block;margin-bottom:3px;font:13px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--tinte)}
+.kap__b{position:sticky;top:20px}
+.bild{display:block;width:100%;border-radius:20px;overflow:hidden;background:var(--navy);box-shadow:0 30px 50px -28px rgba(31,38,32,.6),inset 0 0 0 1px rgba(217,188,107,.3);cursor:zoom-in;transition:transform .6s var(--e2)}
+.bild:hover{transform:translateY(-3px)}.bild img{display:block;width:100%;height:auto}
+figcaption{display:flex;justify-content:space-between;gap:12px;margin-top:10px;font:13px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--leise)}
+/* Bild groß */
+.gross{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:3vmin;background:rgba(31,38,32,.88);cursor:zoom-out;animation:auf .35s var(--e1) both}
+.gross[hidden]{display:none}.gross img{max-width:100%;max-height:100%;border-radius:14px;box-shadow:0 40px 80px -30px #000}.gross small{position:absolute;bottom:14px;left:0;right:0;text-align:center;font:13px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+@keyframes auf{from{opacity:0}}
+.fuss{margin-top:20px;padding:34px 0 0;border-top:1px solid var(--linie);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:var(--leise);font-size:14px}
+@media (max-width:900px){.themen{grid-template-columns:1fr}.kap{grid-template-columns:1fr;padding:40px 0}.kap:nth-of-type(even) .kap__t{order:0}.kap__b{position:static}.kopf__in{padding:26px 18px 54px}.kopf nav{margin-bottom:36px}main{padding:0 18px 80px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.zurueck{border-bottom:1px solid currentColor}
+h1,h2,h3,.kap h2,.thema h3{font-variation-settings:"SOFT" 100,"WONK" 0,"opsz" 72}
+.themen{align-items:stretch}.thema{display:flex;flex-direction:column}.thema ol{flex:1;display:flex;flex-direction:column;justify-content:space-between}.thema ol{gap:6px}.thema li{flex:1;display:flex;align-items:stretch;border-radius:12px;background:rgba(31,38,32,.035)}.thema li>a{flex:1;align-items:center}.thema h3{line-height:1.35}.thema h3 small,.thema h3 em{line-height:1.6}.thema:last-child:nth-child(odd){grid-column:1/-1}
+.js .kap,.js .thema,.js .inhalt>h2,.js .inhalt>p{transform:translateY(40px);transition:transform 1.1s cubic-bezier(.16,1,.3,1)}
+.js .da{transform:none!important}
+@media (prefers-reduced-motion:reduce){.js .kap,.js .thema{transform:none;transition:none}}
+</style>
+</head>
+<body>
+<!-- Anleitung Markenbuch · Uncle Hung: gebaut von anleitung_bau.py aus dieser Vorlage (nach der Vorlage) -->
+<header class="kopf"><div class="kopf__in">
+  <nav><span>Anleitung · Uncle Hung</span><a href="./">Markenbuch öffnen</a></nav>
+  <h1>Fotos, Dateien <em>und die Prüfung.</em></h1>
+  <p>9 kurze Kapitel. Wie Sie ein Foto in der richtigen Größe laden, wo Logo und Farben für die Agentur liegen und wie das Markenbuch einen Entwurf prüft.</p>
+  <a class="kn" href="./">Markenbuch öffnen<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a><a class="kn kn--hell" href="#inhalt">Zu den Kapiteln<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M4 9l4 4 4-4"/></svg></i></a>
+</div></header>
+<main>
+  <section class="inhalt" id="inhalt"><span class="mono">00 · Inhalt</span><h2>9 Kapitel, <em>fünf Themen.</em></h2><p>Jedes Kapitel zeigt den Bereich und nennt die Schritte. Ein Klick macht das Bild groß, ein zweiter oder Esc bringt es zurück.</p>
+    <div class="themen"><section class="thema"><h3><small>Grundlagen</small>So geht das Markenbuch<em>1 Kapitel</em></h3><ol><li><a href="#k01"><b>01</b><span>So ist das Markenbuch aufgebaut.</span><i>Übersicht</i></a></li></ol></section><section class="thema"><h3><small>Fotos</small>Finden, laden, Herkunft<em>3 Kapitel</em></h3><ol><li><a href="#k02"><b>02</b><span>Ein Foto finden.</span><i>Fotos</i></a></li><li><a href="#k03"><b>03</b><span>In der richtigen Größe laden.</span><i>Fotos</i></a></li><li><a href="#k04"><b>04</b><span>Woher ein Foto kommt.</span><i>Fotos</i></a></li></ol></section><section class="thema"><h3><small>Logo &amp; Dateien</small>Dateien und Farben<em>2 Kapitel</em></h3><ol><li><a href="#k05"><b>05</b><span>Wortmarke und Schale für die Agentur.</span><i>Logo &amp; Dateien</i></a></li><li><a href="#k06"><b>06</b><span>Farbwerte kopieren.</span><i>Logo &amp; Dateien</i></a></li></ol></section><section class="thema"><h3><small>Markenprüfung</small>Prüfen und lesen<em>2 Kapitel</em></h3><ol><li><a href="#k07"><b>07</b><span>Einen Entwurf prüfen.</span><i>Markenprüfung</i></a></li><li><a href="#k08"><b>08</b><span>Die Rückmeldung lesen.</span><i>Markenprüfung</i></a></li></ol></section><section class="thema"><h3><small>Nachschlagen</small>Markenbuch<em>1 Kapitel</em></h3><ol><li><a href="#k09"><b>09</b><span>Im Markenbuch nachschlagen.</span><i>Markenbuch</i></a></li></ol></section></div></section>
+<article class="kap" id="k01">
+  <div class="kap__t"><span class="mono">01 · Übersicht</span><h2>So ist das Markenbuch aufgebaut.</h2><p class="einl">Das Markenbuch ist die Marke des Hauses zum Arbeiten. Drei Teile für den Alltag, dazu das Markenbuch zum Nachschlagen.</p>
+    <ol class="schritte"><li><span>1</span><p>Links die Teile: «Fotos», «Logo &amp; Dateien» und «Markenprüfung». Darunter das Markenbuch.</p></li><li><span>2</span><p>Oben rechts stehen «Kontrollpanel», «Prüfung», «Anleitung» und «Website ansehen». Unten steht immer der Hinweis zu den Bildrechten, daneben laden Sie alle Dateien der Marke auf einmal.</p></li><li><span>3</span><p>Auf dem Handy öffnet der Knopf «Bereiche» die Teile als Menü und schließt sich nach der Wahl.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Das Markenbuch speichert nichts. Was Sie laden, landet auf Ihrem Rechner, was Sie prüfen, ist nach der Prüfung wieder weg.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild groß ansehen: So ist das Markenbuch aufgebaut."><img src="anleitung/k01.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Übersicht: So ist das Markenbuch aufgebaut."></button>
+    <figcaption><span>markenbuch / übersicht</span><span>Größer ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k02">
+  <div class="kap__t"><span class="mono">02 · Fotos</span><h2>Ein Foto finden.</h2><p class="einl">Alle Fotos der Website liegen unter «Fotos», jedes mit Bereich, Jahreszeit, Format und Herkunft.</p>
+    <ol class="schritte"><li><span>1</span><p>Oben ins Suchfeld schreiben, zum Beispiel «Pho», «Matcha» oder «Wintergarten».</p></li><li><span>2</span><p>Darunter eingrenzen: Bereich (Teller &amp; Schalen, Matcha &amp; Drinks, Raum &amp; Abend, Gäste, Feiern, Catering, Familie &amp; Team), Jahreszeit, Hoch- oder Querformat und Herkunft.</p></li><li><span>3</span><p>Über der Liste steht, wie viele Fotos passen. «Filter zurücksetzen» zeigt wieder alle. Beim Scrollen kommen weitere Fotos nach.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Für einen Instagram-Beitrag eignen sich Hochformate am besten: «Hochformat» wählen, dann wird am wenigsten weggeschnitten.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild groß ansehen: Ein Foto finden."><img src="anleitung/k02.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Fotos: Ein Foto finden."></button>
+    <figcaption><span>markenbuch / fotos</span><span>Größer ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k03">
+  <div class="kap__t"><span class="mono">03 · Fotos</span><h2>In der richtigen Größe laden.</h2><p class="einl">Ein Klick auf ein Foto öffnet es groß. Rechts stehen vier fertige Größen.</p>
+    <ol class="schritte"><li><span>1</span><p>«Instagram-Beitrag» (1080 × 1350) oder «Story» (1080 × 1920) mit der Maus berühren. Im Bild erscheint der Ausschnitt.</p></li><li><span>2</span><p>Den Rahmen im Bild an die Stelle ziehen, die zu sehen sein soll. Der Knopf «Laden» nimmt genau diesen Ausschnitt.</p></li><li><span>3</span><p>«Website» lädt das Foto so groß, wie es auf der Website steht, «Groß» in voller Auflösung für den Druck. Zwei Wege öffnen das Foto direkt in Drucksachen &amp; Feed, mit demselben Ausschnitt.</p></li><li><span>4</span><p>Bei den hochgerechneten Fotos zeigen «Vorher», «Nachher» und «Schieber», wie das Foto geliefert wurde und wie es heute auf der Website steht.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Steht im Dateinamen «hochgerechnet», kommt das Foto aus der doppelt so großen, hochgerechneten Fassung. Der Inhalt ist das gelieferte Foto.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild groß ansehen: In der richtigen Größe laden."><img src="anleitung/k03.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Fotos: In der richtigen Größe laden."></button>
+    <figcaption><span>markenbuch / fotos</span><span>Größer ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k04">
+  <div class="kap__t"><span class="mono">04 · Fotos</span><h2>Woher ein Foto kommt.</h2><p class="einl">Fast alle Fotos stammen vom Haus: von der heutigen Canva-Seite und von Instagram (@unclehung.official). Einige Fotos stammen aus Beiträgen anderer Konten, die mit dem Haus zusammen gepostet haben.</p>
+    <ol class="schritte"><li><span>1</span><p>Unter «Quelle» steht, woher das Foto kommt, bei Instagram mit Monat und Jahr und einem Weg zum Beitrag.</p></li><li><span>2</span><p>Unter «Herkunft» lassen sich Fotos der Canva-Seite, von Instagram des Hauses und solche mit fremden Rechten ein- oder ausblenden.</p></li><li><span>3</span><p>Fotos mit fremden Rechten tragen «Rechte» und einen Hinweis: für Werbung nur mit Erlaubnis des anderen Kontos, sonst ein Foto des Hauses nehmen.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Ist ein Foto hochgerechnet, zeigt «Vorher» das Foto, wie es geliefert wurde.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild groß ansehen: Woher ein Foto kommt."><img src="anleitung/k04.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Fotos: Woher ein Foto kommt."></button>
+    <figcaption><span>markenbuch / fotos</span><span>Größer ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k05">
+  <div class="kap__t"><span class="mono">05 · Logo &amp; Dateien</span><h2>Wortmarke und Schale für die Agentur.</h2><p class="einl">Unter «Logo &amp; Dateien» liegt alles, was eine Agentur oder eine Druckerei vom Haus braucht.</p>
+    <ol class="schritte"><li><span>1</span><p>Die Wortmarke UNCLE HUNG mit der Schale als U gibt es in Creme für dunkle Flächen, in Tinte und in Salbei für helle. Die Schale allein ebenso.</p></li><li><span>2</span><p>«SVG» bleibt in jeder Größe scharf. «PNG» hat einen durchsichtigen Grund, für Präsentationen und Office.</p></li><li><span>3</span><p>Die Schalen-Tapete liegt als Kachel bei, das Profilbild des Hauses zum Nachschlagen. «Alle Dateien (ZIP)» lädt alles auf einmal, mit den Schriften.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Was mit der Wortmarke nie geschieht (verzerren, umfärben, Effekte), steht im Markenbuch unter «Richtig und falsch».</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild groß ansehen: Wortmarke und Schale für die Agentur."><img src="anleitung/k05.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Logo &amp; Dateien: Wortmarke und Schale für die Agentur."></button>
+    <figcaption><span>markenbuch / logo &amp; dateien</span><span>Größer ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k06">
+  <div class="kap__t"><span class="mono">06 · Logo &amp; Dateien</span><h2>Farbwerte kopieren.</h2><p class="einl">Die Farben des Hauses stehen mit Namen und Rolle da: Salbei, Creme und Papier, Gold, Jade und die Schrift. Ein Klick genügt.</p>
+    <ol class="schritte"><li><span>1</span><p>Auf eine Farbe klicken: der Wert (zum Beispiel #4D5C4E für Salbei) liegt in der Zwischenablage.</p></li><li><span>2</span><p>Ein Klick auf die RGB-Zeile kopiert die RGB-Werte.</p></li><li><span>3</span><p>Darunter laden Sie die Farben als CSS, JSON oder ASE (für InDesign und Illustrator) und die Schriften als WOFF2 oder als Paket mit TTF.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Gold zieht Linien und schreibt nie den Lesetext. Jade ist ein leiser Akzent, nie eine große Fläche.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild groß ansehen: Farbwerte kopieren."><img src="anleitung/k06.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Logo &amp; Dateien: Farbwerte kopieren."></button>
+    <figcaption><span>markenbuch / logo &amp; dateien</span><span>Größer ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k07">
+  <div class="kap__t"><span class="mono">07 · Markenprüfung</span><h2>Einen Entwurf prüfen.</h2><p class="einl">Schickt eine Agentur einen Flyer oder einen Beitrag, prüfen Sie hier, ob er zu Uncle Hung passt.</p>
+    <ol class="schritte"><li><span>1</span><p>Den Entwurf in das Feld ziehen oder «Datei wählen». Bild (JPG, PNG, WebP) oder PDF, bis 30 MB.</p></li><li><span>2</span><p>«Prüfen» drücken. Das Markenbuch misst die Farben gegen die Farben des Hauses.</p></li><li><span>3</span><p>Nach einem Moment steht die Rückmeldung da. Unter dem leeren Feld steht schon ein Beispiel.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Solange die Prüfung mit KI nicht eingeschaltet ist, antwortet eine Probe: die Farben sind gemessen, der Rest ist als Probe beschriftet.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild groß ansehen: Einen Entwurf prüfen."><img src="anleitung/k07.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Markenprüfung: Einen Entwurf prüfen."></button>
+    <figcaption><span>markenbuch / markenprüfung</span><span>Größer ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k08">
+  <div class="kap__t"><span class="mono">08 · Markenprüfung</span><h2>Die Rückmeldung lesen.</h2><p class="einl">Oben ein Satz, wie nah der Entwurf am Haus ist. Darunter Punkt für Punkt: Farben, Schrift, Zeichen, Bild und Ton.</p>
+    <ol class="schritte"><li><span>1</span><p>Jeder Punkt hat ein Urteil: «passt», «achten» oder «passt nicht». Was nicht passt, steht oben.</p></li><li><span>2</span><p>Links die gemessenen Farben: wie viel der Fläche in den Farben des Hauses liegt, und welche Töne fremd sind. Diese Messung macht keine KI.</p></li><li><span>3</span><p>«Als Text kopieren» gibt Ihnen die Rückmeldung für die Mail an die Agentur. «Ergebnis sichern» legt sie als Datei auf Ihren Rechner, nur wenn Sie es wollen.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Das Beispiel ist eigens für Uncle Hung gezeichnet. Die Farben darin sind wirklich gemessen; die Urteile zu Schrift, Zeichen, Bild und Ton sind ein Beispiel, so wie die Prüfung antwortet.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild groß ansehen: Die Rückmeldung lesen."><img src="anleitung/k08.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Markenprüfung: Die Rückmeldung lesen."></button>
+    <figcaption><span>markenbuch / markenprüfung</span><span>Größer ansehen</span></figcaption></figure>
+</article>
+<article class="kap" id="k09">
+  <div class="kap__t"><span class="mono">09 · Markenbuch</span><h2>Im Markenbuch nachschlagen.</h2><p class="einl">Das Markenbuch erklärt in zehn Blättern, wie das Haus aussieht: die Schale, die Wortmarke, Schriften, Farben und ihre Herkunft, die Farbwelt, Richtig und falsch, Bildwelt, Stimmen, den Ton und die eigene Welt.</p>
+    <ol class="schritte"><li><span>1</span><p>Links «Markenbuch» oder auf der Übersicht «Markenbuch» drücken.</p></li><li><span>2</span><p>Oben im Markenbuch springen Sie zu jedem Blatt. «Als PDF sichern» legt es als PDF ab.</p></li></ol>
+    <p class="wissen"><b>Gut zu wissen</b>Die Markenprüfung prüft nach denselben Regeln. Ändert sich etwas an der Marke, wird beides zusammen neu gebaut.</p></div>
+  <figure class="kap__b"><button type="button" class="bild" aria-label="Bild groß ansehen: Im Markenbuch nachschlagen."><img src="anleitung/k09.jpg" width="1200" height="714" loading="lazy" decoding="async" alt="Markenbuch, Markenbuch: Im Markenbuch nachschlagen."></button>
+    <figcaption><span>markenbuch / markenbuch</span><span>Größer ansehen</span></figcaption></figure>
+</article>
+  <div class="fuss"><span>Markenbuch · Uncle Hung, Gersthofen</span><a class="zurueck" href="./">Zurück</a></div>
+</main>
+<div class="gross" id="gross" hidden role="dialog" aria-modal="true" aria-label="Bild groß"><img alt=""><small>Klick oder Esc zum Schließen</small></div>
+<script src="anleitung.js"></script>
+</body>
+</html>

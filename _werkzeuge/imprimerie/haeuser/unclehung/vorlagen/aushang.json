@@ -1,0 +1,216 @@
+{
+ "art": "aushang",
+ "format": "a4h",
+ "vorlagen": [
+  {
+   "id": "aushang-001",
+   "titel": "Öffnungszeiten",
+   "bereich": "Zeiten & Hinweise",
+   "vorlage": "aushang",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Öffnungszeiten",
+    "titel": "Montag bis Freitag",
+    "text": "11.00 – 14.30 Uhr\n17.00 – 20.30 Uhr\n\nSamstag, Sonn- und Feiertage\ngeschlossen, geöffnet nach Vereinbarung",
+    "aktion": "0821 / 2185710"
+   }
+  },
+  {
+   "id": "aushang-002",
+   "titel": "Öffnungszeiten, Salbei",
+   "bereich": "Zeiten & Hinweise",
+   "vorlage": "aushang",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Öffnungszeiten",
+    "titel": "Schön, dass du da bist",
+    "text": "Montag bis Freitag\n11.00 – 14.30 Uhr\n17.00 – 20.30 Uhr\n\nSamstag, Sonn- und Feiertage\ngeöffnet nach Vereinbarung",
+    "aktion": "Reservieren geht am einfachsten per Telefon · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "aushang-003",
+   "titel": "Weihnachtsmenüs, Aushang",
+   "bereich": "Uncle’s Christmas",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle’s Christmas · November und Dezember",
+    "titel": "Drei Weihnachtsmenüs",
+    "text": "Comfort Menu · 58 € pro Person\nBotanical Menu · 58 € pro Person · vegan\nHot Pot Menu · 65 € pro Person · ab 2 Personen\n\nAb 2 Personen · mindestens 3 Tage Vorlauf\nFestlich gedeckter Tisch inklusive",
+    "aktion": "Vorbestellen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "aushang-004",
+   "titel": "Weihnachtsmenüs, Salbei",
+   "bereich": "Uncle’s Christmas",
+   "vorlage": "aushang",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle’s Christmas",
+    "titel": "Weihnachten ohne Stress",
+    "text": "Der Tisch ist gedeckt, die Familie kümmert sich ums Essen,\nim November und Dezember.\n\nAb 2 Personen · mindestens 3 Tage Vorlauf",
+    "aktion": "0821 / 2185710"
+   }
+  },
+  {
+   "id": "aushang-005",
+   "titel": "Lunch bis 14.00 Uhr",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "aushang",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Lunchdeals",
+    "titel": "Täglich gültig bis 14.00 Uhr",
+    "text": "Zu jedem Hauptgericht\nFrühlingsrollen oder Pekingsuppe gratis dazu,\nnur so lange der Vorrat reicht.",
+    "aktion": "Alle Gerichte auch to go"
+   }
+  },
+  {
+   "id": "aushang-006",
+   "titel": "Abends ab 17 Uhr",
+   "bereich": "Abends & Kamin",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Abends bei Uncle Hung",
+    "titel": "Ab 17 Uhr am Kamin",
+    "text": "Ab 17 Uhr wird der Gastraum zum Wohnzimmer:\nKamin, Palmentapete und über dem Tisch\ndie Leuchtschrift «pho-gettable».",
+    "aktion": "Montag bis Freitag · 17.00 – 20.30 Uhr"
+   }
+  },
+  {
+   "id": "aushang-007",
+   "titel": "Feiern im Haus",
+   "bereich": "Feiern & Wintergarten",
+   "vorlage": "aushang",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Feiern",
+    "titel": "Bis 45 Gäste im Haus",
+    "text": "Der beheizte Wintergarten bietet\nmit seinem besonderen Charme\nPlatz für 25 weitere Gäste.",
+    "aktion": "Anfrage · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "aushang-008",
+   "titel": "Kostenlose Parkplätze",
+   "bereich": "Zeiten & Hinweise",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Dieselstraße 2 · 86368 Gersthofen",
+    "titel": "Kostenlose Parkplätze",
+    "text": "Auch an der Straße.",
+    "aktion": "Mitten im Industriegebiet von Gersthofen"
+   }
+  },
+  {
+   "id": "aushang-009",
+   "titel": "Der Kamin",
+   "bereich": "Abends & Kamin",
+   "vorlage": "aushang",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Seit dem Umbau 2021",
+    "titel": "Das warme Herz des Raums",
+    "text": "Seit dem Umbau 2021 sieht der Gastraum aus wie heute:\nPalmentapete, Kamin, Holz und Licht.\nDaneben der beheizte Wintergarten.",
+    "aktion": "Montag bis Freitag · 17.00 – 20.30 Uhr"
+   }
+  },
+  {
+   "id": "aushang-010",
+   "titel": "Wechselnde Specials",
+   "bereich": "Specials & Sweets",
+   "vorlage": "aushang",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Neue Special-Karte seit 5. Oktober",
+    "titel": "Wechselnde Specials",
+    "text": "Neben der Karte kocht die Familie wechselnde Specials\nmit neuen Gerichten und Drinks.\nWas gerade läuft, steht im Lokal und auf Instagram.",
+    "aktion": "@unclehung.official"
+   }
+  }
+ ]
+}

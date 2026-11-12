@@ -1,0 +1,136 @@
+{
+ "art": "visitenkarte",
+ "format": "vk",
+ "vorlagen": [
+  {
+   "id": "visitenkarte-001",
+   "titel": "Visitenkarte Inhaberin",
+   "bereich": "Familie & Haus",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle Hung · Gersthofen",
+    "titel": "Ngo Thi Hong Yen",
+    "unter": "Inhaberin",
+    "text": "",
+    "fuss": "0821 / 2185710 · v.nguyen2@gmx.de"
+   },
+   "rueck": {
+    "vorlage": "rueckseite",
+    "inhalt": {
+     "text": "Did you eat today?"
+    }
+   }
+  },
+  {
+   "id": "visitenkarte-002",
+   "titel": "Visitenkarte, Papier",
+   "bereich": "Familie & Haus",
+   "vorlage": "deckel",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Vietnamesisches Familienbistro",
+    "titel": "Uncle Hung",
+    "unter": "Dieselstraße 2 · 86368 Gersthofen",
+    "text": "",
+    "fuss": "0821 / 2185710 · @unclehung.official"
+   },
+   "rueck": {
+    "vorlage": "rueckseite",
+    "inhalt": {
+     "text": "Did you eat today?"
+    }
+   }
+  },
+  {
+   "id": "visitenkarte-003",
+   "titel": "Visitenkarte, Papier warm",
+   "bereich": "Familie & Haus",
+   "vorlage": "deckel",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Seit 2009",
+    "titel": "Uncle Hung",
+    "unter": "Mo – Fr · 11.00 – 14.30 · 17.00 – 20.30",
+    "text": "",
+    "fuss": "0821 / 2185710 · @unclehung.official"
+   },
+   "rueck": {
+    "vorlage": "rueckseite",
+    "inhalt": {
+     "text": "Did you eat today?"
+    }
+   }
+  },
+  {
+   "id": "visitenkarte-004",
+   "titel": "Visitenkarte Catering",
+   "bereich": "Familie & Haus",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Catering · Feiern",
+    "titel": "Uncle Hung",
+    "unter": "Vom Lunch im Pausenraum bis zur Firmenfeier",
+    "text": "",
+    "fuss": "v.nguyen2@gmx.de"
+   },
+   "rueck": {
+    "vorlage": "rueckseite",
+    "inhalt": {
+     "text": "Did you eat today?"
+    }
+   }
+  },
+  {
+   "id": "visitenkarte-005",
+   "titel": "Visitenkarte, Rückseite",
+   "bereich": "Familie & Haus",
+   "vorlage": "rueckseite",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "text": "Did you eat today?"
+   }
+  }
+ ]
+}

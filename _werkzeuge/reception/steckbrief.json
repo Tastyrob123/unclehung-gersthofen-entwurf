@@ -1,0 +1,581 @@
+{
+ "stand": 1794411110.726183,
+ "bereiche": [
+  {
+   "bereich": "Das Haus",
+   "gruppen": [
+    {
+     "gruppe": "Auf einen Blick",
+     "zeilen": [
+      {
+       "fid": "ebd4b78067",
+       "was": "Adresse",
+       "angabe": "Dieselstraße 2, 86368 Gersthofen",
+       "beleg": "Uncle Hung, Inhaberin Ngo Thi Hong Yen, Dieselstraße 2, 86368 Gersthofen",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "b75f262d66",
+       "was": "Telefon und E-Mail",
+       "angabe": "0821 / 2185710, v.nguyen2@gmx.de",
+       "beleg": "Telefon: 0821 / 2185710 · E-Mail: v.nguyen2@gmx.de",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "20b60158f9",
+       "was": "Seit",
+       "angabe": "2009 in Familienhand, mitten im Industriegebiet von Gersthofen",
+       "beleg": "## Seit 2009 in Familienhand.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "eröffnet, seitdem mitten im Industriegebiet von Gersthofen"
+       ]
+      },
+      {
+       "fid": "2e7d818802",
+       "was": "Inhaberin",
+       "angabe": "Ngo Thi Hong Yen",
+       "beleg": "Uncle Hung, Inhaberin Ngo Thi Hong Yen",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Die Familie",
+     "zeilen": [
+      {
+       "fid": "96d204d2b0",
+       "was": "Küche",
+       "angabe": "Uncle Hung kocht traditionell, seine Tochter Hani bringt den kreativen und modernen Einfluss ein",
+       "beleg": "«Die traditionellen Kochkünste von Uncle Hung sorgen für das Authentische, Hani, seine Tochter, bringt den kreativen und modernen Einfluss ein.»",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "57a5a6cc42",
+       "was": "Google",
+       "angabe": "4,8 Sterne aus 1.057 Bewertungen (Stand 11.11.2026)",
+       "beleg": "Sterne bei Google, aus 1.057 Bewertungen (Stand 11.11.2026)",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "72af3fd6ed",
+       "was": "Instagram",
+       "angabe": "@unclehung.official, 7.754 Menschen folgen der Familie",
+       "beleg": "Menschen folgen der Familie auf Instagram, Küche und Alltag inklusive",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "@unclehung.official"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Zeiten & Reservieren",
+   "gruppen": [
+    {
+     "gruppe": "Wann offen ist",
+     "zeilen": [
+      {
+       "fid": "ef377e9fa1",
+       "was": "Mittags",
+       "angabe": "Montag bis Freitag, 11.00 bis 14.30 Uhr",
+       "beleg": "Montag bis Freitag 11.00 – 14.30 Uhr",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "d2347dda74",
+       "was": "Abends",
+       "angabe": "Montag bis Freitag, 17.00 bis 20.30 Uhr",
+       "beleg": "11.00 – 14.30 Uhr 17.00 – 20.30 Uhr",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "8457489acd",
+       "was": "Wochenende und Feiertage",
+       "angabe": "Samstag, Sonn- und Feiertage geschlossen, geöffnet nach Vereinbarung (etwa für eine Feier)",
+       "beleg": "Samstag, Sonn- und Feiertage geschlossen geöffnet nach Vereinbarung",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Am Wochenende und an Feiertagen öffnet die Familie nach Vereinbarung, etwa für deine Feier."
+       ]
+      }
+     ]
+    },
+    {
+     "gruppe": "Reservieren",
+     "zeilen": [
+      {
+       "fid": "245c563ad4",
+       "was": "Tisch",
+       "angabe": "am einfachsten per Telefon, 0821 / 2185710; eine Buchung online gibt es nicht",
+       "beleg": "Reservieren geht am einfachsten per Telefon. Telefon 0821 / 2185710",
+       "datei": "gast_umgebung.txt",
+       "mehr": [
+        "Eine Buchung online gibt es nicht."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Mittag & Lunchdeals",
+   "gruppen": [
+    {
+     "gruppe": "Lunchdeals",
+     "zeilen": [
+      {
+       "fid": "5c87401f4a",
+       "was": "Wann",
+       "angabe": "Montag bis Freitag, täglich bis 14.00 Uhr",
+       "beleg": "## Lunchdeals (Täglich gültig bis 14.00 Uhr)",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Montag bis Freitag ab 11 Uhr."
+       ]
+      },
+      {
+       "fid": "87d311077a",
+       "was": "L1",
+       "angabe": "Curry Chicken oder Veggie mit Reis, 10,00 €",
+       "beleg": "L1 Curry Chicken oder Veggie mit Reis: 10,00 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "410d0059e7",
+       "was": "L2",
+       "angabe": "Erdnuss Chicken oder Veggie mit Reis, 10,00 €",
+       "beleg": "L2 Erdnuss Chicken oder Veggie mit Reis: 10,00 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "8ea01d511f",
+       "was": "L3",
+       "angabe": "Gebratene Nudeln mit Chicken oder Veggie, 9,00 €",
+       "beleg": "L3 Gebratene Nudeln mit Chicken oder Veggie: 9,00 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "6ed8c83a8b",
+       "was": "L4",
+       "angabe": "Gebratener Reis mit Chicken oder Veggie, 9,00 €",
+       "beleg": "L4 Gebratener Reis mit Chicken oder Veggie: 9,00 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "e8680c8b1b",
+       "was": "L5",
+       "angabe": "Bun Nem, Crispy Chicken Bowl oder Pekingbowl, 13,00 €",
+       "beleg": "L5 Bun Nem, Crispy Chicken Bowl oder Pekingbowl: 13,00 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "d7aba9bd89",
+       "was": "Gratis dazu",
+       "angabe": "Frühlingsrollen oder Pekingsuppe zu jedem Hauptgericht, bis 14.00 Uhr, so lange der Vorrat reicht",
+       "beleg": "Bis 14.00 Uhr Frühlingsrollen oder Pekingsuppe zu jedem Hauptgericht gratis dazu, nur so lange der Vorrat reicht.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Mittagspause",
+     "zeilen": [
+      {
+       "fid": "82798cfbe1",
+       "was": "To go",
+       "angabe": "alle Gerichte und alle Getränke gibt es auch zum Mitnehmen",
+       "beleg": "Alle Gerichte und alle Getränke gibt es auch to go.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "1742ccf5f6",
+       "was": "Lunch-Catering",
+       "angabe": "Uncle Hung bringt den Mittag auch in den Pausenraum",
+       "beleg": "Uncle Hung bringt den Mittag auch in den Pausenraum.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Karte & Allergene",
+   "gruppen": [
+    {
+     "gruppe": "Lieblinge des Hauses",
+     "zeilen": [
+      {
+       "fid": "6f7378b02d",
+       "was": "Pho",
+       "angabe": "V5 Pho Soup mit Chicken oder Beef, 12,50 €, 24 h gekochte kräftige Fleischbrühe",
+       "beleg": "V5 Pho Soup mit Chicken oder Beef (24 h gekochte kräftige Fleischbrühe, Reisbandnudeln, Sojasprossen, Koriander): 12,50 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "0ec4026192",
+       "was": "Peking Bowl",
+       "angabe": "V7, Crispy Duck auf Reis, 16,90 €",
+       "beleg": "V7 Peking Bowl (Crispy Duck auf Reis, würziger Pekingsauce, Salat, crispy Topping & Kräutergarnitur): 16,90 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "53b93f9eef",
+       "was": "Sommerrollen",
+       "angabe": "V6 Goi Cuon (5 St.), 17,50 €",
+       "beleg": "V6 Goi Cuon aka Sommerrollen (5 St.)",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "cab54f0d2e",
+       "was": "Specials",
+       "angabe": "wechselnde Specials mit neuen Gerichten und Drinks, was gerade läuft, steht im Lokal und auf Instagram",
+       "beleg": "Neben der Karte kocht die Familie wechselnde Specials mit neuen Gerichten und Drinks. Was gerade läuft, steht im Lokal und auf Instagram.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Vegan und Allergene",
+     "zeilen": [
+      {
+       "fid": "869e3f7bf0",
+       "was": "Veggie / Vegan",
+       "angabe": "Wok-Gemüse mit Reis und Sauce deiner Wahl, 30 bis 31A vegan, ab 10,50 €",
+       "beleg": "Wok-Gemüse mit Reis und Sauce deiner Wahl. 30 bis 31A vegan.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "30 Süß Sauer Sauce: 10,50 €"
+       ]
+      },
+      {
+       "fid": "1d63c9d516",
+       "was": "Allergene",
+       "angabe": "je Rubrik als Kürzel A bis O (Allergene) und 1 bis 9 (Zusatzstoffe) auf der Karte",
+       "beleg": "## Legende der Allergene und Zusatzstoffe",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "A: glutenhaltiges Getreide"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Matcha & Drinks",
+   "gruppen": [
+    {
+     "gruppe": "Signature Drinks",
+     "zeilen": [
+      {
+       "fid": "aa7f1b4fc0",
+       "was": "Matcha",
+       "angabe": "diverse Matcha-Kreationen (Mango, Banana, Classy, Strawberry, Lavendel u. v. m.), 6,50 €",
+       "beleg": "Diverse Matcha-Kreationen (Mango, Banana, Classy, Strawberry, Lavendel u. v. m.): 6,50 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "71dfb6e78f",
+       "was": "Hungmade Icetea",
+       "angabe": "hausgemacht, 5,50 €",
+       "beleg": "Hungmade Icetea: 5,50 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "957c479737",
+       "was": "Spritz",
+       "angabe": "Lychee, Mango, Aperol, 6,50 €",
+       "beleg": "Spritz-Variationen (Lychee, Mango, Aperol): 6,50 €",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "6731c97b8b",
+       "was": "To go",
+       "angabe": "alle Getränke auch to go, größere Auswahl im Lokal",
+       "beleg": "Eine größere Getränkeauswahl findet ihr im Lokal. Alle Getränke auch to go erhältlich.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "9a2bd53a48",
+       "was": "Schmeckfestival",
+       "angabe": "2025 mit eigenem Matcha-Stand auf dem Schmeckfestival in Augsburg",
+       "beleg": "2025 stand die Familie mit eigenem Matcha-Stand auf dem Schmeckfestival in Augsburg",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Abends & Raum",
+   "gruppen": [
+    {
+     "gruppe": "Der Raum",
+     "zeilen": [
+      {
+       "fid": "6490df0b53",
+       "was": "Ab 17 Uhr",
+       "angabe": "Kamin, Palmentapete und die Leuchtschrift «pho-gettable»",
+       "beleg": "Ab 17 Uhr wird der Gastraum zum Wohnzimmer: Kamin, Palmentapete und über dem Tisch die Leuchtschrift «pho-gettable».",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "b1324bf1c2",
+       "was": "Gastraum",
+       "angabe": "bis zu 45 Gäste, an langen Tafeln oder zu zweit",
+       "beleg": "Bis zu 45 Gäste finden im Haus Platz, an langen Tafeln oder zu zweit.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "7e3e340dac",
+       "was": "Wintergarten",
+       "angabe": "beheizt, Platz für 25 weitere Gäste",
+       "beleg": "Beheizt, mit besonderem Charme und Platz für 25 weitere Gäste.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "e671dc7816",
+       "was": "Kamin",
+       "angabe": "seit dem Umbau 2021",
+       "beleg": "Seit dem Umbau 2021 das warme Herz des Raums.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "d859faeddd",
+       "was": "Donnerstags",
+       "angabe": "Shortrib Thursday",
+       "beleg": "und donnerstags der Shortrib Thursday.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Feiern & Weihnachten",
+   "gruppen": [
+    {
+     "gruppe": "Feiern im Haus",
+     "zeilen": [
+      {
+       "fid": "85aa117266",
+       "was": "Platz",
+       "angabe": "bis zu 45 Gäste im Haus, der beheizte Wintergarten für 25 weitere",
+       "beleg": "Im Haus bewirtet die Familie bis zu 45 Gäste, der beheizte Wintergarten bietet mit seinem besonderen Charme Platz für 25 weitere.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "9fb1485352",
+       "was": "Anlässe",
+       "angabe": "Geburtstage, Essen nach der standesamtlichen Trauung, Firmenmeetings, kleinere Feierlichkeiten",
+       "beleg": "Ideal für Geburtstage, Essen nach der standesamtlichen Trauung, Firmenmeetings und kleinere Feierlichkeiten.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Uncle’s Christmas",
+     "zeilen": [
+      {
+       "fid": "9a540c33dc",
+       "was": "Wann",
+       "angabe": "im November und Dezember, am festlich gedeckten Tisch",
+       "beleg": "Im November und Dezember drei Weihnachtsmenüs am festlich gedeckten Tisch, ab zwei Personen und mit drei Tagen Vorlauf.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "d702d29273",
+       "was": "Comfort Menu",
+       "angabe": "58 € pro Person",
+       "beleg": "## Comfort Menu 58 € PRO PERSON",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "f38d1d08d4",
+       "was": "Botanical Menu",
+       "angabe": "58 € pro Person, vegan",
+       "beleg": "Botanical Menu 58 € pro Person, vegan",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "eb9b5874a3",
+       "was": "Hot Pot Menu",
+       "angabe": "65 € pro Person, ab 2 Personen",
+       "beleg": "## Hot Pot Menu 65 € PRO PERSON · AB 2 PERSONEN",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "cda82c059c",
+       "was": "Regeln",
+       "angabe": "ab 2 Personen, mindestens 3 Tage Vorlauf, während der regulären Öffnungszeiten",
+       "beleg": "Ab 2 Personen Mindestens 3 Tage Vorlauf Während der regulären Öffnungszeiten Festlich gedeckter Tisch inklusive",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Catering",
+   "gruppen": [
+    {
+     "gruppe": "Das Paket",
+     "zeilen": [
+      {
+       "fid": "0ccd439c32",
+       "was": "Was dazugehört",
+       "angabe": "Location, Menü, Deko und Entertainment, über erfahrene Partner",
+       "beleg": "Dann kommt die Familie zu dir, mit allem, was dazugehört: Location, Menü, Deko und Entertainment, über erfahrene Partner.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "69d58a3975",
+       "was": "Für wen",
+       "angabe": "private Feiern, Firmen-Events, Get-together",
+       "beleg": "## Private Feiern Geburtstage, Hochzeiten, Familienfeste.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "## Firmen-Events Vom Lunch im Pausenraum bis zur Firmenfeier."
+       ]
+      }
+     ]
+    },
+    {
+     "gruppe": "Anfrage und Abwicklung",
+     "zeilen": [
+      {
+       "fid": "56e1c0f69a",
+       "was": "Anfrage",
+       "angabe": "Name, Location, Anlass, Datum, Gruppengröße, persönliche Wünsche",
+       "beleg": "## Wünsche schicken Je mehr wir wissen, desto besser wird dein Event. Name Datum Location Gruppengröße Anlass Persönliche Wünsche",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "2e2cdce498",
+       "was": "Anzahlung",
+       "angabe": "in der Regel 30 %, danach ist der Termin verbindlich",
+       "beleg": "Mit einer Anzahlung von in der Regel 30 % ist der Termin für beide Seiten verbindlich.",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "ccffbda50e",
+       "was": "Storno",
+       "angabe": "bis 3 Wochen vorher kostenfrei; unter zwei Wochen Gutschrift oder Verrechnung; zwei Tage vorher bleibt die Anzahlung",
+       "beleg": "STORNO 3 Wochen ## vorher kostenfrei.",
+       "datei": "gast_wissen.txt",
+       "mehr": [
+        "Gutschrift für deinen nächsten Besuch oder Verrechnung mit einem anderen Termin",
+        "Die Anzahlung bleibt bestehen"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bereich": "Anfahrt & Kontakt",
+   "gruppen": [
+    {
+     "gruppe": "Anfahrt",
+     "zeilen": [
+      {
+       "fid": "ed9a0104bf",
+       "was": "Lage",
+       "angabe": "mitten im Industriegebiet von Gersthofen bei Augsburg",
+       "beleg": "Lage: Mitten im Industriegebiet von Gersthofen bei Augsburg.",
+       "datei": "gast_umgebung.txt",
+       "mehr": []
+      },
+      {
+       "fid": "9249756759",
+       "was": "Parken",
+       "angabe": "kostenlose Parkplätze, auch an der Straße",
+       "beleg": "Parken: Kostenlose Parkplätze, auch an der Straße.",
+       "datei": "gast_umgebung.txt",
+       "mehr": []
+      },
+      {
+       "fid": "57077ff58a",
+       "was": "Zugang",
+       "angabe": "rollstuhlgerechter Eingang und Sitzplätze im Freien (laut Google)",
+       "beleg": "dazu rollstuhlgerechten Eingang und Sitzplätze im Freien",
+       "datei": "gast_umgebung.txt",
+       "mehr": []
+      }
+     ]
+    },
+    {
+     "gruppe": "Kanäle",
+     "zeilen": [
+      {
+       "fid": "487c1dca55",
+       "was": "Instagram",
+       "angabe": "@unclehung.official, 7.754 Follower",
+       "beleg": "Instagram 7.754 Follower · @unclehung.official",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "acbe04834d",
+       "was": "TikTok",
+       "angabe": "@unclehung.officia, 2.700 Follower",
+       "beleg": "TikTok 2.700 Follower · @unclehung.officia",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      },
+      {
+       "fid": "b7960d53ee",
+       "was": "Facebook",
+       "angabe": "Asia Cuisine Nguyen (Uncle Hung)",
+       "beleg": "Facebook Asia Cuisine Nguyen (Uncle Hung)",
+       "datei": "gast_wissen.txt",
+       "mehr": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

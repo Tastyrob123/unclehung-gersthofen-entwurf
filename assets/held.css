@@ -1,0 +1,148 @@
+/* Uncle Hung · Hero der Startseite, zweite Runde (Robert 11.11.2026, 21:33): 15 ruhige Bildköpfe zur Wahl (?kopf=N).
+   Nur Klassen hx, hx1 … hx15. Bewegung nur über transform und opacity (Bilder setzen sich, Titel aus dem Schlitz). */
+
+/* ---------- Gemeinsam */
+.auftakt.hx .hk{position:relative;margin:0;border-radius:0;transform:none;min-width:0;min-height:0;height:100%}
+.hx-g{position:absolute;inset:0;z-index:0;display:grid;gap:8px;background:var(--tief)}
+.hx-feld{min-width:0}
+.auftakt.hx .hx-g .hk img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hx-g{grid-template-rows:minmax(0,1fr)}
+.hx-schl::after{content:"";position:absolute;inset:0 0 auto 0;height:min(210px,34%);background:linear-gradient(180deg,rgba(16,21,17,.55),rgba(16,21,17,0));pointer-events:none}
+.hx .at-oben nav a{text-shadow:0 0 12px rgba(10,14,11,.5)}
+
+/* Titel in einer Zeile */
+.hx-eins .titel{max-width:none!important;font-size:clamp(56px,8.2vw,150px);white-space:nowrap}
+/* Titel und Satz/Knöpfe nebeneinander */
+.hx-reihe{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:56px;align-items:end}
+.hx-reihe .at-ort,.hx-reihe .titel{grid-column:1/-1}
+.hx-reihe .at-satz{margin-top:30px;max-width:54ch}
+.hx-reihe .knoepfe{margin-top:30px}
+/* Mittig */
+.hx-mitte{display:flex;flex-direction:column;align-items:center;text-align:center}
+.hx-mitte .titel{max-width:none!important}
+.hx-mitte .at-ort{justify-content:center}
+.hx-mitte .at-satz{margin-left:auto;margin-right:auto}
+.hx-mitte .knoepfe{justify-content:center}
+/* Rechts */
+.hx-rechts{display:flex;flex-direction:column;align-items:flex-end;text-align:right}
+.hx-rechts .at-ort{flex-direction:row-reverse}
+.hx-rechts .knoepfe{justify-content:flex-end}
+/* Grosse Wortmarke */
+.hx-marke{color:var(--hell)} .hx-marke svg{display:block;height:auto;width:min(46vw,680px)}
+.auftakt:is(.hx3,.hx15) .at-oben .marke{visibility:hidden}
+
+/* ---------- 1 Curry bis an den Rand: Grundaufbau */
+
+/* ---------- 2 Zwei Bilder, eine Zeile */
+.hx2 .hx-g{grid-template-columns:1fr 1fr}
+.hx2 .at-hof{background:linear-gradient(0deg,rgba(16,21,17,.9) 0%,rgba(16,21,17,.6) 34%,rgba(16,21,17,0) 64%),linear-gradient(180deg,rgba(16,21,17,.5),rgba(16,21,17,0) 22%)}
+
+/* ---------- 3 Wortmarke über dem Tisch */
+.auftakt.hx3{align-items:center}
+.hx3 .at-inhalt{padding:0 0 clamp(48px,6vh,80px);margin-top:clamp(118px,13vh,140px)}
+.hx3 .hx-marke{margin-bottom:clamp(18px,2.6vh,30px)}
+.hx3 .titel{font-size:clamp(56px,7.2vw,128px)}
+.hx3 .at-satz{margin-top:18px}
+.hx3 .at-inhalt .knoepfe{margin-top:30px}
+.hx3 .at-hof{background:radial-gradient(64% 70% at 50% 54%,rgba(16,21,17,.84) 0%,rgba(16,21,17,.6) 52%,rgba(16,21,17,.3) 100%),linear-gradient(180deg,rgba(16,21,17,.45),rgba(16,21,17,0) 22%)}
+
+/* ---------- 4 Drei hohe Bilder, Text mittig */
+.hx4 .hx-g{grid-template-columns:1fr 1.25fr 1fr}
+.hx4 .at-hof,.hx6 .at-hof{background:linear-gradient(0deg,rgba(16,21,17,.9) 0%,rgba(16,21,17,.62) 36%,rgba(16,21,17,0) 66%),linear-gradient(180deg,rgba(16,21,17,.5),rgba(16,21,17,0) 22%)}
+
+/* ---------- 5 Hell, Teller rechts */
+.auftakt.hx5{background:var(--papier);align-items:center}
+.hx5 .hx-g{left:auto;width:52%;background:none}
+.hx5 .at-inhalt{padding:clamp(120px,15vh,160px) calc(52vw - var(--rand) + 56px) clamp(48px,6vh,80px) 0}
+.hx5 .titel,.hx9 .titel,.hx8 .titel,.hx15 .titel{font-size:clamp(56px,7.2vw,128px)}
+.hx5 .at-oben .marke{color:var(--salbei)}
+
+/* ---------- 6 Familie und Schalen (Verlauf wie 4) */
+
+/* ---------- 7 Bild oben, Text unten */
+.auftakt.hx7,.auftakt.hx10,.auftakt.hx14{flex-direction:column;align-items:stretch;justify-content:flex-end}
+.auftakt.hx7{background:var(--papier)}
+.hx7 .hx-g{position:relative;inset:auto;flex:1 1 0;min-height:38vh}
+.hx7 .at-inhalt{padding-top:clamp(28px,4vh,44px);padding-bottom:clamp(36px,5vh,64px)}
+
+/* ---------- 8 Zwei Bilder rahmen die Mitte */
+.auftakt.hx8{background:var(--papier);align-items:center}
+.hx8 .hx-g{grid-template-columns:28fr 44fr 28fr;gap:0;background:var(--papier)}
+.hx8 .at-inhalt{width:44vw;padding:clamp(104px,13vh,140px) 40px clamp(48px,6vh,80px)}
+.hx8 .at-satz{max-width:34ch}
+.hx8 .at-oben nav a{color:var(--tinte);text-shadow:none;opacity:1}
+
+/* ---------- 9 Desserts links, Salbei rechts */
+.auftakt.hx9{background:var(--salbei);align-items:center}
+.hx9 .hx-g{grid-template-columns:1fr 1fr;gap:0;background:var(--salbei)}
+.hx9 .at-inhalt{padding:clamp(120px,15vh,160px) 0 clamp(48px,6vh,80px) calc(50vw - var(--rand) + 64px)}
+.hx9 .at-satz{color:var(--hell)}
+
+/* ---------- 10 Text oben, Bildband unten */
+.hx10 .at-inhalt{padding:clamp(112px,14vh,150px) 0 clamp(30px,4vh,48px)}
+.hx10 .hx-g{position:relative;inset:auto;flex:1 1 0;min-height:34vh;grid-template-columns:repeat(3,1fr)}
+
+/* ---------- 11 Bowl im ganzen Bild, Text rechts */
+.hx11 .at-hof{background:radial-gradient(70% 80% at 86% 64%,rgba(16,21,17,.9) 0%,rgba(16,21,17,.72) 40%,rgba(16,21,17,.28) 66%,rgba(16,21,17,0) 86%),linear-gradient(0deg,rgba(16,21,17,.55),rgba(16,21,17,0) 44%),linear-gradient(180deg,rgba(16,21,17,.45),rgba(16,21,17,0) 22%)}
+
+/* ---------- 12 Ein grosses, zwei kleine */
+.hx12 .hx-g{grid-template-columns:1.7fr 1fr}
+.hx-sp{position:relative;display:grid;grid-template-rows:minmax(0,1fr) minmax(0,1fr);gap:8px;min-height:0}
+
+/* ---------- 13 Pho im Salbeilicht */
+.hx13 .at-hof{background:radial-gradient(70% 80% at 14% 64%,rgba(43,55,45,.92) 0%,rgba(52,66,54,.74) 38%,rgba(77,92,78,.32) 64%,rgba(77,92,78,0) 84%),linear-gradient(0deg,rgba(33,42,35,.6),rgba(33,42,35,0) 46%),linear-gradient(180deg,rgba(16,21,17,.45),rgba(16,21,17,0) 22%)}
+
+/* ---------- 14 Titel über dem breiten Bild */
+.auftakt.hx14{background:var(--papier)}
+.hx14 .at-inhalt{padding:clamp(108px,13vh,140px) 0 clamp(28px,4vh,44px)}
+.hx14 .at-satz{margin-top:18px}
+.hx14 .at-inhalt .knoepfe{margin-top:26px}
+.hx14 .hx-g{position:relative;inset:auto;flex:1 1 0;min-height:34vh;background:none}
+.hx14 .at-oben .marke{color:var(--salbei)} .hx14 .at-oben nav a{color:var(--tinte);text-shadow:none}
+
+/* ---------- 15 Wortmarke links, zwei Bilder rechts */
+.auftakt.hx15{align-items:center}
+.hx15 .hx-g{grid-template-columns:2fr 1fr 1fr}
+.hx15 .hx-feld{background:var(--tief)}
+.hx15 .hx-marke svg{width:min(34vw,500px)}
+.hx15 .hx-marke{margin-bottom:clamp(22px,3vh,36px)}
+.hx15 .at-inhalt{padding:clamp(90px,11vh,120px) calc(50vw - var(--rand) + 56px) clamp(48px,6vh,80px) 0}
+
+/* ---------- Wahlleiste des Heros: oben neben der Wortmarke statt unten über den Knöpfen */
+.wahlleiste[data-wahl="kopf"]{top:22px;bottom:auto;left:calc(var(--rand) + 200px);transform:none}
+.wahlleiste[data-wahl="kopf"].weg{transform:translateY(-170%)}
+.wahlleiste[data-wahl="kopf"] em{display:inline-block;max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
+@media (max-width:1360px){.wahlleiste[data-wahl="kopf"] em{display:none}}
+@media (max-width:560px){.wahlleiste[data-wahl="kopf"]{left:auto;right:14px;top:18px}}
+
+/* ---------- Tablet und Handy */
+@media (max-width:900px){
+  .hx-eins .titel{white-space:normal}
+  .hx-reihe{grid-template-columns:minmax(0,1fr)}
+  .hx-reihe .at-satz{margin-top:24px}
+  .hx-rechts{align-items:flex-start;text-align:left} .hx-rechts .at-ort{flex-direction:row} .hx-rechts .knoepfe{justify-content:flex-start}
+  .hx-marke svg,.hx15 .hx-marke svg{width:min(78vw,520px)}
+  .hx4 .hx-g{grid-template-columns:1fr 1fr} .hx4 .hx-g .hk:first-child{display:none}
+  .hx12 .hx-g{grid-template-columns:1.4fr 1fr}
+  .hx10 .hx-g{grid-template-columns:1fr 1fr} .hx10 .hx-g .hk:nth-child(3){display:none}
+
+  /* geteilte Köpfe: Bild oben, Text darunter auf der Fläche */
+  .auftakt.hx-split{flex-direction:column;align-items:stretch;justify-content:flex-end}
+  .hx-split .hx-g{position:relative;inset:auto;width:auto;flex:1 1 0;min-height:40svh}
+  .hx-split .at-inhalt{width:auto;margin:0 var(--rand);padding:30px 0 clamp(40px,6vh,64px)!important}
+  .hx8 .at-oben nav a{color:var(--hell)}
+  .hx5 .at-oben .marke{color:var(--hell)}
+  .hx8 .hx-g{grid-template-columns:1fr 1fr;gap:8px} .hx8 .hx-feld,.hx9 .hx-feld,.hx15 .hx-feld{display:none}
+  .hx9 .hx-g{grid-template-columns:1fr}
+  .hx15 .hx-g{grid-template-columns:1fr 1fr}
+  .hx15 .hx-marke svg{width:min(66vw,420px)}
+  .hx10 .at-inhalt,.hx14 .at-inhalt{padding-top:104px!important}
+  .hx10 .hx-g,.hx14 .hx-g{flex:1 1 0;min-height:34svh}
+  .hx-mitte.dunkeltext{align-items:flex-start;text-align:left} .hx-mitte.dunkeltext .at-ort{justify-content:flex-start} .hx-mitte.dunkeltext .knoepfe{justify-content:flex-start} .hx-mitte.dunkeltext .at-satz{margin-left:0}
+}
+@media (max-width:560px){
+  .auftakt.hx2 .at-hof,.auftakt.hx4 .at-hof,.auftakt.hx6 .at-hof{background:linear-gradient(0deg,rgba(16,21,17,.93) 0%,rgba(16,21,17,.8) 46%,rgba(16,21,17,.3) 72%,rgba(16,21,17,0) 88%),linear-gradient(180deg,rgba(16,21,17,.5),rgba(16,21,17,0) 18%)}
+  .auftakt.hx13 .at-hof{background:linear-gradient(0deg,rgba(43,55,45,.95) 0%,rgba(52,66,54,.82) 46%,rgba(77,92,78,.3) 72%,rgba(77,92,78,0) 88%),linear-gradient(180deg,rgba(16,21,17,.5),rgba(16,21,17,0) 18%)}
+  .auftakt.hx3 .at-hof{background:linear-gradient(0deg,rgba(16,21,17,.9) 0%,rgba(16,21,17,.7) 50%,rgba(16,21,17,.4) 100%)}
+  .hx-split .hx-g{min-height:36svh}
+}

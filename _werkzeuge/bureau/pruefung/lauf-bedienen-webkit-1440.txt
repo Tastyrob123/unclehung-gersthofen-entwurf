@@ -1,0 +1,211 @@
+gut    Übersicht öffnet
+gut    R05 Kopf: Name «Website bearbeiten» aus der einen Stelle
+gut    R01 Aufbau: Kopf, Rand, Hauptfläche, Leiste, Fenster, Quittung
+gut    Startbild: Knopf «Anleitung»
+gut    M26 Demo-Hinweis als ruhige Zeile im Fluss
+gut    M26 Demo-Hinweis verdeckt keinen Titel, Knopf oder Link
+gut    Häufig gebraucht: sieben Kacheln (7)
+gut    Häufig gebraucht: jede Kachel mit geladenem Foto
+gut    Häufig gebraucht: Reihen gleichmässig, letzte Reihe mittig (Fehlerbuch 10a)
+gut    Bereiche: neun Kacheln, jede mit sichtbarem Foto (Foto > 40 px)
+gut    Leiste: ohne Entwurf keine ausgegrauten Knöpfe (leiste_klar)
+gut    R09 Speichern-Knopf sichtbar und ruhig
+gut    Übersicht: kein seitliches Verrutschen bei 1440
+gut    Häufig gebraucht 1 öffnet «b:start»
+gut    Häufig gebraucht 2 öffnet «zahlen»
+gut    Häufig gebraucht 3 öffnet «angaben»
+gut    Häufig gebraucht 4 öffnet «b:start»
+gut    Häufig gebraucht 5 führt zu «Karten & Preislisten» auf 9473 (http://127.0.0.1:9473/_werkzeuge/carte/, antwortet noch nicht)
+gut    Häufig gebraucht 6 öffnet «hinweis»
+gut    Häufig gebraucht 7 öffnet «google»
+gut    Bereich-Kachel öffnet «b:start»
+gut    Bereich-Kachel öffnet «b:mittag»
+gut    Bereich-Kachel öffnet «b:karte»
+gut    Bereich-Kachel öffnet «b:matcha»
+gut    Bereich-Kachel öffnet «b:abends»
+gut    Bereich-Kachel öffnet «b:feiern»
+gut    Bereich-Kachel öffnet «b:catering»
+gut    Bereich-Kachel öffnet «b:besuch»
+gut    Bereich-Kachel öffnet «b:recht»
+gut    Rand: alle Einträge da (17)
+gut    Rand: Weg zu «Karten & Preislisten» auf Port 9473 (über WO_HAUS.wege)
+gut    Rand öffnet «start»
+gut    Ansicht start: kein seitliches Verrutschen bei 1440
+gut    Rand öffnet «b:start»
+gut    Ansicht b:start: kein seitliches Verrutschen bei 1440
+gut    Vorschau lädt mit Stellen (b:start)
+gut    Stellen-Liste gefüllt (b:start)
+gut    b:start: Suche filtert die Stellen
+gut    Rand öffnet «b:mittag»
+gut    Ansicht b:mittag: kein seitliches Verrutschen bei 1440
+gut    Vorschau lädt mit Stellen (b:mittag)
+gut    Stellen-Liste gefüllt (b:mittag)
+gut    b:mittag: Suche filtert die Stellen
+gut    Rand öffnet «b:karte»
+gut    Ansicht b:karte: kein seitliches Verrutschen bei 1440
+gut    Vorschau lädt mit Stellen (b:karte)
+gut    Stellen-Liste gefüllt (b:karte)
+gut    b:karte: Suche filtert die Stellen
+gut    Rand öffnet «b:matcha»
+gut    Ansicht b:matcha: kein seitliches Verrutschen bei 1440
+gut    Vorschau lädt mit Stellen (b:matcha)
+gut    Stellen-Liste gefüllt (b:matcha)
+gut    b:matcha: Suche filtert die Stellen
+gut    Rand öffnet «b:abends»
+gut    Ansicht b:abends: kein seitliches Verrutschen bei 1440
+gut    Vorschau lädt mit Stellen (b:abends)
+gut    Stellen-Liste gefüllt (b:abends)
+gut    b:abends: Suche filtert die Stellen
+gut    Rand öffnet «b:feiern»
+gut    Ansicht b:feiern: kein seitliches Verrutschen bei 1440
+gut    Vorschau lädt mit Stellen (b:feiern)
+gut    Stellen-Liste gefüllt (b:feiern)
+gut    b:feiern: Suche filtert die Stellen
+gut    Rand öffnet «b:catering»
+gut    Ansicht b:catering: kein seitliches Verrutschen bei 1440
+gut    Vorschau lädt mit Stellen (b:catering)
+gut    Stellen-Liste gefüllt (b:catering)
+gut    b:catering: Suche filtert die Stellen
+gut    Rand öffnet «b:besuch»
+gut    Ansicht b:besuch: kein seitliches Verrutschen bei 1440
+gut    Vorschau lädt mit Stellen (b:besuch)
+gut    Stellen-Liste gefüllt (b:besuch)
+gut    b:besuch: Suche filtert die Stellen
+gut    Rand öffnet «b:recht»
+gut    Ansicht b:recht: kein seitliches Verrutschen bei 1440
+gut    Vorschau lädt mit Stellen (b:recht)
+gut    Stellen-Liste gefüllt (b:recht)
+gut    b:recht: Seite 2 von 2 öffnet mit Stellen und Vorschau
+gut    b:recht: Suche filtert die Stellen
+gut    Rand öffnet «angaben»
+gut    Ansicht angaben: kein seitliches Verrutschen bei 1440
+gut    Rand öffnet «zahlen»
+gut    Ansicht zahlen: kein seitliches Verrutschen bei 1440
+gut    Rand öffnet «google»
+gut    Ansicht google: kein seitliches Verrutschen bei 1440
+gut    Rand öffnet «hinweis»
+gut    Ansicht hinweis: kein seitliches Verrutschen bei 1440
+gut    Rand öffnet «haus:stimmen»
+gut    Ansicht haus:stimmen: kein seitliches Verrutschen bei 1440
+gut    Rand öffnet «entwurf»
+gut    Ansicht entwurf: kein seitliches Verrutschen bei 1440
+gut    Rand öffnet «verlauf»
+gut    Ansicht verlauf: kein seitliches Verrutschen bei 1440
+gut    Karte: Gerichte und Preise in der Vorschau als gesperrt markiert (Weg zu den Karten)
+gut    Gesperrte Karten-Stelle: Server lehnt jede Änderung ab (423)
+gut    Startseite: Textstelle in der Vorschau gefunden
+gut    C Klick in der Seite öffnet das Feld der Stelle
+gut    C geöffnete Stelle steht oben im Bild (Fehlerbuch 19.10.)
+gut    C Tippen zeigt sofort in der Vorschau
+gut    R10 Eingabe wartet («1 Eingabe noch nicht gespeichert», Knopf leuchtet)
+gut    R11 Quittung nach dem Speichern
+gut    R09 Speichern-Knopf «Gespeichert»
+gut    Änderung liegt im Entwurf
+gut    Speichern ändert die Seite noch nicht (erst Veröffentlichen)
+gut    Speichern → neu laden → Änderung noch da (R15 Ansicht gemerkt)
+gut    R11 Quittung hat «Rückgängig»
+gut    Rückgängig nimmt die letzte Änderung zurück
+gut    Zeiten & Preise: Suchfeld mit Beispielen des Hauses
+gut    F Filter «Preise» bedient (0 Zeilen, alle Preise stehen in den gesperrten Karten-Stellen)
+gut    F Filter «Zeiten» bedient (12 Zeilen)
+gut    F Filter «Grössen und Dauer» bedient (8 Zeilen)
+gut    F Filter «Alle» bedient (20 Zeilen)
+gut    Zeiten & Preise: nur Angaben dieses Hauses, keine fremde Währung
+gut    F Suche findet «14.30»
+gut    F «In der Seite» springt in den Bereich
+gut    E Telefon steht mit dem Wert der Website (0821 / 2185710)
+gut    E «steht n× und als n Links auf m Seiten»
+gut    E Eingabe wartet in der Leiste
+gut    E Prüfung beim Tippen: Link ohne https:// wird gemeldet
+gut    E Telefon an allen Stellen und in allen Links geändert (62)
+gut    Speichern → neu laden → noch da (Telefon)
+gut    E Server weist ungültiges Telefon ab (422, Stichwort)
+gut    Ungewöhnlich: <script> kommt nicht auf die Seite, Emoji und Umlaute schon
+gut    Ungewöhnlich: leeres Feld wird mit Stichwort abgewiesen
+gut    Ungewöhnlich: 5000 Zeichen werden mit Stichwort abgewiesen
+gut    Netz weg: Meldung mit Stichwort
+gut    Netz weg: Eingabe bleibt offen
+gut    E04 «Wie ursprünglich» bei geänderter Angabe
+gut    Angaben: kein seitliches Verrutschen bei 1440
+gut    I Zähler 60 beim Titel
+gut    I Vorschau wie bei Google schreibt mit
+gut    Speichern → neu laden → noch da (Google-Titel)
+gut    I jede Seite mit eigenem Foto, keins doppelt
+gut    Google-Texte: kein seitliches Verrutschen bei 1440
+gut    Stimmen der Gäste: sechs Einträge (Startseite und Besuch)
+gut    Stimmen: jeder Eintrag mit Foto
+gut    Stimmen: Bildkarten gleichmässig auf Reihen (3 + 3)
+gut    D Fenster «Foto tauschen» öffnet
+gut    D Fotos des Hauses zur Wahl (129)
+gut    D Foto-Auswahl zeigt ganze Kacheln, nie gestaucht
+gut    D Foto mit 400 px wird abgewiesen (bild-klein)
+gut    D Datei ohne Bild wird abgewiesen (bild-art)
+gut    D Foto mit 30 MB schon im Browser abgewiesen (S03)
+gut    D eigenes Foto hochgeladen, neu gesetzt (1600 × 1067, vier Größen)
+gut    D vier Liefergrössen als WebP in assets/bild der Kopie
+gut    D Quittung nach Fototausch
+gut    D getauschtes Foto im Entwurf
+gut    C «Ausblenden» statt Löschen
+gut    Ausblenden liegt im Entwurf
+gut    «Wieder zeigen» steht da
+gut    Wieder zeigen nimmt das Ausblenden zurück
+gut    H Hinweis für Gäste liegt im Entwurf
+gut    K Entwurf listet die Änderungen (80)
+gut    M26 Demo-Hinweis auch im Entwurf
+gut    Entwurf: kein seitliches Verrutschen bei 1440
+gut    R08 Leiste mit Entwurf: «Vorher, nachher» und «Veröffentlichen»
+gut    K «Vorher, nachher» öffnet den Vergleich
+gut    K einzelne Änderung «Zurücknehmen»
+gut    R13 Verlassen mit offener Eingabe: der Browser fragt nach
+gut    Fenster «Veröffentlichen» sagt: Demo, die Website bleibt, wie sie ist
+gut    R12 «Ist online.» nach Veröffentlichen
+gut    Demo-Sperre: Veröffentlichen schreibt nie nach website/ (Prüfsumme gleich)
+gut    Probe-Kopie zeigt Telefon, Link zum Anrufen (+49) und Straße neu
+gut    Probe-Kopie: Google-Titel auf der Seite
+gut    Probe-Kopie: eigenes Foto auf der Seite
+gut    Probe-Kopie: Hinweis für Gäste auf der Seite
+gut    «Website ansehen» liefert den neuen Stand
+gut    R14 Frühere Fassungen mit Datum und Notiz (1)
+gut    R14 «Ursprünglicher Stand» steht unten
+gut    Fehlerbuch: keine Namensabfrage
+gut    R14 Zurückholen legt in den Entwurf, Kopie bleibt bis zum Veröffentlichen
+gut    Ursprung veröffentlicht
+gut    Zurück auf den Ursprung: alle 10 Seiten Byte für Byte wie vorher
+gut    K «Entwurf verwerfen» da
+gut    K Verwerfen leert den Entwurf
+gut    L13 zweites Fenster mit altem Stand bekommt 409 KONFLIKT, nichts überschrieben
+gut    Weg ?ansicht=start antwortet (200)
+gut    Weg zu einem Werkzeug des Hauses: http://127.0.0.1:9472/_werkzeuge/bureau/
+gut    Weg zu einem Werkzeug des Hauses: http://127.0.0.1:9473/_werkzeuge/carte/
+gut    Weg zu einem Werkzeug des Hauses: http://127.0.0.1:9474/_werkzeuge/reception/
+gut    Weg zu einem Werkzeug des Hauses: http://127.0.0.1:9475/_werkzeuge/livre/
+gut    Weg zu einem Werkzeug des Hauses: http://127.0.0.1:9476/_werkzeuge/registre/
+gut    Weg zu einem Werkzeug des Hauses: http://127.0.0.1:9477/_werkzeuge/imprimerie/
+gut    Weg zu einem Werkzeug des Hauses: http://127.0.0.1:9471/_werkzeuge/maison/
+gut    Weg /werkzeuge/website/pruefung.html?haus=unclehung antwortet (200)
+gut    Weg /_werkzeuge/bureau/anleitung.html antwortet (200)
+gut    Weg /werkzeuge/website/_probe-bedienen-11470/unclehung/online/index.html antwortet (200)
+gut    Weg ?rundgang antwortet (200)
+gut    R05 runder Knopf «Kontrollpanel» im Kopf auf Port 9471
+gut    R23 Prüfseite: jeder Punkt in Ordnung (16)
+gut    Prüfseite: Name «Website bearbeiten», kein Weltknopf
+gut    Prüfseite: «Zum Werkzeug» führt zurück
+gut    Prüfseite: kein seitliches Verrutschen bei 1440
+gut    Anleitung: jedes Bild geladen (7)
+gut    Anleitung: Titel mit Werkzeug und Haus
+gut    Anleitung: kein seitliches Verrutschen bei 1440
+gut    R18 kein Rundgang und kein Schild von selbst
+gut    R18 «Kurzer Rundgang» im Rand startet ihn
+gut    R18 Rundgang: vier bis fünf Schritte, dann zu (5)
+gut    R03 Skriptfehler kommt beim Server an (Wegwerf-Protokoll)
+gut    S01 fremde Herkunft 403
+gut    S03 Anfrage über 3 MB 413
+gut    Server-Code nicht abrufbar (404)
+gut    Fehlerprotokoll nicht abrufbar (404)
+gut    Host-Prüfung: fremder Host 421
+gut    keine Fehler in der Konsole (ausser dem absichtlichen Probe-Fehler)
+gut    keine Anfrage an fremde Server
+gut    keine unerwartete Antwort 4xx/5xx
+gut    Website des Hauses (website/) unberührt (Prüfsumme vorher = nachher)
+gut    Echte Daten (_Werkzeuge/daten/unclehung) unberührt
+BESTANDEN · 210 Prüfungen · webkit 1440

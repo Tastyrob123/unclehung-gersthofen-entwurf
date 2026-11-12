@@ -1,0 +1,32 @@
+{
+ "bureau": {
+  "teil": "website",
+  "da": true,
+  "adresse": "/_werkzeuge/bureau/"
+ },
+ "carte": {
+  "teil": "karten",
+  "da": true,
+  "adresse": "/_werkzeuge/carte/"
+ },
+ "imprimerie": {
+  "teil": "druck",
+  "da": true,
+  "adresse": "/_werkzeuge/imprimerie/"
+ },
+ "reception": {
+  "teil": "gaeste",
+  "da": true,
+  "adresse": "/_werkzeuge/reception/"
+ },
+ "livre": {
+  "teil": "marke",
+  "da": true,
+  "adresse": "/_werkzeuge/livre/"
+ },
+ "registre": {
+  "teil": "besuche",
+  "da": true,
+  "adresse": "/_werkzeuge/registre/"
+ }
+}

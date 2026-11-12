@@ -1,0 +1,401 @@
+﻿Art;Tag;Uhrzeit;Land;Ort;Region;Gerät;Sprache des Browsers;Gekommen über;Geblieben (Sekunden);Seiten;Weg durch die Website;Favorit angesehen;Anfrage begonnen;Anfrage abgeschickt;Angerufen;Mail geschrieben;Route geplant
+Beispiel;11.11.2026;17:28;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;829;6;Catering (131 s) > Besuch (95 s) > Matcha (163 s) > Catering (185 s) > Matcha (239 s) > Besuch (16 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;17:16;Österreich;Innsbruck;7;Handy;Deutsch;Google;458;3;Startseite (116 s) > Catering (171 s) > Feiern (171 s);ja;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;17:12;Deutschland;Augsburg;BY;Handy;Deutsch;Google;69;1;Startseite (69 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;16:54;Deutschland;Friedberg;BY;Handy;Englisch;Google;571;3;Mittag (138 s) > Feiern (217 s) > Matcha (216 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;16:45;Deutschland;Augsburg;BY;Handy;Deutsch;Google;232;3;Startseite (27 s) > Feiern (81 s) > Matcha (124 s);ja;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;16:37;Deutschland;Königsbrunn;BY;Rechner;Deutsch;Google;195;3;Startseite (52 s) > Matcha (107 s) > Besuch (36 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;16:04;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;312;4;Startseite (51 s) > Matcha (78 s) > Karte (57 s) > Catering (126 s);nein;ja;nein;nein;nein;nein
+Beispiel;11.11.2026;13:44;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;664;6;Matcha (124 s) > Karte (222 s) > Feiern (59 s) > Karte (159 s) > Abends (39 s) > Catering (61 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;13:40;Deutschland;Königsbrunn;BY;Handy;Deutsch;Google;755;5;Startseite (141 s) > Karte (118 s) > Catering (162 s) > Feiern (167 s) > Karte (167 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;13:33;Deutschland;Neusäß;BY;Handy;Deutsch;Direkt aufgerufen;408;5;Startseite (65 s) > Datenschutz (95 s) > Feiern (88 s) > Besuch (89 s) > Karte (71 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;13:21;Deutschland;München;BY;Handy;Deutsch;Direkt aufgerufen;92;1;Besuch (92 s);nein;nein;nein;ja;nein;nein
+Beispiel;11.11.2026;13:12;Deutschland;Stadtbergen;BY;Handy;Deutsch;Google;85;1;Startseite (85 s);nein;nein;nein;ja;nein;nein
+Beispiel;11.11.2026;12:53;Deutschland;Königsbrunn;BY;Rechner;Deutsch;Instagram;592;4;Startseite (149 s) > Impressum (114 s) > Karte (185 s) > Matcha (144 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;12:19;Deutschland;Gersthofen;BY;Tablet;Deutsch;Google;314;3;Abends (44 s) > Karte (210 s) > Abends (60 s);nein;nein;nein;ja;nein;nein
+Beispiel;11.11.2026;12:04;Deutschland;Augsburg;BY;Handy;Deutsch;Google;416;4;Startseite (10 s) > Matcha (145 s) > Karte (199 s) > Catering (62 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;11:44;Deutschland;Gersthofen;BY;Handy;Deutsch;Instagram;355;3;Karte (186 s) > Catering (117 s) > Besuch (52 s);nein;ja;nein;ja;nein;nein
+Beispiel;11.11.2026;11:44;Deutschland;München;BY;Handy;Deutsch;TikTok;258;3;Startseite (85 s) > Karte (100 s) > Abends (73 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;11:32;Deutschland;Neusäß;BY;Handy;Deutsch;TikTok;87;1;Matcha (87 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;11:24;Deutschland;Donauwörth;BY;Handy;Deutsch;Instagram;582;5;Startseite (75 s) > Abends (31 s) > Feiern (145 s) > Karte (112 s) > Feiern (219 s);nein;ja;nein;nein;nein;nein
+Beispiel;11.11.2026;11:23;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;418;4;Startseite (94 s) > Matcha (143 s) > Catering (155 s) > Abends (26 s);ja;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;11:11;Deutschland;Neusäß;BY;Handy;Deutsch;Instagram;918;6;Startseite (34 s) > Feiern (178 s) > Mittag (210 s) > Matcha (162 s) > Besuch (144 s) > Catering (190 s);nein;ja;ja;nein;nein;nein
+Beispiel;11.11.2026;11:08;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;602;4;Startseite (32 s) > Karte (141 s) > Mittag (207 s) > Catering (222 s);ja;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;10:36;Deutschland;Friedberg;BY;Handy;Deutsch;Direkt aufgerufen;282;3;Startseite (36 s) > Mittag (80 s) > Feiern (166 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;10:30;Deutschland;München;BY;Rechner;Deutsch;TikTok;241;3;Startseite (26 s) > Catering (191 s) > Abends (24 s);nein;nein;nein;nein;nein;nein
+Beispiel;11.11.2026;08:20;Deutschland;Stadtbergen;BY;Handy;Deutsch;Google;409;3;Catering (109 s) > Feiern (138 s) > Catering (162 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;22:47;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;61;1;Startseite (61 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;22:09;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;140;1;Abends (140 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;20:04;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;448;4;Startseite (23 s) > Matcha (103 s) > Mittag (196 s) > Karte (126 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;19:55;Deutschland;Neusäß;BY;Rechner;Deutsch;Google;443;4;Feiern (108 s) > Matcha (148 s) > Karte (174 s) > Abends (13 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;19:55;Deutschland;Donauwörth;BY;Handy;Deutsch;Google;240;2;Startseite (67 s) > Mittag (173 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;19:30;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;243;3;Startseite (56 s) > Mittag (117 s) > Besuch (70 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;19:09;Deutschland;Ulm;BW;Handy;Deutsch;Direkt aufgerufen;163;1;Catering (163 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;18:55;Deutschland;Donauwörth;BY;Handy;Deutsch;Instagram;331;3;Startseite (89 s) > Karte (156 s) > Abends (86 s);ja;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;18:52;Deutschland;Augsburg;BY;Handy;Deutsch;ChatGPT;278;3;Mittag (152 s) > Abends (40 s) > Feiern (86 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;18:49;Deutschland;Augsburg;BY;Rechner;Deutsch;TikTok;333;2;Startseite (84 s) > Feiern (249 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;18:45;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;578;7;Startseite (48 s) > Abends (41 s) > Matcha (122 s) > Catering (147 s) > Karte (145 s) > Abends (53 s) > Besuch (22 s);nein;ja;nein;nein;nein;ja
+Beispiel;10.11.2026;18:41;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;343;4;Startseite (25 s) > Abends (52 s) > Matcha (148 s) > Karte (118 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;18:29;Deutschland;Neusäß;BY;Handy;Deutsch;TikTok;334;3;Feiern (204 s) > Impressum (77 s) > Abends (53 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;18:09;Deutschland;Neusäß;BY;Handy;Deutsch;Google;328;3;Startseite (39 s) > Mittag (113 s) > Catering (176 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;18:08;Deutschland;Königsbrunn;BY;Handy;Deutsch;Google;35;1;Startseite (35 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;17:48;Deutschland;Augsburg;BY;Handy;Deutsch;Google;310;2;Startseite (34 s) > Matcha (276 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;17:30;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;656;4;Startseite (115 s) > Karte (174 s) > Matcha (207 s) > Mittag (160 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;17:03;Deutschland;München;BY;Handy;Deutsch;Google;520;5;Startseite (123 s) > Matcha (108 s) > Besuch (56 s) > Matcha (160 s) > Besuch (73 s);nein;nein;nein;nein;nein;ja
+Beispiel;10.11.2026;16:28;Deutschland;München;BY;Handy;Deutsch;Instagram;7;1;Startseite (7 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;16:23;Deutschland;Neusäß;BY;Handy;Deutsch;Direkt aufgerufen;368;3;Startseite (43 s) > Feiern (180 s) > Catering (145 s);nein;ja;nein;nein;nein;nein
+Beispiel;10.11.2026;12:51;Deutschland;Donauwörth;BY;Rechner;Deutsch;Direkt aufgerufen;98;1;Startseite (98 s);ja;nein;nein;ja;nein;nein
+Beispiel;10.11.2026;12:49;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;364;2;Karte (150 s) > Catering (214 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;12:22;Deutschland;Augsburg;BY;Handy;Deutsch;Google;692;6;Startseite (14 s) > Feiern (152 s) > Matcha (121 s) > Feiern (159 s) > Catering (116 s) > Karte (130 s);ja;ja;nein;nein;nein;nein
+Beispiel;10.11.2026;12:14;Deutschland;Gersthofen;BY;Handy;Deutsch;Instagram;478;3;Startseite (73 s) > Catering (246 s) > Mittag (159 s);nein;ja;nein;nein;nein;nein
+Beispiel;10.11.2026;12:09;Deutschland;Königsbrunn;BY;Handy;Deutsch;Facebook;167;2;Startseite (98 s) > Catering (69 s);nein;ja;nein;nein;nein;nein
+Beispiel;10.11.2026;11:40;Deutschland;Augsburg;BY;Handy;Deutsch;Facebook;679;5;Startseite (57 s) > Karte (179 s) > Matcha (201 s) > Abends (105 s) > Matcha (137 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;11:34;Deutschland;Augsburg;BY;Handy;Deutsch;Google;246;2;Startseite (51 s) > Matcha (195 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;11:26;Deutschland;Memmingen;BY;Rechner;Deutsch;Google;630;5;Besuch (81 s) > Matcha (161 s) > Karte (130 s) > Catering (137 s) > Besuch (121 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;11:16;Deutschland;Augsburg;BY;Handy;Deutsch;Google;233;2;Mittag (162 s) > Besuch (71 s);nein;nein;nein;ja;nein;nein
+Beispiel;10.11.2026;11:06;Deutschland;Gersthofen;BY;Handy;Deutsch;Instagram;468;4;Besuch (10 s) > Mittag (155 s) > Matcha (220 s) > Besuch (83 s);nein;nein;nein;ja;nein;ja
+Beispiel;10.11.2026;10:56;Deutschland;Augsburg;BY;Rechner;Deutsch;Instagram;512;4;Startseite (55 s) > Abends (119 s) > Datenschutz (86 s) > Matcha (252 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;10:38;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;79;1;Startseite (79 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;10:34;Deutschland;Neusäß;BY;Handy;Englisch;Instagram;38;1;Startseite (38 s);ja;nein;nein;ja;nein;nein
+Beispiel;10.11.2026;10:17;Deutschland;Augsburg;BY;Handy;Deutsch;Google;123;2;Startseite (26 s) > Besuch (97 s);nein;nein;nein;ja;nein;nein
+Beispiel;10.11.2026;10:14;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;366;2;Startseite (101 s) > Matcha (265 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;09:44;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;322;3;Startseite (103 s) > Besuch (148 s) > Karte (71 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;09:33;Deutschland;Friedberg;BY;Handy;Englisch;Direkt aufgerufen;13;1;Startseite (13 s);ja;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;07:48;Deutschland;Augsburg;BY;Handy;Deutsch;Google;1121;7;Startseite (96 s) > Matcha (181 s) > Feiern (215 s) > Catering (188 s) > Abends (44 s) > Feiern (241 s) > Matcha (156 s);nein;nein;nein;nein;nein;nein
+Beispiel;10.11.2026;07:39;Deutschland;München;BY;Handy;Deutsch;Direkt aufgerufen;78;1;Besuch (78 s);nein;nein;nein;ja;nein;nein
+Beispiel;09.11.2026;19:39;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;232;2;Catering (123 s) > Besuch (109 s);nein;ja;nein;ja;nein;nein
+Beispiel;09.11.2026;19:31;Deutschland;Augsburg;BY;Rechner;Deutsch;Instagram;259;2;Startseite (63 s) > Mittag (196 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;19:25;Deutschland;Augsburg;BY;Handy;Deutsch;Google;268;2;Startseite (145 s) > Besuch (123 s);nein;nein;nein;ja;nein;nein
+Beispiel;09.11.2026;18:52;Deutschland;München;BY;Handy;Deutsch;Google;441;3;Startseite (38 s) > Matcha (277 s) > Datenschutz (126 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;18:40;Deutschland;München;BY;Handy;Deutsch;Instagram;789;6;Besuch (18 s) > Mittag (225 s) > Matcha (231 s) > Impressum (39 s) > Matcha (182 s) > Mittag (94 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;18:35;Deutschland;Neusäß;BY;Handy;Deutsch;Direkt aufgerufen;746;7;Startseite (48 s) > Mittag (144 s) > Feiern (212 s) > Abends (91 s) > Matcha (74 s) > Catering (114 s) > Abends (63 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;18:20;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;155;2;Abends (32 s) > Matcha (123 s);nein;nein;nein;ja;nein;nein
+Beispiel;09.11.2026;17:53;Deutschland;Augsburg;BY;Handy;Deutsch;Google;77;1;Karte (77 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;17:39;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;68;1;Startseite (68 s);ja;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;17:09;Deutschland;Donauwörth;BY;Handy;Deutsch;Facebook;144;1;Besuch (144 s);nein;nein;nein;ja;nein;nein
+Beispiel;09.11.2026;17:06;Deutschland;Neusäß;BY;Rechner;Deutsch;Google;176;2;Startseite (63 s) > Feiern (113 s);ja;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;16:54;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;63;1;Startseite (63 s);ja;nein;nein;ja;nein;nein
+Beispiel;09.11.2026;15:58;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;584;4;Startseite (115 s) > Catering (70 s) > Feiern (156 s) > Karte (243 s);ja;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;15:31;Deutschland;Gersthofen;BY;Tablet;Deutsch;Direkt aufgerufen;290;3;Startseite (90 s) > Abends (27 s) > Catering (173 s);nein;ja;ja;nein;nein;nein
+Beispiel;09.11.2026;13:53;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;277;3;Startseite (110 s) > Abends (64 s) > Besuch (103 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;13:21;Deutschland;Augsburg;BY;Handy;Deutsch;Facebook;111;1;Matcha (111 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;12:38;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;44;1;Startseite (44 s);ja;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;12:14;Deutschland;Stadtbergen;BY;Handy;Deutsch;Google;109;2;Abends (64 s) > Besuch (45 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;12:13;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;266;3;Startseite (21 s) > Catering (170 s) > Matcha (75 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;12:04;Deutschland;Augsburg;BY;Handy;Deutsch;Google;165;2;Startseite (107 s) > Feiern (58 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;12:01;Deutschland;Stadtbergen;BY;Rechner;Deutsch;TikTok;404;3;Startseite (120 s) > Catering (169 s) > Mittag (115 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;11:41;Deutschland;Ulm;BW;Handy;Deutsch;Google;264;4;Startseite (33 s) > Besuch (56 s) > Mittag (113 s) > Karte (62 s);nein;nein;nein;nein;nein;ja
+Beispiel;09.11.2026;11:33;Deutschland;Stadtbergen;BY;Rechner;Deutsch;Direkt aufgerufen;676;7;Besuch (127 s) > Abends (21 s) > Karte (155 s) > Abends (21 s) > Datenschutz (96 s) > Mittag (94 s) > Feiern (162 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;11:31;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;271;2;Besuch (117 s) > Karte (154 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;11:29;Deutschland;Augsburg;BY;Rechner;Deutsch;Facebook;368;2;Catering (170 s) > Mittag (198 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;11:28;Deutschland;München;BY;Handy;Deutsch;Instagram;446;4;Startseite (105 s) > Besuch (69 s) > Mittag (174 s) > Besuch (98 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;11:26;Deutschland;Neusäß;BY;Rechner;Deutsch;Direkt aufgerufen;411;4;Startseite (44 s) > Besuch (70 s) > Catering (150 s) > Karte (147 s);nein;ja;nein;nein;nein;ja
+Beispiel;09.11.2026;10:58;Deutschland;Augsburg;BY;Rechner;Deutsch;Facebook;50;1;Abends (50 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;10:51;Deutschland;München;BY;Handy;Deutsch;Google;467;3;Karte (210 s) > Besuch (39 s) > Mittag (218 s);nein;nein;nein;nein;ja;nein
+Beispiel;09.11.2026;10:44;Deutschland;Augsburg;BY;Tablet;Deutsch;Google;858;6;Catering (117 s) > Mittag (183 s) > Catering (163 s) > Besuch (77 s) > Matcha (95 s) > Karte (223 s);nein;ja;nein;nein;nein;nein
+Beispiel;09.11.2026;10:25;Deutschland;Königsbrunn;BY;Handy;Deutsch;Direkt aufgerufen;101;1;Startseite (101 s);ja;nein;nein;ja;nein;nein
+Beispiel;09.11.2026;10:05;Deutschland;Memmingen;BY;Rechner;Deutsch;Direkt aufgerufen;36;1;Besuch (36 s);nein;nein;nein;ja;nein;nein
+Beispiel;09.11.2026;09:59;Österreich;Innsbruck;7;Rechner;Deutsch;Google;324;3;Startseite (74 s) > Karte (139 s) > Catering (111 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;08:47;Deutschland;Donauwörth;BY;Handy;Deutsch;Google;21;1;Startseite (21 s);nein;nein;nein;nein;nein;nein
+Beispiel;09.11.2026;07:55;Deutschland;Augsburg;BY;Handy;Deutsch;Google;386;3;Startseite (114 s) > Feiern (208 s) > Karte (64 s);ja;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;21:19;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;101;2;Startseite (40 s) > Abends (61 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;19:42;Deutschland;Augsburg;BY;Handy;Deutsch;Google;706;4;Startseite (105 s) > Mittag (179 s) > Catering (251 s) > Matcha (171 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;19:12;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;771;7;Startseite (59 s) > Mittag (142 s) > Matcha (175 s) > Feiern (109 s) > Karte (95 s) > Abends (15 s) > Matcha (176 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;19:11;Deutschland;Augsburg;BY;Handy;Deutsch;Google;108;1;Mittag (108 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;18:05;Deutschland;München;BY;Handy;Deutsch;Google;29;1;Besuch (29 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;17:29;Deutschland;Augsburg;BY;Rechner;Deutsch;TikTok;272;1;Catering (272 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;16:56;Deutschland;Augsburg;BY;Handy;Deutsch;Google;334;2;Startseite (110 s) > Catering (224 s);nein;ja;nein;nein;nein;nein
+Beispiel;08.11.2026;14:27;Deutschland;Augsburg;BY;Rechner;Deutsch;Instagram;513;4;Matcha (58 s) > Besuch (63 s) > Matcha (219 s) > Mittag (173 s);nein;nein;nein;ja;nein;nein
+Beispiel;08.11.2026;13:42;Deutschland;Neusäß;BY;Rechner;Englisch;Direkt aufgerufen;234;3;Startseite (45 s) > Karte (73 s) > Matcha (116 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;12:18;Deutschland;Augsburg;BY;Handy;Deutsch;Google;313;3;Matcha (96 s) > Catering (170 s) > Besuch (47 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;12:09;Deutschland;Augsburg;BY;Rechner;Deutsch;Instagram;158;2;Matcha (125 s) > Besuch (33 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;12:07;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;17;1;Besuch (17 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;12:01;Deutschland;Augsburg;BY;Handy;Englisch;Tripadvisor;407;4;Besuch (72 s) > Karte (96 s) > Matcha (130 s) > Abends (109 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;11:42;Deutschland;München;BY;Handy;Deutsch;Google;219;4;Startseite (21 s) > Besuch (16 s) > Catering (159 s) > Abends (23 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;11:09;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;331;2;Karte (210 s) > Abends (121 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;10:31;Deutschland;Augsburg;BY;Handy;Deutsch;Google;340;3;Startseite (95 s) > Karte (153 s) > Mittag (92 s);ja;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;10:07;Deutschland;Augsburg;BY;Handy;Deutsch;Google;417;3;Startseite (37 s) > Karte (176 s) > Mittag (204 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;09:40;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;142;1;Catering (142 s);nein;nein;nein;nein;nein;nein
+Beispiel;08.11.2026;09:33;Deutschland;Neusäß;BY;Rechner;Deutsch;Google;29;1;Startseite (29 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;19:36;Deutschland;Augsburg;BY;Tablet;Deutsch;Direkt aufgerufen;175;1;Feiern (175 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;18:49;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;603;6;Matcha (116 s) > Catering (168 s) > Abends (68 s) > Mittag (129 s) > Besuch (37 s) > Catering (85 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;17:25;Deutschland;Augsburg;BY;Handy;Deutsch;Google;297;2;Startseite (141 s) > Feiern (156 s);nein;ja;nein;nein;nein;nein
+Beispiel;07.11.2026;17:03;Deutschland;Augsburg;BY;Handy;Englisch;Instagram;228;1;Feiern (228 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;17:02;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;73;1;Catering (73 s);nein;ja;ja;nein;nein;nein
+Beispiel;07.11.2026;16:08;Deutschland;Augsburg;BY;Handy;Englisch;Google;159;1;Karte (159 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;16:06;Deutschland;Augsburg;BY;Handy;Deutsch;TikTok;68;1;Startseite (68 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;13:35;Deutschland;Neusäß;BY;Rechner;Deutsch;Google;418;5;Startseite (75 s) > Besuch (42 s) > Mittag (147 s) > Besuch (65 s) > Catering (89 s);nein;ja;ja;nein;nein;nein
+Beispiel;07.11.2026;12:42;Deutschland;Augsburg;BY;Handy;Englisch;Direkt aufgerufen;532;4;Startseite (94 s) > Karte (154 s) > Catering (98 s) > Feiern (186 s);nein;nein;nein;ja;nein;nein
+Beispiel;07.11.2026;12:22;Deutschland;Augsburg;BY;Handy;Deutsch;Facebook;790;6;Abends (29 s) > Matcha (248 s) > Besuch (34 s) > Mittag (176 s) > Karte (234 s) > Mittag (69 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;11:34;Deutschland;Augsburg;BY;Handy;Deutsch;Google;305;2;Startseite (92 s) > Mittag (213 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;11:30;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;53;1;Startseite (53 s);ja;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;11:20;Deutschland;Augsburg;BY;Handy;Deutsch;Google;373;5;Startseite (80 s) > Feiern (124 s) > Besuch (65 s) > Impressum (41 s) > Abends (63 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;11:14;Deutschland;Neusäß;BY;Handy;Deutsch;Google;403;2;Mittag (208 s) > Matcha (195 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;11:08;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;410;5;Startseite (48 s) > Besuch (52 s) > Catering (175 s) > Mittag (70 s) > Abends (65 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;11:02;Deutschland;Augsburg;BY;Tablet;Deutsch;Google;423;3;Startseite (116 s) > Matcha (174 s) > Catering (133 s);nein;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;11:00;Deutschland;Friedberg;BY;Handy;Deutsch;Google;230;2;Startseite (81 s) > Karte (149 s);ja;nein;nein;nein;nein;nein
+Beispiel;07.11.2026;10:54;Deutschland;Donauwörth;BY;Handy;Deutsch;Direkt aufgerufen;136;2;Startseite (90 s) > Besuch (46 s);nein;nein;nein;ja;nein;nein
+Beispiel;06.11.2026;22:15;Deutschland;Augsburg;BY;Handy;Deutsch;Google;231;2;Startseite (77 s) > Abends (154 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;20:26;Italien;Bozen;32;Rechner;Englisch;Instagram;306;3;Startseite (25 s) > Catering (161 s) > Feiern (120 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;20:17;Deutschland;Neusäß;BY;Handy;Deutsch;Google;443;4;Startseite (56 s) > Karte (91 s) > Besuch (29 s) > Karte (267 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;19:52;Deutschland;Gersthofen;BY;Rechner;Englisch;Google;346;4;Feiern (164 s) > Karte (104 s) > Abends (17 s) > Impressum (61 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;19:35;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;671;7;Startseite (43 s) > Abends (43 s) > Mittag (206 s) > Karte (118 s) > Besuch (18 s) > Feiern (150 s) > Mittag (93 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;19:29;Deutschland;Königsbrunn;BY;Handy;Deutsch;Instagram;163;2;Startseite (87 s) > Catering (76 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;19:24;Deutschland;Augsburg;BY;Handy;Deutsch;Google;533;3;Startseite (66 s) > Mittag (213 s) > Catering (254 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;19:15;Deutschland;Augsburg;BY;Tablet;Deutsch;Direkt aufgerufen;371;4;Startseite (126 s) > Abends (23 s) > Datenschutz (30 s) > Karte (192 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;18:53;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;279;2;Startseite (138 s) > Karte (141 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;18:53;Deutschland;Stadtbergen;BY;Handy;Deutsch;Instagram;393;3;Startseite (17 s) > Matcha (220 s) > Mittag (156 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;18:52;Deutschland;Augsburg;BY;Handy;Deutsch;Google;126;2;Startseite (40 s) > Besuch (86 s);ja;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;18:27;Deutschland;Augsburg;BY;Handy;Deutsch;Google;88;1;Startseite (88 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;18:08;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;137;1;Mittag (137 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;17:11;Deutschland;Königsbrunn;BY;Handy;Deutsch;Direkt aufgerufen;241;3;Besuch (42 s) > Abends (16 s) > Catering (183 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;17:11;Deutschland;Stadtbergen;BY;Tablet;Deutsch;Google;599;4;Karte (246 s) > Abends (150 s) > Catering (72 s) > Karte (131 s);nein;ja;nein;nein;nein;nein
+Beispiel;06.11.2026;17:10;Deutschland;Stadtbergen;BY;Rechner;Deutsch;Direkt aufgerufen;174;2;Startseite (30 s) > Mittag (144 s);ja;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;17:08;Deutschland;Augsburg;BY;Handy;Deutsch;Google;41;1;Startseite (41 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;17:01;Deutschland;Gersthofen;BY;Rechner;Deutsch;TikTok;609;5;Startseite (47 s) > Feiern (119 s) > Catering (197 s) > Abends (70 s) > Mittag (176 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;16:53;Deutschland;Neusäß;BY;Handy;Deutsch;Direkt aufgerufen;298;2;Catering (145 s) > Karte (153 s);nein;ja;nein;nein;nein;nein
+Beispiel;06.11.2026;15:51;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;911;5;Feiern (262 s) > Catering (131 s) > Besuch (117 s) > Matcha (255 s) > Feiern (146 s);nein;ja;nein;nein;nein;nein
+Beispiel;06.11.2026;12:47;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;583;5;Startseite (56 s) > Matcha (182 s) > Catering (145 s) > Besuch (81 s) > Feiern (119 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;12:29;Italien;Bozen;32;Handy;Englisch;Direkt aufgerufen;30;1;Startseite (30 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;12:25;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;982;7;Karte (168 s) > Besuch (67 s) > Feiern (142 s) > Karte (176 s) > Mittag (125 s) > Catering (130 s) > Karte (174 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;12:16;Deutschland;Augsburg;BY;Handy;Deutsch;Google;64;1;Startseite (64 s);ja;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;12:12;Deutschland;Neusäß;BY;Handy;Deutsch;TikTok;188;3;Startseite (60 s) > Matcha (104 s) > Besuch (24 s);nein;nein;nein;ja;nein;nein
+Beispiel;06.11.2026;12:05;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;325;2;Mittag (152 s) > Karte (173 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;12:02;Deutschland;Ulm;BW;Handy;Englisch;Google;235;2;Startseite (121 s) > Besuch (114 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;12:02;Deutschland;Augsburg;BY;Handy;Deutsch;TikTok;32;1;Startseite (32 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;11:41;Deutschland;München;BY;Handy;Deutsch;Direkt aufgerufen;25;1;Besuch (25 s);nein;nein;nein;ja;nein;nein
+Beispiel;06.11.2026;11:39;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;315;3;Karte (166 s) > Feiern (129 s) > Besuch (20 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;11:29;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;868;6;Besuch (43 s) > Feiern (95 s) > Besuch (151 s) > Mittag (240 s) > Matcha (243 s) > Karte (96 s);nein;nein;nein;nein;ja;nein
+Beispiel;06.11.2026;11:25;Deutschland;Königsbrunn;BY;Handy;Deutsch;Direkt aufgerufen;85;1;Startseite (85 s);ja;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;11:12;Deutschland;Augsburg;BY;Tablet;Deutsch;Google;571;4;Mittag (95 s) > Matcha (207 s) > Datenschutz (131 s) > Feiern (138 s);nein;nein;nein;ja;nein;nein
+Beispiel;06.11.2026;11:08;Deutschland;Neusäß;BY;Tablet;Deutsch;Google;468;3;Startseite (45 s) > Feiern (148 s) > Catering (275 s);nein;nein;nein;nein;nein;nein
+Beispiel;06.11.2026;10:34;Deutschland;Donauwörth;BY;Handy;Deutsch;ChatGPT;374;3;Startseite (17 s) > Feiern (216 s) > Catering (141 s);nein;ja;ja;nein;nein;nein
+Beispiel;05.11.2026;20:01;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;711;5;Besuch (91 s) > Mittag (165 s) > Catering (155 s) > Feiern (142 s) > Matcha (158 s);nein;nein;nein;ja;ja;nein
+Beispiel;05.11.2026;19:34;Deutschland;Donauwörth;BY;Rechner;Deutsch;Instagram;421;3;Startseite (101 s) > Matcha (165 s) > Karte (155 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;19:27;Deutschland;Stadtbergen;BY;Handy;Deutsch;Direkt aufgerufen;421;4;Besuch (49 s) > Feiern (74 s) > Karte (240 s) > Besuch (58 s);nein;nein;nein;nein;nein;ja
+Beispiel;05.11.2026;19:19;Deutschland;Augsburg;BY;Handy;Englisch;Direkt aufgerufen;83;2;Startseite (56 s) > Abends (27 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;19:09;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;239;2;Startseite (44 s) > Catering (195 s);nein;ja;ja;nein;nein;nein
+Beispiel;05.11.2026;18:32;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;16;1;Startseite (16 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;18:22;Deutschland;Augsburg;BY;Handy;Deutsch;Google;42;1;Besuch (42 s);nein;nein;nein;nein;nein;ja
+Beispiel;05.11.2026;17:57;Deutschland;Gersthofen;BY;Handy;Deutsch;Instagram;136;2;Startseite (100 s) > Besuch (36 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;17:20;Deutschland;Augsburg;BY;Handy;Deutsch;Google;205;2;Startseite (47 s) > Karte (158 s);nein;nein;nein;ja;nein;nein
+Beispiel;05.11.2026;17:00;Deutschland;Augsburg;BY;Handy;Deutsch;Google;206;2;Startseite (80 s) > Matcha (126 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;16:36;Deutschland;Gersthofen;BY;Rechner;Englisch;Google;400;3;Startseite (28 s) > Feiern (185 s) > Karte (187 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;16:09;Deutschland;Augsburg;BY;Handy;Englisch;Google;442;3;Startseite (152 s) > Abends (143 s) > Karte (147 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;13:53;Deutschland;Augsburg;BY;Handy;Englisch;Direkt aufgerufen;280;3;Startseite (70 s) > Besuch (39 s) > Feiern (171 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;13:05;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;451;3;Catering (107 s) > Matcha (162 s) > Feiern (182 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;11:59;Deutschland;Augsburg;BY;Tablet;Deutsch;Google;454;3;Startseite (109 s) > Mittag (121 s) > Matcha (224 s);ja;nein;nein;ja;nein;nein
+Beispiel;05.11.2026;11:50;Schweiz;Zürich;ZH;Tablet;Deutsch;Google;522;4;Startseite (30 s) > Matcha (243 s) > Karte (157 s) > Abends (92 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;11:41;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;245;2;Abends (47 s) > Mittag (198 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;11:39;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;40;1;Startseite (40 s);nein;nein;nein;ja;nein;nein
+Beispiel;05.11.2026;11:29;Deutschland;Friedberg;BY;Handy;Deutsch;Bing;43;1;Startseite (43 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;11:04;Deutschland;München;BY;Handy;Deutsch;Google;39;1;Besuch (39 s);nein;nein;nein;ja;nein;nein
+Beispiel;05.11.2026;10:43;Deutschland;Augsburg;BY;Handy;Deutsch;Google;355;2;Matcha (125 s) > Mittag (230 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;10:36;Deutschland;Neusäß;BY;Handy;Deutsch;Google;533;4;Catering (212 s) > Besuch (19 s) > Mittag (164 s) > Besuch (138 s);nein;nein;nein;ja;ja;nein
+Beispiel;05.11.2026;10:34;Deutschland;Neusäß;BY;Handy;Deutsch;Google;327;2;Startseite (71 s) > Karte (256 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;10:24;Deutschland;Neusäß;BY;Rechner;Deutsch;Google;301;2;Abends (14 s) > Matcha (287 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;10:00;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;124;1;Startseite (124 s);nein;nein;nein;nein;nein;nein
+Beispiel;05.11.2026;09:51;Deutschland;Augsburg;BY;Handy;Deutsch;Google;328;4;Startseite (81 s) > Abends (72 s) > Besuch (90 s) > Catering (85 s);nein;ja;nein;nein;nein;ja
+Beispiel;04.11.2026;22:56;Deutschland;Augsburg;BY;Handy;Englisch;Google;101;1;Startseite (101 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;20:41;Deutschland;Augsburg;BY;Handy;Deutsch;Google;275;2;Startseite (63 s) > Matcha (212 s);ja;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;20:23;Deutschland;Augsburg;BY;Handy;Deutsch;Google;708;5;Feiern (176 s) > Matcha (167 s) > Mittag (150 s) > Catering (88 s) > Matcha (127 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;19:49;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;47;1;Besuch (47 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;19:37;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;447;5;Startseite (107 s) > Abends (48 s) > Mittag (65 s) > Besuch (106 s) > Matcha (121 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;19:09;Deutschland;Stadtbergen;BY;Handy;Englisch;Direkt aufgerufen;185;2;Karte (143 s) > Abends (42 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;19:01;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;200;1;Matcha (200 s);nein;nein;nein;ja;nein;nein
+Beispiel;04.11.2026;18:58;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;726;7;Startseite (29 s) > Karte (99 s) > Mittag (167 s) > Catering (75 s) > Feiern (168 s) > Besuch (47 s) > Catering (141 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;18:46;Deutschland;Augsburg;BY;Handy;Deutsch;Google;454;4;Startseite (49 s) > Feiern (134 s) > Mittag (108 s) > Karte (163 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;18:38;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;527;4;Startseite (68 s) > Abends (49 s) > Matcha (135 s) > Mittag (275 s);ja;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;18:32;Deutschland;Memmingen;BY;Rechner;Deutsch;Google;462;5;Besuch (65 s) > Catering (192 s) > Abends (26 s) > Besuch (47 s) > Feiern (132 s);nein;ja;nein;nein;nein;nein
+Beispiel;04.11.2026;18:14;Deutschland;Friedberg;BY;Rechner;Deutsch;Google;55;1;Startseite (55 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;17:42;Deutschland;Augsburg;BY;Handy;Englisch;Google;50;1;Startseite (50 s);ja;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;17:09;Deutschland;München;BY;Handy;Deutsch;TikTok;52;1;Startseite (52 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;14:07;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;28;1;Startseite (28 s);ja;nein;nein;ja;nein;nein
+Beispiel;04.11.2026;13:36;Deutschland;Neusäß;BY;Handy;Englisch;Direkt aufgerufen;60;1;Startseite (60 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;13:28;Österreich;Innsbruck;7;Handy;Englisch;Instagram;46;1;Startseite (46 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;13:23;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;200;1;Catering (200 s);nein;ja;nein;nein;nein;nein
+Beispiel;04.11.2026;13:18;Deutschland;Donauwörth;BY;Rechner;Deutsch;Direkt aufgerufen;328;3;Startseite (61 s) > Catering (86 s) > Karte (181 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;12:49;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;254;3;Catering (70 s) > Karte (152 s) > Besuch (32 s);nein;nein;nein;nein;ja;nein
+Beispiel;04.11.2026;12:26;Deutschland;Stadtbergen;BY;Handy;Deutsch;Google;178;3;Startseite (30 s) > Besuch (42 s) > Catering (106 s);ja;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;12:18;Deutschland;Augsburg;BY;Rechner;Deutsch;Instagram;170;2;Catering (119 s) > Besuch (51 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;12:11;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;101;1;Startseite (101 s);nein;nein;nein;ja;nein;nein
+Beispiel;04.11.2026;12:05;Deutschland;Augsburg;BY;Handy;Deutsch;Google;165;2;Startseite (61 s) > Besuch (104 s);ja;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;11:53;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;593;6;Startseite (9 s) > Abends (13 s) > Karte (181 s) > Matcha (160 s) > Karte (184 s) > Besuch (46 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;11:50;Deutschland;Stadtbergen;BY;Handy;Deutsch;Google;104;2;Abends (22 s) > Feiern (82 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;11:40;Deutschland;Augsburg;BY;Rechner;Deutsch;Bing;128;3;Startseite (25 s) > Besuch (48 s) > Abends (55 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;11:40;Deutschland;Memmingen;BY;Rechner;Deutsch;Google;648;6;Startseite (122 s) > Abends (44 s) > Matcha (185 s) > Besuch (42 s) > Karte (67 s) > Mittag (188 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;11:36;Deutschland;Friedberg;BY;Handy;Deutsch;Google;570;4;Startseite (101 s) > Besuch (108 s) > Catering (142 s) > Matcha (219 s);nein;nein;nein;ja;nein;nein
+Beispiel;04.11.2026;11:23;Deutschland;Augsburg;BY;Rechner;Deutsch;Instagram;54;1;Abends (54 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;11:07;Deutschland;München;BY;Handy;Deutsch;Google;268;3;Startseite (85 s) > Feiern (111 s) > Mittag (72 s);nein;nein;nein;ja;nein;nein
+Beispiel;04.11.2026;10:52;Deutschland;Augsburg;BY;Rechner;Deutsch;TikTok;394;7;Startseite (44 s) > Besuch (11 s) > Abends (21 s) > Mittag (65 s) > Matcha (113 s) > Karte (67 s) > Feiern (73 s);nein;nein;nein;nein;nein;nein
+Beispiel;04.11.2026;10:38;Deutschland;Stadtbergen;BY;Tablet;Deutsch;Direkt aufgerufen;445;5;Startseite (51 s) > Mittag (179 s) > Abends (56 s) > Besuch (70 s) > Abends (89 s);nein;nein;nein;ja;nein;nein
+Beispiel;04.11.2026;10:35;Deutschland;Augsburg;BY;Handy;Deutsch;Google;613;6;Startseite (80 s) > Feiern (116 s) > Abends (45 s) > Matcha (171 s) > Mittag (182 s) > Besuch (19 s);nein;nein;nein;ja;nein;nein
+Beispiel;04.11.2026;09:20;Deutschland;München;BY;Handy;Deutsch;Instagram;70;1;Startseite (70 s);nein;nein;nein;ja;nein;nein
+Beispiel;04.11.2026;08:23;Deutschland;Augsburg;BY;Handy;Deutsch;Google;266;2;Besuch (95 s) > Matcha (171 s);nein;nein;nein;nein;ja;nein
+Beispiel;03.11.2026;20:32;Deutschland;Augsburg;BY;Tablet;Deutsch;Direkt aufgerufen;551;5;Startseite (112 s) > Karte (130 s) > Besuch (49 s) > Abends (79 s) > Karte (181 s);ja;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;19:18;Deutschland;Donauwörth;BY;Rechner;Deutsch;Facebook;30;1;Startseite (30 s);ja;nein;nein;ja;nein;nein
+Beispiel;03.11.2026;19:11;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;29;1;Besuch (29 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;18:50;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;201;2;Feiern (95 s) > Mittag (106 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;18:48;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;233;2;Abends (125 s) > Matcha (108 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;18:24;Deutschland;Gersthofen;BY;Rechner;Deutsch;Direkt aufgerufen;786;7;Matcha (186 s) > Karte (199 s) > Besuch (44 s) > Karte (189 s) > Besuch (36 s) > Karte (102 s) > Abends (30 s);nein;nein;nein;ja;nein;nein
+Beispiel;03.11.2026;18:18;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;222;3;Startseite (50 s) > Matcha (135 s) > Abends (37 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;17:51;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;829;6;Startseite (54 s) > Catering (155 s) > Matcha (159 s) > Catering (262 s) > Matcha (138 s) > Abends (61 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;17:36;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;60;1;Startseite (60 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;17:28;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;600;4;Startseite (67 s) > Karte (154 s) > Catering (149 s) > Karte (230 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;17:25;Deutschland;Gersthofen;BY;Handy;Deutsch;Instagram;373;3;Startseite (106 s) > Karte (182 s) > Besuch (85 s);ja;nein;nein;nein;nein;ja
+Beispiel;03.11.2026;17:24;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;192;2;Startseite (39 s) > Besuch (153 s);nein;nein;nein;nein;nein;ja
+Beispiel;03.11.2026;16:49;Österreich;Innsbruck;7;Rechner;Deutsch;Direkt aufgerufen;232;2;Mittag (151 s) > Besuch (81 s);nein;ja;nein;ja;nein;nein
+Beispiel;03.11.2026;16:41;Deutschland;Augsburg;BY;Tablet;Deutsch;Google;279;2;Feiern (150 s) > Matcha (129 s);nein;ja;nein;nein;nein;nein
+Beispiel;03.11.2026;15:38;Italien;Bozen;32;Tablet;Englisch;Direkt aufgerufen;216;2;Startseite (38 s) > Mittag (178 s);ja;nein;nein;ja;nein;nein
+Beispiel;03.11.2026;13:37;Deutschland;Augsburg;BY;Handy;Deutsch;Google;66;1;Startseite (66 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;12:54;Deutschland;Memmingen;BY;Handy;Deutsch;Google;297;3;Startseite (66 s) > Matcha (161 s) > Abends (70 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;12:35;Deutschland;Königsbrunn;BY;Handy;Deutsch;Google;206;2;Startseite (72 s) > Feiern (134 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;12:24;Italien;Bozen;32;Handy;Englisch;Google;320;3;Besuch (55 s) > Catering (118 s) > Matcha (147 s);nein;ja;nein;ja;nein;ja
+Beispiel;03.11.2026;11:58;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;315;2;Karte (212 s) > Mittag (103 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;11:29;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;127;2;Startseite (31 s) > Besuch (96 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;11:12;Deutschland;München;BY;Tablet;Deutsch;Google;157;1;Karte (157 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;11:10;Deutschland;Gersthofen;BY;Handy;Englisch;Direkt aufgerufen;638;4;Mittag (184 s) > Matcha (232 s) > Besuch (57 s) > Karte (165 s);nein;nein;nein;nein;nein;ja
+Beispiel;03.11.2026;11:03;Deutschland;Memmingen;BY;Handy;Deutsch;Google;574;5;Startseite (87 s) > Feiern (144 s) > Impressum (37 s) > Karte (195 s) > Feiern (111 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;10:13;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;235;2;Catering (139 s) > Besuch (96 s);nein;nein;nein;nein;nein;ja
+Beispiel;03.11.2026;09:58;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;176;2;Startseite (22 s) > Matcha (154 s);nein;nein;nein;nein;nein;nein
+Beispiel;03.11.2026;08:58;Deutschland;Augsburg;BY;Handy;Deutsch;Google;383;2;Karte (189 s) > Matcha (194 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;22:38;Deutschland;Augsburg;BY;Handy;Deutsch;Google;92;2;Startseite (54 s) > Besuch (38 s);nein;nein;nein;nein;ja;nein
+Beispiel;02.11.2026;20:18;Deutschland;Königsbrunn;BY;Handy;Deutsch;Google;206;2;Feiern (182 s) > Besuch (24 s);nein;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;20:00;Deutschland;Königsbrunn;BY;Rechner;Deutsch;Direkt aufgerufen;60;1;Startseite (60 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;19:59;Deutschland;Donauwörth;BY;Handy;Deutsch;Direkt aufgerufen;187;2;Startseite (14 s) > Feiern (173 s);ja;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;19:44;Deutschland;Augsburg;BY;Handy;Deutsch;Google;255;2;Matcha (187 s) > Besuch (68 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;19:35;Deutschland;Donauwörth;BY;Handy;Deutsch;Google;190;2;Besuch (56 s) > Karte (134 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;19:16;Deutschland;Gersthofen;BY;Rechner;Deutsch;TikTok;456;4;Startseite (34 s) > Catering (175 s) > Feiern (150 s) > Karte (97 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;19:15;Deutschland;Friedberg;BY;Handy;Deutsch;Instagram;502;4;Startseite (128 s) > Karte (155 s) > Matcha (93 s) > Besuch (126 s);nein;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;19:13;Deutschland;Neusäß;BY;Handy;Deutsch;Direkt aufgerufen;842;6;Startseite (81 s) > Mittag (246 s) > Karte (151 s) > Catering (152 s) > Abends (14 s) > Matcha (198 s);nein;ja;nein;nein;nein;nein
+Beispiel;02.11.2026;19:07;Österreich;Innsbruck;7;Rechner;Deutsch;Google;381;5;Startseite (61 s) > Besuch (41 s) > Karte (87 s) > Feiern (130 s) > Besuch (62 s);nein;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;18:58;Deutschland;Gersthofen;BY;Handy;Deutsch;Facebook;195;2;Startseite (48 s) > Catering (147 s);ja;ja;nein;nein;nein;nein
+Beispiel;02.11.2026;18:29;Deutschland;Augsburg;BY;Handy;Deutsch;Google;246;2;Startseite (102 s) > Matcha (144 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;18:23;Deutschland;München;BY;Handy;Deutsch;Google;574;4;Startseite (134 s) > Karte (221 s) > Feiern (95 s) > Catering (124 s);ja;ja;ja;nein;nein;nein
+Beispiel;02.11.2026;18:10;Deutschland;Augsburg;BY;Handy;Deutsch;Google;610;5;Startseite (56 s) > Feiern (172 s) > Abends (78 s) > Catering (187 s) > Besuch (117 s);ja;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;18:06;Deutschland;Augsburg;BY;Handy;Deutsch;Google;67;2;Startseite (36 s) > Abends (31 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;17:50;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;875;6;Startseite (75 s) > Feiern (85 s) > Mittag (258 s) > Catering (186 s) > Feiern (170 s) > Catering (101 s);nein;ja;nein;nein;nein;nein
+Beispiel;02.11.2026;17:29;Deutschland;Augsburg;BY;Handy;Deutsch;Google;152;2;Startseite (76 s) > Besuch (76 s);nein;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;17:17;Deutschland;Augsburg;BY;Handy;Englisch;Instagram;648;4;Mittag (151 s) > Catering (151 s) > Feiern (165 s) > Catering (181 s);nein;ja;nein;nein;nein;nein
+Beispiel;02.11.2026;17:05;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;301;4;Startseite (50 s) > Catering (101 s) > Karte (114 s) > Besuch (36 s);nein;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;16:27;Deutschland;München;BY;Rechner;Deutsch;Instagram;254;2;Startseite (28 s) > Karte (226 s);nein;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;13:32;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;311;3;Startseite (63 s) > Besuch (123 s) > Catering (125 s);ja;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;13:26;Deutschland;Augsburg;BY;Handy;Englisch;Instagram;57;1;Startseite (57 s);ja;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;13:10;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;787;5;Startseite (125 s) > Abends (119 s) > Mittag (241 s) > Catering (107 s) > Karte (195 s);nein;ja;nein;nein;nein;nein
+Beispiel;02.11.2026;12:51;Deutschland;Donauwörth;BY;Handy;Deutsch;Google;275;4;Startseite (99 s) > Feiern (69 s) > Matcha (56 s) > Besuch (51 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;12:50;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;136;1;Startseite (136 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;12:46;Deutschland;Donauwörth;BY;Rechner;Deutsch;Direkt aufgerufen;545;4;Besuch (113 s) > Matcha (181 s) > Karte (178 s) > Catering (73 s);nein;nein;nein;nein;ja;nein
+Beispiel;02.11.2026;12:31;Deutschland;Augsburg;BY;Tablet;Deutsch;TikTok;463;4;Startseite (82 s) > Catering (129 s) > Karte (150 s) > Catering (102 s);nein;ja;nein;nein;nein;nein
+Beispiel;02.11.2026;12:13;Deutschland;Augsburg;BY;Rechner;Deutsch;Instagram;172;1;Mittag (172 s);nein;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;12:10;Deutschland;Gersthofen;BY;Handy;Deutsch;Direkt aufgerufen;228;2;Startseite (55 s) > Karte (173 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;11:53;Deutschland;Donauwörth;BY;Handy;Deutsch;TikTok;311;3;Startseite (110 s) > Mittag (91 s) > Besuch (110 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;11:42;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;682;5;Startseite (57 s) > Catering (195 s) > Matcha (257 s) > Besuch (21 s) > Catering (152 s);ja;ja;nein;nein;nein;nein
+Beispiel;02.11.2026;11:39;Deutschland;Augsburg;BY;Handy;Deutsch;Google;642;5;Startseite (88 s) > Feiern (164 s) > Karte (135 s) > Catering (143 s) > Karte (112 s);nein;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;11:18;Deutschland;Augsburg;BY;Handy;Deutsch;Google;189;2;Startseite (54 s) > Matcha (135 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;10:53;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;59;2;Startseite (25 s) > Besuch (34 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;10:52;Deutschland;Augsburg;BY;Handy;Deutsch;ChatGPT;384;4;Startseite (76 s) > Matcha (159 s) > Besuch (74 s) > Abends (75 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;10:38;Deutschland;Augsburg;BY;Handy;Englisch;Bing;241;2;Startseite (90 s) > Catering (151 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;10:26;Deutschland;Augsburg;BY;Tablet;Deutsch;Google;591;4;Catering (203 s) > Feiern (149 s) > Matcha (197 s) > Besuch (42 s);nein;nein;nein;ja;nein;nein
+Beispiel;02.11.2026;10:16;Deutschland;Augsburg;BY;Rechner;Englisch;Google;238;3;Mittag (103 s) > Abends (13 s) > Catering (122 s);nein;ja;ja;nein;nein;nein
+Beispiel;02.11.2026;10:05;Schweiz;Zürich;ZH;Rechner;Deutsch;Google;176;1;Karte (176 s);nein;nein;nein;nein;nein;nein
+Beispiel;02.11.2026;10:02;Deutschland;München;BY;Handy;Deutsch;Google;289;2;Besuch (65 s) > Feiern (224 s);nein;nein;nein;ja;nein;nein
+Beispiel;01.11.2026;19:51;Deutschland;Donauwörth;BY;Handy;Deutsch;Google;190;3;Abends (65 s) > Impressum (64 s) > Catering (61 s);nein;ja;nein;nein;nein;nein
+Beispiel;01.11.2026;19:41;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;84;1;Startseite (84 s);ja;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;19:18;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;8;1;Startseite (8 s);nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;19:15;Deutschland;Gersthofen;BY;Tablet;Deutsch;Google;407;3;Matcha (89 s) > Catering (154 s) > Mittag (164 s);nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;17:24;Italien;Bozen;32;Handy;Englisch;Google;10;1;Startseite (10 s);nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;16:49;Deutschland;Augsburg;BY;Handy;Deutsch;Google;292;3;Mittag (201 s) > Besuch (43 s) > Datenschutz (48 s);nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;16:30;Deutschland;Augsburg;BY;Handy;Deutsch;Google;14;1;Startseite (14 s);ja;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;13:36;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;330;3;Startseite (23 s) > Karte (128 s) > Mittag (179 s);ja;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;13:17;Deutschland;München;BY;Handy;Deutsch;Google;893;8;Besuch (33 s) > Abends (88 s) > Datenschutz (18 s) > Karte (128 s) > Besuch (73 s) > Karte (156 s) > Catering (201 s) > Matcha (196 s);nein;nein;nein;nein;ja;nein
+Beispiel;01.11.2026;13:06;Deutschland;Königsbrunn;BY;Handy;Deutsch;Direkt aufgerufen;119;1;Startseite (119 s);nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;12:05;Deutschland;Augsburg;BY;Tablet;Deutsch;Direkt aufgerufen;414;3;Besuch (38 s) > Karte (244 s) > Abends (132 s);nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;11:39;Deutschland;Donauwörth;BY;Handy;Deutsch;Google;301;3;Startseite (66 s) > Abends (56 s) > Mittag (179 s);nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;11:30;Deutschland;Donauwörth;BY;Rechner;Deutsch;Instagram;506;4;Startseite (76 s) > Catering (155 s) > Karte (96 s) > Matcha (179 s);nein;nein;nein;ja;nein;nein
+Beispiel;01.11.2026;11:11;Deutschland;Königsbrunn;BY;Handy;Deutsch;Google;489;4;Startseite (58 s) > Karte (132 s) > Matcha (134 s) > Catering (165 s);nein;ja;nein;nein;nein;nein
+Beispiel;01.11.2026;11:01;Deutschland;München;BY;Handy;Deutsch;Google;461;4;Feiern (142 s) > Catering (166 s) > Datenschutz (47 s) > Feiern (106 s);nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;10:55;Deutschland;Königsbrunn;BY;Handy;Deutsch;Google;473;4;Startseite (74 s) > Abends (78 s) > Mittag (99 s) > Feiern (222 s);nein;nein;nein;nein;nein;nein
+Beispiel;01.11.2026;10:55;Deutschland;Memmingen;BY;Rechner;Deutsch;Google;453;4;Mittag (80 s) > Catering (124 s) > Matcha (139 s) > Besuch (110 s);nein;nein;nein;nein;ja;nein
+Beispiel;01.11.2026;10:48;Deutschland;Augsburg;BY;Handy;Deutsch;Google;182;2;Startseite (53 s) > Karte (129 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;21:57;Deutschland;Augsburg;BY;Handy;Deutsch;Google;480;3;Startseite (120 s) > Feiern (236 s) > Mittag (124 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;19:42;Deutschland;Augsburg;BY;Handy;Englisch;TikTok;63;1;Startseite (63 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;19:36;Deutschland;Donauwörth;BY;Tablet;Deutsch;Instagram;477;4;Startseite (40 s) > Catering (157 s) > Mittag (186 s) > Catering (94 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;19:09;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;115;1;Startseite (115 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;18:53;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;411;3;Mittag (184 s) > Catering (96 s) > Besuch (131 s);nein;nein;nein;nein;ja;nein
+Beispiel;31.10.2026;18:46;Deutschland;Friedberg;BY;Handy;Deutsch;Google;344;3;Startseite (48 s) > Mittag (189 s) > Besuch (107 s);nein;nein;nein;nein;ja;nein
+Beispiel;31.10.2026;18:24;Deutschland;Augsburg;BY;Rechner;Englisch;Google;348;4;Startseite (118 s) > Abends (6 s) > Feiern (183 s) > Abends (41 s);ja;ja;nein;nein;nein;nein
+Beispiel;31.10.2026;18:23;Deutschland;Augsburg;BY;Tablet;Deutsch;Direkt aufgerufen;357;3;Startseite (142 s) > Abends (44 s) > Catering (171 s);ja;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;18:21;Italien;Bozen;32;Handy;Englisch;Direkt aufgerufen;755;7;Besuch (74 s) > Abends (67 s) > Datenschutz (99 s) > Karte (180 s) > Catering (110 s) > Matcha (169 s) > Abends (56 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;18:11;Deutschland;Augsburg;BY;Tablet;Deutsch;Instagram;100;1;Catering (100 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;17:54;Deutschland;Augsburg;BY;Handy;Deutsch;Google;21;1;Startseite (21 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;17:11;Deutschland;Gersthofen;BY;Rechner;Deutsch;Instagram;439;3;Karte (177 s) > Feiern (177 s) > Besuch (85 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;16:47;Deutschland;Gersthofen;BY;Rechner;Deutsch;Direkt aufgerufen;299;2;Feiern (91 s) > Catering (208 s);nein;ja;ja;nein;nein;nein
+Beispiel;31.10.2026;15:54;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;309;4;Startseite (29 s) > Feiern (179 s) > Impressum (35 s) > Besuch (66 s);ja;nein;nein;nein;nein;ja
+Beispiel;31.10.2026;14:04;Deutschland;Friedberg;BY;Handy;Deutsch;Direkt aufgerufen;411;5;Startseite (23 s) > Abends (25 s) > Karte (113 s) > Abends (41 s) > Matcha (209 s);nein;nein;nein;ja;nein;nein
+Beispiel;31.10.2026;12:59;Deutschland;Augsburg;BY;Handy;Deutsch;Google;222;3;Startseite (19 s) > Feiern (72 s) > Mittag (131 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;12:57;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;194;2;Abends (19 s) > Catering (175 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;12:25;Deutschland;München;BY;Handy;Deutsch;Facebook;184;1;Karte (184 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;12:21;Deutschland;Augsburg;BY;Rechner;Deutsch;Instagram;503;4;Mittag (157 s) > Karte (263 s) > Abends (57 s) > Besuch (26 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;11:35;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;212;3;Startseite (14 s) > Besuch (54 s) > Karte (144 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;11:10;Deutschland;Königsbrunn;BY;Rechner;Deutsch;Instagram;323;4;Startseite (12 s) > Feiern (145 s) > Impressum (28 s) > Matcha (138 s);nein;ja;nein;nein;nein;nein
+Beispiel;31.10.2026;11:04;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;243;2;Matcha (111 s) > Besuch (132 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;10:47;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;214;2;Catering (51 s) > Mittag (163 s);nein;ja;nein;ja;nein;nein
+Beispiel;31.10.2026;10:45;Deutschland;Augsburg;BY;Rechner;Englisch;Direkt aufgerufen;197;2;Startseite (40 s) > Mittag (157 s);nein;ja;nein;nein;nein;nein
+Beispiel;31.10.2026;10:41;Deutschland;Augsburg;BY;Rechner;Deutsch;Facebook;554;4;Catering (204 s) > Mittag (205 s) > Abends (110 s) > Besuch (35 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;10:30;Deutschland;München;BY;Handy;Deutsch;Instagram;419;3;Besuch (45 s) > Karte (219 s) > Mittag (155 s);nein;nein;nein;nein;nein;nein
+Beispiel;31.10.2026;10:28;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;479;5;Startseite (152 s) > Catering (80 s) > Mittag (70 s) > Feiern (90 s) > Besuch (87 s);nein;nein;nein;nein;ja;nein
+Beispiel;31.10.2026;09:03;Deutschland;Neusäß;BY;Handy;Deutsch;Direkt aufgerufen;404;3;Matcha (215 s) > Karte (130 s) > Besuch (59 s);nein;nein;nein;ja;nein;nein
+Beispiel;30.10.2026;22:03;Deutschland;Donauwörth;BY;Handy;Deutsch;Direkt aufgerufen;107;1;Startseite (107 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;20:28;Deutschland;Augsburg;BY;Tablet;Englisch;Instagram;352;2;Feiern (166 s) > Matcha (186 s);nein;nein;nein;ja;nein;nein
+Beispiel;30.10.2026;19:58;Deutschland;Augsburg;BY;Handy;Deutsch;Instagram;147;2;Startseite (75 s) > Besuch (72 s);ja;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;19:01;Deutschland;Gersthofen;BY;Handy;Deutsch;Instagram;357;2;Catering (236 s) > Matcha (121 s);nein;nein;nein;ja;nein;nein
+Beispiel;30.10.2026;18:43;Deutschland;Stadtbergen;BY;Tablet;Deutsch;Direkt aufgerufen;288;3;Startseite (104 s) > Catering (102 s) > Besuch (82 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;18:24;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;278;1;Karte (278 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;18:16;Deutschland;Neusäß;BY;Handy;Deutsch;Direkt aufgerufen;194;3;Startseite (28 s) > Besuch (45 s) > Mittag (121 s);nein;nein;nein;nein;nein;ja
+Beispiel;30.10.2026;18:01;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;359;3;Mittag (170 s) > Feiern (122 s) > Karte (67 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;17:59;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;107;1;Startseite (107 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;17:37;Deutschland;Königsbrunn;BY;Handy;Deutsch;ChatGPT;621;4;Startseite (69 s) > Mittag (200 s) > Catering (190 s) > Mittag (162 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;17:28;Deutschland;Gersthofen;BY;Rechner;Deutsch;Facebook;265;2;Startseite (114 s) > Catering (151 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;16:41;Deutschland;Königsbrunn;BY;Rechner;Deutsch;Direkt aufgerufen;407;4;Karte (155 s) > Abends (92 s) > Matcha (93 s) > Besuch (67 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;15:13;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;894;7;Abends (75 s) > Feiern (161 s) > Karte (171 s) > Feiern (156 s) > Datenschutz (100 s) > Besuch (94 s) > Catering (137 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;14:33;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;61;1;Startseite (61 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;13:49;Deutschland;Königsbrunn;BY;Handy;Deutsch;Google;333;3;Startseite (47 s) > Mittag (161 s) > Catering (125 s);nein;ja;nein;nein;nein;nein
+Beispiel;30.10.2026;13:24;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;291;3;Startseite (58 s) > Datenschutz (64 s) > Catering (169 s);nein;ja;ja;nein;nein;nein
+Beispiel;30.10.2026;13:07;Deutschland;Ulm;BW;Handy;Deutsch;Google;193;1;Catering (193 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;13:04;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;435;4;Catering (175 s) > Besuch (103 s) > Abends (77 s) > Catering (80 s);nein;nein;nein;nein;nein;ja
+Beispiel;30.10.2026;13:02;Deutschland;München;BY;Handy;Deutsch;Google;236;3;Startseite (54 s) > Besuch (40 s) > Karte (142 s);nein;nein;nein;nein;ja;nein
+Beispiel;30.10.2026;13:02;Deutschland;Donauwörth;BY;Tablet;Deutsch;Instagram;607;4;Startseite (109 s) > Mittag (55 s) > Karte (252 s) > Feiern (191 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;13:00;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;310;2;Abends (60 s) > Mittag (250 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;12:33;Deutschland;Stadtbergen;BY;Handy;Deutsch;Google;132;1;Startseite (132 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;12:08;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;196;2;Karte (154 s) > Abends (42 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;11:45;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;279;4;Startseite (32 s) > Feiern (98 s) > Abends (64 s) > Besuch (85 s);ja;nein;nein;nein;nein;ja
+Beispiel;30.10.2026;11:44;Deutschland;Augsburg;BY;Tablet;Deutsch;Google;563;5;Startseite (44 s) > Karte (119 s) > Matcha (142 s) > Mittag (130 s) > Karte (128 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;11:40;Deutschland;München;BY;Handy;Deutsch;Direkt aufgerufen;271;2;Startseite (81 s) > Matcha (190 s);ja;nein;nein;ja;nein;nein
+Beispiel;30.10.2026;11:34;Deutschland;Gersthofen;BY;Handy;Englisch;Google;141;1;Mittag (141 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;11:17;Schweiz;Zürich;ZH;Handy;Deutsch;Google;328;2;Abends (49 s) > Karte (279 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;11:12;Deutschland;Augsburg;BY;Handy;Deutsch;Google;280;2;Startseite (63 s) > Feiern (217 s);ja;ja;nein;nein;nein;nein
+Beispiel;30.10.2026;11:10;Deutschland;München;BY;Handy;Deutsch;TikTok;323;3;Mittag (114 s) > Abends (19 s) > Feiern (190 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;11:00;Deutschland;Augsburg;BY;Rechner;Deutsch;Instagram;81;1;Catering (81 s);nein;ja;ja;nein;nein;nein
+Beispiel;30.10.2026;10:31;Deutschland;Stadtbergen;BY;Handy;Deutsch;Direkt aufgerufen;123;2;Startseite (98 s) > Abends (25 s);ja;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;10:25;Deutschland;Augsburg;BY;Handy;Deutsch;Direkt aufgerufen;337;3;Startseite (21 s) > Mittag (180 s) > Feiern (136 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;10:07;Deutschland;Ulm;BW;Handy;Deutsch;Direkt aufgerufen;88;1;Startseite (88 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;09:35;Österreich;Innsbruck;7;Handy;Deutsch;TikTok;365;3;Startseite (43 s) > Matcha (223 s) > Karte (99 s);nein;nein;nein;nein;nein;nein
+Beispiel;30.10.2026;07:06;Deutschland;Augsburg;BY;Handy;Deutsch;Google;45;1;Besuch (45 s);nein;nein;nein;ja;nein;nein
+Beispiel;29.10.2026;21:53;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;783;5;Feiern (175 s) > Catering (77 s) > Mittag (158 s) > Catering (157 s) > Karte (216 s);nein;ja;nein;nein;nein;nein
+Beispiel;29.10.2026;19:38;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;200;2;Startseite (54 s) > Catering (146 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;19:04;Deutschland;Gersthofen;BY;Rechner;Deutsch;Google;148;1;Feiern (148 s);nein;ja;nein;nein;nein;nein
+Beispiel;29.10.2026;18:46;Deutschland;Neusäß;BY;Handy;Deutsch;Google;796;6;Startseite (47 s) > Matcha (225 s) > Mittag (178 s) > Karte (186 s) > Abends (83 s) > Mittag (77 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;18:44;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;38;1;Startseite (38 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;18:33;Deutschland;Friedberg;BY;Handy;Englisch;TikTok;611;4;Startseite (143 s) > Abends (159 s) > Matcha (199 s) > Mittag (110 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;17:56;Deutschland;Neusäß;BY;Handy;Englisch;Google;67;1;Startseite (67 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;17:28;Deutschland;Friedberg;BY;Handy;Deutsch;Google;165;2;Startseite (59 s) > Abends (106 s);ja;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;16:57;Deutschland;Augsburg;BY;Rechner;Deutsch;Direkt aufgerufen;30;1;Startseite (30 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;13:43;Deutschland;Neusäß;BY;Handy;Deutsch;Google;142;1;Catering (142 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;13:31;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;906;7;Startseite (37 s) > Matcha (103 s) > Abends (118 s) > Feiern (260 s) > Karte (169 s) > Feiern (61 s) > Matcha (158 s);ja;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;13:31;Deutschland;Donauwörth;BY;Handy;Deutsch;Google;460;4;Startseite (120 s) > Feiern (175 s) > Karte (147 s) > Abends (18 s);nein;ja;nein;nein;nein;nein
+Beispiel;29.10.2026;13:03;Deutschland;Augsburg;BY;Rechner;Deutsch;Google;470;3;Startseite (55 s) > Feiern (161 s) > Karte (254 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;12:34;Deutschland;Ulm;BW;Handy;Deutsch;ChatGPT;604;3;Catering (214 s) > Karte (214 s) > Catering (176 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;11:39;Deutschland;Gersthofen;BY;Handy;Deutsch;Google;80;1;Startseite (80 s);ja;nein;nein;ja;nein;nein
+Beispiel;29.10.2026;11:38;Deutschland;Augsburg;BY;Handy;Deutsch;Google;615;5;Matcha (150 s) > Abends (66 s) > Karte (140 s) > Besuch (27 s) > Feiern (232 s);nein;nein;nein;nein;ja;nein
+Beispiel;29.10.2026;11:37;Deutschland;Gersthofen;BY;Rechner;Deutsch;Direkt aufgerufen;27;1;Abends (27 s);nein;nein;nein;nein;nein;nein
+Beispiel;29.10.2026;11:25;Deutschland;München;BY;Handy;Deutsch;Direkt aufgerufen;1052;7;Startseite (22 s) > Abends (120 s) > Mittag (153 s) > Karte (126 s) > Mittag (164 s) > Karte (207 s) > Mittag (260 s);ja;nein;nein;nein;nein;nein

@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<script id="wb-rueckweg">(function(){var q=new URLSearchParams(location.search),y=q.get("wb");if(!/^\d+$/.test(y||""))y=q.get("wy");try{if(y&&/^\d+$/.test(y))sessionStorage.setItem("wb-rueck",y);else y=sessionStorage.getItem("wb-rueck")}catch(e){}if(!y||!/^\d+$/.test(y))return;function setze(){[].forEach.call(document.querySelectorAll("a[href]"),function(a){try{var u=new URL(a.getAttribute("href"),location.href);if(u.origin!==location.origin||!/\/werkbank\/(index\.html)?$/.test(u.pathname))return;u.hash="";u.search="?y="+y;a.href=u.toString()}catch(e){}})}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setze);else setze();addEventListener("load",setze);setTimeout(setze,1500)})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KI und Ihre Daten · Uncle Hung</title>
+<meta name="description" content="Ein Entwurf für die neue Website des Uncle Hung, mit Unterlagen und Ideen für Papier. Alles auf einen Blick.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2b342d">
+<meta property="og:title" content="Alles auf einen Blick · Uncle Hung">
+<meta property="og:description" content="Ein Entwurf für die neue Website des Uncle Hung, mit Unterlagen, Studio und Ideen für Papier.">
+<meta property="og:image" content="werkbank/img/og.jpg">
+<meta property="og:type" content="website">
+<link rel="preload" href="fonts/fraunces-soft.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/auftakt.webp" as="image">
+<link rel="preload" href="img/auftakt-h.webp" as="image">
+<link rel="stylesheet" href="werkbank.css?v=1794440905">
+<link rel="stylesheet" href="kapitel.css?v=1794441002">
+<link rel="stylesheet" href="gruss.css?v=04112026">
+<style id="abgleich-0411">.namenzug span::after{width:.62em;height:.78em;border-radius:0;background:var(--messing);vertical-align:-.08em;-webkit-mask:url(eigen/zeichen-salbei.svg) center/contain no-repeat;mask:url(eigen/zeichen-salbei.svg) center/contain no-repeat}@media(min-width:900px){#seiten .wahl{flex-wrap:wrap;justify-content:center;overflow:visible!important;max-width:880px;margin-left:auto;margin-right:auto;padding-left:0;padding-right:0}#seiten .wahl>:first-child,#seiten .wahl>:last-child{margin-left:0;margin-right:0}}</style>
+<style id="sb-ruhe">.bf .bf-blatt[data-a="heben"],.bf .bf-blatt[data-a="heben"].da{animation:none!important}.kap__geist{animation:none!important}.kn:hover,.kn:active,.rund:hover,.rund:active,.wahl button:active,.vh-wahl button:active,.bn button:hover,.bn button:active,.glanz:active,.ins-r:hover,.ins-r:active,.wf__pf:hover,.wf__pf:active,.rgc-p:hover,.rgc-p:active,.sbf-z:hover{transform:none!important;translate:none!important;scale:none!important}.kn{overflow:hidden}.ins-reiter,.fb__reiter{padding-top:10px!important;padding-bottom:26px!important;margin-top:-10px!important;margin-bottom:-26px!important}.wahl,.vh-wahl{padding-top:8px!important;padding-bottom:26px!important;margin-top:-8px!important;margin-bottom:-12px!important}.wfen .wfen__t{font-size:clamp(24px,3.6vw,54px)!important;line-height:1.14!important}.wfen .wfen__k{font-size:clamp(15px,1.36vw,19px)!important}#papier img.frei{filter:none!important;box-shadow:none!important}</style><style id="ki-stil">
+/* «KI und Ihre Daten» (ki_seite.py, 16.10.2026, zweite Fassung): Bausteine der Werkbank (ag-blatt, mn-preise, zt, odo, wfen, data-a),
+   eigene Teile nur für Raster, Auftakt, Karten und Zahlen. Bewegung nur über die data-a der Werkbank, nichts Eigenes animiert.
+   Das Claude-Zeichen in seinem Ton (#d6b55a) ist der eine Farbpunkt der Seite. */
+.ki{--claude:#d6b55a}
+.ki-hz{display:block;width:clamp(56px,5.4vw,84px);height:auto;margin:0 auto;color:var(--himmel)}
+.ki-claude{display:block;width:clamp(44px,4.2vw,64px);height:auto;color:var(--claude)}
+.ki-kopf{text-align:center;max-width:900px;margin:0 auto clamp(48px,5.6vw,96px)}
+.ki-kopf .t2{margin-top:clamp(18px,2vw,28px)}
+.ki-lauf{max-width:56ch;margin:clamp(18px,2vw,28px) auto 0;font-size:clamp(1.06rem,1.22vw,1.2rem);line-height:1.64;opacity:.86}
+/* Auftakt */
+.ki-auftakt{padding-top:clamp(130px,13vw,190px);padding-bottom:var(--abschnitt);text-align:center}
+.ki-auftakt .in{display:block}
+.ki-paar{display:flex;align-items:center;justify-content:center;gap:clamp(18px,2.2vw,34px)}
+.ki-paar__hz{width:clamp(72px,7vw,108px)}   /* Robert 16.10.: nur das Zeichen des Hauses, mittig in Gold, ohne Claude-Zeichen */
+.ki-paar__x{position:relative;display:block;width:clamp(20px,1.8vw,28px);height:clamp(20px,1.8vw,28px)}
+.ki-paar__x::before,.ki-paar__x::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:rgba(225,204,144,.6);transform:rotate(45deg)}
+.ki-paar__x::after{transform:rotate(-45deg)}
+.ki-paar__n{display:flex;justify-content:center;gap:clamp(40px,5vw,80px);margin:18px 0 0;font:400 13px/1.3 var(--mono,'DM Mono',monospace);letter-spacing:.24em;text-transform:uppercase;color:rgba(225,204,144,.8)}
+.ki-auftakt .t1{margin:clamp(34px,4vw,60px) 0 0;text-align:center}
+.ki-auftakt .t1 .z,.ki-kopf .t2 .z,.ki-auftakt .t1 .z>span,.ki-kopf .t2 .z>span{margin-left:auto;margin-right:auto}
+.ki-kopf .t2,.ki-auftakt .t1{text-align:center;margin-left:auto!important;margin-right:auto!important}
+.ki-buehne{margin:clamp(48px,5.6vw,96px) auto 0;max-width:1240px;border-radius:clamp(22px,2.4vw,32px);overflow:hidden;box-shadow:0 60px 90px -50px rgba(0,0,0,.85),0 22px 40px -28px rgba(0,0,0,.6)}
+.ki-buehne img{display:block;width:100%;height:auto;aspect-ratio:1620/1080;object-fit:cover}
+/* Zahlen + Kosten */
+.ki-zahlen{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:3px double rgba(225,204,144,.55);border-bottom:3px double rgba(225,204,144,.55);margin-bottom:clamp(56px,6vw,104px)}
+.ki-zahl{padding:clamp(28px,3vw,48px) clamp(14px,1.6vw,26px);text-align:center}
+.ki-zahl+.ki-zahl{border-left:1px solid rgba(225,204,144,.22)}
+.ki-zahl__n{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(3.6rem,7vw,7.6rem);line-height:1.16;color:var(--creme)}
+.ki-zahl__t{margin:12px auto 0;max-width:22ch;line-height:1.55;color:rgba(255,255,255,.82)}
+.ki-blick{display:grid;gap:clamp(28px,3.4vw,56px);grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:center}
+.ki-blick__text p{font-family:var(--serif);font-size:clamp(1.1rem,1.3vw,1.3rem);line-height:1.55;margin:.7em 0 0;color:var(--tinte)}
+/* Claude gross und mittig im freien Raum der linken Spalte (Robert 16.10.2026) */
+.ki-blick{align-items:stretch!important}
+.ki-blick__text{display:flex;flex-direction:column}
+.ki-marke{flex:1;display:flex;align-items:center;justify-content:center;gap:clamp(14px,1.4vw,22px);min-height:clamp(120px,12vw,190px);margin-bottom:clamp(16px,1.8vw,24px)}
+.ki-marke .ki-claude{width:clamp(56px,5vw,80px)}
+.ki-marke span{font-family:var(--serif);font-weight:400;font-size:clamp(2.4rem,3.4vw,3.6rem);line-height:1;color:var(--tinte)}
+.ki-preise{max-width:none;margin:0}
+.ki-k__t{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(1.7rem,2.3vw,2.4rem);line-height:1.1;color:var(--tinte)}
+/* Vier Stellen: Foto + Karte, abwechselnd; das Foto ist so hoch wie die Karte */
+.ki-stellen{display:grid;gap:clamp(56px,6.4vw,112px)}
+.ki-st{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(24px,3vw,52px);align-items:stretch}
+.ki-st--um .ki-st__b{order:2}
+.ki-st__b{position:relative;margin:0;border-radius:clamp(22px,2.4vw,30px);overflow:hidden;box-shadow:0 50px 80px -48px rgba(0,0,0,.9),0 18px 34px -26px rgba(0,0,0,.6);min-height:420px}
+.ki-st__b img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ki-kerbe{position:absolute;left:0;bottom:0;padding:18px 26px 2px 24px;background:var(--navy,var(--navy));border-top-right-radius:24px;font:400 14px/1 var(--mono,'DM Mono',monospace);letter-spacing:.18em;text-transform:uppercase;color:var(--creme)}
+.ki-kerbe::before,.ki-kerbe::after{content:"";position:absolute;width:24px;height:24px;background:radial-gradient(circle at 100% 0,transparent 23.5px,var(--navy,var(--navy)) 24px)}
+.ki-kerbe::before{left:0;top:-24px}
+.ki-kerbe::after{right:-24px;bottom:0}
+.ki-k{display:flex;flex-direction:column}
+.ki-k dl{margin:clamp(14px,1.6vw,22px) 0 clamp(18px,2vw,26px)}
+.ki-k__r{padding:14px 0;border-top:1px solid rgba(69,84,71,.22)}
+.ki-k__r dt{font:400 13px/1.3 var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--blau)}
+.ki-k__r dd{margin:6px 0 0;font-size:1rem;line-height:1.6;color:rgba(22,28,23,.86)}
+.ki-k__ohne{margin-top:auto;padding:clamp(18px,2vw,26px);border-radius:18px;background:var(--navy,var(--navy));color:#ffffff;box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
+.ki-k__ohne-t{margin:0;font:400 13px/1.3 var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--creme)}
+.ki-k__ohne p+p{margin:8px 0 0;font-family:var(--serif);font-size:clamp(1.08rem,1.25vw,1.24rem);line-height:1.5;color:rgba(255,255,255,.92)}
+/* Fenster: Satz mit kräftigem Schatten, damit er auf jedem Foto lesbar bleibt (Robert 16.10.2026) */
+#ki-fenster .wfen__t,#ki-fenster .wfen__k{text-shadow:0 1px 2px rgba(9,10,9,.95),0 3px 14px rgba(9,10,9,.85),0 10px 46px rgba(9,10,9,.75)}
+/* Geräte mit Film (Robert 16.10.2026): ein Gerät je Abschnitt, frei auf dem Grund, mittig zur Karte */
+.ki-k__mit{margin-top:auto;margin-bottom:10px;padding:clamp(18px,2vw,26px);border-radius:18px;background:rgba(69,84,71,.08);box-shadow:inset 0 0 0 1px rgba(69,84,71,.35)}
+.ki-k__mit .ki-k__ohne-t{color:var(--blau)}
+.ki-k__mit p+p{margin:8px 0 0;font-family:var(--serif);font-size:clamp(1.02rem,1.15vw,1.14rem);line-height:1.5;color:rgba(22,28,23,.86)}
+.ki-k__mit+.ki-k__ohne{margin-top:0}
+.ki-k p.ki-k__betrag{margin:10px 0 0;font:400 13px/1.3 var(--mono,'DM Mono',monospace);letter-spacing:.16em;text-transform:uppercase}
+.ki-k__mit p.ki-k__betrag{color:#4c5e4f}.ki-k__ohne p.ki-k__betrag{color:var(--creme)}
+[dir=rtl] .ki-k p.ki-k__betrag{letter-spacing:0}
+.ki-k__preis{margin:8px 0 0;font:400 13px/1.3 var(--mono,'DM Mono',monospace);letter-spacing:.16em;text-transform:uppercase;color:var(--blau)}
+.ki-geraet{margin:0;display:flex;align-items:center;justify-content:center}
+.ki-st--um .ki-geraet{order:2}
+.ki-film{display:block;width:100%;height:100%;object-fit:cover;background:#0f1310}
+.ki-laptop{position:relative;width:100%;aspect-ratio:2000/1673;filter:drop-shadow(0 46px 50px rgba(0,0,0,.55))}
+.ki-laptop__s{position:absolute;left:9.7242%;top:2.0296%;width:80.5516%;height:62.3256%;overflow:hidden;background:#0f1310}
+.ki-laptop__g{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
+.ki-handy{position:relative;width:min(300px,62%);aspect-ratio:540/1168;padding:11px;border-radius:52px;background:linear-gradient(160deg,#465649,#161a16 55%,var(--navy));
+  box-shadow:inset 0 0 0 1.5px rgba(225,204,144,.28),inset 0 0 0 5px #0d100e,0 50px 70px -36px rgba(0,0,0,.85)}
+.ki-handy__s{width:100%;height:100%;border-radius:42px;overflow:hidden;background:#0f1310}
+.ki-ipad{position:relative;width:100%;aspect-ratio:1180/820;padding:clamp(12px,1.4vw,20px);border-radius:clamp(26px,2.6vw,38px);background:linear-gradient(160deg,#465649,#161a16 55%,var(--navy));
+  box-shadow:inset 0 0 0 1.5px rgba(225,204,144,.28),inset 0 0 0 6px #0d100e,0 50px 70px -40px rgba(0,0,0,.85)}
+.ki-ipad__s{width:100%;height:100%;border-radius:clamp(12px,1.2vw,18px);overflow:hidden;background:#0f1310}
+/* Zwei Wege für den Chat (19.10.2026): zwei Karten nebeneinander, darunter «Beides» und die Antwort auf die Sorge */
+.ki-wege{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(20px,2.6vw,40px);align-items:stretch}
+.ki-beides{text-align:center;margin:clamp(34px,4vw,60px) auto!important}
+.ki-sorge>p{max-width:62ch}
+[dir=rtl] .ki-weg .ki-k__preis{letter-spacing:0}
+/* Daten */
+/* Daten, edler (Robert 16.10.2026: «noch geiler und edler»): Anbieter als Platte, sechs Zusagen als helle Blätter mit Doppelrand und Siegel */
+.ki-anbieter{display:flex;align-items:center;justify-content:center;gap:clamp(16px,1.6vw,24px);width:max-content;max-width:100%;margin:0 auto clamp(44px,5vw,80px);padding:clamp(16px,1.6vw,22px) clamp(26px,2.6vw,40px);
+  border-radius:999px;background:var(--weiss);box-shadow:inset 0 1px 0 #ffffff,0 0 0 1px rgba(69,84,71,.45),0 0 0 6px rgba(248,243,237,.7),0 0 0 7px rgba(69,84,71,.25),0 30px 50px -36px rgba(18,21,18,.6)}
+.ki-anbieter .ki-claude{width:clamp(46px,4vw,60px)}
+.ki-anbieter p{margin:0;display:flex;flex-direction:column;text-align:left}
+.ki-anbieter b{font-family:var(--serif);font-weight:400;font-size:1.5rem;color:var(--tinte)}
+.ki-anbieter span{font-size:.9rem;opacity:.72}
+.ki-daten{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,2vw,30px)}
+.ki-d{position:relative;text-align:center;padding:clamp(34px,3.4vw,52px) clamp(24px,2.4vw,38px) clamp(30px,3vw,44px);border-radius:clamp(22px,2.2vw,30px);
+  background:var(--weiss);box-shadow:inset 0 1px 0 #ffffff,0 0 0 1px rgba(69,84,71,.5),0 50px 70px -52px rgba(18,21,18,.7),0 18px 30px -26px rgba(18,21,18,.45)}
+.ki-d::before,.ki-d::after{content:"";position:absolute;pointer-events:none;border:1px solid rgba(69,84,71,.45);border-radius:clamp(15px,1.5vw,22px);inset:10px}
+.ki-d::after{inset:14px;border-color:rgba(69,84,71,.2);border-radius:clamp(12px,1.2vw,19px)}
+.ki-siegel{display:grid;place-items:center;width:58px;height:58px;margin:0 auto;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f5eee5,#e1cc90 55%,#455447);box-shadow:inset 0 0 0 1px rgba(255,255,255,.55),inset 0 0 0 5px rgba(69,84,71,.35),0 10px 18px -10px rgba(18,21,18,.7)}
+.ki-siegel i{width:12px;height:12px;transform:rotate(45deg);background:var(--navy)}
+.ki-d h3{margin:20px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(1.5rem,1.95vw,2rem);line-height:1.15;color:var(--tinte)}
+.ki-d p{margin:12px auto 0;line-height:1.62;max-width:34ch;color:rgba(22,28,23,.84)}
+.ki-raute{display:block;width:10px;height:10px;transform:rotate(45deg);background:var(--himmel)}
+/* Ohne KI */
+.ki-ohne{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(18px,2vw,30px)}
+.ki-o{padding:clamp(22px,2.4vw,32px);border-radius:clamp(20px,2vw,26px);background:var(--weiss);box-shadow:inset 0 1px 0 #ffffff,0 0 0 1px rgba(69,84,71,.35),0 34px 50px -40px rgba(18,21,18,.55)}
+.ki-o h3{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(1.4rem,1.7vw,1.75rem);color:var(--tinte)}
+.ki-o p{margin:12px 0 0;line-height:1.62;color:rgba(22,28,23,.86)}
+/* In Ihrer Hand */
+.ki-hand{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,3.6vw,64px);align-items:center;margin-bottom:clamp(56px,6vw,104px)}
+.ki-hand__b{margin:0;border-radius:clamp(22px,2.4vw,30px);overflow:hidden;box-shadow:0 50px 80px -48px rgba(0,0,0,.9)}
+.ki-hand__b img{display:block;width:100%;height:auto}
+.ki-hand__t .ki-hz{margin:0}
+.ki-hand__t .t2{margin:clamp(16px,1.8vw,24px) 0 clamp(20px,2.4vw,34px)}
+.ki-h{margin:0;padding:16px 0;border-top:1px solid rgba(225,204,144,.25);font-size:1.05rem;line-height:1.6;color:rgba(255,255,255,.82)}
+.ki-h b{display:block;font-family:var(--serif);font-weight:400;font-size:1.45rem;color:var(--creme);margin-bottom:4px}
+.ki-offen{max-width:880px;margin:0 auto;text-align:center}
+.ki-offen>p{font-family:var(--serif);font-size:clamp(1.08rem,1.25vw,1.25rem);line-height:1.55;max-width:58ch;margin:14px auto 0;color:var(--tinte)}
+.ki-knoepfe{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:clamp(22px,2.4vw,34px)!important}
+.ki-quellen{font-size:.82rem!important;font-family:inherit!important;opacity:.72;margin-top:clamp(24px,2.6vw,36px)!important}
+.ki-quellen__l{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;font-size:.82rem}
+.ki-quellen__l a{color:var(--blau)}
+@media(max-width:1000px){.ki-blick,.ki-st,.ki-hand,.ki-wege{grid-template-columns:1fr}.ki-st--um .ki-st__b,.ki-st--um .ki-geraet{order:0}.ki-st__b{min-height:0;aspect-ratio:4/3}
+  .ki-zahlen{grid-template-columns:repeat(2,minmax(0,1fr))}.ki-zahl:nth-child(3){border-left:0}.ki-zahl:nth-child(n+3){border-top:1px solid rgba(225,204,144,.22)}
+  .ki-daten{grid-template-columns:repeat(2,minmax(0,1fr))}.ki-ohne{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.ki-daten,.ki-ohne{grid-template-columns:1fr}.ki-paar__n{flex-direction:column;gap:6px}.ki-zahl__n{font-size:3.4rem}}
+
+
+.ki-geraet img{display:block;width:100%;height:auto;filter:drop-shadow(0 40px 46px rgba(0,0,0,.5))}
+.ki [data-a="heben"]{opacity:1;transform:translate3d(0,100px,0) scale(.975);transition:transform 2.1s cubic-bezier(.16,1,.3,1)}
+.ki [data-a="heben"].da{transform:none}
+.ki .ag-blatt{position:relative;padding:clamp(26px,3.4vw,56px);border-radius:clamp(22px,2.4vw,34px);background:var(--weiss);color:var(--tinte);box-shadow:inset 0 1px 0 #ffffff,0 0 0 1px rgba(69,84,71,.22),0 60px 80px -56px rgba(0,0,0,.9)}
+.ki-sorge{margin-top:clamp(56px,6vw,100px)!important}
+.ki-hz{color:var(--himmel)}
+@media(prefers-reduced-motion:reduce){.ki [data-a="heben"]{transform:none;transition:none}}
+/* Uncle Hung: der Laptop steht mittig neben der Karte, keine Leerfläche darunter (Prüfpunkt 10) */
+.ki-st>.ki-geraet{align-self:stretch!important;display:flex;align-items:center;justify-content:center;margin:0}
+/* Uncle Hung: auf der KI-Seite wird jeder Abschnitt gezeichnet (sonst gelten sie Prüfung und Messung als leer) */
+main>section.fl{content-visibility:visible!important}
+.ki-st--allein{grid-template-columns:minmax(0,1fr)!important;max-width:820px;margin-left:auto;margin-right:auto}
+</style>
+
+<style>.ki-claude{color:#d97757!important}</style>
+<style id="zeile-ganz">h1,h2,h3,h4,.z>span{text-wrap:balance}h1 br+em,h2 br+em{display:inline-block;text-wrap:balance}.stapel .fen__k{position:relative}.stapel .fen__k span{position:absolute;left:50%;transform:translateX(-50%);margin:0;overflow:visible}@media(max-width:860px){.stapel .fen__k span{display:none}}@media(max-width:480px){.etk{grid-template-columns:minmax(0,1fr)!important}}@media(min-width:900px) and (max-width:1279px){.brett-p{grid-template-columns:300px minmax(0,1fr)}.brett-p__k{grid-column:1/-1}}@media(max-width:1279px){.brett-p p{text-wrap:balance}}.da:not([data-drift]){will-change:auto!important}.mb-ueber__t small{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:baseline}.mb-ueber__t small span{min-width:0}@media(max-width:480px){.mn-titel{font-size:clamp(1.5rem,8vw,2.2rem);letter-spacing:.03em}.mn-ende{gap:10px}.mn-ende i{width:18px}.mn-ende span{letter-spacing:.12em;white-space:nowrap}a.kn[href="../index.html#geprueft"]{letter-spacing:.04em;font-size:13px;white-space:nowrap;padding-left:14px}.stapel .tel{width:21%;right:-2%}}@media(max-width:480px){.wege__t,figcaption,.mb-ueber__t small{text-wrap:balance}.sag-h{font-size:1.32rem;letter-spacing:.03em;gap:10px}.hs2-her{grid-template-columns:repeat(2,minmax(0,1fr))!important}.hs2-her figcaption small{font-size:13px;letter-spacing:0}.ki-knoepfe{flex-direction:column;align-items:stretch}.ki-knoepfe .kn{white-space:nowrap;letter-spacing:.04em;font-size:13px}#sag-aufbau[data-a="heben"]:not(.da){transform:translateY(56px) scale(.98)!important}.faecher--2 .blattk span{flex-direction:column;gap:3px;font-size:13px;letter-spacing:.08em}}.stage>.aside h1{font-size:clamp(2rem,3.6vw,3.3rem);white-space:nowrap}.stage>.aside h1 em{display:inline}</style></head>
+<body class="haus-uncle-hung">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="hz"><g transform="translate(0.000000,650.000000) scale(0.100000,-0.100000)"><path d="M4975 6351 c-76 -31 -150 -97 -227 -204 -57 -80 -264 -388 -282 -422 -9 -16 -28 -48 -41 -70 -13 -22 -27 -47 -31 -55 -4 -8 -22 -35 -39 -60 -17 -25 -49 -76 -70 -115 -21 -38 -48 -83 -60 -100 -12 -16 -28 -44 -34 -62 -7 -18 -19 -38 -27 -44 -8 -6 -14 -19 -14 -27 0 -9 -17 -41 -39 -72 -21 -30 -60 -95 -87 -145 -27 -49 -63 -112 -81 -140 -18 -27 -33 -57 -33 -65 0 -9 -11 -31 -25 -50 -14 -19 -25 -37 -25 -42 0 -4 -16 -32 -35 -62 -19 -30 -35 -61 -35 -69 0 -8 -8 -25 -19 -38 -32 -41 -81 -141 -81 -164 0 -30 16 -35 104 -35 85 0 102 9 154 88 21 32 47 71 59 87 12 17 116 174 232 350 116 176 225 340 242 365 61 89 98 146 130 200 18 30 46 73 64 95 17 22 42 58 55 80 12 22 44 71 69 108 65 97 99 149 110 172 6 11 23 37 38 58 43 58 77 106 122 177 39 61 41 69 41 140 0 73 -1 77 -33 108 -37 36 -45 37 -102 13z"/><path d="M5451 6347 c-68 -28 -168 -129 -264 -267 -36 -53 -105 -157 -137 -210 -18 -30 -57 -91 -85 -135 -28 -44 -68 -105 -87 -135 -19 -30 -46 -75 -59 -99 -13 -24 -29 -51 -34 -60 -28 -43 -112 -189 -123 -211 -14 -29 -26 -49 -62 -105 -15 -22 -58 -96 -96 -165 -93 -169 -96 -175 -138 -255 -20 -38 -48 -88 -61 -110 -13 -22 -29 -52 -36 -67 -6 -16 -15 -28 -20 -28 -14 0 -70 -133 -67 -160 3 -25 4 -25 98 -25 89 0 97 2 123 27 15 14 27 33 27 41 0 8 7 20 15 27 8 6 30 40 50 73 20 34 63 100 96 147 79 113 129 187 237 355 50 77 97 147 105 155 8 8 21 29 30 45 8 17 44 74 80 127 36 53 68 106 72 117 3 12 10 21 14 21 5 0 26 28 47 61 21 34 46 72 54 84 82 127 130 197 216 323 148 215 158 237 151 327 -5 66 -9 78 -34 99 -34 30 -42 30 -112 3z"/><path d="M3927 4254 c-2 -3 -848 -5 -1879 -4 -1822 0 -1875 -1 -1892 -19 -16 -17 -17 -92 -14 -1082 3 -960 5 -1068 20 -1105 9 -23 19 -68 23 -100 6 -53 27 -135 56 -219 6 -16 16 -48 21 -70 6 -22 17 -49 25 -60 7 -11 13 -26 13 -35 0 -8 15 -44 34 -80 18 -36 50 -99 71 -140 64 -126 197 -319 290 -420 235 -255 435 -411 695 -540 58 -29 114 -57 125 -63 30 -16 230 -85 315 -109 41 -11 107 -24 146 -29 39 -5 100 -15 135 -24 87 -20 520 -21 599 -1 30 7 82 16 115 20 33 3 94 16 135 27 159 46 241 72 246 80 3 5 14 9 25 9 23 0 297 133 374 182 28 18 92 64 144 102 52 39 103 78 115 85 37 26 148 133 218 211 122 135 138 154 188 230 27 41 58 86 69 101 21 27 38 58 119 213 29 55 55 110 58 121 4 11 12 34 20 50 32 73 77 220 94 306 4 26 14 64 20 85 6 22 18 98 27 169 23 192 32 2050 9 2080 -14 19 -27 20 -370 21 -196 1 -362 4 -370 7 -8 3 -16 4 -19 1z"/></g></g></defs></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" id="rhgold-def"><defs><linearGradient id="rhgold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7d6a6"/><stop offset=".3" stop-color="#d9bb69"/><stop offset=".52" stop-color="#cea63a"/><stop offset=".66" stop-color="#5a6b5b"/><stop offset=".84" stop-color="#d0ab44"/><stop offset="1" stop-color="#e0c98a"/></linearGradient><linearGradient id="rhgold-t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#caa132"/><stop offset=".34" stop-color="#5a6b5b"/><stop offset=".56" stop-color="#4a5a4d"/><stop offset=".7" stop-color="#3c4a3f"/><stop offset=".86" stop-color="#576858"/><stop offset="1" stop-color="#677c69"/></linearGradient><linearGradient id="rhgold-hell" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ecdfb9"/><stop offset=".45" stop-color="#e2cc91"/><stop offset=".8" stop-color="#ddc277"/><stop offset="1" stop-color="#e7d5a4"/></linearGradient></defs></svg>
+<div class="gang-linie" aria-hidden="true"></div>
+<header class="leiste"><div class="insel">
+  <a class="insel__m" href="#oben"><svg class="hz" viewBox="14 13 546 623" aria-hidden="true" fill="currentColor"><use href="#hz"/></svg><b>UNCLE HUNG</b><span>Entwurf</span></a>
+  <nav aria-label="Kapitel"><a href="#ki-blick">KI</a><a href="#ki-zahlen">Kosten</a><a href="#ki-stellen">Vier Stellen</a><a href="#ki-daten">Ihre Daten</a><a href="#ki-ohne">Ohne KI</a><a href="#ki-hand">In Ihrer Hand</a><a href="index.html#sag-vorschlag">Zurück zum Vorschlag</a></nav>
+  <a class="glanz" href="../index.html" target="_blank" rel="noopener">Zur Website<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></a>
+</div></header>
+
+<main id="oben">
+<section class="fl fl--nacht tapete-leicht ki ki-auftakt" id="ki-blick">
+  <div class="in"><div data-a="auf"><svg class="ki-hz" viewBox="14 13 546 623" fill="currentColor" aria-hidden="true"><use href="#hz"/></svg></div><h1 class="t1 zt"><span class="z"><span>Wo die KI hilft.</span></span><span class="z"><span><em>Und wo Ihre Daten bleiben.</em></span></span></h1><p class="ki-lauf" data-a="worte">In drei Werkzeugen von Uncle Hung hilft an vier Stellen Claude mit, das Sprachmodell von Anthropic. Für jede Stelle steht hier, was sie macht, was sie kostet, welche Daten wohin gehen und was ohne KI bleibt.</p></div>
+</section>
+<section class="fl fl--navy tapete blatt ki" id="ki-zahlen">
+  <div class="in">
+    <div class="ki-zahlen"><div class="ki-zahl" data-a="auf" style="--i:0"><p class="ki-zahl__n"><span class="odo" data-z="4">4</span></p><p class="ki-zahl__t">Stellen nutzen KI, alles andere arbeitet ohne.</p></div><div class="ki-zahl" data-a="auf" style="--i:1"><p class="ki-zahl__n"><span class="odo" data-z="0">0</span></p><p class="ki-zahl__t">Ihrer Daten gehen ins Training des Modells.</p></div><div class="ki-zahl" data-a="auf" style="--i:2"><p class="ki-zahl__n"><span class="odo" data-z="30">30</span></p><p class="ki-zahl__t">Tage, dann löscht der Anbieter jede Eingabe.</p></div><div class="ki-zahl" data-a="auf" style="--i:3"><p class="ki-zahl__n"><span class="odo" data-z="12">12</span></p><p class="ki-zahl__t">Monate bewahrt Ihr Haus Anfragen auf, dann sind sie weg.</p></div></div>
+    <div class="ag-blatt ki-blick" data-a="heben">
+      <div class="ki-blick__text"><div class="ki-marke"><svg class="ki-claude" viewBox="0 0 24 24" role="img" aria-label="Claude"><path fill="currentColor" d="m4.7144 15.9555 4.7174-2.6471.079-.2307-.079-.1275h-.2307l-.7893-.0486-2.6956-.0729-2.3375-.0971-2.2646-.1214-.5707-.1215-.5343-.7042.0546-.3522.4797-.3218.686.0608 1.5179.1032 2.2767.1578 1.6514.0972 2.4468.255h.3886l.0546-.1579-.1336-.0971-.1032-.0972L6.973 9.8356l-2.55-1.6879-1.3356-.9714-.7225-.4918-.3643-.4614-.1578-1.0078.6557-.7225.8803.0607.2246.0607.8925.686 1.9064 1.4754 2.4893 1.8336.3643.3035.1457-.1032.0182-.0728-.164-.2733-1.3539-2.4467-1.445-2.4893-.6435-1.032-.17-.6194c-.0607-.255-.1032-.4674-.1032-.7285L6.287.1335 6.6997 0l.9957.1336.419.3642.6192 1.4147 1.0018 2.2282 1.5543 3.0296.4553.8985.2429.8318.091.255h.1579v-.1457l.1275-1.706.2368-2.0947.2307-2.6957.0789-.7589.3764-.9107.7468-.4918.5828.2793.4797.686-.0668.4433-.2853 1.8517-.5586 2.9021-.3643 1.9429h.2125l.2429-.2429.9835-1.3053 1.6514-2.0643.7286-.8196.85-.9046.5464-.4311h1.0321l.759 1.1293-.34 1.1657-1.0625 1.3478-.8804 1.1414-1.2628 1.7-.7893 1.36.0729.1093.1882-.0183 2.8535-.607 1.5421-.2794 1.8396-.3157.8318.3886.091.3946-.3278.8075-1.967.4857-2.3072.4614-3.4364.8136-.0425.0304.0486.0607 1.5482.1457.6618.0364h1.621l3.0175.2247.7892.522.4736.6376-.079.4857-1.2142.6193-1.6393-.3886-3.825-.9107-1.3113-.3279h-.1822v.1093l1.0929 1.0686 2.0035 1.8092 2.5075 2.3314.1275.5768-.3218.4554-.34-.0486-2.2039-1.6575-.85-.7468-1.9246-1.621h-.1275v.17l.4432.6496 2.3436 3.5214.1214 1.0807-.17.3521-.6071.2125-.6679-.1214-1.3721-1.9246L14.38 17.959l-1.1414-1.9428-.1397.079-.674 7.2552-.3156.3703-.7286.2793-.6071-.4614-.3218-.7468.3218-1.4753.3886-1.9246.3157-1.53.2853-1.9004.17-.6314-.0121-.0425-.1397.0182-1.4328 1.9672-2.1796 2.9446-1.7243 1.8456-.4128.164-.7164-.3704.0667-.6618.4008-.5889 2.386-3.0357 1.4389-1.882.929-1.0868-.0062-.1579h-.0546l-6.3385 4.1164-1.1293.1457-.4857-.4554.0608-.7467.2307-.2429 1.9064-1.3114Z"/></svg><span>Claude</span></div><h3 class="ki-k__t">Was es kostet</h3><p>Die KI läuft über ein eigenes Konto Ihres Hauses beim Anbieter. Sie zahlen dort direkt nach Verbrauch; das Konto richten wir gemeinsam ein, mit einer Obergrenze je Monat.</p><p>In der Betreuung ist das nicht enthalten. Die fertigen Vorlagen, das Bildarchiv und alles Übrige kosten nichts.</p></div>
+      <div><ul class="mn-l mn-preise ki-preise"><li class="mn-p"><p class="mn-p__z"><b>Der Chat für Ihre Gäste</b><i></i><span>Anfragen &amp; Chat</span></p><p class="mn-p__s">Nach Verbrauch über das Konto Ihres Hauses. Den Betrag je Aufruf messen wir beim ersten Lauf mit Ihrem Konto und tragen ihn hier ein.</p></li><li class="mn-p"><p class="mn-p__z"><b>Antwort auf eine Anfrage</b><i></i><span>Anfragen &amp; Chat</span></p><p class="mn-p__s">Nach Verbrauch über das Konto Ihres Hauses. Den Betrag je Aufruf messen wir beim ersten Lauf mit Ihrem Konto und tragen ihn hier ein.</p></li><li class="mn-p"><p class="mn-p__z"><b>Entwürfe für Papier</b><i></i><span>Drucksachen &amp; Feed</span></p><p class="mn-p__s">Nach Verbrauch über das Konto Ihres Hauses. Den Betrag je Aufruf messen wir beim ersten Lauf mit Ihrem Konto und tragen ihn hier ein.</p></li><li class="mn-p"><p class="mn-p__z"><b>Eine Markenprüfung</b><i></i><span>Markenbuch</span></p><p class="mn-p__s">Nach Verbrauch über das Konto Ihres Hauses. Den Betrag je Aufruf messen wir beim ersten Lauf mit Ihrem Konto und tragen ihn hier ein.</p></li></ul></div>
+    </div>
+  </div>
+</section>
+<section class="fl fl--nacht tapete blatt ki" id="ki-stellen">
+  <div class="in"><header class="ki-kopf"><div data-a="auf"><svg class="ki-hz" viewBox="14 13 546 623" fill="currentColor" aria-hidden="true"><use href="#hz"/></svg></div><h2 class="t2 zt"><span class="z"><span>Vier Stellen,</span></span><span class="z"><span><em>genau beschrieben.</em></span></span></h2><p class="ki-lauf" data-a="worte">Was die KI dort tut, was dabei zum Anbieter geht, was Ihr Haus aufbewahrt, was es kostet und was ohne sie bleibt.</p></header><div class="ki-stellen"><article class="ki-st"><figure class="ki-geraet" data-a="kipp"><img src="img/ki-geraet-reception.webp" alt="Anfragen &amp; Chat am Laptop: Der Chat für Ihre Gäste" loading="lazy" decoding="async"></figure><div class="ag-blatt ki-k" data-a="heben"><h3 class="ki-k__t">Der Chat für Ihre Gäste</h3><p class="ki-k__preis">Anfragen &amp; Chat</p><dl><div class="ki-k__r"><dt>Was sie tut</dt><dd>Für die Website noch eine Idee: Er beantwortet Fragen von Gästen zu Karte, Zeiten, Feiern und Catering, nur aus den Seiten und Unterlagen des Hauses. Zum Ausprobieren steht er schon in «Anfragen &amp; Chat», mit vorbereiteten Antworten.</dd></div><div class="ki-k__r"><dt>Was zum Anbieter geht</dt><dd>Fragen und Antworten des Gesprächs. Name und Kontakt nur, wenn ein Gast selbst etwas anfragt.</dd></div><div class="ki-k__r"><dt>Was gespeichert wird</dt><dd>Fragen und Antworten im Werkzeug «Anfragen &amp; Chat», damit Sie sehen, was Gäste wissen wollen; nach zwölf Monaten gelöscht.</dd></div><div class="ki-k__r"><dt>Kosten</dt><dd>Nach Verbrauch über das Konto Ihres Hauses. Den Betrag je Aufruf messen wir beim ersten Lauf mit Ihrem Konto und tragen ihn hier ein.</dd></div></dl><div class="ki-k__ohne"><p class="ki-k__ohne-t">Ohne KI</p><p>Telefon, Zeiten und Adresse stehen wie heute auf jeder Seite.</p></div></div></article><article class="ki-st ki-st--um"><figure class="ki-geraet" data-a="kipp"><img src="img/ki-geraet-reception-2.webp" alt="Anfragen &amp; Chat am Laptop: Antwort auf eine Anfrage" loading="lazy" decoding="async"></figure><div class="ag-blatt ki-k" data-a="heben"><h3 class="ki-k__t">Antwort auf eine Anfrage</h3><p class="ki-k__preis">Anfragen &amp; Chat</p><dl><div class="ki-k__r"><dt>Was sie tut</dt><dd>Schreibt Ihnen einen Antwortentwurf auf eine Anfrage zu Catering, Feier oder Tisch, im Ton des Hauses.</dd></div><div class="ki-k__r"><dt>Was zum Anbieter geht</dt><dd>Die Anfrage mit Name, Kontakt und Anliegen.</dd></div><div class="ki-k__r"><dt>Was gespeichert wird</dt><dd>Anfragen im Werkzeug «Anfragen &amp; Chat», nach zwölf Monaten gelöscht, auf Wunsch des Gastes sofort.</dd></div><div class="ki-k__r"><dt>Kosten</dt><dd>Nach Verbrauch über das Konto Ihres Hauses. Den Betrag je Aufruf messen wir beim ersten Lauf mit Ihrem Konto und tragen ihn hier ein.</dd></div></dl><div class="ki-k__ohne"><p class="ki-k__ohne-t">Ohne KI</p><p>Eingang und Anfragen lassen sich bedienen. Die Antwort schreiben Sie dann selbst. Verschickt wird ohnehin nur, was jemand abschickt.</p></div></div></article><article class="ki-st"><figure class="ki-geraet" data-a="kipp"><img src="img/ki-geraet-imprimerie.webp" alt="Drucksachen &amp; Feed am Laptop: Entwürfe für Papier" loading="lazy" decoding="async"></figure><div class="ag-blatt ki-k" data-a="heben"><h3 class="ki-k__t">Entwürfe für Papier</h3><p class="ki-k__preis">Drucksachen &amp; Feed</p><dl><div class="ki-k__r"><dt>Was sie tut</dt><dd>Macht aus einem Satz wie «Tageskarte für den Mittag» Entwürfe im Stil des Hauses.</dd></div><div class="ki-k__r"><dt>Was zum Anbieter geht</dt><dd>Ihr Satz, dazu Marke, Fotos und Texte der Website. Keine Angaben zu Gästen.</dd></div><div class="ki-k__r"><dt>Was gespeichert wird</dt><dd>Ihre Arbeiten und eigenen Fotos bleiben im Browser auf Ihrem Gerät.</dd></div><div class="ki-k__r"><dt>Kosten</dt><dd>Nach Verbrauch über das Konto Ihres Hauses. Den Betrag je Aufruf messen wir beim ersten Lauf mit Ihrem Konto und tragen ihn hier ein.</dd></div></dl><div class="ki-k__ohne"><p class="ki-k__ohne-t">Ohne KI</p><p>Alle fertigen Vorlagen lassen sich öffnen, ändern und als PDF speichern; ohne KI nimmt sie die passendste fertige Vorlage.</p></div></div></article><article class="ki-st ki-st--um"><figure class="ki-geraet" data-a="kipp"><img src="img/ki-geraet-livre.webp" alt="Markenbuch am Laptop: Eine Markenprüfung" loading="lazy" decoding="async"></figure><div class="ag-blatt ki-k" data-a="heben"><h3 class="ki-k__t">Eine Markenprüfung</h3><p class="ki-k__preis">Markenbuch</p><dl><div class="ki-k__r"><dt>Was sie tut</dt><dd>Prüft einen Entwurf, etwa eine Anzeige der Druckerei oder einer Agentur, gegen Farben, Zeichen und Schrift des Hauses.</dd></div><div class="ki-k__r"><dt>Was zum Anbieter geht</dt><dd>Die ersten zwei Seiten der Datei als Bild.</dd></div><div class="ki-k__r"><dt>Was gespeichert wird</dt><dd>Nichts.</dd></div><div class="ki-k__r"><dt>Kosten</dt><dd>Nach Verbrauch über das Konto Ihres Hauses. Den Betrag je Aufruf messen wir beim ersten Lauf mit Ihrem Konto und tragen ihn hier ein.</dd></div></dl><div class="ki-k__ohne"><p class="ki-k__ohne-t">Ohne KI</p><p>Fotos, Dateien und die Messung der Farben laufen weiter. Nur die schriftliche Beurteilung fehlt.</p></div></div></article></div>
+    <div class="ag-blatt ki-offen ki-sorge" data-a="heben"><h3 class="ki-k__t">Und wenn die KI Gästen etwas Falsches sagt?</h3><p>Die Frage ist richtig. Die KI darf nur wiedergeben, was das Haus selbst veröffentlicht hat, und muss sagen, wenn sie etwas nicht weiß; dann nennt sie Telefon und Mail des Hauses. Ein Fehler lässt sich bei einer KI nie ganz ausschließen. Verbindlich ist, was die Familie sagt.</p></div></div>
+</section>
+<section class="wfen" id="ki-fenster" aria-label="Die KI macht den Entwurf. Abgeschickt wird im Haus.">
+  <div class="wfen__f">
+    <img src="eigen/fen-fenster-tisch-1800.webp" srcset="eigen/fen-fenster-tisch-1200.webp 1200w, eigen/fen-fenster-tisch-1800.webp 1800w, eigen/fen-fenster-tisch-2400.webp 2400w" sizes="100vw" alt="Viele Gerichte von Uncle Hung auf einem gedeckten Tisch, von oben" loading="lazy" decoding="async">
+    <div class="wfen__in"><svg class="wfen__z" viewBox="14 13 546 623" fill="currentColor" aria-hidden="true"><use href="#hz"/></svg><h2 class="wfen__t"><span>Die KI macht den Entwurf.</span><span><em>Abgeschickt wird im Haus.</em></span></h2><p class="wfen__k">Jede Antwort an einen Gast verlässt das Haus erst, wenn jemand aus der Familie sie selbst verschickt.</p></div>
+  </div>
+</section>
+<section class="fl fl--papier tapete-hell blatt ki" id="ki-daten">
+  <div class="in"><header class="ki-kopf"><div data-a="auf"><svg class="ki-hz" viewBox="14 13 546 623" fill="currentColor" aria-hidden="true"><use href="#hz"/></svg></div><h2 class="t2 zt"><span class="z"><span>Was mit Ihren</span></span><span class="z"><span>Daten <em>geschieht.</em></span></span></h2><p class="ki-lauf" data-a="worte">Der Anbieter des Sprachmodells ist Anthropic. Was er zusagt, steht in seinen Geschäftsbedingungen; was Ihr Haus aufbewahrt, bestimmen Sie.</p></header>
+    <div class="ki-anbieter" data-a="auf"><svg class="ki-claude" viewBox="0 0 24 24" role="img" aria-label="Claude"><path fill="currentColor" d="m4.7144 15.9555 4.7174-2.6471.079-.2307-.079-.1275h-.2307l-.7893-.0486-2.6956-.0729-2.3375-.0971-2.2646-.1214-.5707-.1215-.5343-.7042.0546-.3522.4797-.3218.686.0608 1.5179.1032 2.2767.1578 1.6514.0972 2.4468.255h.3886l.0546-.1579-.1336-.0971-.1032-.0972L6.973 9.8356l-2.55-1.6879-1.3356-.9714-.7225-.4918-.3643-.4614-.1578-1.0078.6557-.7225.8803.0607.2246.0607.8925.686 1.9064 1.4754 2.4893 1.8336.3643.3035.1457-.1032.0182-.0728-.164-.2733-1.3539-2.4467-1.445-2.4893-.6435-1.032-.17-.6194c-.0607-.255-.1032-.4674-.1032-.7285L6.287.1335 6.6997 0l.9957.1336.419.3642.6192 1.4147 1.0018 2.2282 1.5543 3.0296.4553.8985.2429.8318.091.255h.1579v-.1457l.1275-1.706.2368-2.0947.2307-2.6957.0789-.7589.3764-.9107.7468-.4918.5828.2793.4797.686-.0668.4433-.2853 1.8517-.5586 2.9021-.3643 1.9429h.2125l.2429-.2429.9835-1.3053 1.6514-2.0643.7286-.8196.85-.9046.5464-.4311h1.0321l.759 1.1293-.34 1.1657-1.0625 1.3478-.8804 1.1414-1.2628 1.7-.7893 1.36.0729.1093.1882-.0183 2.8535-.607 1.5421-.2794 1.8396-.3157.8318.3886.091.3946-.3278.8075-1.967.4857-2.3072.4614-3.4364.8136-.0425.0304.0486.0607 1.5482.1457.6618.0364h1.621l3.0175.2247.7892.522.4736.6376-.079.4857-1.2142.6193-1.6393-.3886-3.825-.9107-1.3113-.3279h-.1822v.1093l1.0929 1.0686 2.0035 1.8092 2.5075 2.3314.1275.5768-.3218.4554-.34-.0486-2.2039-1.6575-.85-.7468-1.9246-1.621h-.1275v.17l.4432.6496 2.3436 3.5214.1214 1.0807-.17.3521-.6071.2125-.6679-.1214-1.3721-1.9246L14.38 17.959l-1.1414-1.9428-.1397.079-.674 7.2552-.3156.3703-.7286.2793-.6071-.4614-.3218-.7468.3218-1.4753.3886-1.9246.3157-1.53.2853-1.9004.17-.6314-.0121-.0425-.1397.0182-1.4328 1.9672-2.1796 2.9446-1.7243 1.8456-.4128.164-.7164-.3704.0667-.6618.4008-.5889 2.386-3.0357 1.4389-1.882.929-1.0868-.0062-.1579h-.0546l-6.3385 4.1164-1.1293.1457-.4857-.4554.0608-.7467.2307-.2429 1.9064-1.3114Z"/></svg><p><b>Claude</b><span>Sprachmodell von Anthropic PBC, San Francisco</span></p></div>
+    <div class="ki-daten"><div class="ki-d" data-a="heben"><span class="ki-siegel" aria-hidden="true"><i></i></span><h3>Nicht zum Lernen</h3><p>Anthropic nutzt, was über das Konto Ihres Hauses läuft, nicht zum Training seiner Modelle.</p></div><div class="ki-d" data-a="heben"><span class="ki-siegel" aria-hidden="true"><i></i></span><h3>Nach 30 Tagen gelöscht</h3><p>Eingaben und Antworten löscht Anthropic innerhalb von 30 Tagen. Länger nur bei Verstößen gegen seine Nutzungsregeln oder wenn ein Gesetz es verlangt.</p></div><div class="ki-d" data-a="heben"><span class="ki-siegel" aria-hidden="true"><i></i></span><h3>Ihr eigener Speicher</h3><p>Was Ihr Haus aufbewahrt, liegt im Werkzeug «Anfragen &amp; Chat», nur mit Zugang lesbar, und wird nach zwölf Monaten gelöscht.</p></div><div class="ki-d" data-a="heben"><span class="ki-siegel" aria-hidden="true"><i></i></span><h3>Menschen verschicken</h3><p>Die KI verschickt keine Mails und reserviert nichts. Jede Antwort per Mail geht von Ihnen hinaus.</p></div><div class="ki-d" data-a="heben"><span class="ki-siegel" aria-hidden="true"><i></i></span><h3>Reserviert wird am Telefon</h3><p>Tische reservieren Gäste wie bisher am Telefon. Zahlungsdaten gehören nicht in den Chat.</p></div><div class="ki-d" data-a="heben"><span class="ki-siegel" aria-hidden="true"><i></i></span><h3>Abschaltbar</h3><p>Jede der vier Stellen lässt sich einzeln abschalten, das Werkzeug arbeitet weiter.</p></div></div></div>
+</section>
+<section class="fl fl--creme tapete-hell blatt ki" id="ki-ohne">
+  <div class="in"><header class="ki-kopf"><div data-a="auf"><svg class="ki-hz" viewBox="14 13 546 623" fill="currentColor" aria-hidden="true"><use href="#hz"/></svg></div><h2 class="t2 zt"><span class="z"><span>Läuft auch</span></span><span class="z"><span><em>ohne KI.</em></span></span></h2><p class="ki-lauf" data-a="worte">Fällt die KI aus, ist das Guthaben aufgebraucht oder schalten Sie sie ab, arbeiten alle Werkzeuge weiter. Es fehlt nur, was die KI schreibt.</p></header><div class="ki-ohne"><div class="ki-o" data-a="kipp" style="--i:0"><h3>Der Chat für Ihre Gäste</h3><p>Telefon, Zeiten und Adresse stehen wie heute auf jeder Seite.</p></div><div class="ki-o" data-a="kipp" style="--i:1"><h3>Antwort auf eine Anfrage</h3><p>Eingang und Anfragen lassen sich bedienen. Die Antwort schreiben Sie dann selbst. Verschickt wird ohnehin nur, was jemand abschickt.</p></div><div class="ki-o" data-a="kipp" style="--i:2"><h3>Entwürfe für Papier</h3><p>Alle fertigen Vorlagen lassen sich öffnen, ändern und als PDF speichern; ohne KI nimmt sie die passendste fertige Vorlage.</p></div><div class="ki-o" data-a="kipp" style="--i:3"><h3>Eine Markenprüfung</h3><p>Fotos, Dateien und die Messung der Farben laufen weiter. Nur die schriftliche Beurteilung fehlt.</p></div></div></div>
+</section>
+<section class="fl fl--nacht tapete-leicht blatt ki" id="ki-hand">
+  <div class="in">
+    <div class="ki-hand">
+      <figure class="ki-hand__b" data-a="kipp"><img src="img/ki-team.webp" alt="Die Familie von Uncle Hung" loading="lazy" decoding="async"></figure>
+      <div class="ki-hand__t"><div data-a="auf"><svg class="ki-hz" viewBox="14 13 546 623" fill="currentColor" aria-hidden="true"><use href="#hz"/></svg></div><h2 class="t2 zt"><span class="z"><span>Sie entscheiden,</span></span><span class="z"><span><em>wie weit sie geht.</em></span></span></h2><p class="ki-h" data-a="auf" style="--i:0"><b>Das Konto</b>läuft auf Ihr Haus, mit Ihrer Karte. Beim Anbieter sehen Sie jeden Aufruf und jeden Betrag.</p><p class="ki-h" data-a="auf" style="--i:1"><b>Die Obergrenze</b>legen wir je Monat gemeinsam fest. Ist sie erreicht, laufen die Werkzeuge bis zum nächsten Monat ohne KI weiter.</p><p class="ki-h" data-a="auf" style="--i:2"><b>Der Schalter</b>liegt bei Ihnen. Auf Ihren Wunsch schalten wir die KI ab, die Werkzeuge laufen weiter wie beschrieben.</p></div>
+    </div>
+    <div class="ag-blatt ki-offen" data-a="heben"><h3 class="ki-k__t">Was Ihr Haus noch festlegt</h3><p>Kommt der Chat auf die Website, bekommt Ihre Datenschutzerklärung einen Abschnitt dazu. Zwei Punkte entscheidet Ihr Haus: die Rechtsgrundlage für die Übermittlung in die USA und wie lange Anfragen aufbewahrt werden.</p>
+      <p class="ki-knoepfe"><a class="kn kn--klein" href="../datenschutz.html" target="_blank" rel="noopener">Ihre Datenschutzerklärung heute<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a>
+      <a class="kn kn--klein" href="index.html#sag-vorschlag">Zurück zum Vorschlag<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></p>
+      <p class="ki-quellen">Angaben des Anbieters, gelesen am 11. November 2026:</p><ul class="ki-quellen__l"><li><a href="https://privacy.anthropic.com/en/articles/7996868-is-my-data-used-for-model-training" target="_blank" rel="noopener">Anthropic: Training mit Daten</a></li><li><a href="https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data" target="_blank" rel="noopener">Anthropic: Aufbewahrung</a></li></ul></div>
+  </div>
+</section>
+<script>
+(function () { var f = document.getElementById('ki-fenster'); if (!f) return; if (!('IntersectionObserver' in window)) { f.classList.add('da'); return; }
+  f.classList.add('weg'); new IntersectionObserver(function (es) { f.classList.toggle('weg', !es[0].isIntersecting); }).observe(f);
+  new IntersectionObserver(function (es, o) { if (es[0].isIntersecting) { o.disconnect(); f.classList.add('da'); } }, { threshold: 0.35 }).observe(f); })();
+</script>
+</main>
+
+<footer class="fuss">
+<nav class="in wege wf" id="uebersicht" aria-label="Das Wichtigste von Uncle Hung">
+  <div class="wf__kopf"><b class="wege__t">Das Wichtigste von Uncle Hung</b></div>
+  <div class="wfa" data-wfa aria-roledescription="Karussell" aria-label="Das Wichtigste von Uncle Hung">
+    <div class="wfa__b"><a class="fblatt" href="../index.html" target="_blank" rel="noopener" data-i="0" data-p="0"><img src="eigen/fo-website.webp" width="1000" height="1000" alt="Ein Laptop mit der neuen Startseite von Uncle Hung" loading="lazy" decoding="async"></a><a class="fblatt" href="/_werkzeuge/maison/" target="_blank" rel="noopener" data-i="1" data-p="1"><img src="eigen/fo-maison.webp" width="1000" height="1000" alt="Ein Handy mit dem Eingang zu den Werkzeugen" loading="lazy" decoding="async"></a><a class="fblatt" href="../unterlagen/index.html" target="_blank" rel="noopener" data-i="2" data-p="2"><img src="eigen/fo-unterlagen.webp" width="1000" height="1000" alt="Die neu gesetzten Karten des Hauses" loading="lazy" decoding="async"></a><a class="fblatt" href="../index.html#favoriten" target="_blank" rel="noopener" data-i="3" data-p="-3"><img src="eigen/fo-gaeste.webp" width="1000" height="1000" alt="Ein Handy mit den Favoriten" loading="lazy" decoding="async"></a><a class="fblatt" href="../drucksachen/index.html" target="_blank" rel="noopener" data-i="4" data-p="-2"><img src="eigen/fo-drucksachen.webp" width="1000" height="1000" alt="Tageskarte, Gutschein und Tischkarte" loading="lazy" decoding="async"></a><a class="fblatt" href="../tischaufsteller/index.html" target="_blank" rel="noopener" data-i="5" data-p="-1"><img src="eigen/fo-etiketten.webp" width="1000" height="1000" alt="Vier Tischaufsteller" loading="lazy" decoding="async"></a></div>
+    <div class="wfa__fuss">
+      <button type="button" class="wf__pf" data-f="-1" aria-label="Zurück"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button>
+      <div class="wfa__texte" aria-live="polite"><div class="an"><h3>Die neue Website</h3><p>Der Entwurf mit allen Seiten: Mittag, Karte, Matcha, der Abend am Kamin, Feiern, Catering und Besuch.</p><a class="kn kn--klein" href="../index.html" target="_blank" rel="noopener">Öffnen<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></div><div><h3>Kontrollpanel</h3><p>Der Eingang für die Familie, von dort geht es in jedes Werkzeug.</p><a class="kn kn--klein" href="/_werkzeuge/maison/" target="_blank" rel="noopener">Öffnen<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></div><div><h3>Ihre Karte</h3><p>Die Karte, die Lunchdeals, die Drinks, Uncle’s Christmas und das Catering-Blatt, jede neben Ihrer heutigen Fassung.</p><a class="kn kn--klein" href="../unterlagen/index.html" target="_blank" rel="noopener">Öffnen<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></div><div><h3>Für Ihre Gäste</h3><p>Die Favoriten, heute geöffnet, die Lunchdeals, Uncle’s Christmas, die Catering-Anfrage und die Karte mit Allergenen.</p><a class="kn kn--klein" href="../index.html#favoriten" target="_blank" rel="noopener">Öffnen<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></div><div><h3>Drucksachen</h3><p>Acht Ideen für Papier, von der Tageskarte für den Mittag bis zu den Postkarten.</p><a class="kn kn--klein" href="../drucksachen/index.html" target="_blank" rel="noopener">Öffnen<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></div><div><h3>Tischaufsteller</h3><p>Zwölf Aufsteller für die Tische, mit der Schale, der Tapete und Sätzen von Ihrer Karte.</p><a class="kn kn--klein" href="../tischaufsteller/index.html" target="_blank" rel="noopener">Öffnen<i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></i></a></div></div>
+      <button type="button" class="wf__pf" data-f="1" aria-label="Weiter"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button>
+    </div>
+    <p class="wfa__zahl"><span data-f-zahl>1</span> / 6</p>
+  </div>
+</nav>
+<script>
+(function () {
+  var f = document.querySelector('.wf [data-wfa]'); if (!f) return;
+  var bl = [].slice.call(f.querySelectorAll('.fblatt')), tx = [].slice.call(f.querySelectorAll('.wfa__texte>div')), zahl = f.querySelector('[data-f-zahl]'), n = bl.length, ist = 0, halb = Math.floor(n / 2);
+  function zeige(k) {
+    ist = (k % n + n) % n;
+    bl.forEach(function (b, i) { var p = ((i - ist + n + halb) % n) - halb; b.setAttribute('data-p', p); b.setAttribute('aria-hidden', p !== 0); b.tabIndex = p === 0 ? 0 : -1; });
+    tx.forEach(function (t, i) { t.classList.toggle('an', i === ist); [].forEach.call(t.querySelectorAll('a'), function (a) { a.tabIndex = i === ist ? 0 : -1; }); });
+    if (zahl) zahl.textContent = ist + 1;
+  }
+  [].forEach.call(f.querySelectorAll('[data-f]'), function (b) { b.addEventListener('click', function () { zeige(ist + (+b.getAttribute('data-f'))); }); });
+  bl.forEach(function (b, i) { b.addEventListener('click', function (e) { if (i !== ist) { e.preventDefault(); zeige(i); } }); });
+  f.setAttribute('tabindex', '0');
+  f.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight') zeige(ist + 1); else if (e.key === 'ArrowLeft') zeige(ist - 1); });
+  var x0 = null, st = f.querySelector('.wfa__b');
+  st.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+  st.addEventListener('touchend', function (e) { if (x0 === null) return; var d = e.changedTouches[0].clientX - x0; x0 = null; if (Math.abs(d) > 40) zeige(ist + (d < 0 ? 1 : -1)); }, { passive: true });
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (es, o) { es.forEach(function (x) { if (x.isIntersecting) { f.classList.add('da'); o.disconnect(); } }); }, { threshold: .25 }).observe(f); else f.classList.add('da');
+  zeige(0);
+})();
+</script>
+<div class="in fuss__u">
+  <div><b>Entwurf</b><p>Ein Entwurf von Robert Reff, Tasty Studios, Hamburg, nicht die offizielle Website von Uncle Hung. Wer den Link nicht hat, findet die Seite nicht, in keiner Suchmaschine. Fotos, Zeichen und Texte gehören Uncle Hung und den jeweiligen Fotografen.</p></div>
+  <div class="r mono"><span>robert@tasty-studios.de</span><a href="impressum.html">Impressum und Datenschutz</a><span>Stand 11.11.2026</span></div>
+</div></footer>
+
+<script>window.GEFUEGE={"sp": ["Von Ihnen", "Daraus gemacht", "Die Seiten", "Im Hintergrund"], "fx": [0.118, 0.372, 0.628, 0.882], "n": [["fotos", 0, 0, "Ihre Fotos", "Instagram und Canva-Seite", "ein", "Ihre Fotos", "Die Fotos von Ihrer heutigen Seite und Ihrem Instagram, in doppelter Grösse aufbereitet.", ["Küche", "Raum", "Familie"]], ["zeichen", 0, 1, "Schale und Name", "vom Profilbild", "ein", "Ihr Zeichen", "Die Schale mit den Stäbchen aus Ihrem Profilbild, nachgezogen, und UNCLE HUNG als Wortmarke.", ["Schale", "Name"]], ["karten", 0, 2, "Ihre Karte", "von der Canva-Seite", "ein", "Ihre Karte", "Lunchdeals, alle Rubriken, Favoriten, Sweets und Signature Drinks. Aus ihr stammt jede Zeile auf der Seite «Die Karte».", ["Lunch", "Favoriten", "Drinks"]], ["texte", 0, 3, "Ihre Texte", "Ihre Worte", "ein", "Ihre Texte", "Home, Philosophie, Catering und Kontakt: Die neue Seite sagt es mit Ihren eigenen Sätzen, im Du wie bisher.", ["Home", "Catering"]], ["presse", 0, 4, "Stimmen", "Google 4,8", "ein", "Stimmen der Gäste", "Die Note bei Google und drei Gäste im Wortlaut, jede Angabe mit Stand.", ["4,8", "1.057"]], ["geschichte", 0, 5, "Seit 2009", "in Familienhand", "ein", "Die Geschichte", "Seit 2009 im Industriegebiet von Gersthofen, der Umbau 2021 mit dem Kamin.", []], ["bildwelt", 1, 0, "Bildwelt", "jedes Foto mit festem Platz", "", "Bildwelt", "Jedes Foto liegt in drei Grössen vor, für den Rechner und fürs Handy, und sitzt mit seinem Ausschnitt fest.", ["Ausschnitt", "Grössen"]], ["muster", 1, 1, "Schale und Tapete", "auf den dunklen Flächen", "", "Zeichen und Muster", "Die Schale steht in der Leiste und im Fuss, Schale und Stäbchen liegen als feine Tapete auf den dunklen Flächen.", ["Leiste", "Flächen"]], ["kartendaten", 1, 2, "Karten-Daten", "eine Stelle", "", "Karten-Daten", "Alle Gerichte, Preise und Allergene an einer Stelle. Daraus entstehen die Karte auf der Seite und die PDFs.", ["Gerichte", "Preise", "Allergene"]], ["weindaten", 1, 3, "Uncle’s Christmas", "drei Menüs", "", "Weihnachtsmenüs", "Comfort, Botanical und Hot Pot mit allen Gängen und Preisen, an einer Stelle für Startseite, Abend und Feiern.", ["Comfort", "Hot Pot"]], ["neugesetzt", 1, 4, "Karten neu gesetzt", "als Idee", "", "Karten neu gesetzt", "Die Karte als Idee neu gesetzt, jede neben Ihrer heutigen Fassung zum Durchblättern.", []], ["zeitstrahl", 1, 5, "Zeiten", "mit «heute»", "", "Zeiten", "Mittags und abends, Montag bis Freitag; die Seite zeigt, ob heute offen ist.", []], ["start", 2, 0, "Startseite", "Ihre Frage zuerst", "seite", "Startseite", "Von «Did you eat today?» über Mittag, Favoriten und Matcha zum Abend, zu Feiern und Catering. Von hier führt ein Weg zu jeder Seite.", ["Mittag", "Favoriten", "Matcha"]], ["karte", 2, 1, "Die Karte", "und Mittag", "seite", "Die Karte", "Die ganze Karte mit Allergenen, dazu die Lunchdeals und die Drinks.", ["Karte", "Lunch", "Drinks"]], ["feiern", 2, 2, "Feiern", "45 und 25 Gäste", "seite", "Feiern", "45 Gäste im Haus, 25 im Wintergarten und Uncle’s Christmas.", []], ["anlaesse", 2, 3, "Catering", "in zwei Schritten", "seite", "Catering", "Ganz nach deinem Geschmack, zwei Schritte bis zum Termin und die Anfrage.", []], ["haus", 2, 4, "Abends und Besuch", "Kamin und Weg", "seite", "Abends und Besuch", "Der Raum am Abend, Zeiten, Adresse und Parkplätze.", []], ["reservation", 3, 0, "Tisch reservieren", "per Telefon", "sys", "Tisch reservieren", "Reserviert wird wie bisher am Telefon; der Knopf steht auf jeder Seite.", []], ["anfragen", 3, 1, "Anfragen", "ins Werkzeug", "sys", "Anfragen", "Catering und Feiern fragt der Gast über ein Fenster an. Die Anfrage kommt im Werkzeug «Anfragen & Chat» an, nie als lose Mail.", []], ["pdf", 3, 2, "Karte als PDF", "zum Ausdrucken", "sys", "Karte als PDF", "Die Karte liegt zusätzlich als PDF bereit.", []], ["studio", 3, 3, "Sieben Werkzeuge", "für die Familie", "sys", "Sieben Werkzeuge", "Mit ihnen ändern Sie Zeiten, Karte, Texte und Bilder selbst; jede Änderung wartet als Entwurf.", ["Zeiten", "Karte", "Texte und Bilder"]]], "k": [["fotos", "bildwelt"], ["zeichen", "muster"], ["karten", "kartendaten"], ["karten", "weindaten"], ["karten", "neugesetzt"], ["presse", "start"], ["texte", "start"], ["geschichte", "zeitstrahl"], ["bildwelt", "start"], ["bildwelt", "anlaesse"], ["muster", "start"], ["kartendaten", "karte"], ["weindaten", "feiern"], ["kartendaten", "feiern"], ["zeitstrahl", "haus"], ["neugesetzt", "karte"], ["start", "reservation"], ["karte", "pdf"], ["feiern", "anfragen"], ["anlaesse", "anfragen"], ["studio", "start"], ["studio", "anlaesse"], ["studio", "haus"]], "tour": ["fotos", "karten", "presse", "reservation", "anfragen", "studio"], "fuss": "Folgen Sie einer Linie: Sie führt von dem, was von Ihnen kommt, zur Seite", "start": ["Übersicht", "Von Ihnen zur Seite", "Tippen Sie eine Kachel an, dann leuchtet ihr Weg. Oder starten Sie den Rundgang."]};window.SEITEN=[{"d": "index.html", "s": "startseite", "t": "Startseite", "k": "Startseite", "x": "Did you eat today?, die Familie seit 2009, die Lunchdeals, Uncle Hung’s Favorite, Matcha, der Abend am Kamin, Feiern, Catering, die Stimmen der Gäste und der Besuch.", "n": 6}, {"d": "mittag.html", "s": "mittag", "t": "Mittag", "k": "Mittag", "x": "Die Lunchdeals L1 bis L5, täglich bis 14 Uhr, die Mittagspause zum Hinsetzen und zum Mitnehmen, das Lunch-Catering für Teams.", "n": 3}, {"d": "karte.html", "s": "die-karte", "t": "Die Karte", "k": "Die Karte", "x": "Die ganze Karte mit Preisen und Allergenen, von den Lunchdeals über die Favoriten bis zu den Signature Drinks.", "n": 4}, {"d": "matcha.html", "s": "matcha", "t": "Matcha", "k": "Matcha", "x": "Die Signature Drinks, was es im Lokal außerdem gibt, und die Woche Matcha auf dem Schmeckfestival.", "n": 3}, {"d": "abends.html", "s": "abends", "t": "Abends", "k": "Abends", "x": "Der Gastraum, der Kamin und der Wintergarten, was abends auf den Tisch kommt, und Uncle’s Christmas.", "n": 3}, {"d": "feiern.html", "s": "feiern", "t": "Feiern", "k": "Feiern", "x": "Platz für 45 Gäste im Haus und 25 im Wintergarten, die drei Weihnachtsmenüs und das Catering.", "n": 3}, {"d": "catering.html", "s": "catering", "t": "Catering", "k": "Catering", "x": "Ganz nach deinem Geschmack, die zwei Schritte bis zum Termin und die Anfrage im Fenster.", "n": 3}, {"d": "besuch.html", "s": "besuch", "t": "Besuch", "k": "Besuch", "x": "Zeiten mit «heute», Adresse, Parkplätze, Telefon, drei Stimmen von Google und die Familie auf Instagram.", "n": 2}, {"d": "impressum.html", "s": "rechtliches", "t": "Impressum und Datenschutz", "k": "Rechtliches", "x": "Impressum und Datenschutz.", "n": 1}];</script>
+<script id="auftakt-kacheln">
+/* Kacheln im Auftakt neigen sich zum Zeiger (nur transform); nach jedem Scrollen 300 ms Ruhe, kein Anheben */
+(function(){
+  if(!matchMedia('(hover:hover) and (pointer:fine)').matches||matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+  var ruhe=0;addEventListener('scroll',function(){ruhe=Date.now()+300;},{passive:true});
+  [].forEach.call(document.querySelectorAll('.akz'),function(k){
+    var b=k.querySelector('.akz__b'),t=0;
+    k.addEventListener('pointermove',function(e){
+      if(Date.now()<ruhe||t)return;
+      t=requestAnimationFrame(function(){t=0;var r=k.getBoundingClientRect();
+        k.classList.add('kipp');
+        b.style.setProperty('--ry',(((e.clientX-r.left)/r.width-.5)*9).toFixed(2)+'deg');
+        b.style.setProperty('--rx',((.5-(e.clientY-r.top)/r.height)*9).toFixed(2)+'deg');});
+    });
+    k.addEventListener('pointerleave',function(){k.classList.remove('kipp');b.style.setProperty('--ry','0deg');b.style.setProperty('--rx','0deg');});
+  });
+})();
+</script>
+<script id="hs-auftritt">
+/* Handschrift: jede Zeile «Karten & Preislisten» startet ihren Auftritt, sobald ein Drittel von ihr im Bild steht (nur Klassen setzen) */
+(function(){
+  var s=document.getElementById('handschrift');
+  if(!s||!('IntersectionObserver' in window)||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  s.classList.add('lebt');
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){io.unobserve(e.target);e.target.classList.add('da');}});},{rootMargin:'0px 0px -8% 0px',threshold:0});
+  [].forEach.call(s.querySelectorAll('.hs2-z'),function(z){io.observe(z);});
+})();
+</script>
+<script id="wfen-js">
+/* Fenster: der Satz kommt, wenn der Ausschnitt gut im Bild ist, und ruht unsichtbar, solange das Fenster nicht im Bild ist */
+(function () {
+  [].forEach.call(document.querySelectorAll('.wfen'), function (f) {
+    if (!('IntersectionObserver' in window)) { f.classList.add('da'); return; }
+    f.classList.add('weg');
+    new IntersectionObserver(function (es) { f.classList.toggle('weg', !es[0].isIntersecting); }).observe(f);
+    new IntersectionObserver(function (es, o) { if (es[0].isIntersecting) { o.disconnect(); f.classList.add('da'); } }, { threshold: 0.35 }).observe(f);
+  });
+})();
+</script>
+<script src="werkbank.js?v=1794440905"></script>
+<script id="brett-hilfe">(function(){var b=document.getElementById('brett'),k=document.getElementById('brett-noch');if(!b||!k||!('IntersectionObserver' in window))return;new IntersectionObserver(function(E,o){if(!E[0].isIntersecting)return;o.disconnect();setTimeout(function(){if(/\bvor\b/.test(b.className))k.click()},700)},{rootMargin:'0px 0px -35% 0px'}).observe(b)})();</script><script id="cv-hoehen">(function(){var d=document.documentElement;function alle(){d.classList.add('cv-alle');requestAnimationFrame(function(){requestAnimationFrame(function(){d.classList.remove('cv-alle')})})}/* einmal alles zeichnen, damit jede Fläche ihre echte Höhe kennt: Sprungmarken landen genau (content-visibility) */if(document.readyState==='complete')setTimeout(alle,300);else addEventListener('load',function(){setTimeout(alle,300)});addEventListener('resize',function(){clearTimeout(alle.t);alle.t=setTimeout(alle,400)})})();</script><script id="rh-vorladen">(function(){if(!("IntersectionObserver" in window))return;(window.requestIdleCallback||function(f){setTimeout(f,700)})(function(){var kand=[].slice.call(document.querySelectorAll(".band,.aga-reihe,.vh-felder,.ins-dev,.lu-seiten,[class*=reihe],[class*=zug],[class*=leiste]"));[].forEach.call(document.querySelectorAll("main *"),function(e){var c=getComputedStyle(e).overflowX;if((c==="auto"||c==="scroll")&&e.scrollWidth>e.clientWidth+4&&kand.indexOf(e)<0)kand.push(e)});var io=new IntersectionObserver(function(es){es.forEach(function(x){if(!x.isIntersecting)return;io.unobserve(x.target);[].forEach.call(x.target.querySelectorAll("img[loading=lazy]"),function(i){i.loading="eager"})})},{rootMargin:"120% 0px 120% 0px"});kand.forEach(function(e){if(e.querySelector("img[loading=lazy]"))io.observe(e)})})})();</script>
+<script id="rh-frueh">(function(){if(!("IntersectionObserver" in window))return;var io=new IntersectionObserver(function(es){es.forEach(function(x){if(!x.isIntersecting)return;io.unobserve(x.target);x.target.loading="eager"})},{rootMargin:"0px 0px 150% 0px"});[].forEach.call(document.querySelectorAll("main img[loading=lazy],body>section img[loading=lazy],section img[loading=lazy]"),function(i){io.observe(i)})})();</script>
+<script id="rh-zurueck" data-rs>(function(){
+var WEB=/^\/(?:(?:index|mittag|karte|matcha|abends|feiern|catering|besuch|impressum|datenschutz|404)\.html)?$/;
+function ziel(a){try{var u=new URL(a.getAttribute('href'),location.href);if(!/^https?:$/.test(u.protocol))return null;
+ if(/\.pdf$/i.test(u.pathname))return null;
+ if(u.origin===location.origin){if(u.pathname===location.pathname)return null;if(WEB.test(u.pathname))return null;return u}
+ if(/^127\.0\.0\.1$|localhost/.test(u.hostname)&&/_werkzeuge\//.test(u.pathname))return u;return null}catch(e){return null}}
+function merk(ev){var a=ev.target.closest&&ev.target.closest('a[href]');if(!a)return;var u=ziel(a);if(!u)return;var y=Math.round(scrollY);
+ if(u.origin!==location.origin&&/_werkzeuge\//.test(u.pathname)){var sk=a.closest('section[id]');u.searchParams.set('wb','de'+(sk&&/^[a-z0-9-]{1,40}$/.test(sk.id)?'.'+sk.id:''));u.searchParams.set('wy',y);u.searchParams.set('wbo',location.origin);u.searchParams.set('wbu',location.origin+location.pathname.replace(/werkbank\/(?:index\.html)?$/,''))}else u.searchParams.set('wb',y);a.href=u.toString();try{sessionStorage.setItem('wb-y',String(y))}catch(e){}
+ if(ev.type!=='click'||ev.defaultPrevented||ev.metaKey||ev.ctrlKey||ev.shiftKey)return;
+ /* Robert 19.10.2026 01:18 / Endprüfung: nur die sieben Werkzeuge (mit Anleitungen) öffnen einen neuen Tab, den «Zurück zur Werkbank» wieder schliesst;
+    Analyse, Drucksachen, Unterlagen, Mappe und die übrigen Beigaben im selben Tab, Safari-Zurück und der Knopf landen an der Stelle */
+ var werkzeug=/^\/(?:maison|studio|_?werkzeuge)\//.test(u.pathname);
+ ev.preventDefault();if(werkzeug)window.open(a.href,'_blank');else location.href=a.href}
+document.addEventListener('click',merk,true);document.addEventListener('auxclick',merk,true);
+var q=new URLSearchParams(location.search),y=q.get('y'),zur=false;
+/* Zurück/Vor im Browser macht der Rücksprung (ruecksprung.js, am Inhalt ausgerichtet), hier nur ?y= vom Knopf «Zurück zur Werkbank» (Robert 1.11.2026) */
+if(y===null||!/^\d+$/.test(y))return;y=+y;
+try{history.scrollRestoration='manual'}catch(e){}
+var st=document.createElement('style');st.textContent='html.wb-sofort,html.wb-sofort *{transition:none!important;animation-duration:0s!important;animation-delay:0s!important;scroll-behavior:auto!important}';document.head.appendChild(st);
+document.documentElement.classList.add('wb-sofort');
+function fertigOben(){var grenze=y+innerHeight*.15;[].forEach.call(document.querySelectorAll('[data-a],.odo,.zt,.roll,img.ld'),function(e){var r=e.getBoundingClientRect();if(r.top+scrollY<grenze&&!e.classList.contains('da')){e.classList.add('da')}})}
+function geh(){window.scrollTo(0,y);fertigOben()}
+function los(){geh();requestAnimationFrame(function(){geh();requestAnimationFrame(function(){document.documentElement.classList.remove('wb-sofort')})});
+ var n=0,t=setInterval(function(){n++;if(Math.abs(scrollY-y)>40&&n<12&&!wegd)geh();if(n>=12)clearInterval(t)},150);
+ if(!zur){q.delete('y');history.replaceState(history.state,'',location.pathname+(q.toString()?'?'+q:'')+location.hash)}}
+var wegd=false;['wheel','touchstart','keydown'].forEach(function(k){addEventListener(k,function(){wegd=true},{once:true,passive:true})});
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',los);else los();
+addEventListener('load',function(){if(!wegd&&Math.abs(scrollY-y)>40)geh()});
+})();</script>
+<script id="rh-karussell">(function(){var K=[].slice.call(document.querySelectorAll("#register .rgw,[data-wfa],[data-rgw]"));if(!K.length)return;function hol(k){[].forEach.call(k.querySelectorAll("img"),function(i){try{i.fetchPriority="high"}catch(e){}i.loading="eager";if(i.decode)i.decode().catch(function(){})})}if(!("IntersectionObserver" in window)){K.forEach(hol);return}var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){io.unobserve(x.target);hol(x.target)}})},{rootMargin:"300% 0px 300% 0px"});K.forEach(function(k){io.observe(k)})})();</script>
+<style id="text-mitte">.tm{position:relative}
+@supports not (font:-apple-system-body){
+  .kn>.tm{top:.7px}.kn.kn--klein>.tm{top:0}
+  .wahl button>.tm,.vh-wahl button>.tm,.uwahl button>.tm,.uschalter button>.tm{top:1px;left:.065em}
+  .mb-kn>span{position:relative;top:.9px}
+  .sbf-z>.tm{top:.6px}
+}
+.rund[aria-label^="Zur"] svg,.rund[aria-label^="Vorig"] svg,.pf[aria-label^="Vorig"] svg{position:relative;left:.5px}
+.rund[aria-label^="Weiter"] svg,.rund[aria-label^="Nächst"] svg,.pf[aria-label^="Nächst"] svg{position:relative;left:-.5px}
+@supports (font:-apple-system-body){.pf[aria-label^="Vorig"] svg{left:.6px;top:.5px}.pf[aria-label^="Nächst"] svg{left:-.6px;top:.5px}}
+@supports not (font:-apple-system-body){.pf[aria-label^="Vorig"] svg{left:.6px}.pf[aria-label^="Nächst"] svg{left:-.6px}}
+.rund[disabled],.pf[disabled]{transition:none}</style><script id="text-mitte-js">(function(){function t(){document.querySelectorAll('.kn,.sbf-z,.wahl button,.vh-wahl button,.uwahl button,.uschalter button').forEach(function(k){var n=k.firstChild;if(n&&n.nodeType===3&&n.textContent.trim()){var s=document.createElement('span');s.className='tm';s.textContent=n.textContent;k.replaceChild(s,n)}})}t();addEventListener('load',t)})();</script><style id="fenster-lesbar">.wfen__in::before{content:'';position:absolute;left:50%;top:50%;z-index:-1;width:min(1180px,100%);height:calc(100% + clamp(160px,22vw,320px));transform:translate(-50%,-50%);pointer-events:none;background:radial-gradient(closest-side,rgba(8,9,16,.66),rgba(8,9,16,.46) 55%,rgba(8,9,16,.18) 82%,rgba(8,9,16,0))}.schluss .in{position:relative;isolation:isolate}.schluss .in::before{content:'';position:absolute;left:50%;top:50%;z-index:-1;width:min(1240px,100%);height:calc(100% + clamp(120px,16vw,240px));transform:translate(-50%,-50%);pointer-events:none;background:radial-gradient(closest-side,rgba(8,9,16,.6),rgba(8,9,16,.4) 55%,rgba(8,9,16,.14) 82%,rgba(8,9,16,0))}</style><style id="abschnitt-kanten">.blatt{box-shadow:0 -1px 0 rgba(255,255,255,.04),0 -4px 12px rgba(0,0,0,.1)}.fl--papier.blatt,.fl--creme.blatt{box-shadow:0 -1px 0 rgba(255,255,255,.35),0 -4px 12px rgba(0,0,0,.07)}</style><script id="ruecksprung">/* Rücksprung (Robert 1.11.2026): Zurück/Vor im Browser landet auf der alten Höhe der Seite, nie ganz oben.
+   Merkt je Seite in sessionStorage (rs:<Pfad>) die Höhe und das Inhaltsstück am oberen Fensterrand (beim Scrollen, beim Klick auf einen Link, bei pagehide).
+   Kommt man mit Zurück/Vor wieder (Navigation «back_forward»), richtet sich die Seite nach dem Aufbau an diesem Stück aus, nicht nur an der Pixelzahl:
+   Abschnitte mit content-visibility:auto stehen nach dem Laden als 1400-px-Platzhalter da, dieselbe Pixelhöhe zeigt sonst anderen Inhalt.
+   Für den Moment des Sprungs: alles einmal gezeichnet, keine Übergänge, keine Auftakt-Bewegung (rs-sofort); alles bis zum Fensterrand gilt als gezeigt (.da).
+   Aus dem bfcache (Seite aus dem Speicher des Browsers) richtet pageshow die Seite ebenso aus (Safari stellt die Höhe dort nicht selbst her). Keine unload-Handler. Seiten mit eigenem Rückweg (#rh-zurueck, «wb-y») und Rahmen bleiben unberührt, ausser der Rückweg trägt data-rs (dann führt er nur ?y= aus, Zurück/Vor macht der Rücksprung).
+   Merkpunkt: das nächste feststehende Stück auf einem Drittel der Höhe; liegt dort eine mitlaufende Bühne (sticky), gilt der Abschnitt, der sie trägt (Robert 1.11.2026, Werkbänke mit Handy-/Laptop-Bühnen). */
+(function () {
+  var RH = document.getElementById('rh-zurueck');   /* eigener Rückweg: nur wenn er Zurück/Vor ausdrücklich dem Rücksprung überlässt (data-rs) */
+  if (RH && !RH.hasAttribute('data-rs')) return;
+  try { if (window.top !== window) return; } catch (e) { return; }
+  var K = 'rs:' + location.pathname, H = document.documentElement, sperre = false, t = 0;
+  var SEL = 'h1,h2,h3,h4,h5,p,li,figure,img,picture,video,blockquote,table,tr,section,article,header,footer,div';
+  function festAb(e) {   /* das äusserste mitlaufende (fixed/sticky) Element über e, sonst null */
+    var f = null; for (; e && e !== document.body && e !== H; e = e.parentElement) { var p = getComputedStyle(e).position; if (p === 'fixed' || p === 'sticky') f = e; } return f;
+  }
+  function stand(e) {   /* das nächste feststehende Inhaltsstück: in einer mitlaufenden Bühne (sticky) gilt der Abschnitt, der sie trägt; schwebende Leisten (fixed) nie */
+    for (var n = 0; e && n < 30; n++) {
+      var c = e.closest && e.closest(SEL); if (!c || c === document.body || c === H) return null;
+      var f = festAb(c); if (!f) return c;
+      if (getComputedStyle(f).position === 'fixed') return null;
+      e = f.parentElement;
+    }
+    return null;
+  }
+  function text(e) { return (e.textContent || e.getAttribute('src') || '').replace(/\s+/g, ' ').trim().slice(0, 40); }
+  function anker() {   /* das Inhaltsstück auf einem Drittel der Fensterhöhe (nicht die schwebende Leiste) */
+    if (!document.elementsFromPoint) return null;
+    var l = null, xs = [.5, .25, .75];
+    for (var k = 0; k < xs.length; k++) {
+      var st = document.elementsFromPoint(innerWidth * xs[k], innerHeight * .3);
+      for (var j = 0; j < st.length; j++) { var c = stand(st[j]); if (c) { l = c; break; } }
+      if (l) break;
+    }
+    if (!l) return null;
+    /* lieber der Abschnitt drumherum (section, article, Kopf, Fuss, Stück mit id): bewegte Teile darin (Chat, Film, Bühne) verrutschen, der Abschnitt nicht */
+    var g = l.closest('section,article,header,footer,[id]');
+    if (g && g !== document.body && g !== H && g.tagName !== 'MAIN' && g.matches(SEL) && !festAb(g) && g.getBoundingClientRect().height <= innerHeight * 4) l = g;
+    var alle = document.querySelectorAll(SEL), i = [].indexOf.call(alle, l);
+    return i < 0 ? null : { i: i, d: l.id || '', n: l.tagName, t: text(l), o: Math.round(l.getBoundingClientRect().top) };
+  }
+  function merk(mitAnker) {
+    if (sperre) return;
+    var w = { y: Math.round(window.scrollY || 0) };
+    if (mitAnker) { try { var a = anker(); if (a) w.a = a; } catch (e) {} }
+    else { try { var alt = JSON.parse(sessionStorage.getItem(K) || '{}'); if (alt.a && Math.abs(alt.y - w.y) < 2) w.a = alt.a; } catch (e) {} }
+    try { sessionStorage.setItem(K, JSON.stringify(w)); } catch (e) {}
+  }
+  addEventListener('scroll', function () { if (!t) t = setTimeout(function () { t = 0; merk(false); }, 150); }, { passive: true });
+  document.addEventListener('click', function (ev) { if (ev.target.closest && ev.target.closest('a[href]')) merk(true); }, true);
+  addEventListener('pagehide', function () {   /* beim Verlassen übernimmt der Rücksprung die Höhe ganz: sonst setzt Chrome beim Zurück die alte Pixelhöhe noch mehrmals nach */
+    try { history.scrollRestoration = 'manual'; } catch (e) {}
+    merk(true);
+  });
+
+  
+  var w = null, weg = false, st = null;
+  function lies() { try { var x = JSON.parse(sessionStorage.getItem(K)); return x && typeof x.y === 'number' && x.y >= 2 ? x : null; } catch (e) { return null; } }
+  function fertig() { sperre = false; H.classList.remove('rs-ganz'); }
+  ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (k) { addEventListener(k, function () { if (sperre) { weg = true; fertig(); } }, { passive: true }); });
+  function stueck() {   /* das gemerkte Stück wiederfinden: über seine id, sonst gleiche Stelle, sonst gleiche Art mit gleichem Anfang, die nächste zur alten Stelle
+                           (Seiten bauen nach dem Laden noch Teile dazu, z. B. Chat-Vorführungen: die Stelle im Aufbau verschiebt sich) */
+    var a = w.a; if (!a) return null;
+    if (stueck.e && stueck.e.isConnected) return stueck.e;
+    var e = a.d && document.getElementById(a.d);
+    if (e && e.tagName === a.n) return e;
+    var alle = document.querySelectorAll(SEL); e = alle[a.i];
+    if (e && e.tagName === a.n && text(e) === a.t) return e;
+    var best = null, bd = 1e9;
+    for (var k = 0; k < alle.length; k++) { var x = alle[k]; if (x.tagName === a.n && Math.abs(k - a.i) < bd && text(x) === a.t) { best = x; bd = Math.abs(k - a.i); } }
+    return (stueck.e = best);
+  }
+  function ziel() { var e = stueck(); return e ? Math.max(0, Math.round(window.scrollY + e.getBoundingClientRect().top - w.a.o)) : w.y; }
+  function zeig() {
+    var g = window.scrollY + innerHeight;
+    [].forEach.call(document.querySelectorAll('[data-a],.odo,.zt,.roll,img.ld'), function (e) {
+      if (!e.classList.contains('da') && e.getBoundingClientRect().top + window.scrollY < g) e.classList.add('da');
+    });
+  }
+  function geh() { if (weg) return; var y = ziel(); if (Math.abs(window.scrollY - y) > 2) window.scrollTo(0, y); zeig(); }
+  function los() {
+    geh();
+    requestAnimationFrame(function () { geh(); requestAnimationFrame(function () { geh(); H.classList.remove('rs-sofort'); }); });
+    var n = 0, iv = setInterval(function () {
+      n++; geh();
+      if (n >= 16 || weg) { clearInterval(iv); geh(); fertig(); requestAnimationFrame(function () { geh(); merk(true); }); }
+    }, 150);
+  }
+  function zurueck(x) {
+    w = x; weg = false; stueck.e = null; sperre = true;
+    try { history.scrollRestoration = 'manual'; } catch (e) {}
+    if (!st) {
+      st = document.createElement('style');
+      st.textContent = 'html.rs-sofort,html.rs-sofort *{transition:none!important;animation-duration:0s!important;animation-delay:0s!important;scroll-behavior:auto!important}'
+        + 'html.rs-ganz *{content-visibility:visible!important}';
+      (document.head || H).appendChild(st);
+    }
+    H.classList.add('rs-sofort', 'rs-ganz');
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', los); else los();
+  }
+  addEventListener('pageshow', function (e) { if (!e.persisted) return; var x = lies(); if (x) zurueck(x); });
+  addEventListener('load', function () { if (sperre) geh(); });
+
+  var nav; try { nav = performance.getEntriesByType('navigation')[0]; } catch (e) {}
+  if (!nav || (nav.type !== 'back_forward' && nav.type !== 'reload')) return;   /* Zurück/Vor und Neuladen landen an der alten Stelle */
+  var x0 = lies(); if (x0) zurueck(x0);
+})();</script>
+</body>
+</html>

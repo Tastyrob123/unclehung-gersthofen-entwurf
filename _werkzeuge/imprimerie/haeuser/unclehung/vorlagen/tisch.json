@@ -1,0 +1,357 @@
+{
+ "art": "tisch",
+ "format": "a6h",
+ "vorlagen": [
+  {
+   "id": "tisch-001",
+   "titel": "Matcha-Kreationen",
+   "bereich": "Matcha & Drinks",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ig-turm",
+    "ueber": "Matcha & Drinks",
+    "titel": "Diverse Matcha-Kreationen",
+    "text": "Mango, Banana, Classy, Strawberry, Lavendel u. v. m.",
+    "aktion": "6,50 € · auch to go"
+   }
+  },
+  {
+   "id": "tisch-002",
+   "titel": "Signature Drinks",
+   "bereich": "Matcha & Drinks",
+   "vorlage": "karte",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Matcha & Drinks",
+    "titel": "Signature Drinks",
+    "liste": [
+     {
+      "name": "Diverse Matcha-Kreationen",
+      "detail": "Mango, Banana, Classy, Strawberry, Lavendel u. v. m.",
+      "preis": "6,50 €"
+     },
+     {
+      "name": "Hungmade Icetea",
+      "detail": "Hausgemacht, mit frischen Früchten.",
+      "preis": "5,50 €"
+     },
+     {
+      "name": "Spritz-Variationen",
+      "detail": "Lychee, Mango, Aperol",
+      "preis": "6,50 €"
+     }
+    ],
+    "fuss": "Alle Getränke auch to go"
+   }
+  },
+  {
+   "id": "tisch-003",
+   "titel": "Did you eat today?",
+   "bereich": "Familie & Haus",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle Hung",
+    "titel": "Did you eat today?",
+    "unter": "Seit 2009 in Familienhand",
+    "text": "",
+    "fuss": "@unclehung.official"
+   }
+  },
+  {
+   "id": "tisch-004",
+   "titel": "Instagram am Tisch",
+   "bereich": "Instagram & Story",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Instagram",
+    "titel": "@unclehung.official",
+    "text": "Neue Karten, Feste, der Alltag in der Küche und eine Familie, die sich selbst «sitcom-tauglich» nennt.",
+    "aktion": "7.754 Follower"
+   }
+  },
+  {
+   "id": "tisch-005",
+   "titel": "Hungmade Icetea",
+   "bereich": "Matcha & Drinks",
+   "vorlage": "geteilt",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "icetea",
+    "ueber": "Signature Drinks",
+    "titel": "Hungmade Icetea",
+    "text": "Hausgemacht, im Becher mit Logo.",
+    "aktion": "5,50 € · auch to go"
+   }
+  },
+  {
+   "id": "tisch-006",
+   "titel": "Spritz-Variationen",
+   "bereich": "Matcha & Drinks",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ma4",
+    "ueber": "Signature Drinks",
+    "titel": "Spritz-Variationen",
+    "text": "Lychee, Mango, Aperol",
+    "aktion": "6,50 €"
+   }
+  },
+  {
+   "id": "tisch-007",
+   "titel": "Weihnachtsmenüs am Tisch",
+   "bereich": "Uncle’s Christmas",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle’s Christmas",
+    "titel": "Drei Weihnachtsmenüs",
+    "text": "Comfort · Botanical · Hot Pot\nim November und Dezember",
+    "aktion": "Ab 2 Personen · 3 Tage Vorlauf"
+   }
+  },
+  {
+   "id": "tisch-008",
+   "titel": "Lunch am Tisch",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "deckel",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Lunchdeals",
+    "titel": "Täglich gültig bis 14.00 Uhr",
+    "unter": "Frühlingsrollen oder Pekingsuppe gratis dazu",
+    "text": "Nur so lange der Vorrat reicht.",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "tisch-009",
+   "titel": "Pho am Tisch",
+   "bereich": "Karte & Favoriten",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "v-ess10",
+    "ueber": "V5 · Uncle Hung’s Favorite",
+    "titel": "Pho Soup",
+    "text": "24 h gekochte kräftige Fleischbrühe, Reisbandnudeln, Sojasprossen, Koriander",
+    "aktion": "Mit Chicken oder Beef · 12,50 €"
+   }
+  },
+  {
+   "id": "tisch-010",
+   "titel": "Sweets",
+   "bereich": "Specials & Sweets",
+   "vorlage": "karte",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Die Karte · Uncle Hung",
+    "titel": "Sweets",
+    "text": "Neben der Karte kocht die Familie wechselnde Specials mit neuen Gerichten und Drinks.",
+    "liste": [
+     {
+      "name": "Gebackene Banane mit Eis",
+      "detail": "",
+      "preis": "7,00 €"
+     },
+     {
+      "name": "Wöchentlich wechselnde Desserts",
+      "detail": "",
+      "preis": "Preis variiert"
+     }
+    ],
+    "fuss": "Uncle Hung · Dieselstraße 2 · 86368 Gersthofen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "tisch-011",
+   "titel": "Pho Soup mit Chicken oder Beef am Abend",
+   "bereich": "Abends & Kamin",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "mi7",
+    "ueber": "V5 · Uncle Hung’s Favorite",
+    "titel": "Pho Soup mit Chicken oder Beef",
+    "text": "24 h gekochte kräftige Fleischbrühe, Reisbandnudeln, Sojasprossen, Koriander",
+    "aktion": "12,50 €"
+   }
+  },
+  {
+   "id": "tisch-012",
+   "titel": "Peking Bowl am Abend",
+   "bereich": "Abends & Kamin",
+   "vorlage": "aushang",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "V7 · Uncle Hung’s Favorite",
+    "titel": "Peking Bowl",
+    "text": "Crispy Duck auf Reis, würziger Pekingsauce, Salat, crispy Topping & Kräutergarnitur",
+    "aktion": "16,90 €"
+   }
+  },
+  {
+   "id": "tisch-013",
+   "titel": "Crispy Chicken Bowl am Abend",
+   "bereich": "Abends & Kamin",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "V9 · Uncle Hung’s Favorite",
+    "titel": "Crispy Chicken Bowl",
+    "text": "knuspriges Huhn auf Reisnudeln, Salat, Limetten-Vinaigrette, Röstzwiebeln / Erdnüsse / Kräuter, Spicy Mayo",
+    "aktion": "14,90 €"
+   }
+  },
+  {
+   "id": "tisch-014",
+   "titel": "Gebackene Banane",
+   "bereich": "Specials & Sweets",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Sweets",
+    "titel": "Gebackene Banane mit Eis",
+    "text": "Dazu wöchentlich wechselnde Desserts.",
+    "aktion": "7,00 €"
+   }
+  },
+  {
+   "id": "tisch-015",
+   "titel": "Desserts der Woche",
+   "bereich": "Specials & Sweets",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "kuchen",
+    "ueber": "Sweets",
+    "titel": "Wöchentlich wechselnde Desserts",
+    "text": "Was gerade läuft, steht im Lokal und auf Instagram.",
+    "aktion": "Uncle Hung"
+   }
+  }
+ ]
+}

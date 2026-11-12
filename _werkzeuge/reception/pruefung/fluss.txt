@@ -1,0 +1,1 @@
+{"fps":53,"median":16.7,"ueber50":5,"laengstes":117}

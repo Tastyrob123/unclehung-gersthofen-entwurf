@@ -1,0 +1,228 @@
+{
+ "art": "flyer",
+ "format": "a5h",
+ "vorlagen": [
+  {
+   "id": "flyer-001",
+   "titel": "Flyer Lunchdeals",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "v-ess12",
+    "ueber": "Montag bis Freitag · 11.00 – 14.30 Uhr",
+    "titel": "Mittags bei Uncle Hung",
+    "text": "Fünf Gerichte zur Wahl, mit Chicken oder Veggie, dazu gratis Frühlingsrollen oder Pekingsuppe, so lange der Vorrat reicht.",
+    "aktion": "Täglich gültig bis 14.00 Uhr"
+   },
+   "rueck": {
+    "vorlage": "rueckseite",
+    "inhalt": {
+     "text": "Did you eat today?"
+    }
+   }
+  },
+  {
+   "id": "flyer-002",
+   "titel": "Flyer Uncle’s Christmas",
+   "bereich": "Uncle’s Christmas",
+   "vorlage": "fenster",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "v-rau04",
+    "ueber": "November und Dezember",
+    "titel": "Uncle’s Christmas",
+    "unter": "Comfort · Botanical · Hot Pot",
+    "text": "Im November und Dezember drei Weihnachtsmenüs am festlich gedeckten Tisch, ab zwei Personen und mit drei Tagen Vorlauf."
+   },
+   "rueck": {
+    "vorlage": "rueckseite",
+    "inhalt": {
+     "text": "Weihnachten ohne Stress, dafür mit richtig gutem Essen und euren Lieblingsmenschen."
+    }
+   }
+  },
+  {
+   "id": "flyer-003",
+   "titel": "Flyer Catering",
+   "bereich": "Catering",
+   "vorlage": "geteilt",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "cat1",
+    "ueber": "Catering",
+    "titel": "Vom Pausenraum bis zur Firmenfeier",
+    "text": "Geburtstage, Hochzeiten, Familienfeste. Schick uns deine Wünsche, wir stellen dir dein Angebot zusammen.",
+    "aktion": "v.nguyen2@gmx.de"
+   },
+   "rueck": {
+    "vorlage": "rueckseite",
+    "inhalt": {
+     "text": "Je mehr wir wissen, desto besser wird dein Event."
+    }
+   }
+  },
+  {
+   "id": "flyer-004",
+   "titel": "Flyer Abends",
+   "bereich": "Abends & Kamin",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ig-nacht",
+    "ueber": "Ab 17 Uhr",
+    "titel": "Abends am Kamin",
+    "text": "Gemütlich, zwanglos und gern mit der ganzen Familie.",
+    "aktion": "Montag bis Freitag · 17.00 – 20.30 Uhr"
+   },
+   "rueck": {
+    "vorlage": "rueckseite",
+    "inhalt": {
+     "text": "Ein Kultplatz für Familie, Freunde und alle, die Wert auf gutes Essen und echte Momente legen."
+    }
+   }
+  },
+  {
+   "id": "flyer-005",
+   "titel": "Flyer Matcha",
+   "bereich": "Matcha & Drinks",
+   "vorlage": "fenster",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ig-giessen",
+    "ueber": "Matcha & Drinks",
+    "titel": "Matcha ist ein eigenes Kapitel",
+    "unter": "6,50 € · auch to go",
+    "text": "Mango, Banana, Classy, Strawberry, Lavendel und mehr."
+   }
+  },
+  {
+   "id": "flyer-006",
+   "titel": "Flyer Feiern",
+   "bereich": "Feiern & Wintergarten",
+   "vorlage": "geteilt",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "fe1",
+    "ueber": "Feiern",
+    "titel": "Bis 45 Gäste im Haus",
+    "text": "Ideal für Geburtstage, Essen nach der standesamtlichen Trauung, Firmenmeetings und kleinere Feierlichkeiten.",
+    "aktion": "Anfrage · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "flyer-007",
+   "titel": "Flyer Familie",
+   "bereich": "Familie & Haus",
+   "vorlage": "deckel",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Seit 2009 in Familienhand",
+    "titel": "Did you eat today?",
+    "unter": "Mittags Lunch bis 14 Uhr, abends Kamin, Matcha und Hot Pot.",
+    "text": "Seit über einem Jahrzehnt steht Uncle Hung für zeitlose Gastlichkeit, ehrliche Küche und eine Atmosphäre, in der sich jeder willkommen fühlt.",
+    "fuss": "Uncle Hung · Dieselstraße 2 · 86368 Gersthofen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "flyer-008",
+   "titel": "Shortrib Thursday",
+   "bereich": "Abends & Kamin",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Donnerstags bei Uncle Hung",
+    "titel": "Shortrib Thursday",
+    "unter": "Montag bis Freitag · 17.00 – 20.30 Uhr",
+    "text": "Die Pho mit ihrer Brühe, die einen ganzen Tag zieht, Bowls mit knuspriger Ente oder Huhn, und donnerstags der Shortrib Thursday.",
+    "fuss": "Uncle Hung · Dieselstraße 2 · 86368 Gersthofen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "flyer-009",
+   "titel": "Flyer Specials",
+   "bereich": "Specials & Sweets",
+   "vorlage": "geteilt",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "v-ess21",
+    "ueber": "Neue Special-Karte seit 5. Oktober",
+    "titel": "Wechselnde Specials",
+    "text": "Neben der Karte kocht die Familie wechselnde Specials mit neuen Gerichten und Drinks.",
+    "aktion": "Was gerade läuft, steht im Lokal und auf Instagram"
+   }
+  }
+ ]
+}

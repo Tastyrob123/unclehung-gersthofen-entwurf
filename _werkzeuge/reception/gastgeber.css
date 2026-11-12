@@ -1,0 +1,93 @@
+/* Anfragen & Chat · Uncle Hung Gersthofen (Kopie aus der Taverne zum Schäfli, dort aus dem Ruedihus): Anschluss der Arbeitsflächen (Eingang, Brief, Wissen)
+   an das Paket der Werkzeuge des Hauses (assets/oberflaeche, Rahmen «Die Bühne», kleid/unclehung.css). Lädt als letztes Stylesheet. */
+.wo-rand__wege button{display:flex;align-items:center;gap:8px;width:100%;padding:7px 14px;border:0;background:none;font:inherit;font-size:13.5px;color:var(--wo-leise);text-align:left;cursor:pointer}
+.wo-rand__wege button:hover,.wo-rand__wege a:hover{color:var(--wo-tinte)}
+@media (min-width:901px){.wo-rand__probe{display:none!important}}
+/* Knöpfe des Pakets: studio.css setzt «.bu button{font:inherit}» und überstimmt sonst die Schrift von .wo-kn */
+.wo-app button.wo-kn{font:400 13px/1 var(--wo-mono);letter-spacing:.16em;text-transform:uppercase}
+.wo-app button.wo-kn--klein{font-size:13px}
+/* Raum: Lage wie .wo-raum des Rahmens «Die Bühne», aber ohne Klasse «wo-» (sonst setzt grund.css die Knöpfe der Arbeitsflächen zurück) */
+.wo-app>.gg-raum{grid-area:raum;min-width:0;margin-left:28px}
+@media (max-width:900px){.wo-app>.gg-raum{margin:0 16px}}
+/* Kacheln als Knopf: «.bu button{color:inherit}» aus studio.css überstimmt sonst die helle Schrift auf der dunklen Kachel */
+.wo-app button.wo-ag{color:var(--wo-weiss);text-align:left;padding:0;border:0;font:inherit}
+.wo-app button.wo-kopf__ber{font:400 13px/1 var(--wo-mono);letter-spacing:.16em;text-transform:uppercase}
+.wo-app button.wo-kn--hell{color:var(--wo-tinte)}
+.wo-app button.wo-kn--gold{color:var(--wo-tief)}
+.wo-app button.wo-kn--dunkel,.wo-app button.wo-kn--glas{color:var(--wo-weiss)}
+.wo-app button.wo-kn--rund{color:var(--wo-gold)}
+
+/* Werkbank-Chat 18.10.2026 (Kopfleiste 1000–1920 ganz drin): bei schmalem Fenster steht der Titel der Ansicht nicht unter «Chat ausprobieren» */
+@media (max-width:1240px){.wo-kopf__mitte{display:none!important}}
+
+/* Endprüfung 19.10.2026: «Alle 10 Fragen ansehen» lag unter der letzten Fragen-Kachel und liess sich nicht anklicken; der Stand «Gesichert» beim Brief
+   war mit 9,5 px Beige auf Beige kaum lesbar (1,9:1) */
+.re-mehr{position:relative;z-index:3;margin-top:26px!important}
+.re-qliste{position:relative;z-index:1}
+.gs-hinweis .gs-werk__stand{font-size:13px!important;font-weight:600;letter-spacing:.14em;color:#415243!important}
+.gs-hinweis .gs-werk__stand.laeuft{color:#191f1a!important}
+
+/* aus der Vorlage (21.10.2026, lädt als letztes, deshalb hier) */
+/* Kopf (Fehlerbuch 10a «Titel überdeckt nie einen Knopf»): La Réception hat rechts zusätzlich «Chat ausprobieren»; der Titel in der Mitte nimmt deshalb
+   in jeder Breite nur den freien Platz zwischen Marke und Knöpfen und kürzt notfalls mit «…» (gemessen 21.10.2026: «Vom Team nachgetragen» lief bei 1440 unter den Knopf). */
+@media (min-width:901px){
+  .wo-kopf{grid-template-columns:auto minmax(0,1fr) auto}
+  .wo-kopf__mitte{min-width:0;max-width:100%}
+  .wo-kopf__mitte b,.wo-kopf__mitte small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+}
+
+/* Uncle Hung 11.11.2026: fünf Arten; die letzte Reihe ist immer voll (Fehlerbuch 10a, 09.11.2026): Kacheln teilen sich die Breite */
+.wo-aufg--arten{display:flex;flex-wrap:wrap}
+.wo-aufg--arten>.wo-ag{flex:1 1 calc(33% - 16px);min-width:0}
+@media (min-width:1101px){.wo-aufg--arten>.wo-ag:nth-child(n+4){flex-basis:calc(50% - 16px)}}
+@media (max-width:600px){.wo-aufg--arten>.wo-ag{flex-basis:100%}}
+
+/* ================= Uncle Hung Gersthofen (11.11.2026) ================= */
+/* Der Rand läuft mit (Fehlerbuch 10a, 28.10.2026): klebt unter dem Kopf; passt er nicht ins Fenster, rollt er in sich */
+@media (min-width:901px){.wo-rand{position:sticky;top:86px;max-height:calc(100vh - 104px);overflow:auto;overscroll-behavior:contain}}
+/* Wortmarke als einziges Logo im Brief (Fehlerbuch 10a «Ein Logo je Unterlage»): UNCLE HUNG mit der Schale als U, in Tief */
+.brief .wortmarke{display:block;width:min(230px,64%);height:auto;margin:0 auto}
+.brief__kopf .wortmarke{margin-bottom:12px}
+.gs--zeichen .wortmarke{width:230px;max-width:100%}
+.brief__siegel{display:none!important}
+/* Musterkarten unter «Vom Team nachgetragen»: die Leerstelle als leiser Satz, nie als Platzhalter in Klammern */
+.re-n__a--leer{color:var(--wo-leise);font-style:italic}
+/* Handy bleibt Handy (Fehlerbuch 10a, 04.11.2026): die Höhe bestimmt die Breite (9/19), nur die Liste im Gerät rollt */
+@media (min-width:901px){.probe .ws-handy{aspect-ratio:9/19;width:auto;height:min(720px,100%);max-width:100%;min-height:0}}
+.probe .ws-handy{grid-template-columns:minmax(0,1fr);min-width:0}   /* am Handy selbst füllt das Gerät die Fläche, nur die Liste rollt */
+.probe .ws-handy .ws-bl--weg{display:inline-block}
+
+/* Die Wortmarke im gestalteten Brief: Baustein «zeichen» trägt die Wortmarke statt eines kleinen Zeichens */
+.brief .gs--zeichen{--fs:230px;width:calc(230px * var(--s,1));max-width:100%}
+.brief .gs--zeichen img.wortmarke{width:100%;margin:0}
+/* Letzte Reihe voll, nie einer allein (Fehlerbuch 20.10.2026): fünf Abteilungsknöpfe als 3 + 2, die zweite Reihe teilt sich die volle Breite; die vier Auswahlknöpfe 2 × 2 */
+.re-abt{grid-template-columns:repeat(6,minmax(0,1fr))!important}
+.re-abt>button{grid-column:span 2}
+.re-abt>button:nth-child(n+4):nth-last-child(-n+2){grid-column:span 3}
+.re-filter button{flex:1 1 40%}
+/* Angaben in Gruppen (Fehlerbuch 10a): Wann und wie viele · Wo und wofür · Gast; jede Gruppe füllt ihre Reihe */
+.re-d .re-angaben--ort{grid-template-columns:minmax(0,2fr) minmax(0,1fr);margin-top:10px}
+.re-d .re-angaben--ort>div:only-child{grid-column:1/-1}
+@media (max-width:900px){
+  .re-d .re-angaben--gast>div:first-child{grid-column:1/-1}
+  .re-d .re-angaben--gast>div:nth-child(2){border-left:0;border-top:1px solid rgba(225,204,144,.2)}
+  .re-d .re-angaben--gast>div:nth-child(3){border-top:1px solid rgba(225,204,144,.2)}
+  .re-d .re-angaben--ort{grid-template-columns:1fr}
+  .re-d .re-angaben--ort>div+div{border-left:0;border-top:1px solid rgba(225,204,144,.2)}
+}
+/* Fraunces wie die Website: weiche Enden (SOFT 100), Titel 560, nie fett */
+body.bu{font-variation-settings:"SOFT" 100}
+/* Frage der Gäste ohne vorangestelltes «: das Zeichen lag in Fraunces über dem ersten Buchstaben */
+.re-f__q{padding-left:0}.re-f__q::before{content:none}
+/* Neues Wissen: «Übernehmen» bleibt ganz sichtbar, die Bereichswahl nimmt den Rest */
+.wi-neu__leiste .kn{flex:none}
+.wi-neu__leiste .wi-neu__ber{flex:1 1 120px}
+.wi-neu__leiste>span{display:none}
+/* Sechzehn Fotos: 4 × 4, am Handy 2 × 8, die letzte Reihe immer voll */
+.gs-fotos{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+@media (max-width:700px){.gs-fotos{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+/* Wörter nie mitten getrennt (Fehlerbuch 10a): «7 Angaben» bleibt eine Zeile */
+.re-gespraech summary i{white-space:nowrap;flex:none}
+/* Chat ausprobieren: Antworten gesetzt wie unter «Das wurde gefragt» (Absätze, Punkte als Liste mit fettem Stichwort) */
+.ws-bl p{margin:0}.ws-bl p+p,.ws-bl p+ul{margin-top:6px}
+.ws-bl ul{margin:6px 0 0;padding-left:18px}.ws-bl li{margin:2px 0}.ws-bl li b{font-weight:600}

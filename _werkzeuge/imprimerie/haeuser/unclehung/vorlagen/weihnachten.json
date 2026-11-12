@@ -1,0 +1,185 @@
+{
+ "art": "weihnachten",
+ "format": "a5h",
+ "vorlagen": [
+  {
+   "id": "weihnachten-001",
+   "titel": "Comfort Menu",
+   "bereich": "Uncle’s Christmas",
+   "vorlage": "karte",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54,
+    "mittig": true
+   },
+   "inhalt": {
+    "ueber": "Uncle’s Christmas · November und Dezember",
+    "titel": "Comfort Menu",
+    "text": "58 € pro Person",
+    "liste": [
+     {
+      "name": "Beginn",
+      "detail": "Súp Hoành Thánh, Wan Tan Suppe · Bò Tái, Vietnamese Beef Carpaccio · Chicken Gyoza mit Hausdip",
+      "preis": ""
+     },
+     {
+      "name": "Main",
+      "detail": "Slow-braised Short Rib: zart geschmorte Beef Short Ribs auf cremigem Kürbis-Kartoffel-Stampf, dazu wilder Brokkoli mit Miso-Glasur",
+      "preis": ""
+     },
+     {
+      "name": "Sweet Final",
+      "detail": "Lebkuchen-Tiramisu mit kräftigem vietnamesischem Kaffee, samtiger Mascarponecreme und beschwipsten Kirschen",
+      "preis": ""
+     }
+    ],
+    "fuss": "Ab 2 Personen · Mindestens 3 Tage Vorlauf",
+    "mittig": true
+   }
+  },
+  {
+   "id": "weihnachten-002",
+   "titel": "Botanical Menu",
+   "bereich": "Uncle’s Christmas",
+   "vorlage": "karte",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54,
+    "mittig": true
+   },
+   "inhalt": {
+    "ueber": "Uncle’s Christmas · November und Dezember",
+    "titel": "Botanical Menu",
+    "text": "58 € pro Person · vegan",
+    "liste": [
+     {
+      "name": "Beginn",
+      "detail": "Tom Kha Hed, vegane Thai-Kokossuppe · Mushroom Dumplings · Crispy Califlower on Nojoghurt",
+      "preis": ""
+     },
+     {
+      "name": "Main",
+      "detail": "Creamy Udon with mixed Mushrooms · Sichuan Eggplant · Chili Roasted Tofu · Furikake Rice, Reis mit Seetang",
+      "preis": ""
+     },
+     {
+      "name": "Sweet Final",
+      "detail": "Vietnamese Fried Banana mit veganem selbstgemachtem Eis · Amaretto Cà Phê",
+      "preis": ""
+     }
+    ],
+    "fuss": "Ab 2 Personen · Mindestens 3 Tage Vorlauf",
+    "mittig": true
+   }
+  },
+  {
+   "id": "weihnachten-003",
+   "titel": "Hot Pot Menu",
+   "bereich": "Uncle’s Christmas",
+   "vorlage": "karte",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54,
+    "mittig": true
+   },
+   "inhalt": {
+    "ueber": "Uncle’s Christmas · November und Dezember",
+    "titel": "Hot Pot Menu",
+    "text": "65 € pro Person · ab 2 Personen",
+    "liste": [
+     {
+      "name": "Hot in the Pot",
+      "detail": "Asiatisches Fondue mit aromatischer, heißer Brühe, in der frische Zutaten wie Fleisch, Gemüse und Nudeln direkt am Tisch gegart werden",
+      "preis": ""
+     },
+     {
+      "name": "What in the Pot",
+      "detail": "Mixed Seafood · a lot of Meat · Fresh Greens · Dumplings · Noodles · Savory Dips · Veggies",
+      "preis": ""
+     },
+     {
+      "name": "Sweet After",
+      "detail": "Karamellisierte Ananas mit Eiscreme und gebrannten Mandeln",
+      "preis": ""
+     }
+    ],
+    "fuss": "Ab 2 Personen · Mindestens 3 Tage Vorlauf",
+    "mittig": true
+   }
+  },
+  {
+   "id": "weihnachten-007",
+   "titel": "Uncle’s Christmas, Titelblatt",
+   "bereich": "Uncle’s Christmas",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "November und Dezember",
+    "titel": "Uncle’s Christmas",
+    "unter": "Comfort · Botanical · Hot Pot",
+    "text": "Weihnachten ohne Stress, dafür mit richtig gutem Essen und euren Lieblingsmenschen.",
+    "fuss": "Uncle Hung · Dieselstraße 2 · 86368 Gersthofen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "weihnachten-008",
+   "titel": "Drei Menüs auf einen Blick",
+   "bereich": "Uncle’s Christmas",
+   "vorlage": "programm",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle’s Christmas · November und Dezember",
+    "titel": "Drei Weihnachtsmenüs",
+    "termine": [
+     {
+      "wann": "58 € pro Person",
+      "was": "Comfort Menu",
+      "wo": "Súp Hoành Thánh, Wan Tan Suppe · Bò Tái, Vietnamese Beef Carpaccio · Chicken Gyoza mit Hausdip"
+     },
+     {
+      "wann": "58 € pro Person · vegan",
+      "was": "Botanical Menu",
+      "wo": "Tom Kha Hed, vegane Thai-Kokossuppe · Mushroom Dumplings · Crispy Califlower on Nojoghurt"
+     },
+     {
+      "wann": "65 € pro Person · ab 2 Personen",
+      "was": "Hot Pot Menu",
+      "wo": "Asiatisches Fondue mit aromatischer, heißer Brühe, in der frische Zutaten wie Fleisch, Gemüse und Nudeln direkt am Tisch gegart werden"
+     }
+    ],
+    "fuss": "Ab 2 Personen · Mindestens 3 Tage Vorlauf"
+   }
+  }
+ ]
+}

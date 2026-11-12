@@ -1,0 +1,37 @@
+{
+ "zeit": "2026-11-09T13:05:00+01:00",
+ "art": "feier",
+ "name": "Sophie Lindner",
+ "kontakt": "sophie.lindner@example.com",
+ "datum": "29. Januar 2027",
+ "personen": null,
+ "anliegen": "60. Geburtstag des Vaters, 45 bis 70 Gäste",
+ "sprache": "de",
+ "gespraech": "beispiel-3",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über das Anfrage-Formular der Website (Seite Catering): Name: Sophie Lindner\nLocation: Bei Uncle Hung\nAnlass: Feier bei Uncle Hung\nDatum: 29. Januar 2027\nGruppengröße: 45 bis 70 Gäste\nE-Mail: sophie.lindner@example.com\nPersönliche Wünsche: Mein Vater wird 60. Wir möchten abends ab 18 Uhr feiern, gern mit Pho und Sommerrollen für alle. Eine Freundin hat eine Allergie gegen glutenhaltiges Getreide."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "v.nguyen2@gmx.de",
+ "abteilung": "Feier",
+ "seite": "/catering.html",
+ "seite_name": "Catering",
+ "web": true,
+ "nachricht": "Name: Sophie Lindner\nLocation: Bei Uncle Hung\nAnlass: Feier bei Uncle Hung\nDatum: 29. Januar 2027\nGruppengröße: 45 bis 70 Gäste\nE-Mail: sophie.lindner@example.com\nPersönliche Wünsche: Mein Vater wird 60. Wir möchten abends ab 18 Uhr feiern, gern mit Pho und Sommerrollen für alle. Eine Freundin hat eine Allergie gegen glutenhaltiges Getreide.",
+ "formular": "catering",
+ "gruppe": "45 bis 70 Gäste",
+ "ort": "Bei Uncle Hung",
+ "anlass": "Feier bei Uncle Hung",
+ "entwurf": {
+  "betreff": "Deine Feier bei Uncle Hung am 29. Januar 2027",
+  "text": "Hallo Sophie,\n\ndanke, dass du bei uns feiern möchtest. Du erzählst, was du dir vorstellst, die Familie kümmert sich um Menü, Deko und Entertainment.\n\nFür den 29. Januar 2027 mit 45 bis 70 Gästen schauen wir gern, wie wir den Raum für euch decken.\n\nIm Haus bewirtet die Familie bis zu 45 Gäste, der beheizte Wintergarten bietet mit seinem besonderen Charme Platz für 25 weitere.\n\nWas du zu Allergien geschrieben hast (A: glutenhaltiges Getreide), geben wir an die Küche weiter, damit sie für dich mitdenkt.\n\nDamit wir alles in Ruhe vorbereiten können, schreib uns noch:\n- ob ihr ein bestimmtes Menü im Kopf habt\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/feier.txt), Hinweise: 45 bis 70 Gäste: im Haus bis 45, der Wintergarten fasst 25 weitere; Für die Küche: A: glutenhaltiges Getreide\nOffen: Wintergarten dazunehmen und Platz klären; Platz für den Tag prüfen; Küche über die Allergien informieren",
+  "vorlage": "feier",
+  "absender": "v.nguyen2@gmx.de",
+  "zeit": "2026-11-09T13:05:00+01:00"
+ }
+}

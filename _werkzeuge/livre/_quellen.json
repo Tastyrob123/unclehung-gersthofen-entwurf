@@ -1,0 +1,1124 @@
+{
+ "tisch": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/tisch.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/tisch-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/4351686189e9c5a6839f07237e79766e.jpg",
+  "ausschnitt": null
+ },
+ "tisch2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/tisch2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/tisch2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/006a481ef1c86a8f920136aab8242985.jpg",
+  "ausschnitt": null
+ },
+ "hung": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/hung.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/hung-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/9b90381d08ceba7641da31843b729bfe.jpg",
+  "ausschnitt": null
+ },
+ "hung-sw": {
+  "druck": "Uncle Hung Gersthofen/_quelle/website/bilder/01f3859b06d08d2253955e60662f9fe7.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/hung-sw-1280.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/01f3859b06d08d2253955e60662f9fe7.jpg",
+  "ausschnitt": null
+ },
+ "familie": {
+  "druck": "Uncle Hung Gersthofen/_quelle/website/bilder/4d6036c453ed47443b72a6e5938f3e46.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/familie-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/4d6036c453ed47443b72a6e5938f3e46.jpg",
+  "ausschnitt": null
+ },
+ "familie-sw": {
+  "druck": "Uncle Hung Gersthofen/_quelle/website/bilder/9ec1fd2a8940b73ebe64c5d1d5cdada1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/familie-sw-720.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/9ec1fd2a8940b73ebe64c5d1d5cdada1.jpg",
+  "ausschnitt": null
+ },
+ "opa": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/opa.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/opa-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/393961e51f8116fc15e420e70db3932c.jpg",
+  "ausschnitt": null
+ },
+ "runde-sw": {
+  "druck": "Uncle Hung Gersthofen/_quelle/website/bilder/330f7d80ffd1b53d9757268382faa334.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/runde-sw-1280.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/330f7d80ffd1b53d9757268382faa334.jpg",
+  "ausschnitt": null
+ },
+ "nudeln": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/nudeln.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/nudeln-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/1de91b2a440f6b747063615dc30f6b0c.jpg",
+  "ausschnitt": null
+ },
+ "nudeln2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/nudeln2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/nudeln2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/ba60345a1de364a080650a50682b736f.jpg",
+  "ausschnitt": null
+ },
+ "pakchoi": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/pakchoi.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/pakchoi-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/3474e05c90917d5bb487b80457e27d0d.jpg",
+  "ausschnitt": null
+ },
+ "reis": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/reis-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/reis-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/06a042d1cab66c60a10e82fba4af4d94.jpg",
+  "ausschnitt": null
+ },
+ "curry": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/curry.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/curry-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/4b06de25823784d217deece07352df55.jpg",
+  "ausschnitt": null
+ },
+ "teller": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/teller.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/teller-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/01ecba07946fe562491d694400cfcd2c.jpg",
+  "ausschnitt": null
+ },
+ "salat": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/salat.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/salat-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/8478e1408e536aeb5b1aaab76430d2b5.jpg",
+  "ausschnitt": null
+ },
+ "bowl": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/bowl.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/bowl-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/8a6accbcc718adf777d4ad5c5d32f453.jpg",
+  "ausschnitt": null
+ },
+ "reis2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/reis2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/reis2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/e607e111f5ec48067440bcdb60e1b1ab.jpg",
+  "ausschnitt": null
+ },
+ "kuchen": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/kuchen.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/kuchen-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/7e02cff78f9c3ec96ae438a84b7c7a2b.jpg",
+  "ausschnitt": null
+ },
+ "matcha": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/matcha.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/matcha-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/794e0d9ea32b7b91eeb3e9ff32596366.jpg",
+  "ausschnitt": null
+ },
+ "icetea": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/icetea.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/icetea-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/92aee5cb717706d05a0b0c58864a16d9.jpg",
+  "ausschnitt": null
+ },
+ "freunde": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/freunde.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/freunde-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/c8bbf997368d7d0c9edae5633a33c7a8.jpg",
+  "ausschnitt": null
+ },
+ "freunde2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/freunde2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/freunde2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/e2cb3b4434f77a71b4dce605c13a4100.jpg",
+  "ausschnitt": null
+ },
+ "leucht": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/leucht.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/leucht-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/0bc74740132c9d8702fc934d43c872fc.jpg",
+  "ausschnitt": null
+ },
+ "raum": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/raum.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/raum-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/website/bilder/73ab7475a475c83d8c71df2d5c9d284e.jpg",
+  "ausschnitt": null
+ },
+ "ig-turm": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-turm.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-turm-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-05_unclehung.official_DWwGFOICHTg-4.jpg",
+  "ausschnitt": null
+ },
+ "ig-giessen": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-giessen.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-giessen-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-05_unclehung.official_DWwGFOICHTg-3.jpg",
+  "ausschnitt": null
+ },
+ "ig-drinks": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-drinks.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-drinks-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-20_unclehung.official_DXXGMCOiPB3-1.jpg",
+  "ausschnitt": null
+ },
+ "ig-tafel": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-tafel.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-tafel-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-05_unclehung.official_DWwGFOICHTg-6.jpg",
+  "ausschnitt": null
+ },
+ "ig-wintergarten": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-22_unclehung.official_DXbV-tBiIyc-8.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-wintergarten-720.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-22_unclehung.official_DXbV-tBiIyc-8.jpg",
+  "ausschnitt": null
+ },
+ "ig-garten2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-garten2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-garten2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-3.jpg",
+  "ausschnitt": null
+ },
+ "ig-raum": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-raum.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-raum-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-1.jpg",
+  "ausschnitt": null
+ },
+ "ig-raum2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-raum2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-raum2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-3.jpg",
+  "ausschnitt": null
+ },
+ "ig-nacht": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-nacht.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-nacht-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-4.jpg",
+  "ausschnitt": null
+ },
+ "ig-abend": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-abend.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-abend-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-5.jpg",
+  "ausschnitt": null
+ },
+ "ig-teller": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-teller.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-teller-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-6.jpg",
+  "ausschnitt": null
+ },
+ "ig-schalen": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-schalen.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-schalen-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-15.jpg",
+  "ausschnitt": null
+ },
+ "ig-pho": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-pho.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-pho-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-14.jpg",
+  "ausschnitt": null
+ },
+ "ig-kueche": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-kueche.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-kueche-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-13_unclehung.official_Dau8r88iKr1-12.jpg",
+  "ausschnitt": null
+ },
+ "ig-tablett": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-tablett.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-tablett-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-1.jpg",
+  "ausschnitt": null
+ },
+ "ig-buffet": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ig-buffet.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ig-buffet-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-9.jpg",
+  "ausschnitt": null
+ },
+ "cat1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/cat1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/cat1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2023-07-15_unclehung.official_CutchT1o-Dd-1.jpg",
+  "ausschnitt": null
+ },
+ "cat2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/cat2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/cat2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2023-07-15_unclehung.official_CutchT1o-Dd-4.jpg",
+  "ausschnitt": null
+ },
+ "cat3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/cat3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/cat3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2023-07-15_unclehung.official_CutchT1o-Dd-6.jpg",
+  "ausschnitt": null
+ },
+ "cat4": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/cat4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/cat4-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2023-07-15_unclehung.official_CutchT1o-Dd-8.jpg",
+  "ausschnitt": null
+ },
+ "cat5": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/cat5.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/cat5-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2023-07-03_unclehung.official_CuPUOUjI0qh-1.jpg",
+  "ausschnitt": null
+ },
+ "cat6": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/cat6.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/cat6-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2023-07-03_unclehung.official_CuPUOUjI0qh-3.jpg",
+  "ausschnitt": null
+ },
+ "cat7": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/cat7.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/cat7-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2023-07-03_unclehung.official_CuPUOUjI0qh-4.jpg",
+  "ausschnitt": null
+ },
+ "cat8": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/cat8.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/cat8-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2023-07-15_unclehung.official_CutchT1o-Dd-9.jpg",
+  "ausschnitt": null
+ },
+ "xmas": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/xmas-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/xmas-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-22_unclehung.official_DezCLDmCJKv-1.jpg",
+  "ausschnitt": null
+ },
+ "tasche": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-27_unclehung.official_DN3NIR8UL7P-4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/tasche-1280.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-27_unclehung.official_DN3NIR8UL7P-4.jpg",
+  "ausschnitt": null
+ },
+ "festival": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/festival.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/festival-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-06-02_unclehung.official_DKZFctEoC2s-1.jpg",
+  "ausschnitt": null
+ },
+ "fest2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/fest2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/fest2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-06-02_unclehung.official_DKZFctEoC2s-8.jpg",
+  "ausschnitt": null
+ },
+ "fest3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/fest3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/fest3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-06-02_unclehung.official_DKZFctEoC2s-9.jpg",
+  "ausschnitt": null
+ },
+ "fest4": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/fest4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/fest4-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-06-02_unclehung.official_DKZFctEoC2s-2.jpg",
+  "ausschnitt": null
+ },
+ "v-ess01": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-ess01-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess01-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-5.jpg",
+  "ausschnitt": null
+ },
+ "v-ess02": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-ess02-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess02-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-09-08_unclehung.official_DdBOgcPo7qY-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess03": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-ess03-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess03-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-31_unclehung.official_Dbc8zsrIB79-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess04": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-ess04-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess04-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-9.jpg",
+  "ausschnitt": null
+ },
+ "v-ess05": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-30_unclehung.official_DPR4aj8iLmI-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess05-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-30_unclehung.official_DPR4aj8iLmI-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess06": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-24_unclehung.official_DO_LdHVCPM6-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess06-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-24_unclehung.official_DO_LdHVCPM6-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess07": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-16_unclehung.official_DOqgQJ4iD0x-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess07-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-16_unclehung.official_DOqgQJ4iD0x-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess08": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-14_hettenbach45_DOghPDRjIoN-2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess08-1280.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-14_hettenbach45_DOghPDRjIoN-2.jpg",
+  "ausschnitt": null
+ },
+ "v-ess09": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-11_unclehung.official_DOeJV9gCLz2-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess09-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-11_unclehung.official_DOeJV9gCLz2-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess10": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-ess10-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess10-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-04_unclehung.official_DOMFyhfCCjJ-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess11": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-03_unclehung.official_DOIbzIACIkk-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess11-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-03_unclehung.official_DOIbzIACIkk-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess12": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-ess12-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess12-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-29_unclehung.official_DN7VEqECJw7-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess13": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-27_unclehung.official_DN3luyiUMum-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess13-720.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-27_unclehung.official_DN3luyiUMum-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess14": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-25_unclehung.official_DOEQdoDoKaC-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess14-720.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-25_unclehung.official_DOEQdoDoKaC-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess15": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-25_unclehung.official_DNyTrwtUJOe-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess15-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-25_unclehung.official_DNyTrwtUJOe-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess16": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-22_unclehung.official_DNp0jLBIwMT-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess16-720.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-22_unclehung.official_DNp0jLBIwMT-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess17": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-20_unclehung.official_DNkooa-ocY4-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess17-720.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-20_unclehung.official_DNkooa-ocY4-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess18": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-16_unclehung.official_DNbBXIJoS5D-4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess18-1280.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-16_unclehung.official_DNbBXIJoS5D-4.jpg",
+  "ausschnitt": null
+ },
+ "v-ess19": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-17_unclehung.official_DMOIELsoH69-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess19-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-17_unclehung.official_DMOIELsoH69-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess20": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-10_unclehung.official_DL7TTD-InoA-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess20-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-10_unclehung.official_DL7TTD-InoA-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess21": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-08_unclehung.official_DL23Iveo6rN-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess21-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-08_unclehung.official_DL23Iveo6rN-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess22": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-06-24_unclehung.official_DLSf4tuI2_r-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess22-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-06-24_unclehung.official_DLSf4tuI2_r-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess23": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-05-07_unclehung.official_DJXaTrCox7f-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess23-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-05-07_unclehung.official_DJXaTrCox7f-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess24": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-04-28_unclehung.official_DI_Av1VIk_X-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess24-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-04-28_unclehung.official_DI_Av1VIk_X-1.jpg",
+  "ausschnitt": null
+ },
+ "v-ess25": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-03-02_unclehung.official_DGttl-2Ivwy-2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess25-1280.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-03-02_unclehung.official_DGttl-2Ivwy-2.jpg",
+  "ausschnitt": null
+ },
+ "v-ess26": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-03-02_unclehung.official_DGttl-2Ivwy-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-ess26-1280.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-03-02_unclehung.official_DGttl-2Ivwy-1.jpg",
+  "ausschnitt": null
+ },
+ "v-leu01": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu01-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu01-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-08_the.untamed.frame_DPj-qdcCL8D-10.jpg",
+  "ausschnitt": null
+ },
+ "v-leu02": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu02-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu02-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-07_unclehung.official_DPgFcu7CC5j-5.jpg",
+  "ausschnitt": null
+ },
+ "v-leu03": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu03-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu03-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-07_unclehung.official_DPgFcu7CC5j-3.jpg",
+  "ausschnitt": null
+ },
+ "v-leu04": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu04-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu04-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-07_unclehung.official_DPgFcu7CC5j-10.jpg",
+  "ausschnitt": null
+ },
+ "v-leu05": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu05-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu05-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-19_unclehung.official_DNivSccoP6z-1.jpg",
+  "ausschnitt": null
+ },
+ "v-leu06": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu06-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu06-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-18_unclehung.official_DNgMy4Cojsm-1.jpg",
+  "ausschnitt": null
+ },
+ "v-leu07": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu07-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu07-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-18_unclehung.official_DNfbfLjIaSw-1.jpg",
+  "ausschnitt": null
+ },
+ "v-leu08": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu08-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu08-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-16_unclehung.official_DNbNg_FIXs7-1.jpg",
+  "ausschnitt": null
+ },
+ "v-leu09": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu09-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu09-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-16_unclehung.official_DNbBXIJoS5D-6.jpg",
+  "ausschnitt": null
+ },
+ "v-leu10": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu10-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu10-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-16_unclehung.official_DNbBXIJoS5D-5.jpg",
+  "ausschnitt": null
+ },
+ "v-leu11": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-16_unclehung.official_DNbBXIJoS5D-3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu11-1280.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-16_unclehung.official_DNbBXIJoS5D-3.jpg",
+  "ausschnitt": null
+ },
+ "v-leu12": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu12-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu12-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-16_unclehung.official_DNbBXIJoS5D-2.jpg",
+  "ausschnitt": null
+ },
+ "v-leu13": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-leu13-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-leu13-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-16_unclehung.official_DNbBXIJoS5D-1.jpg",
+  "ausschnitt": null
+ },
+ "v-tea01": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea01-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea01-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-13_unclehung.official_Dau8r88iKr1-13.jpg",
+  "ausschnitt": null
+ },
+ "v-tea02": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-27_unclehung.official_DQUdaiPiL5O-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea02-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-27_unclehung.official_DQUdaiPiL5O-1.jpg",
+  "ausschnitt": null
+ },
+ "v-tea03": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea03-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea03-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-08_the.untamed.frame_DPj-qdcCL8D-5.jpg",
+  "ausschnitt": null
+ },
+ "v-tea04": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea04-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea04-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-08_the.untamed.frame_DPj-qdcCL8D-4.jpg",
+  "ausschnitt": null
+ },
+ "v-tea05": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea05-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea05-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-08_the.untamed.frame_DPj-qdcCL8D-3.jpg",
+  "ausschnitt": null
+ },
+ "v-tea06": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea06-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea06-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-08_the.untamed.frame_DPj-qdcCL8D-2.jpg",
+  "ausschnitt": null
+ },
+ "v-tea07": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea07-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea07-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-08_the.untamed.frame_DPj-qdcCL8D-1.jpg",
+  "ausschnitt": null
+ },
+ "v-tea08": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea08-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea08-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-07_unclehung.official_DPgFcu7CC5j-9.jpg",
+  "ausschnitt": null
+ },
+ "v-tea09": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea09-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea09-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-07_unclehung.official_DPgFcu7CC5j-7.jpg",
+  "ausschnitt": null
+ },
+ "v-tea10": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea10-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea10-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-07_unclehung.official_DPgFcu7CC5j-6.jpg",
+  "ausschnitt": null
+ },
+ "v-tea11": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea11-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea11-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-07_unclehung.official_DPgFcu7CC5j-2.jpg",
+  "ausschnitt": null
+ },
+ "v-tea12": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea12-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea12-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-07_unclehung.official_DPgFcu7CC5j-11.jpg",
+  "ausschnitt": null
+ },
+ "v-tea13": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea13-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea13-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-07_unclehung.official_DPgFcu7CC5j-1.jpg",
+  "ausschnitt": null
+ },
+ "v-tea14": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-21_unclehung.official_DO3oYLJiP7y-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea14-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-21_unclehung.official_DO3oYLJiP7y-1.jpg",
+  "ausschnitt": null
+ },
+ "v-tea15": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea15-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea15-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-08_the.untamed.frame_DPj-qdcCL8D-8.jpg",
+  "ausschnitt": null
+ },
+ "v-tea16": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-tea16-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea16-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-08_the.untamed.frame_DPj-qdcCL8D-6.jpg",
+  "ausschnitt": null
+ },
+ "v-tea17": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-10_unclehung.official_DPnsK0-iOVl-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-tea17-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-10_unclehung.official_DPnsK0-iOVl-1.jpg",
+  "ausschnitt": null
+ },
+ "v-rau01": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-18_unclehung.official_DOqtn1UiF7B-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-rau01-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-09-18_unclehung.official_DOqtn1UiF7B-1.jpg",
+  "ausschnitt": null
+ },
+ "v-rau02": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-rau02-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-rau02-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-28_unclehung.official_DN5fAMpUEC9-1.jpg",
+  "ausschnitt": null
+ },
+ "v-rau03": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-05-05_unclehung.official_DJSJnFJuz6b-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-rau03-720.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-05-05_unclehung.official_DJSJnFJuz6b-1.jpg",
+  "ausschnitt": null
+ },
+ "v-rau04": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-03-10_unclehung.official_DHCKV8rIO7s-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-rau04-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-03-10_unclehung.official_DHCKV8rIO7s-1.jpg",
+  "ausschnitt": null
+ },
+ "v-rau05": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-rau05-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-rau05-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-03-02_unclehung.official_DGttl-2Ivwy-5.jpg",
+  "ausschnitt": null
+ },
+ "v-rau06": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-rau06-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-rau06-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-03-02_unclehung.official_DGttl-2Ivwy-3.jpg",
+  "ausschnitt": null
+ },
+ "v-rau07": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-rau07-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-rau07-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-11.jpg",
+  "ausschnitt": null
+ },
+ "v-rau08": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-rau08-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-rau08-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-1.jpg",
+  "ausschnitt": null
+ },
+ "v-rau09": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-rau09-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-rau09-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-17.jpg",
+  "ausschnitt": null
+ },
+ "v-fes01": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-fes01-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes01-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-20.jpg",
+  "ausschnitt": null
+ },
+ "v-fes02": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-fes02-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes02-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-2.jpg",
+  "ausschnitt": null
+ },
+ "v-fes03": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-fes03-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes03-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-16.jpg",
+  "ausschnitt": null
+ },
+ "v-fes04": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-fes04-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes04-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-03-17_unclehung.official_DWAEuEJiNNa-17.jpg",
+  "ausschnitt": null
+ },
+ "v-fes05": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-fes05-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes05-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-03-17_unclehung.official_DWAEuEJiNNa-10.jpg",
+  "ausschnitt": null
+ },
+ "v-fes06": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-fes06-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes06-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-03-17_unclehung.official_DWAEuEJiNNa-1.jpg",
+  "ausschnitt": null
+ },
+ "v-fes07": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-fes07-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes07-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-14.jpg",
+  "ausschnitt": null
+ },
+ "v-fes08": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-8.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes08-1280.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-8.jpg",
+  "ausschnitt": null
+ },
+ "v-fes09": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-fes09-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes09-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-5.jpg",
+  "ausschnitt": null
+ },
+ "v-fes10": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-fes10-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes10-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-7.jpg",
+  "ausschnitt": null
+ },
+ "v-fes11": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-01-14_unclehung.official_DTgOhC8CGxC-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-fes11-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-01-14_unclehung.official_DTgOhC8CGxC-1.jpg",
+  "ausschnitt": null
+ },
+ "v-dri01": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-dri01-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-dri01-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-10.jpg",
+  "ausschnitt": null
+ },
+ "v-dri02": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-dri02-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-dri02-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-05_unclehung.official_DWwGFOICHTg-1.jpg",
+  "ausschnitt": null
+ },
+ "v-dri03": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-17_unclehung.official_DNdnyNCoD0v-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-dri03-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-17_unclehung.official_DNdnyNCoD0v-1.jpg",
+  "ausschnitt": null
+ },
+ "v-dri04": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-21_unclehung.official_DMYc2YRo9GD-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-dri04-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-21_unclehung.official_DMYc2YRo9GD-1.jpg",
+  "ausschnitt": null
+ },
+ "v-dri05": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-06-25_unclehung.official_DLUxScYIHxL-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-dri05-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-06-25_unclehung.official_DLUxScYIHxL-1.jpg",
+  "ausschnitt": null
+ },
+ "v-dri06": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-05-30_funki.fromseblock_DKSBJRFI_J_-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-dri06-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-05-30_funki.fromseblock_DKSBJRFI_J_-1.jpg",
+  "ausschnitt": null
+ },
+ "v-dri07": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-04-20_unclehung.official_DIqQq-_IhTV-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-dri07-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-04-20_unclehung.official_DIqQq-_IhTV-1.jpg",
+  "ausschnitt": null
+ },
+ "v-cat01": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-cat01-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-cat01-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-14_unclehung.official_DRCF3ZAiDqA-1.jpg",
+  "ausschnitt": null
+ },
+ "v-cat02": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-26_unclehung.official_DN1A9okUIwN-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-cat02-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-26_unclehung.official_DN1A9okUIwN-1.jpg",
+  "ausschnitt": null
+ },
+ "v-cat03": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-29_unclehung.official_DMsod2Ho5fA-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-cat03-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-29_unclehung.official_DMsod2Ho5fA-1.jpg",
+  "ausschnitt": null
+ },
+ "v-cat04": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-28_unclehung.official_DMpQeFFI-Ej-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-cat04-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-28_unclehung.official_DMpQeFFI-Ej-1.jpg",
+  "ausschnitt": null
+ },
+ "v-cat05": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-24_unclehung.official_DMfDr8YIxXF-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-cat05-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-07-24_unclehung.official_DMfDr8YIxXF-1.jpg",
+  "ausschnitt": null
+ },
+ "v-cat06": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/v-cat06-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-cat06-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-03-02_unclehung.official_DGttl-2Ivwy-4.jpg",
+  "ausschnitt": null
+ },
+ "v-cat07": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-06_unclehung.official_DNBScveot-n-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/v-cat07-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-08-06_unclehung.official_DNBScveot-n-1.jpg",
+  "ausschnitt": null
+ },
+ "mi1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/mi1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/mi1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-08-02_unclehung.official_Dbh3xSnoGFV-1.jpg",
+  "ausschnitt": null
+ },
+ "mi2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/mi2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/mi2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-06-22_unclehung.official_DZ5mXwpIIEx-1.jpg",
+  "ausschnitt": null
+ },
+ "mi3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/mi3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/mi3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-16.jpg",
+  "ausschnitt": null
+ },
+ "mi4": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/mi4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/mi4-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-13.jpg",
+  "ausschnitt": null
+ },
+ "mi5": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/mi5.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/mi5-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-04_unclehung.official_DQoWrLECCdg-4.jpg",
+  "ausschnitt": null
+ },
+ "mi6": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/mi6.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/mi6-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-19.jpg",
+  "ausschnitt": null
+ },
+ "mi7": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/mi7.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/mi7-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-6.jpg",
+  "ausschnitt": null
+ },
+ "mi8": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/mi8.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/mi8-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-13.jpg",
+  "ausschnitt": null
+ },
+ "mi9": {
+  "druck": "Uncle Hung Gersthofen/website/assets/bild/mi9-2000.webp",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/mi9-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-2.jpg",
+  "ausschnitt": null
+ },
+ "ka1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ka1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ka1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-13_unclehung.official_Dauqp7EIahj-1.jpg",
+  "ausschnitt": null
+ },
+ "ka2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ka2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ka2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-20_unclehung.official_DXXGMCOiPB3-4.jpg",
+  "ausschnitt": null
+ },
+ "ka3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ka3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ka3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-7.jpg",
+  "ausschnitt": null
+ },
+ "ka4": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-03-24_unclehung.official_DWRFGZliMva-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ka4-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-03-24_unclehung.official_DWRFGZliMva-1.jpg",
+  "ausschnitt": null
+ },
+ "ka5": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ka5.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ka5-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-08-20_unclehung.official_DcQ46EZIpPv-1.jpg",
+  "ausschnitt": null
+ },
+ "ka6": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-08_unclehung.official_DW3VMK9iHW4-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ka6-720.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-08_unclehung.official_DW3VMK9iHW4-1.jpg",
+  "ausschnitt": null
+ },
+ "ma1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ma1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ma1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-05_unclehung.official_DWwGFOICHTg-5.jpg",
+  "ausschnitt": null
+ },
+ "ma2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-06_unclehung.official_DQutjTECLSx-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ma2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-06_unclehung.official_DQutjTECLSx-1.jpg",
+  "ausschnitt": null
+ },
+ "ma3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ma3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ma3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-20_unclehung.official_DXXGMCOiPB3-6.jpg",
+  "ausschnitt": null
+ },
+ "ma4": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ma4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ma4-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-11.jpg",
+  "ausschnitt": null
+ },
+ "ma5": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ma5.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ma5-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-17.jpg",
+  "ausschnitt": null
+ },
+ "ab1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ab1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ab1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-13.jpg",
+  "ausschnitt": null
+ },
+ "ab2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ab2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ab2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-10.jpg",
+  "ausschnitt": null
+ },
+ "ab3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ab3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ab3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-9.jpg",
+  "ausschnitt": null
+ },
+ "ab4": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ab4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ab4-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-4.jpg",
+  "ausschnitt": null
+ },
+ "ab5": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ab5.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ab5-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-13_unclehung.official_Dau8r88iKr1-6.jpg",
+  "ausschnitt": null
+ },
+ "fe1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/fe1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/fe1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-09_unclehung.official_DeR9icNI1dr-1.jpg",
+  "ausschnitt": null
+ },
+ "fe2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/fe2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/fe2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-03-17_unclehung.official_DWAEuEJiNNa-11.jpg",
+  "ausschnitt": null
+ },
+ "fe3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/fe3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/fe3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-2.jpg",
+  "ausschnitt": null
+ },
+ "fe4": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/fe4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/fe4-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-10-17_unclehung.official_DemMgnECBBP-3.jpg",
+  "ausschnitt": null
+ },
+ "ca1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-18_unclehung.official_DRM7DTRCFw9-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ca1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-18_unclehung.official_DRM7DTRCFw9-1.jpg",
+  "ausschnitt": null
+ },
+ "ca2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ca2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ca2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-12_unclehung.official_DQ93X9viIL4-1.jpg",
+  "ausschnitt": null
+ },
+ "ca3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-12-01_unclehung.official_DRt5tA2CP36-1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ca3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-12-01_unclehung.official_DRt5tA2CP36-1.jpg",
+  "ausschnitt": null
+ },
+ "ca4": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ca4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ca4-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-06-26_unclehung.official_DaChvlFougR-1.jpg",
+  "ausschnitt": null
+ },
+ "ca5": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ca5.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ca5-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-11-14_unclehung.official_DRCF3ZAiDqA-1.jpg",
+  "ausschnitt": null
+ },
+ "ku1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ku1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ku1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-13_unclehung.official_Dau8r88iKr1-2.jpg",
+  "ausschnitt": null
+ },
+ "ku2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ku2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ku2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-13_unclehung.official_Dau8r88iKr1-14.jpg",
+  "ausschnitt": null
+ },
+ "ku3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ku3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ku3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2025-10-20_unclehung.official_DQChecpCLzl-14.jpg",
+  "ausschnitt": null
+ },
+ "ku4": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ku4.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ku4-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-02-21_unclehung.official_DVCbBeHiFJR-16.jpg",
+  "ausschnitt": null
+ },
+ "se1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/se1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/se1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-13_unclehung.official_Dau8r88iKr1-10.jpg",
+  "ausschnitt": null
+ },
+ "ga1": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ga1.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ga1-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-13_unclehung.official_Dau8r88iKr1-5.jpg",
+  "ausschnitt": null
+ },
+ "ga2": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ga2.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ga2-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-07-13_unclehung.official_Dau8r88iKr1-7.jpg",
+  "ausschnitt": null
+ },
+ "ga3": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ga3.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ga3-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-20_unclehung.official_DXXGMCOiPB3-2.jpg",
+  "ausschnitt": null
+ },
+ "ga5": {
+  "druck": "Uncle Hung Gersthofen/_quelle/hochgerechnet/ga5.jpg",
+  "web": "Uncle Hung Gersthofen/website/assets/bild/ga5-2000.webp",
+  "original": "Uncle Hung Gersthofen/_quelle/extern/ig/2026-04-20_unclehung.official_DXXGMCOiPB3-3.jpg",
+  "ausschnitt": null
+ }
+}

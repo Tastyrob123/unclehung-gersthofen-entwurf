@@ -1,0 +1,31 @@
+{
+ "quelle": "website/karte.json (Canva-Seite hello-unclehung.my.canva.site, Abschnitt Menü, Aufnahmen _quelle/website/aufnahmen/04-1 bis 04-6.jpg und Text _quelle/website/text/menue.md, gelesen am 11.11.2026) · Rubrik «drinks»",
+ "titel": "Signature Drinks",
+ "haus": {
+  "name": "Uncle Hung",
+  "strasse": "Dieselstraße 2",
+  "ort": "86368 Gersthofen",
+  "tel": "0821 / 2185710"
+ },
+ "unter": "Eine größere Getränkeauswahl findet ihr im Lokal. Alle Getränke auch to go erhältlich.",
+ "posten": [
+  [
+   "",
+   "Diverse Matcha-Kreationen",
+   "Mango, Banana, Classy, Strawberry, Lavendel u. v. m.",
+   "6,50 €"
+  ],
+  [
+   "",
+   "Hungmade Icetea",
+   "",
+   "5,50 €"
+  ],
+  [
+   "",
+   "Spritz-Variationen",
+   "Lychee, Mango, Aperol",
+   "6,50 €"
+  ]
+ ]
+}

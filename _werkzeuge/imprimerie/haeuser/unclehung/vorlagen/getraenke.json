@@ -1,0 +1,125 @@
+{
+ "art": "getraenke",
+ "format": "dlh",
+ "vorlagen": [
+  {
+   "id": "getraenke-001",
+   "titel": "Signature Drinks, schmal",
+   "bereich": "Matcha & Drinks",
+   "vorlage": "karte",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Matcha & Drinks",
+    "titel": "Signature Drinks",
+    "text": "Eine größere Getränkeauswahl findet ihr im Lokal. Alle Getränke auch to go erhältlich.",
+    "liste": [
+     {
+      "name": "Diverse Matcha-Kreationen",
+      "detail": "Mango, Banana, Classy, Strawberry, Lavendel u. v. m.",
+      "preis": "6,50 €"
+     },
+     {
+      "name": "Hungmade Icetea",
+      "detail": "Hausgemacht, mit frischen Früchten.",
+      "preis": "5,50 €"
+     },
+     {
+      "name": "Spritz-Variationen",
+      "detail": "Lychee, Mango, Aperol",
+      "preis": "6,50 €"
+     }
+    ],
+    "fuss": "Alle Getränke auch to go"
+   }
+  },
+  {
+   "id": "getraenke-002",
+   "titel": "Signature Drinks, Papier",
+   "bereich": "Matcha & Drinks",
+   "vorlage": "karte",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Matcha & Drinks",
+    "titel": "Signature Drinks",
+    "text": "Eine größere Getränkeauswahl findet ihr im Lokal.",
+    "liste": [
+     {
+      "name": "Diverse Matcha-Kreationen",
+      "detail": "Mango, Banana, Classy, Strawberry, Lavendel u. v. m.",
+      "preis": "6,50 €"
+     },
+     {
+      "name": "Hungmade Icetea",
+      "detail": "Hausgemacht, mit frischen Früchten.",
+      "preis": "5,50 €"
+     },
+     {
+      "name": "Spritz-Variationen",
+      "detail": "Lychee, Mango, Aperol",
+      "preis": "6,50 €"
+     }
+    ],
+    "fuss": "Alle Getränke auch to go"
+   }
+  },
+  {
+   "id": "getraenke-003",
+   "titel": "Matcha, Papier warm",
+   "bereich": "Matcha & Drinks",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Matcha ist im Haus ein eigenes Kapitel",
+    "titel": "Diverse Matcha-Kreationen",
+    "text": "Mango, Banana, Classy, Strawberry,\nLavendel und mehr.\n\n6,50 €",
+    "aktion": "Alle Getränke auch to go"
+   }
+  },
+  {
+   "id": "getraenke-004",
+   "titel": "Drinks, Titelblatt",
+   "bereich": "Matcha & Drinks",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle Hung",
+    "titel": "Matcha & Drinks",
+    "unter": "Alles auch zum Mitnehmen",
+    "text": "Dazu der hausgemachte Icetea und Spritz mit Lychee oder Mango.",
+    "fuss": ""
+   }
+  }
+ ]
+}

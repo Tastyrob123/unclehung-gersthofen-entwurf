@@ -1,0 +1,27 @@
+{
+ "haus": "unclehung",
+ "stand": "2026-11-11",
+ "quelle": "website/assets/uh.css (Farben, Schriften), CHARAKTER.md (Marke), Roberts Kriterien 10–14, 18, 21, 22; Vorlage Culinarium (stilblatt.json dort)",
+ "masseinheit": "Schriftgrad gr in mm (Kegel); Formate in mm, 3 mm Beschnitt",
+ "rollen": {
+  "titel": { "rolle": ["titel"], "schrift": "Fraunces 540 (SOFT 100, WONK 0, opsz 120)", "datei": "schriften/Fraunces-540.ttf", "versalien": false, "sperr": 0, "kursiv": false },
+  "namen": { "rolle": ["kapitale"], "schrift": "Fraunces 540 Namen (SOFT 100, opsz 36)", "datei": "schriften/Fraunces-540-Namen.ttf", "versalien": false, "sperr": 0, "wofuer": "Gerichte der Weihnachtsmenüs, Name auf der Postkarten-Rückseite" },
+  "text": { "rolle": ["text"], "schrift": "Instrument Sans 400", "datei": "schriften/InstrumentSans-400.ttf", "versalien": false, "kursiv": false },
+  "betont": { "rolle": ["kursiv"], "schrift": "Instrument Sans 600", "datei": "schriften/InstrumentSans-600.ttf", "kursiv": false, "wofuer": "Einleitung und Betonung; die Website setzt nie kursiv" },
+  "etikett": { "rolle": ["mono"], "schrift": "DM Mono 400", "datei": "schriften/DMMono-400.ttf", "versalien": true, "sperr_max": 0.08, "wofuer": "Zeilen über dem Titel, Zeiten, Preise, Fuß mit Adresse" }
+ },
+ "schreibung": { "titel": "normal (nie Versalien)", "versalien_nur": "DM Mono, klein", "sprache": "Deutsch mit ß", "anrede_gaeste": "Du wie die Website", "anfuehrung": "«…»", "zahl_einheit": "geschütztes Leerzeichen («14.00 Uhr», «10,00 €»)", "zeit": "11.00 – 14.30 Uhr (Punkt, Halbgeviertstrich mit Leerzeichen)" },
+ "trenner": { "ort": " · ", "liste": " · ", "regel": "nur «·» zwischen Gliedern; Trenner am Zeilenende entfällt" },
+ "achse": { "regel": "eine Achse je Seite: mittig für Titelblatt, Aushang, Gutschein hoch, Weihnachtsmenü (stil.mittig / inhalt.mittig); links nur für Karte mit Preisen, Programm, Catering-Schritte und Aufbau «geteilt»", "mittig_toleranz_mm": 0.8 },
+ "farben": {
+  "navy": "#4D5C4E", "nacht": "#2B342D", "blau": "#3E4B40", "tinte": "#1F2620", "papier": "#F1E7D8", "creme": "#EBE1D4", "weiss": "#F7EFE3",
+  "gold": "#D9BC6B", "messing": "#BF982E", "taupe": "#5E8A73", "tanne": "#4D5C4E", "jade": "#86AE98",
+  "regel": "Salbei als dunkle Fläche, immer mit der Schalen-Tapete; Gold nur als Linie, Etikett und Knauf, nie als Fläche und nie als Lesetext auf Papier; Jade tief für kleine Angaben auf Papier"
+ },
+ "toene": { "dunkel": "Salbei mit Tapete, Titel Papier, Text Papier warm, Etikett Gold hell, Zeichen Creme", "hell": "Papier ohne Tapete, Titel Salbei, Text Tinte, Etikett Jade tief", "creme": "Papier warm mit heller Tapete, Titel Salbei, Text Tinte, Etikett Jade tief" },
+ "raender": { "rahmen_ecke_mm": 2.6, "rahmen": "einfach oder doppelt, Linie Gold 0,25 mm", "sicher_mm": 4, "beschnitt_mm": 3 },
+ "mindestgrade_mm": { "lesetext": 2.0, "versalien": 1.9, "namen": 2.2, "titel": 2.4, "durchsetzung": "vorlagen.js MIN_GR in tx() und stapelMitte()" },
+ "komposition": { "optische_mitte": "Stapel mittig zwischen Kopf und Fuß", "fuellung_min": 0.6, "wachsen": "füllt ein Stapel weniger als 60 % seiner Fläche, wachsen Schrift und Abstände gemeinsam bis 1,6-fach (Kriterium 11: wenig Inhalt = größer, nicht leerer)" },
+ "verboten": { "versalien_in_rolle": ["titel", "kapitale"], "sperr_max": 0.08, "kursiv": true, "klammern": "[ ] nie in Vorlagen (Vorlagen-Lauf bricht ab)", "fotos": "nur Fotos des Hauses (Website, Instagram des Hauses); keine Gemeinschaftsbeiträge fremder Konten (art «fremd»), keine Porträts als Hintergrund, ein Gericht nur mit seinem eigenen Foto" },
+ "zeichen": { "zeichen": "Die Schale mit zwei Stäbchen (kleid/unclehung-zeichen.svg)", "wortmarke": "UNCLE HUNG mit Schale als U (kleid/unclehung-wortmarke.svg), nur als Bild, nie als nachgesetzte Schrift", "tapete": "Schale und Stäbchen, Rapport 16 mm im Druck" }
+}

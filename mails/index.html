@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><script id="wb-rueckweg">(function(){var q=new URLSearchParams(location.search),y=q.get("wb");if(!/^\d+$/.test(y||""))y=q.get("wy");try{if(y&&/^\d+$/.test(y))sessionStorage.setItem("wb-rueck",y);else y=sessionStorage.getItem("wb-rueck")}catch(e){}if(!y||!/^\d+$/.test(y))return;function setze(){[].forEach.call(document.querySelectorAll("a[href]"),function(a){try{var u=new URL(a.getAttribute("href"),location.href);if(u.origin!==location.origin||!/\/werkbank\/(index\.html)?$/.test(u.pathname))return;u.hash="";u.search="?y="+y;a.href=u.toString()}catch(e){}})}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setze);else setze();addEventListener("load",setze);setTimeout(setze,1500)})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Sechs Mails · Uncle Hung</title>
+<style>
+@font-face{font-family:'Fraunces';font-weight:100 900;font-display:swap;src:url('../assets/schrift/fraunces-soft.woff2') format('woff2')}
+@font-face{font-family:'Instrument Sans';font-weight:400 600;font-display:swap;src:url('../assets/schrift/InstrumentSans-normal-400_600.woff2') format('woff2')}
+@font-face{font-family:'DM Mono';font-weight:400;font-display:swap;src:url('../assets/schrift/DMMono-normal-400.woff2') format('woff2')}
+h1,.mb-nr,.mb-ueber__t b{font-variation-settings:'SOFT' 100,'WONK' 0}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#2b342d;color:#ebe1d4;font:400 17px/1.6 'Instrument Sans','Helvetica Neue',Arial,system-ui,sans-serif;--rand:clamp(20px,4.6vw,76px)}
+header.kopf{padding:clamp(56px,8vw,120px) var(--rand) clamp(30px,4vw,60px);text-align:center}
+header.kopf .marke{display:block;width:clamp(58px,5.4vw,84px);height:auto;margin:0 auto;color:#4d5c4e}
+h1{margin:clamp(18px,2vw,28px) auto 0;max-width:22ch;font:400 clamp(2rem,4.6vw,4.2rem)/1.1 'Fraunces',Georgia,serif;text-wrap:balance}h1 em{font-style:normal;color:#d9bc6b}
+header.kopf p{max-width:60ch;margin:clamp(18px,2.1vw,32px) auto 0;color:rgba(247,239,227,.86)}
+main{padding:0 0 clamp(60px,8vw,120px)}
+.band{display:flex;gap:clamp(20px,2.4vw,40px);align-items:flex-start;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:var(--rand);padding:4px var(--rand) 34px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.band::-webkit-scrollbar{display:none}
+.band:focus-visible{outline:2px solid #d9bc6b;outline-offset:-2px}
+.mb{flex:0 0 clamp(300px,34vw,520px);scroll-snap-align:start}
+.mb:last-child{margin-inline-end:var(--rand)}
+.mb-ueber{display:flex;gap:16px;align-items:flex-start;margin:0 0 18px;padding:16px 18px;border-radius:16px;background:linear-gradient(180deg,#3e4b40,#344036);box-shadow:inset 0 0 0 1px rgba(217,188,107,.4)}   /* Nummer und Titel in einer Tafel (Prüfpunkt 4) */
+.mb-nr{font:400 2.3rem/.95 'Fraunces',Georgia,serif;color:#ebe1d4;font-variant-numeric:tabular-nums}
+.mb-ueber__t{display:flex;flex-direction:column;gap:5px;min-width:0}
+.mb-ueber__t b{font:400 1.3rem/1.2 'Fraunces',Georgia,serif}
+.mb-ueber__t small{font-size:.86rem;line-height:1.4;color:rgba(247,239,227,.76)}
+.mb-ueber__t small span{display:inline-block;min-width:6.2em;font:500 13px/1.4 'DM Mono',ui-monospace,monospace;letter-spacing:.16em;text-transform:uppercase;color:#d9bc6b}
+.mb-blatt{position:relative;height:640px;border-radius:18px;overflow:hidden;background:#ebe1d4;box-shadow:0 0 0 1px rgba(217,188,107,.45),0 40px 50px -30px rgba(0,0,0,.9);-webkit-mask-image:linear-gradient(#000000 68%,transparent);mask-image:linear-gradient(#000000 68%,transparent)}
+.mb.auf .mb-blatt{-webkit-mask-image:none;mask-image:none}
+.mb-in{position:relative}.mb-in table{max-width:100%}
+.mb-ganz{position:relative;margin:18px 0 0;text-align:center}
+.mb.auf .mb-ganz{margin-top:22px}
+.mb-kn{display:inline-flex;align-items:center;gap:14px;padding:7px 7px 7px 20px;border:0;border-radius:14px;cursor:pointer;font:500 13px/1 'DM Mono',ui-monospace,monospace;letter-spacing:.16em;text-transform:uppercase;color:#ebe1d4;
+  background:linear-gradient(180deg,#3e4b40 0%,#344036 52%,#2b342d 100%);box-shadow:inset 0 0 0 1px rgba(217,188,107,.6),inset 0 1px 0 rgba(245,239,230,.12),0 16px 30px -16px rgba(0,0,0,.75)}
+.mb-kn i{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;color:#344036;background:linear-gradient(180deg,#e5d29e,#d9bc6b 55%,#bf982e);box-shadow:inset 0 1px 0 rgba(255,255,255,.55)}
+.mb-kn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.mb-kn .z,.mb.auf .mb-kn .a{display:none}.mb.auf .mb-kn .z{display:inline}.mb.auf .mb-kn svg{transform:rotate(180deg)}
+.mb-kn:focus-visible{outline:2px solid #ebe1d4;outline-offset:3px}
+.pfeile{display:flex;justify-content:center;gap:14px;margin-top:4px}
+.pf{width:52px;height:52px;border:0;border-radius:50%;cursor:pointer;display:grid;place-items:center;color:#344036;background:linear-gradient(180deg,#e5d29e,#d9bc6b 55%,#bf982e);box-shadow:inset 0 1px 0 rgba(255,255,255,.6),0 12px 20px -10px rgba(0,0,0,.7)}
+.pf svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.pf:disabled{opacity:.35;cursor:default}
+footer{padding:26px var(--rand) 40px;text-align:center;font-size:.92rem;color:rgba(247,239,227,.64);border-top:1px solid rgba(217,188,107,.25)}
+footer a{color:#ebe1d4}
+/* Hereinkommen wie auf den anderen Werkbank-Seiten: heben, nur transform und opacity, bei reduced-motion sofort da */
+html.js .hr{opacity:0;transform:translate3d(0,34px,0) scale(.985)}
+html.js .hr.da{opacity:1;transform:none;transition:opacity .9s cubic-bezier(.2,.7,.2,1) calc(var(--i,0) * 110ms),transform 1.2s cubic-bezier(.16,1,.3,1) calc(var(--i,0) * 110ms)}
+@media (prefers-reduced-motion:reduce){html.js .hr{opacity:1;transform:none;transition:none}}
+@media (max-width:760px){.mb{flex-basis:calc(100vw - 2 * var(--rand))}.pfeile{display:none}}
+@media (hover:none){.pfeile{display:none}}
+.mb-kn>span{top:0!important;left:0!important;text-box:trim-both cap alphabetic}.pf svg{transform:none!important}   /* Versalien mittig in Chromium und WebKit (wie knopf_mitte.css) */
+</style><style id="zeile-ganz">h1,h2,h3,h4,.z>span{text-wrap:balance}h1 br+em,h2 br+em{display:inline-block;text-wrap:balance}.stapel .fen__k{position:relative}.stapel .fen__k span{position:absolute;left:50%;transform:translateX(-50%);margin:0;overflow:visible}@media(max-width:860px){.stapel .fen__k span{display:none}}@media(max-width:480px){.etk{grid-template-columns:minmax(0,1fr)!important}}@media(min-width:900px) and (max-width:1279px){.brett-p{grid-template-columns:300px minmax(0,1fr)}.brett-p__k{grid-column:1/-1}}@media(max-width:1279px){.brett-p p{text-wrap:balance}}.da:not([data-drift]){will-change:auto!important}.mb-ueber__t small{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:baseline}.mb-ueber__t small span{min-width:0}@media(max-width:480px){.mn-titel{font-size:clamp(1.5rem,8vw,2.2rem);letter-spacing:.03em}.mn-ende{gap:10px}.mn-ende i{width:18px}.mn-ende span{letter-spacing:.12em;white-space:nowrap}a.kn[href="../index.html#geprueft"]{letter-spacing:.04em;font-size:13px;white-space:nowrap;padding-left:14px}.stapel .tel{width:21%;right:-2%}}@media(max-width:480px){.wege__t,figcaption,.mb-ueber__t small{text-wrap:balance}.sag-h{font-size:1.32rem;letter-spacing:.03em;gap:10px}.hs2-her{grid-template-columns:repeat(2,minmax(0,1fr))!important}.hs2-her figcaption small{font-size:13px;letter-spacing:0}.ki-knoepfe{flex-direction:column;align-items:stretch}.ki-knoepfe .kn{white-space:nowrap;letter-spacing:.04em;font-size:13px}#sag-aufbau[data-a="heben"]:not(.da){transform:translateY(56px) scale(.98)!important}.faecher--2 .blattk span{flex-direction:column;gap:3px;font-size:13px;letter-spacing:.08em}}.stage>.aside h1{font-size:clamp(2rem,3.6vw,3.3rem);white-space:nowrap}.stage>.aside h1 em{display:inline}</style><style id="auftritte-seite">html.as-an .as-k{opacity:0;transform:translateY(38px)}html.as-an .as-k.as-da{opacity:1;transform:none;transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1.1s cubic-bezier(.16,1,.3,1);transition-delay:var(--as-v,0s)}@media print{html.as-an .as-k{opacity:1!important;transform:none!important}}</style></head>
+<body>
+<script>if (!matchMedia('(prefers-reduced-motion:reduce)').matches && 'IntersectionObserver' in window) document.documentElement.classList.add('js');</script>
+<header class="kopf"><img class="marke hr" style="--i:0;width:clamp(120px,12vw,170px)" src="img/marke.png" alt="Uncle Hung"><h1 class="hr" style="--i:1">Sechs Mails,<br><em>im Ton des&nbsp;Hauses.</em></h1>
+<p class="hr" style="--i:2">Was ein Gast nach der Reservierung, nach einer Anfrage oder vor Uncle’s Christmas von Ihnen bekommt, kommt im Kleid der neuen Seite. Sechs Fälle als Idee, vom reservierten Tisch bis zum Dank nach dem Besuch, im Du wie Ihre Seite. Namen, Daten und Zahlen der Gäste sind Beispielwerte; Preise, Zeiten, Adresse und Menüs sind Ihre.</p></header>
+<main><div class="band" id="mband" tabindex="0" aria-label="Die sechs Mails, zum Blättern"><article class="mb hr" style="--i:0">
+  <div class="mb-ueber"><span class="mb-nr">01</span><span class="mb-ueber__t"><b>Dein Tisch ist&nbsp;reserviert</b><small><span>Von</span> Uncle&nbsp;Hung</small><small><span>Wann</span> Gleich nach der Reservierung am&nbsp;Telefon</small><small><span>Betreff</span> Dein Tisch bei Uncle Hung ist&nbsp;reserviert</small></span></div>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ebe1d4"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f7efe3;border-radius:18px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(217,188,107,.45)">
+  <tr><td align="center" style="background:#2b342d;padding:34px 30px 32px;border-bottom:1px solid rgba(217,188,107,.55)">
+    <img src="img/marke.png" width="150" alt="Uncle Hung" style="display:block;border:0;width:150px;height:auto;margin:0 auto">
+    <h1 style="margin:26px 0 0;font:400 clamp(28px,7.4vw,38px)/1.16 Fraunces,Georgia,'Times New Roman',serif;color:#ebe1d4">Dein&nbsp;Tisch<br><span style="color:#d9bc6b">ist&nbsp;reserviert.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 14px;font:400 21px/1.3 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620">Hallo Lena</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Schön, dass ihr kommt. Euer Tisch ist reserviert, die Angaben stehen unten.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Abends brennt der Kamin, die Brühe für die Pho zieht einen ganzen Tag. Wer mag, schaut vorher schon in die Karte.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Kommt ihr später oder seid ihr weniger, ruf kurz an: 0821 / 2185710.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img src="img/ab1.jpg" width="544" alt="Gäste am Abend am gedeckten Tisch" style="display:block;border:0;width:100%;height:auto;border-radius:16px"></td></tr>
+  <tr><td style="padding:12px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#344036;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(217,188,107,.55)">
+    <tr><td style="padding:22px 24px 12px"><div style="font:500 13px/1.3 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#d9bc6b;padding-bottom:12px">Deine Reservierung · Beispielwerte</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Freitag, 20. November 2026</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Uhrzeit</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">18.30&nbsp;Uhr</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">4</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Name</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Lena Wolf</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 30px 8px"><a href="../besuch.html" style="display:inline-block;padding:9px 9px 9px 24px;border-radius:14px;background:#4d5c4e;font:500 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#f7efe3;text-decoration:none">Den Weg ansehen<span style="display:inline-block;width:22px;height:22px;margin-left:14px;border-radius:50%;background:#ebe1d4;vertical-align:middle;font:400 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">↗</span></a></td></tr>
+  <tr><td style="padding:14px 36px 30px"><p style="margin:0;font:400 15px/1.6 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">Dieselstraße 2, 86368 Gersthofen. Kostenlose Parkplätze, auch an der Straße.</p>
+    <img src="img/ig-pho.jpg" width="520" alt="Eine Pho von oben" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:16px">
+    <p style="margin:18px 0 0;font:400 19px/1.4 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620;text-align:center">Bis bald bei uns.<br>Deine Familie von Uncle&nbsp;Hung</p></td></tr>
+  <tr><td align="center" style="background:#2b342d;padding:26px 30px;border-top:1px solid rgba(217,188,107,.55)"><div style="font:400 13px/1.7 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#dccfbc">Uncle Hung · Dieselstraße 2 · 86368 Gersthofen<br>Montag bis Freitag 11.00 – 14.30 und 17.00 – 20.30&nbsp;Uhr<br>0821 / 2185710 · @unclehung.official</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb hr" style="--i:1">
+  <div class="mb-ueber"><span class="mb-nr">02</span><span class="mb-ueber__t"><b>Deine Anfrage ist&nbsp;da</b><small><span>Von</span> Uncle&nbsp;Hung</small><small><span>Wann</span> Gleich nach einer&nbsp;Catering-Anfrage</small><small><span>Betreff</span> Deine Catering-Anfrage ist&nbsp;angekommen</small></span></div>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ebe1d4"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f7efe3;border-radius:18px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(217,188,107,.45)">
+  <tr><td align="center" style="background:#2b342d;padding:34px 30px 32px;border-bottom:1px solid rgba(217,188,107,.55)">
+    <img src="img/marke.png" width="150" alt="Uncle Hung" style="display:block;border:0;width:150px;height:auto;margin:0 auto">
+    <h1 style="margin:26px 0 0;font:400 clamp(28px,7.4vw,38px)/1.16 Fraunces,Georgia,'Times New Roman',serif;color:#ebe1d4">Deine&nbsp;Anfrage<br><span style="color:#d9bc6b">ist&nbsp;angekommen.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 14px;font:400 21px/1.3 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620">Hallo Mara</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Danke für deine Anfrage. Ein Catering für euren Sommerempfang: Das machen wir gern.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Die Familie schaut sich deine Wünsche an und meldet sich mit einem Angebot, nur für euch. Bis dahin ist nichts fest, du musst nichts tun.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Fällt dir noch etwas ein, ruf an unter 0821 / 2185710 oder schreib an v.nguyen2@gmx.de.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img src="img/cat3.jpg" width="544" alt="Ein Buffet von Uncle Hung" style="display:block;border:0;width:100%;height:auto;border-radius:16px"></td></tr>
+  <tr><td style="padding:12px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#344036;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(217,188,107,.55)">
+    <tr><td style="padding:22px 24px 12px"><div style="font:500 13px/1.3 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#d9bc6b;padding-bottom:12px">Deine Anfrage · Beispielwerte</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Anlass</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Firmenfeier</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Datum</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Freitag, 18. Juni 2027</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Location</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Gersthofen</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Gruppengröße</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">25 bis 45 Gäste</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Wünsche</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Sommerrollen, vegane Gerichte</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 30px 8px"><a href="../catering.html" style="display:inline-block;padding:9px 9px 9px 24px;border-radius:14px;background:#4d5c4e;font:500 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#f7efe3;text-decoration:none">Catering bei Uncle Hung<span style="display:inline-block;width:22px;height:22px;margin-left:14px;border-radius:50%;background:#ebe1d4;vertical-align:middle;font:400 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">↗</span></a></td></tr>
+  <tr><td style="padding:14px 36px 30px"><p style="margin:0;font:400 15px/1.6 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">Je mehr wir wissen, desto besser wird dein Event.</p>
+    <img src="img/ig-pho.jpg" width="520" alt="Eine Pho von oben" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:16px">
+    <p style="margin:18px 0 0;font:400 19px/1.4 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620;text-align:center">Bis bald bei uns.<br>Deine Familie von Uncle&nbsp;Hung</p></td></tr>
+  <tr><td align="center" style="background:#2b342d;padding:26px 30px;border-top:1px solid rgba(217,188,107,.55)"><div style="font:400 13px/1.7 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#dccfbc">Uncle Hung · Dieselstraße 2 · 86368 Gersthofen<br>Montag bis Freitag 11.00 – 14.30 und 17.00 – 20.30&nbsp;Uhr<br>0821 / 2185710 · @unclehung.official</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb hr" style="--i:2">
+  <div class="mb-ueber"><span class="mb-nr">03</span><span class="mb-ueber__t"><b>Das Angebot für dein&nbsp;Event</b><small><span>Von</span> Uncle&nbsp;Hung</small><small><span>Wann</span> Wenn das Angebot fürs Catering&nbsp;steht</small><small><span>Betreff</span> Dein Angebot und die&nbsp;Zusammenfassung</small></span></div>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ebe1d4"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f7efe3;border-radius:18px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(217,188,107,.45)">
+  <tr><td align="center" style="background:#2b342d;padding:34px 30px 32px;border-bottom:1px solid rgba(217,188,107,.55)">
+    <img src="img/marke.png" width="150" alt="Uncle Hung" style="display:block;border:0;width:150px;height:auto;margin:0 auto">
+    <h1 style="margin:26px 0 0;font:400 clamp(28px,7.4vw,38px)/1.16 Fraunces,Georgia,'Times New Roman',serif;color:#ebe1d4">Dein&nbsp;Event,<br><span style="color:#d9bc6b">unser&nbsp;Angebot.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 14px;font:400 21px/1.3 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620">Hallo Mara</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Danke für das Gespräch. Hier ist die schriftliche Zusammenfassung unserer Vereinbarung, wie besprochen.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Mit einer Anzahlung von in der Regel 30&nbsp;% ist der Termin für beide Seiten verbindlich. Bis drei Wochen vorher kannst du kostenfrei absagen, die Anzahlung bekommst du zurück.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Passt etwas nicht, sag es uns, dann bauen wir das Buffet um.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img src="img/ca1.jpg" width="544" alt="Platten mit Sommerrollen und Salaten für ein Buffet" style="display:block;border:0;width:100%;height:auto;border-radius:16px"></td></tr>
+  <tr><td style="padding:12px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#344036;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(217,188,107,.55)">
+    <tr><td style="padding:22px 24px 12px"><div style="font:500 13px/1.3 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#d9bc6b;padding-bottom:12px">Dein Angebot · Beispielwerte</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Anlass</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Firmenfeier</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Datum</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Freitag, 18. Juni 2027</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Gäste</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">35</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Anzahlung</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">in der Regel 30&nbsp;%</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Storno</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">3 Wochen vorher kostenfrei</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Unter zwei Wochen</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Gutschrift oder anderer Termin</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Zwei Tage vorher</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Anzahlung bleibt bestehen</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 30px 8px"><a href="../catering.html" style="display:inline-block;padding:9px 9px 9px 24px;border-radius:14px;background:#4d5c4e;font:500 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#f7efe3;text-decoration:none">Die zwei Schritte<span style="display:inline-block;width:22px;height:22px;margin-left:14px;border-radius:50%;background:#ebe1d4;vertical-align:middle;font:400 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">↗</span></a></td></tr>
+  <tr><td style="padding:14px 36px 30px"><p style="margin:0;font:400 15px/1.6 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">Alles, was wir nicht direkt anbieten, besorgen wir über unsere erfahrenen Partner.</p>
+    <img src="img/ig-pho.jpg" width="520" alt="Eine Pho von oben" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:16px">
+    <p style="margin:18px 0 0;font:400 19px/1.4 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620;text-align:center">Bis bald bei uns.<br>Deine Familie von Uncle&nbsp;Hung</p></td></tr>
+  <tr><td align="center" style="background:#2b342d;padding:26px 30px;border-top:1px solid rgba(217,188,107,.55)"><div style="font:400 13px/1.7 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#dccfbc">Uncle Hung · Dieselstraße 2 · 86368 Gersthofen<br>Montag bis Freitag 11.00 – 14.30 und 17.00 – 20.30&nbsp;Uhr<br>0821 / 2185710 · @unclehung.official</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb hr" style="--i:3">
+  <div class="mb-ueber"><span class="mb-nr">04</span><span class="mb-ueber__t"><b>Euer&nbsp;Weihnachtsmenü</b><small><span>Von</span> Uncle&nbsp;Hung</small><small><span>Wann</span> Nach der Reservierung für Uncle’s&nbsp;Christmas</small><small><span>Betreff</span> Euer Weihnachtsmenü bei Uncle&nbsp;Hung</small></span></div>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ebe1d4"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f7efe3;border-radius:18px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(217,188,107,.45)">
+  <tr><td align="center" style="background:#2b342d;padding:34px 30px 32px;border-bottom:1px solid rgba(217,188,107,.55)">
+    <img src="img/marke.png" width="150" alt="Uncle Hung" style="display:block;border:0;width:150px;height:auto;margin:0 auto">
+    <h1 style="margin:26px 0 0;font:400 clamp(28px,7.4vw,38px)/1.16 Fraunces,Georgia,'Times New Roman',serif;color:#ebe1d4">Uncle’s<br><span style="color:#d9bc6b">Christmas.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 14px;font:400 21px/1.3 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620">Hallo Tim</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Weihnachten ohne Stress, dafür mit richtig gutem Essen und euren Lieblingsmenschen. Euer Tisch ist reserviert und festlich gedeckt.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Ihr habt das Comfort Menu gewählt: Súp Hoành Thánh, Wan Tan Suppe · Bò Tái, Vietnamese Beef Carpaccio · Chicken Gyoza mit Hausdip. Danach Slow-braised Short Rib, zum Schluss Lebkuchen-Tiramisu.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img src="img/ig-tafel.jpg" width="544" alt="Eine gedeckte Tafel mit vielen Gerichten" style="display:block;border:0;width:100%;height:auto;border-radius:16px"></td></tr>
+  <tr><td style="padding:12px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#344036;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(217,188,107,.55)">
+    <tr><td style="padding:22px 24px 12px"><div style="font:500 13px/1.3 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#d9bc6b;padding-bottom:12px">Euer Abend · Beispielwerte</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Menü</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Comfort Menu</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Preis</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">58&nbsp;€ pro Person</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Tag</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Donnerstag, 17. Dezember 2026</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Uhrzeit</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">18&nbsp;Uhr</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Personen</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">6</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 30px 8px"><a href="../feiern.html#weihnachten" style="display:inline-block;padding:9px 9px 9px 24px;border-radius:14px;background:#4d5c4e;font:500 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#f7efe3;text-decoration:none">Alle drei Menüs<span style="display:inline-block;width:22px;height:22px;margin-left:14px;border-radius:50%;background:#ebe1d4;vertical-align:middle;font:400 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">↗</span></a></td></tr>
+  <tr><td style="padding:14px 36px 30px"><p style="margin:0;font:400 15px/1.6 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">Ab 2 Personen, mindestens 3 Tage Vorlauf, während der regulären Öffnungszeiten.</p>
+    <img src="img/ig-pho.jpg" width="520" alt="Eine Pho von oben" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:16px">
+    <p style="margin:18px 0 0;font:400 19px/1.4 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620;text-align:center">Bis bald bei uns.<br>Deine Familie von Uncle&nbsp;Hung</p></td></tr>
+  <tr><td align="center" style="background:#2b342d;padding:26px 30px;border-top:1px solid rgba(217,188,107,.55)"><div style="font:400 13px/1.7 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#dccfbc">Uncle Hung · Dieselstraße 2 · 86368 Gersthofen<br>Montag bis Freitag 11.00 – 14.30 und 17.00 – 20.30&nbsp;Uhr<br>0821 / 2185710 · @unclehung.official</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb hr" style="--i:4">
+  <div class="mb-ueber"><span class="mb-nr">05</span><span class="mb-ueber__t"><b>Danke für deinen&nbsp;Besuch</b><small><span>Von</span> Uncle&nbsp;Hung</small><small><span>Wann</span> Am Tag nach dem&nbsp;Besuch</small><small><span>Betreff</span> Danke, dass ihr da&nbsp;wart</small></span></div>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ebe1d4"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f7efe3;border-radius:18px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(217,188,107,.45)">
+  <tr><td align="center" style="background:#2b342d;padding:34px 30px 32px;border-bottom:1px solid rgba(217,188,107,.55)">
+    <img src="img/marke.png" width="150" alt="Uncle Hung" style="display:block;border:0;width:150px;height:auto;margin:0 auto">
+    <h1 style="margin:26px 0 0;font:400 clamp(28px,7.4vw,38px)/1.16 Fraunces,Georgia,'Times New Roman',serif;color:#ebe1d4">Danke<br><span style="color:#d9bc6b">für&nbsp;deinen&nbsp;Besuch.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 14px;font:400 21px/1.3 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620">Hallo Lena</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Schön, dass ihr gestern da wart. Wir hoffen, es hat euch geschmeckt.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Mittags gibt es die Lunchdeals bis 14&nbsp;Uhr, abends die ganze Karte. Alles auch zum Mitnehmen.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img src="img/ka3.jpg" width="544" alt="Gerichte auf dem Tisch" style="display:block;border:0;width:100%;height:auto;border-radius:16px"></td></tr>
+  <tr><td style="padding:12px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#344036;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(217,188,107,.55)">
+    <tr><td style="padding:22px 24px 12px"><div style="font:500 13px/1.3 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#d9bc6b;padding-bottom:12px">Wann wir für dich kochen</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Mittags</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Montag bis Freitag, 11.00 – 14.30&nbsp;Uhr</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Abends</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Montag bis Freitag, 17.00 – 20.30&nbsp;Uhr</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Wochenende</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">geöffnet nach Vereinbarung</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 30px 8px"><a href="../karte.html" style="display:inline-block;padding:9px 9px 9px 24px;border-radius:14px;background:#4d5c4e;font:500 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#f7efe3;text-decoration:none">Die ganze Karte<span style="display:inline-block;width:22px;height:22px;margin-left:14px;border-radius:50%;background:#ebe1d4;vertical-align:middle;font:400 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">↗</span></a></td></tr>
+  <tr><td style="padding:14px 36px 30px"><p style="margin:0;font:400 15px/1.6 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">Fotos von gestern? Markier uns auf Instagram: @unclehung.official.</p>
+    <img src="img/ig-pho.jpg" width="520" alt="Eine Pho von oben" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:16px">
+    <p style="margin:18px 0 0;font:400 19px/1.4 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620;text-align:center">Bis bald bei uns.<br>Deine Familie von Uncle&nbsp;Hung</p></td></tr>
+  <tr><td align="center" style="background:#2b342d;padding:26px 30px;border-top:1px solid rgba(217,188,107,.55)"><div style="font:400 13px/1.7 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#dccfbc">Uncle Hung · Dieselstraße 2 · 86368 Gersthofen<br>Montag bis Freitag 11.00 – 14.30 und 17.00 – 20.30&nbsp;Uhr<br>0821 / 2185710 · @unclehung.official</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article><article class="mb hr" style="--i:4">
+  <div class="mb-ueber"><span class="mb-nr">06</span><span class="mb-ueber__t"><b>Eure Feier bei&nbsp;uns</b><small><span>Von</span> Uncle&nbsp;Hung</small><small><span>Wann</span> Gleich nach einer Anfrage für eine&nbsp;Feier</small><small><span>Betreff</span> Eure Anfrage für eine Feier ist&nbsp;angekommen</small></span></div>
+  <div class="mb-blatt"><div class="mb-in">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ebe1d4"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#f7efe3;border-radius:18px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(217,188,107,.45)">
+  <tr><td align="center" style="background:#2b342d;padding:34px 30px 32px;border-bottom:1px solid rgba(217,188,107,.55)">
+    <img src="img/marke.png" width="150" alt="Uncle Hung" style="display:block;border:0;width:150px;height:auto;margin:0 auto">
+    <h1 style="margin:26px 0 0;font:400 clamp(28px,7.4vw,38px)/1.16 Fraunces,Georgia,'Times New Roman',serif;color:#ebe1d4">Eure&nbsp;Feier<br><span style="color:#d9bc6b">bei&nbsp;uns.</span></h1>
+  </td></tr>
+  <tr><td style="padding:34px clamp(22px,6vw,40px) 8px"><p style="margin:0 0 14px;font:400 21px/1.3 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620">Hallo Jonas</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Danke für eure Anfrage. Ein Geburtstag bei Uncle Hung: Das machen wir gern.</p><p style="margin:0 0 14px;font:400 16px/1.62 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#2e3830">Im Haus bewirtet die Familie bis zu 45 Gäste, der beheizte Wintergarten bietet Platz für 25 weitere. Wir melden uns in den nächsten Tagen.</p></td></tr>
+  <tr><td style="padding:6px 28px 6px"><img src="img/ab4.jpg" width="544" alt="Gäste am Abend bei Uncle Hung" style="display:block;border:0;width:100%;height:auto;border-radius:16px"></td></tr>
+  <tr><td style="padding:12px 28px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#344036;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(217,188,107,.55)">
+    <tr><td style="padding:22px 24px 12px"><div style="font:500 13px/1.3 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#d9bc6b;padding-bottom:12px">Eure Anfrage · Beispielwerte</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Anlass</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Geburtstag</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Datum</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Samstag, 13. März 2027</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Gäste</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">22</td></tr><tr><td style="padding:11px 12px 11px 0;border-top:1px solid rgba(217,188,107,.32);font:500 13px/1.35 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#d9bc6b;width:36%;vertical-align:top">Raum</td><td style="padding:11px 0;border-top:1px solid rgba(217,188,107,.32);font:400 16px/1.4 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#ebe1d4">Der Wintergarten</td></tr></table></td></tr></table></td></tr>
+  <tr><td align="center" style="padding:26px 30px 8px"><a href="../feiern.html" style="display:inline-block;padding:9px 9px 9px 24px;border-radius:14px;background:#4d5c4e;font:500 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#f7efe3;text-decoration:none">Feiern bei Uncle Hung<span style="display:inline-block;width:22px;height:22px;margin-left:14px;border-radius:50%;background:#ebe1d4;vertical-align:middle;font:400 13px/22px 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">↗</span></a></td></tr>
+  <tr><td style="padding:14px 36px 30px"><p style="margin:0;font:400 15px/1.6 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#4d5c4e;text-align:center">Am Wochenende und an Feiertagen öffnet die Familie nach Vereinbarung, etwa für deine Feier.</p>
+    <img src="img/ig-pho.jpg" width="520" alt="Eine Pho von oben" style="display:block;border:0;width:100%;max-width:520px;height:auto;margin:26px auto 0;border-radius:16px">
+    <p style="margin:18px 0 0;font:400 19px/1.4 Fraunces,Georgia,'Times New Roman',serif;color:#1f2620;text-align:center">Bis bald bei uns.<br>Deine Familie von Uncle&nbsp;Hung</p></td></tr>
+  <tr><td align="center" style="background:#2b342d;padding:26px 30px;border-top:1px solid rgba(217,188,107,.55)"><div style="font:400 13px/1.7 'Instrument Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#dccfbc">Uncle Hung · Dieselstraße 2 · 86368 Gersthofen<br>Montag bis Freitag 11.00 – 14.30 und 17.00 – 20.30&nbsp;Uhr<br>0821 / 2185710 · @unclehung.official</div></td></tr>
+</table>
+</td></tr></table>
+</div></div>
+  <p class="mb-ganz"><button type="button" class="mb-kn" aria-expanded="false"><span class="a">Ganze Mail</span><span class="z">Weniger zeigen</span><i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></i></button></p>
+</article></div>
+<div class="pfeile hr" style="--i:2"><button type="button" class="pf" data-r="-1" aria-label="Vorige Mail"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10.5 3 5.5 8l5 5"/></svg></button><button type="button" class="pf" data-r="1" aria-label="Nächste Mail"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m5.5 3 5 5-5 5"/></svg></button></div></main>
+<footer class="hr">Entwurf von Robert Reff, Tasty Studios, Hamburg. Stand 11.11.2026. <a href="../werkbank/index.html#papier">Zurück zu «Alles auf einen Blick»</a></footer>
+<script>
+(function () {
+  /* Hereinkommen: Kopf, Band und Fuss heben sich, sobald sie ins Bild kommen; die Mails im Band kommen zusammen mit dem Band */
+  if (document.documentElement.classList.contains('js')) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (!e.isIntersecting) return; io.unobserve(e.target);
+      (e.target.id === 'mband' ? [].slice.call(e.target.querySelectorAll('.hr')) : [e.target]).forEach(function (x) { x.classList.add('da'); }); }); }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
+    [].forEach.call(document.querySelectorAll('header.kopf .hr,.pfeile,footer'), function (x) { io.observe(x); }); io.observe(document.getElementById('mband'));
+  }
+})();
+(function () {
+  /* die Mail steht in der Seite; zu sieht man den oberen Teil, auf die ganze Mail, sofort */
+  var ms = [].slice.call(document.querySelectorAll('.mb'));
+  function lage(m) { var bl = m.querySelector('.mb-blatt'), i = bl.querySelector('.mb-in'); bl.style.height = (m.classList.contains('auf') ? i.scrollHeight : Math.min(640, i.scrollHeight)) + 'px'; }
+  ms.forEach(function (m) {
+    var k = m.querySelector('.mb-kn');
+    [].forEach.call(m.querySelectorAll('img'), function (im) { if (!im.complete) im.addEventListener('load', function () { lage(m); }, { once: true }); });
+    lage(m);
+    k.addEventListener('click', function () { var auf = m.classList.toggle('auf'); k.setAttribute('aria-expanded', auf); lage(m); if (!auf) m.scrollIntoView({ block: 'nearest' }); });
+  });
+  var rt = 0; addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(function () { ms.forEach(lage); kl(); }, 120); });
+  /* Pfeile am Laptop blättern das Band um eine Mail */
+  var b = document.getElementById('mband'), p = document.querySelectorAll('.pf');
+  function schritt() { return ms[0].getBoundingClientRect().width + parseFloat(getComputedStyle(b).columnGap || 0); }
+  function kl() { p[0].disabled = b.scrollLeft < 4; p[1].disabled = b.scrollLeft > b.scrollWidth - b.clientWidth - 4; }
+  [].forEach.call(p, function (x) { x.addEventListener('click', function () { b.scrollBy({ left: +x.dataset.r * schritt(), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); }); });
+  b.addEventListener('scroll', kl, { passive: true }); kl();
+})();
+</script>
+<style id="text-mitte">.tm{position:relative}
+@supports not (font:-apple-system-body){
+  .kn>.tm{top:.7px}.kn.kn--klein>.tm{top:0}
+  .wahl button>.tm,.vh-wahl button>.tm,.uwahl button>.tm,.uschalter button>.tm{top:1px;left:.065em}
+  .mb-kn>span{position:relative;top:.9px}
+  .sbf-z>.tm{top:.6px}
+}
+.rund[aria-label^="Zur"] svg,.rund[aria-label^="Vorig"] svg,.pf[aria-label^="Vorig"] svg{position:relative;left:.5px}
+.rund[aria-label^="Weiter"] svg,.rund[aria-label^="Nächst"] svg,.pf[aria-label^="Nächst"] svg{position:relative;left:-.5px}
+@supports (font:-apple-system-body){.pf[aria-label^="Vorig"] svg{left:.6px;top:.5px}.pf[aria-label^="Nächst"] svg{left:-.6px;top:.5px}}
+@supports not (font:-apple-system-body){.pf[aria-label^="Vorig"] svg{left:.6px}.pf[aria-label^="Nächst"] svg{left:-.6px}}
+.rund[disabled],.pf[disabled]{transition:none}</style><script id="text-mitte-js">(function(){function t(){document.querySelectorAll('.kn,.sbf-z,.wahl button,.vh-wahl button,.uwahl button,.uschalter button').forEach(function(k){var n=k.firstChild;if(n&&n.nodeType===3&&n.textContent.trim()){var s=document.createElement('span');s.className='tm';s.textContent=n.textContent;k.replaceChild(s,n)}})}t();addEventListener('load',t)})();</script><script id="ruecksprung">/* Rücksprung (Robert 1.11.2026): Zurück/Vor im Browser landet auf der alten Höhe der Seite, nie ganz oben.
+   Merkt je Seite in sessionStorage (rs:<Pfad>) die Höhe und das Inhaltsstück am oberen Fensterrand (beim Scrollen, beim Klick auf einen Link, bei pagehide).
+   Kommt man mit Zurück/Vor wieder (Navigation «back_forward»), richtet sich die Seite nach dem Aufbau an diesem Stück aus, nicht nur an der Pixelzahl:
+   Abschnitte mit content-visibility:auto stehen nach dem Laden als 1400-px-Platzhalter da, dieselbe Pixelhöhe zeigt sonst anderen Inhalt.
+   Für den Moment des Sprungs: alles einmal gezeichnet, keine Übergänge, keine Auftakt-Bewegung (rs-sofort); alles bis zum Fensterrand gilt als gezeigt (.da).
+   Aus dem bfcache (Seite aus dem Speicher des Browsers) richtet pageshow die Seite ebenso aus (Safari stellt die Höhe dort nicht selbst her). Keine unload-Handler. Seiten mit eigenem Rückweg (#rh-zurueck, «wb-y») und Rahmen bleiben unberührt, ausser der Rückweg trägt data-rs (dann führt er nur ?y= aus, Zurück/Vor macht der Rücksprung).
+   Merkpunkt: das nächste feststehende Stück auf einem Drittel der Höhe; liegt dort eine mitlaufende Bühne (sticky), gilt der Abschnitt, der sie trägt (Robert 1.11.2026, Werkbänke mit Handy-/Laptop-Bühnen). */
+(function () {
+  var RH = document.getElementById('rh-zurueck');   /* eigener Rückweg: nur wenn er Zurück/Vor ausdrücklich dem Rücksprung überlässt (data-rs) */
+  if (RH && !RH.hasAttribute('data-rs')) return;
+  try { if (window.top !== window) return; } catch (e) { return; }
+  var K = 'rs:' + location.pathname, H = document.documentElement, sperre = false, t = 0;
+  var SEL = 'h1,h2,h3,h4,h5,p,li,figure,img,picture,video,blockquote,table,tr,section,article,header,footer,div';
+  function festAb(e) {   /* das äusserste mitlaufende (fixed/sticky) Element über e, sonst null */
+    var f = null; for (; e && e !== document.body && e !== H; e = e.parentElement) { var p = getComputedStyle(e).position; if (p === 'fixed' || p === 'sticky') f = e; } return f;
+  }
+  function stand(e) {   /* das nächste feststehende Inhaltsstück: in einer mitlaufenden Bühne (sticky) gilt der Abschnitt, der sie trägt; schwebende Leisten (fixed) nie */
+    for (var n = 0; e && n < 30; n++) {
+      var c = e.closest && e.closest(SEL); if (!c || c === document.body || c === H) return null;
+      var f = festAb(c); if (!f) return c;
+      if (getComputedStyle(f).position === 'fixed') return null;
+      e = f.parentElement;
+    }
+    return null;
+  }
+  function text(e) { return (e.textContent || e.getAttribute('src') || '').replace(/\s+/g, ' ').trim().slice(0, 40); }
+  function anker() {   /* das Inhaltsstück auf einem Drittel der Fensterhöhe (nicht die schwebende Leiste) */
+    if (!document.elementsFromPoint) return null;
+    var l = null, xs = [.5, .25, .75];
+    for (var k = 0; k < xs.length; k++) {
+      var st = document.elementsFromPoint(innerWidth * xs[k], innerHeight * .3);
+      for (var j = 0; j < st.length; j++) { var c = stand(st[j]); if (c) { l = c; break; } }
+      if (l) break;
+    }
+    if (!l) return null;
+    /* lieber der Abschnitt drumherum (section, article, Kopf, Fuss, Stück mit id): bewegte Teile darin (Chat, Film, Bühne) verrutschen, der Abschnitt nicht */
+    var g = l.closest('section,article,header,footer,[id]');
+    if (g && g !== document.body && g !== H && g.tagName !== 'MAIN' && g.matches(SEL) && !festAb(g) && g.getBoundingClientRect().height <= innerHeight * 4) l = g;
+    var alle = document.querySelectorAll(SEL), i = [].indexOf.call(alle, l);
+    return i < 0 ? null : { i: i, d: l.id || '', n: l.tagName, t: text(l), o: Math.round(l.getBoundingClientRect().top) };
+  }
+  function merk(mitAnker) {
+    if (sperre) return;
+    var w = { y: Math.round(window.scrollY || 0) };
+    if (mitAnker) { try { var a = anker(); if (a) w.a = a; } catch (e) {} }
+    else { try { var alt = JSON.parse(sessionStorage.getItem(K) || '{}'); if (alt.a && Math.abs(alt.y - w.y) < 2) w.a = alt.a; } catch (e) {} }
+    try { sessionStorage.setItem(K, JSON.stringify(w)); } catch (e) {}
+  }
+  addEventListener('scroll', function () { if (!t) t = setTimeout(function () { t = 0; merk(false); }, 150); }, { passive: true });
+  document.addEventListener('click', function (ev) { if (ev.target.closest && ev.target.closest('a[href]')) merk(true); }, true);
+  addEventListener('pagehide', function () {   /* beim Verlassen übernimmt der Rücksprung die Höhe ganz: sonst setzt Chrome beim Zurück die alte Pixelhöhe noch mehrmals nach */
+    try { history.scrollRestoration = 'manual'; } catch (e) {}
+    merk(true);
+  });
+
+  
+  var w = null, weg = false, st = null;
+  function lies() { try { var x = JSON.parse(sessionStorage.getItem(K)); return x && typeof x.y === 'number' && x.y >= 2 ? x : null; } catch (e) { return null; } }
+  function fertig() { sperre = false; H.classList.remove('rs-ganz'); }
+  ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (k) { addEventListener(k, function () { if (sperre) { weg = true; fertig(); } }, { passive: true }); });
+  function stueck() {   /* das gemerkte Stück wiederfinden: über seine id, sonst gleiche Stelle, sonst gleiche Art mit gleichem Anfang, die nächste zur alten Stelle
+                           (Seiten bauen nach dem Laden noch Teile dazu, z. B. Chat-Vorführungen: die Stelle im Aufbau verschiebt sich) */
+    var a = w.a; if (!a) return null;
+    if (stueck.e && stueck.e.isConnected) return stueck.e;
+    var e = a.d && document.getElementById(a.d);
+    if (e && e.tagName === a.n) return e;
+    var alle = document.querySelectorAll(SEL); e = alle[a.i];
+    if (e && e.tagName === a.n && text(e) === a.t) return e;
+    var best = null, bd = 1e9;
+    for (var k = 0; k < alle.length; k++) { var x = alle[k]; if (x.tagName === a.n && Math.abs(k - a.i) < bd && text(x) === a.t) { best = x; bd = Math.abs(k - a.i); } }
+    return (stueck.e = best);
+  }
+  function ziel() { var e = stueck(); return e ? Math.max(0, Math.round(window.scrollY + e.getBoundingClientRect().top - w.a.o)) : w.y; }
+  function zeig() {
+    var g = window.scrollY + innerHeight;
+    [].forEach.call(document.querySelectorAll('[data-a],.odo,.zt,.roll,img.ld'), function (e) {
+      if (!e.classList.contains('da') && e.getBoundingClientRect().top + window.scrollY < g) e.classList.add('da');
+    });
+  }
+  function geh() { if (weg) return; var y = ziel(); if (Math.abs(window.scrollY - y) > 2) window.scrollTo(0, y); zeig(); }
+  function los() {
+    geh();
+    requestAnimationFrame(function () { geh(); requestAnimationFrame(function () { geh(); H.classList.remove('rs-sofort'); }); });
+    var n = 0, iv = setInterval(function () {
+      n++; geh();
+      if (n >= 16 || weg) { clearInterval(iv); geh(); fertig(); requestAnimationFrame(function () { geh(); merk(true); }); }
+    }, 150);
+  }
+  function zurueck(x) {
+    w = x; weg = false; stueck.e = null; sperre = true;
+    try { history.scrollRestoration = 'manual'; } catch (e) {}
+    if (!st) {
+      st = document.createElement('style');
+      st.textContent = 'html.rs-sofort,html.rs-sofort *{transition:none!important;animation-duration:0s!important;animation-delay:0s!important;scroll-behavior:auto!important}'
+        + 'html.rs-ganz *{content-visibility:visible!important}';
+      (document.head || H).appendChild(st);
+    }
+    H.classList.add('rs-sofort', 'rs-ganz');
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', los); else los();
+  }
+  addEventListener('pageshow', function (e) { if (!e.persisted) return; var x = lies(); if (x) zurueck(x); });
+  addEventListener('load', function () { if (sperre) geh(); });
+
+  var nav; try { nav = performance.getEntriesByType('navigation')[0]; } catch (e) {}
+  if (!nav || (nav.type !== 'back_forward' && nav.type !== 'reload')) return;   /* Zurück/Vor und Neuladen landen an der alten Stelle */
+  var x0 = lies(); if (x0) zurueck(x0);
+})();</script>
+<script id="auftritte-seite-js">(function(){if(!("IntersectionObserver" in window)||matchMedia("(prefers-reduced-motion: reduce)").matches)return;var d=document.documentElement;function los(){var H=innerHeight,n=0,io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("as-da");io.unobserve(e.target)}})},{rootMargin:"0px 0px -6% 0px"});[].forEach.call(document.querySelectorAll('main .band>*,main .pfeile,body>footer'),function(e){var r=e.getBoundingClientRect();if(r.top+scrollY>H*1.02&&r.height>8&&!e.hasAttribute("data-a")&&!e.closest(".as-k")){e.classList.add("as-k");e.style.setProperty("--as-v",(n++%3)*90+"ms");io.observe(e)}});d.classList.add("as-an")}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",los);else los()})();</script></body></html>

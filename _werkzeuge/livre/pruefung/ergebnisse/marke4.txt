@@ -1,0 +1,5 @@
+ok   Neon-Flyer: passt nicht (soll passt nicht) · probe=True · Probe-Antwort ohne KI: Die Farben sind gemessen und passen nicht zum Haus. Schrift, Zeichen, Bild und Ton sind nicht beurteilt.
+ok   Schwarzer Flyer: passt nicht (soll passt nicht) · probe=True · Probe-Antwort ohne KI: Die Farben sind gemessen und passen nicht zum Haus. Schrift, Zeichen, Bild und Ton sind nicht beurteilt.
+ok   Hausfoto Gastraum: achten (soll achten) · probe=True · Probe-Antwort ohne KI: Die Farben sind gemessen: ein Teil liegt außerhalb der Palette des Hauses. Schrift, Zeichen, Bild und Ton sind nicht 
+ok   Beispiel-Entwurf: passt (soll passt) · probe=True · Probe-Antwort ohne KI: Die Farben sind gemessen und liegen zu 98 % in der Palette des Hauses. Schrift, Zeichen, Bild und Ton sind nicht beur
+4 von 4 ok

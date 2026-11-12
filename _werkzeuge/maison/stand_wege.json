@@ -1,0 +1,41 @@
+{
+ "_hinweis": "Je Werkzeug: Stand-Weg ab der Wurzel seines Servers (lokal über /_weiter/<werkzeug>/ von server.py), Adresse, Anleitung, Ordner mit seinem Code (Knopf-Namen der Tafeln). Form nach Master 4.1, am Ende gegen die Lieferung des Werkzeugs geprüft (LIEFERUNG.md im Revier).",
+ "bureau": {
+  "adresse": "/_werkzeuge/bureau/",
+  "stand": "/api/x/website/ueberblick/unclehung",
+  "anleitung": "/_werkzeuge/bureau/anleitung.html",
+  "pruefung": "/werkzeuge/website/pruefung.html?haus=unclehung",
+  "code": [
+   "_werkzeuge/bureau",
+   "../_Werkzeuge/werkzeuge/website"
+  ]
+ },
+ "carte": {
+  "adresse": "/_werkzeuge/carte/",
+  "stand": "/_werkzeuge/carte/api/status",
+  "anleitung": "/_werkzeuge/carte/anleitung.html"
+ },
+ "imprimerie": {
+  "adresse": "/_werkzeuge/imprimerie/",
+  "stand": "/_werkzeuge/imprimerie/haeuser/unclehung/vorlagen/index.json",
+  "anleitung": "/_werkzeuge/imprimerie/hilfe/"
+ },
+ "reception": {
+  "adresse": "/_werkzeuge/reception/",
+  "stand": "/_werkzeuge/reception/api/ueberblick",
+  "anleitung": "/_werkzeuge/reception/anleitung.html",
+  "beispiel": true
+ },
+ "livre": {
+  "adresse": "/_werkzeuge/livre/",
+  "stand": "/marke/livre.json",
+  "anleitung": "/_werkzeuge/livre/anleitung.html"
+ },
+ "registre": {
+  "adresse": "/_werkzeuge/registre/",
+  "stand": [
+   "/api/registre?tage=30&beispiel=1"
+  ],
+  "anleitung": "/_werkzeuge/registre/anleitung.html"
+ }
+}

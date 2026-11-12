@@ -1,0 +1,46 @@
+{
+ "quelle": "website/karte.json (Canva-Seite hello-unclehung.my.canva.site, Abschnitt Menü, Aufnahmen _quelle/website/aufnahmen/04-1 bis 04-6.jpg und Text _quelle/website/text/menue.md, gelesen am 11.11.2026) · Kopf «Montag – Freitag» aus website/bau.py",
+ "titel": "Lunchdeals",
+ "haus": {
+  "name": "Uncle Hung",
+  "strasse": "Dieselstraße 2",
+  "ort": "86368 Gersthofen",
+  "tel": "0821 / 2185710"
+ },
+ "tage": "Montag – Freitag",
+ "allergene": "A, F, K, L, H, 1, 2, 3, 4, 5, 6, 9",
+ "posten": [
+  [
+   "L1",
+   "Curry Chicken oder Veggie mit Reis",
+   "",
+   "10,00 €"
+  ],
+  [
+   "L2",
+   "Erdnuss Chicken oder Veggie mit Reis",
+   "",
+   "10,00 €"
+  ],
+  [
+   "L3",
+   "Gebratene Nudeln mit Chicken oder Veggie",
+   "",
+   "9,00 €"
+  ],
+  [
+   "L4",
+   "Gebratener Reis mit Chicken oder Veggie",
+   "",
+   "9,00 €"
+  ],
+  [
+   "L5",
+   "Bun Nem, Crispy Chicken Bowl oder Pekingbowl",
+   "",
+   "13,00 €"
+  ]
+ ],
+ "dazu": "Bis 14.00 Uhr Frühlingsrollen oder Pekingsuppe zu jedem Hauptgericht gratis dazu, nur so lange der Vorrat reicht.",
+ "gueltig": "Täglich gültig bis 14.00 Uhr"
+}

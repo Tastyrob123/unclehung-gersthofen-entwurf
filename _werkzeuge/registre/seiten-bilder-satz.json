@@ -1,0 +1,76 @@
+{
+ "abends.html": [
+  "assets/bild/fe1-720.webp",
+  "assets/bild/ga2-720.webp",
+  "assets/bild/ab1-720.webp",
+  "assets/bild/v-rau01-720.webp",
+  "assets/bild/v-rau02-720.webp",
+  "assets/bild/v-leu05-720.webp"
+ ],
+ "besuch.html": [
+  "assets/bild/ga3-720.webp",
+  "assets/bild/ab3-720.webp",
+  "assets/bild/v-ess07-720.webp",
+  "assets/bild/v-fes09-720.webp",
+  "assets/bild/v-leu13-720.webp",
+  "assets/bild/ma1-720.webp"
+ ],
+ "catering.html": [
+  "assets/bild/cat1-720.webp",
+  "assets/bild/cat2-720.webp",
+  "assets/bild/cat3-720.webp",
+  "assets/bild/cat4-720.webp",
+  "assets/bild/cat6-720.webp",
+  "assets/bild/cat7-720.webp"
+ ],
+ "datenschutz.html": [
+  "assets/bild/v-fes11-720.webp",
+  "assets/bild/freunde2-720.webp"
+ ],
+ "feiern.html": [
+  "assets/bild/v-rau07-720.webp",
+  "assets/bild/v-fes05-720.webp",
+  "assets/bild/v-rau08-720.webp",
+  "assets/bild/ca2-720.webp",
+  "assets/bild/ca3-720.webp",
+  "assets/bild/v-cat02-720.webp"
+ ],
+ "impressum.html": [
+  "assets/bild/v-fes10-720.webp",
+  "assets/bild/ga5-720.webp",
+  "assets/bild/ga1-720.webp",
+  "assets/bild/ku3-720.webp"
+ ],
+ "karte.html": [
+  "assets/bild/ka2-720.webp",
+  "assets/bild/nudeln2-720.webp",
+  "assets/bild/v-dri01-720.webp",
+  "assets/bild/ig-pho-720.webp",
+  "assets/bild/v-dri02-720.webp",
+  "assets/bild/ku4-720.webp"
+ ],
+ "matcha.html": [
+  "assets/bild/icetea-720.webp",
+  "assets/bild/ig-giessen-720.webp",
+  "assets/bild/ma2-720.webp",
+  "assets/bild/v-dri04-720.webp",
+  "assets/bild/ma3-720.webp",
+  "assets/bild/v-dri05-720.webp"
+ ],
+ "mittag.html": [
+  "assets/bild/ka4-720.webp",
+  "assets/bild/salat-720.webp",
+  "assets/bild/ka5-720.webp",
+  "assets/bild/mi8-720.webp",
+  "assets/bild/v-ess01-720.webp",
+  "assets/bild/mi3-720.webp"
+ ],
+ "index.html": [
+  "assets/bild/nudeln-720.webp",
+  "assets/bild/pakchoi-720.webp",
+  "assets/bild/ka3-720.webp",
+  "assets/bild/ig-turm-720.webp",
+  "assets/bild/matcha-720.webp",
+  "assets/bild/ig-garten2-720.webp"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "quelle": "website/bau.py XMAS und xmas() (Weihnachtsmenüs 2026, Instagram DezCLDmCJKv)",
+ "titel": "Uncle’s Christmas",
+ "haus": {
+  "name": "Uncle Hung",
+  "strasse": "Dieselstraße 2",
+  "ort": "86368 Gersthofen",
+  "tel": "0821 / 2185710"
+ },
+ "gruss": "Weihnachten ohne Stress, dafür mit richtig gutem Essen und euren Lieblingsmenschen. Der Tisch ist gedeckt, die Familie kümmert sich ums Essen, im November und Dezember.",
+ "menues": [
+  {
+   "name": "Comfort Menu",
+   "preis": "58 €",
+   "unter": "pro Person",
+   "gaenge": [
+    [
+     "Beginn",
+     "Súp Hoành Thánh, Wan Tan Suppe · Bò Tái, Vietnamese Beef Carpaccio · Chicken Gyoza mit Hausdip"
+    ],
+    [
+     "Main",
+     "Slow-braised Short Rib: zart geschmorte Beef Short Ribs auf cremigem Kürbis-Kartoffel-Stampf, dazu wilder Brokkoli mit Miso-Glasur"
+    ],
+    [
+     "Sweet Final",
+     "Lebkuchen-Tiramisu mit kräftigem vietnamesischem Kaffee, samtiger Mascarponecreme und beschwipsten Kirschen"
+    ]
+   ]
+  },
+  {
+   "name": "Botanical Menu",
+   "preis": "58 €",
+   "unter": "pro Person · vegan",
+   "gaenge": [
+    [
+     "Beginn",
+     "Tom Kha Hed, vegane Thai-Kokossuppe · Mushroom Dumplings · Crispy Califlower on Nojoghurt"
+    ],
+    [
+     "Main",
+     "Creamy Udon with mixed Mushrooms · Sichuan Eggplant · Chili Roasted Tofu · Furikake Rice, Reis mit Seetang"
+    ],
+    [
+     "Sweet Final",
+     "Chuối Chiên, Vietnamese Fried Banana mit veganem selbstgemachtem Eis · Amaretto Cà Phê"
+    ]
+   ]
+  },
+  {
+   "name": "Hot Pot Menu",
+   "preis": "65 €",
+   "unter": "pro Person · ab 2 Personen",
+   "gaenge": [
+    [
+     "Hot in the Pot",
+     "Asiatisches Fondue mit aromatischer, heißer Brühe, in der frische Zutaten wie Fleisch, Gemüse und Nudeln direkt am Tisch gegart werden"
+    ],
+    [
+     "What in the Pot",
+     "Mixed Seafood · a lot of Meat · Fresh Greens · Dumplings · Noodles · Savory Dips · Veggies"
+    ],
+    [
+     "Sweet After",
+     "Karamellisierte Ananas mit Eiscreme und gebrannten Mandeln"
+    ]
+   ]
+  }
+ ],
+ "regeln": [
+  "Ab 2 Personen",
+  "Mindestens 3 Tage Vorlauf",
+  "Während der regulären Öffnungszeiten",
+  "Festlich gedeckter Tisch inklusive"
+ ]
+}

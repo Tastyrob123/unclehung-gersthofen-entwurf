@@ -1,0 +1,38 @@
+[
+ [
+  "01",
+  "01-reservierung",
+  "Dein Tisch ist reserviert",
+  "Kommt gleich nach dem Anruf: Tag, Uhrzeit, wie viele, und der Weg in die Dieselstraße."
+ ],
+ [
+  "02",
+  "02-anfrage-catering",
+  "Deine Anfrage ist da",
+  "Kommt gleich nach der Anfrage über «Catering»: was angefragt ist, und dass sich die Familie mit einem Angebot meldet."
+ ],
+ [
+  "03",
+  "03-angebot-catering",
+  "Das Angebot für dein Event",
+  "Das Angebot nach der Einigung: die schriftliche Zusammenfassung, die Anzahlung von in der Regel 30 % und was bei einem Storno gilt."
+ ],
+ [
+  "04",
+  "04-weihnachten",
+  "Euer Weihnachtsmenü",
+  "Kommt nach der Reservierung eines Weihnachtsmenüs: welches Menü, für wie viele, und was zu jedem Gang kommt."
+ ],
+ [
+  "05",
+  "05-danke",
+  "Danke für deinen Besuch",
+  "Kommt am Tag danach: ein Dank, die Zeiten und der Weg zur Karte."
+ ],
+ [
+  "06",
+  "06-feier",
+  "Eure Feier bei uns",
+  "Kommt gleich nach der Anfrage über «Feiern»: wie viele, welcher Raum, und dass sich die Familie meldet."
+ ]
+]

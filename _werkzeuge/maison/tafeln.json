@@ -1,0 +1,105 @@
+{
+ "_hinweis": "Tafeln «So geht’s» mit den echten Knopf-Namen («…»), gelesen im Code des Werkzeugs; bau.py prüft jeden Namen gegen den Code (stand_wege.json → code, sonst _werkzeuge/<werkzeug>). Werkzeuge ohne Eintrag zeigen die allgemeine Tafel aus bau.py (TAFEL_ALLG), bis sie geliefert sind.",
+ "bureau": [
+  [
+   "stift",
+   "Text oder Foto ändern",
+   "Links den Bereich wählen, in der Seite rechts auf einen Text oder ein Foto klicken, neu schreiben oder «Foto tauschen», dann «Speichern»."
+  ],
+  [
+   "uhr",
+   "Zeiten und Hinweis",
+   "Unter «Zeiten & Preise» stehen die Öffnungszeiten einmal für alle Seiten. Ein geschlossener Tag oder Ferien gehen unter «Hinweis für Gäste»."
+  ],
+  [
+   "waage",
+   "Online stellen",
+   "Gespeichert ist erst ein Entwurf. «Vorher, nachher» zeigt den Unterschied, «Veröffentlichen» bringt ihn auf die Website. Die Karte pflegt {karten}."
+  ]
+ ],
+ "carte": [
+  [
+   "stift",
+   "Gericht oder Preis ändern",
+   "Die Karte wählen, im Modus «Einfach» den Eintrag anklicken, Name, Beschreibung, Allergene oder Preis überschreiben. Daneben steht sofort die Karte."
+  ],
+  [
+   "zurueck",
+   "Vorübergehend weg",
+   "Gibt es ein Gericht gerade nicht, nehmen Sie es mit «Ausblenden» heraus. Es bleibt gespeichert und kommt später zurück. Neues legen Sie mit «Neuer Eintrag» an."
+  ],
+  [
+   "pdf",
+   "Neue Karte drucken",
+   "«Probe-PDF» zeigt die Karte vorab, «Veröffentlichen» setzt die PDF neu. Die Karte auf der Website kommt aus derselben Quelle."
+  ]
+ ],
+ "reception": [
+  [
+   "eingang",
+   "Anfragen beantworten",
+   "Tisch, Feier oder Catering: jede Anfrage aus der Website steht im «Eingang», mit Hinweisen zu Wochenende, Feiertag und Vorlauf und einem Brief im Ton des Hauses. «Text kopieren» oder «Als PDF speichern», verschickt wird nur, was Sie selbst schicken."
+  ],
+  [
+   "blase",
+   "Den Chat ausprobieren",
+   "Mit «Chat ausprobieren» fragen Sie wie ein Gast und sehen, was er aus Ihren Seiten und der Karte antwortet."
+  ],
+  [
+   "liste",
+   "Lücken schließen",
+   "Wusste der Chat etwas nicht, steht die Frage unter «Das wurde gefragt». Mit «Antwort nachtragen» einmal eintragen, ab dann antwortet er selbst."
+  ]
+ ],
+ "livre": [
+  [
+   "foto",
+   "Ein Foto holen",
+   "Unter «Fotos» ein Foto anklicken und die Größe wählen: «Instagram-Beitrag», Website oder Druck. Jedes Foto trägt seine Herkunft."
+  ],
+  [
+   "datei",
+   "Wortmarke weitergeben",
+   "Unter «Logo & Dateien» liegen Wortmarke, Schale, Farben und Schriften. «Alle Dateien (ZIP)» gibt alles in einem Paket an Agentur oder Druckerei."
+  ],
+  [
+   "farbe",
+   "Einen Entwurf prüfen",
+   "In der «Markenprüfung» ein Plakat oder einen Flyer laden. Sie sagt Punkt für Punkt, was zum Haus passt."
+  ]
+ ],
+ "registre": [
+  [
+   "karte",
+   "Woher die Gäste kommen",
+   "Unter «Herkunft» stehen Länder und Orte der Besuche, ohne Cookies und nie mit Namen. Oben wählen Sie den «Zeitraum»."
+  ],
+  [
+   "telefon",
+   "Anruf oder Anfrage",
+   "«Anruf und Anfrage» zeigt, wie oft ein Besuch zum Anruf führt oder zu einer Anfrage für Feier und Catering."
+  ],
+  [
+   "liste",
+   "Zahlen weitergeben",
+   "«Als Tabelle sichern» legt alle Besuche als Tabelle ab, zum Beispiel für die Buchhaltung oder eine Agentur."
+  ]
+ ],
+ "imprimerie": [
+  [
+   "satz",
+   "Sagen, was Sie brauchen",
+   "Oben einen Satz schreiben, etwa: Aushang für das Weihnachtsmenü, und «Fünf Entwürfe» drücken. Oder unter «Arten und Vorlagen» eine fertige Vorlage mit Texten des Hauses nehmen."
+  ],
+  [
+   "stift",
+   "Anpassen",
+   "Den passenden Entwurf anklicken, im Blatt auf einen Text oder ein Foto klicken und ändern. Unter «Fotos des Hauses» liegen alle Bilder der Website."
+  ],
+  [
+   "druck",
+   "Drucken",
+   "Druckfertig als PDF speichern, mit Beschnitt für die Druckerei, oder selbst drucken. Beiträge für Instagram stehen im Feed."
+  ]
+ ]
+}

@@ -1,0 +1,119 @@
+[
+ {
+  "vor": [
+   0,
+   9,
+   14
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Habt ihr am Samstag offen?",
+  "antwort": "Samstags, sonntags und an Feiertagen ist geschlossen; die Familie öffnet dann nach Vereinbarung, etwa für deine Feier.\n- Montag bis Freitag: 11.00 bis 14.30 und 17.00 bis 20.30 Uhr\n- Telefon: 0821 / 2185710",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   0,
+   12,
+   3
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Bis wann gibt es die Lunchdeals?",
+  "antwort": "Die Lunchdeals gibt es Montag bis Freitag, täglich bis 14.00 Uhr.\n- L1 Curry Chicken oder Veggie mit Reis: 10,00 €\n- L3 Gebratene Nudeln mit Chicken oder Veggie: 9,00 €\n- L5 Bun Nem, Crispy Chicken Bowl oder Pekingbowl: 13,00 €\n- Gratis dazu: Frühlingsrollen oder Pekingsuppe, so lange der Vorrat reicht",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   1,
+   18,
+   40
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Habt ihr auch etwas Veganes?",
+  "antwort": "Ja, auf der Karte steht eine eigene Rubrik Veggie / Vegan: Wok-Gemüse mit Reis und Sauce deiner Wahl, 30 bis 31A sind vegan.\n- 30 Süß Sauer Sauce, 31 Thai Curry, 31A Erdnuss: je 10,50 €\n- Extra Tofu: 2,50 €\n- Im November und Dezember: das Botanical Menu, vegan, 58 € pro Person",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   1,
+   11,
+   22
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Wie viele Leute passen für eine Geburtstagsfeier rein?",
+  "antwort": "Im Haus bewirtet die Familie bis zu 45 Gäste, der beheizte Wintergarten bietet Platz für 25 weitere.\n- Ideal für: Geburtstage, Essen nach der standesamtlichen Trauung, Firmenmeetings, kleinere Feierlichkeiten\n- Am Wochenende und an Feiertagen: geöffnet nach Vereinbarung\n- Anfrage: Telefon 0821 / 2185710\nNennst du mir Name und E-Mail oder Telefon, gebe ich deine Anfrage an die Familie weiter.",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   2,
+   20,
+   15
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Was kostet das Weihnachtsmenü?",
+  "antwort": "Im November und Dezember gibt es drei Weihnachtsmenüs am festlich gedeckten Tisch.\n- Comfort Menu: 58 € pro Person\n- Botanical Menu: 58 € pro Person, vegan\n- Hot Pot Menu: 65 € pro Person\n- Ab 2 Personen, mindestens 3 Tage Vorlauf",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   2,
+   8,
+   55
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Gibt es bei euch Parkplätze?",
+  "antwort": "Parkplätze gibt es kostenlos, auch an der Straße.\n- Adresse: Dieselstraße 2, 86368 Gersthofen",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   3,
+   17,
+   31
+  ],
+  "sprache": "de",
+  "belegt": true,
+  "frage": "Wie lange kocht die Brühe für die Pho?",
+  "antwort": "Die Pho Soup mit Chicken oder Beef (V5) kostet 12,50 €, ihre kräftige Fleischbrühe kocht 24 Stunden.\n- Dazu: Reisbandnudeln, Sojasprossen, Koriander\n- Pho Xao (V1), gebratene Reisbandnudeln: 13,50 €",
+  "thema": "",
+  "buchung": false
+ },
+ {
+  "vor": [
+   3,
+   12,
+   48
+  ],
+  "sprache": "de",
+  "belegt": false,
+  "frage": "Habt ihr einen Kinderstuhl für unsere Kleine?",
+  "antwort": "Dazu steht nichts in meinen Unterlagen. Ruf am besten direkt bei der Familie an: 0821 / 2185710, oder schreib an v.nguyen2@gmx.de.",
+  "thema": "Kinderstuhl",
+  "buchung": false
+ },
+ {
+  "vor": [
+   4,
+   19,
+   6
+  ],
+  "sprache": "de",
+  "belegt": false,
+  "frage": "Darf mein Hund mit rein?",
+  "antwort": "Dazu steht nichts in meinen Unterlagen. Ruf am besten direkt bei der Familie an: 0821 / 2185710, oder schreib an v.nguyen2@gmx.de.",
+  "thema": "Hund",
+  "buchung": false
+ }
+]

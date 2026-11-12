@@ -1,0 +1,48 @@
+Nachrechnen Besucher · Uncle Hung Gersthofen, 11.11.2026 22:52:18 (Gersthofen, Europe/Berlin)
+A  7 Tage, Beispiel des Dienstes: gleich (207 Besuche, heute 35)
+A 30 Tage, Beispiel des Dienstes: gleich (843 Besuche, heute 35)
+A 90 Tage, Beispiel des Dienstes: gleich (2295 Besuche, heute 35)
+B  7 Tage, Ablage bis 00:00:00: gleich (172 Besuche, heute 0)
+B  7 Tage, Ablage bis 07:59:59: gleich (172 Besuche, heute 0)
+B  7 Tage, Ablage bis 12:00:00: gleich (182 Besuche, heute 10)
+B  7 Tage, Ablage bis 22:52:18: gleich (207 Besuche, heute 35)
+B  7 Tage, Ablage bis 20:30:15: gleich (206 Besuche, heute 34)
+B  7 Tage, Ablage bis 23:59:59: gleich (207 Besuche, heute 35)
+A=B  7 Tage: Dienst und Ablage zur selben Uhrzeit gleich
+B 30 Tage, Ablage bis 00:00:00: gleich (808 Besuche, heute 0)
+B 30 Tage, Ablage bis 07:59:59: gleich (808 Besuche, heute 0)
+B 30 Tage, Ablage bis 12:00:00: gleich (818 Besuche, heute 10)
+B 30 Tage, Ablage bis 22:52:18: gleich (843 Besuche, heute 35)
+B 30 Tage, Ablage bis 20:30:15: gleich (842 Besuche, heute 34)
+B 30 Tage, Ablage bis 23:59:59: gleich (843 Besuche, heute 35)
+A=B 30 Tage: Dienst und Ablage zur selben Uhrzeit gleich
+B 90 Tage, Ablage bis 00:00:00: gleich (2260 Besuche, heute 0)
+B 90 Tage, Ablage bis 07:59:59: gleich (2260 Besuche, heute 0)
+B 90 Tage, Ablage bis 12:00:00: gleich (2270 Besuche, heute 10)
+B 90 Tage, Ablage bis 22:52:18: gleich (2295 Besuche, heute 35)
+B 90 Tage, Ablage bis 20:30:15: gleich (2294 Besuche, heute 34)
+B 90 Tage, Ablage bis 23:59:59: gleich (2295 Besuche, heute 35)
+A=B 90 Tage: Dienst und Ablage zur selben Uhrzeit gleich
+C +1 Tage,  7 Tage bis 09:15:00: gleich
+C +1 Tage,  7 Tage bis 21:45:30: gleich
+C +1 Tage, 30 Tage bis 09:15:00: gleich
+C +1 Tage, 30 Tage bis 21:45:30: gleich
+C +1 Tage, 90 Tage bis 09:15:00: gleich
+C +1 Tage, 90 Tage bis 21:45:30: gleich
+C +3 Tage,  7 Tage bis 09:15:00: gleich
+C +3 Tage,  7 Tage bis 21:45:30: gleich
+C +3 Tage, 30 Tage bis 09:15:00: gleich
+C +3 Tage, 30 Tage bis 21:45:30: gleich
+C +3 Tage, 90 Tage bis 09:15:00: gleich
+C +3 Tage, 90 Tage bis 21:45:30: gleich
+C +7 Tage,  7 Tage bis 09:15:00: gleich
+C +7 Tage,  7 Tage bis 21:45:30: gleich
+C +7 Tage, 30 Tage bis 09:15:00: gleich
+C +7 Tage, 30 Tage bis 21:45:30: gleich
+C +7 Tage, 90 Tage bis 09:15:00: gleich
+C +7 Tage, 90 Tage bis 21:45:30: gleich
+D  7 Tage, echte Zählung (160 Zeilen angenommen, 11 ungültige abgelehnt): gleich (24 Besuche)
+D 30 Tage, echte Zählung (160 Zeilen angenommen, 11 ungültige abgelehnt): gleich (137 Besuche)
+D 90 Tage, echte Zählung (160 Zeilen angenommen, 11 ungültige abgelehnt): gleich (302 Besuche)
+E Datenschutz: Tagesdateien ohne Adresse/Browser-Text, Ausgabe ohne Kürzel
+Ergebnis: 0 Abweichungen

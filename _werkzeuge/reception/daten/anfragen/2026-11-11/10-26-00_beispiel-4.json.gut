@@ -1,0 +1,41 @@
+{
+ "zeit": "2026-11-11T10:26:00+01:00",
+ "art": "tisch",
+ "name": "Katrin Albers",
+ "kontakt": "katrin.albers@example.com",
+ "datum": "Montag, 16. November 2026",
+ "personen": 8,
+ "anliegen": "Können wir am Montag, 16. November um 14.15 Uhr mit acht Leuten zum Lunch kommen? Gern die Lunchdeals.",
+ "sprache": "de",
+ "gespraech": "beispiel-4",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Können wir am Montag, 16. November um 14.15 Uhr mit acht Leuten zum Lunch kommen?"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Einen Tisch reservierst du am einfachsten per Telefon, eine Buchung online gibt es nicht.\n- Telefon: 0821 / 2185710\n- Montag bis Freitag: 11.00 bis 14.30 und 17.00 bis 20.30 Uhr"
+  },
+  {
+   "rolle": "user",
+   "text": "Super, dann frage ich so an: Katrin Albers, katrin.albers@example.com, 8 Personen, Montag 16. November, 14.15 Uhr, gern die Lunchdeals."
+  },
+  {
+   "rolle": "assistant",
+   "text": "Danke dir, Katrin. Deine Anfrage liegt jetzt bei der Familie, sie meldet sich persönlich bei dir."
+  }
+ ],
+ "status": "neu",
+ "beispiel": true,
+ "abteilung": "Tisch",
+ "uhrzeit": "14.15 Uhr",
+ "entwurf": {
+  "betreff": "Dein Tisch bei Uncle Hung am Montag, 16. November 2026",
+  "text": "Hallo Katrin,\n\ndanke für deine Nachricht und schön, dass du zu uns kommen möchtest.\n\nFür Montag, den 16. November 2026 um 14.15 Uhr mit 8 Personen halten wir gern einen Tisch für dich bereit.\n\nDie Lunchdeals gibt es täglich bis 14.00 Uhr. Magst du mit deinem Team ein wenig früher kommen, damit ihr sie noch bekommt?\n\nReservieren geht bei uns am einfachsten per Telefon, falls sich an deinem Plan noch etwas ändert.\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/tisch.txt), Hinweise: Lunchdeals gibt es nur bis 14.00 Uhr\nOffen: Uhrzeit für die Lunchdeals abstimmen; Tisch eintragen",
+  "vorlage": "tisch",
+  "absender": "v.nguyen2@gmx.de",
+  "zeit": "2026-11-11T10:26:00+01:00"
+ }
+}

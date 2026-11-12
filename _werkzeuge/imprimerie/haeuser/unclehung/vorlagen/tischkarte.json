@@ -1,0 +1,133 @@
+{
+ "art": "tischkarte",
+ "format": "a7q",
+ "vorlagen": [
+  {
+   "id": "tischkarte-001",
+   "titel": "Reserviert",
+   "bereich": "Feiern & Wintergarten",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle Hung",
+    "titel": "Reserviert",
+    "unter": "Familie Weber · 18.30 Uhr",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "tischkarte-002",
+   "titel": "Reserviert, Papier",
+   "bereich": "Feiern & Wintergarten",
+   "vorlage": "deckel",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle Hung",
+    "titel": "Reserviert",
+    "unter": "Jonas Brandl · 12.15 Uhr",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "tischkarte-003",
+   "titel": "Tischnummer",
+   "bereich": "Feiern & Wintergarten",
+   "vorlage": "deckel",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle Hung",
+    "titel": "Tisch 7",
+    "unter": "Wintergarten",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "tischkarte-004",
+   "titel": "Platzkarte",
+   "bereich": "Feiern & Wintergarten",
+   "vorlage": "deckel",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle’s Christmas",
+    "titel": "Lena Hofmann",
+    "unter": "Comfort Menu",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "tischkarte-005",
+   "titel": "Platzkarte, Salbei",
+   "bereich": "Feiern & Wintergarten",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Uncle’s Christmas",
+    "titel": "Maria Huber",
+    "unter": "Botanical Menu · vegan",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "tischkarte-006",
+   "titel": "Wintergarten reserviert",
+   "bereich": "Feiern & Wintergarten",
+   "vorlage": "aushang",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Heute",
+    "titel": "Wintergarten reserviert",
+    "text": "",
+    "aktion": "Brandl Logistik · 19 Uhr",
+    "fuss": ""
+   }
+  }
+ ]
+}

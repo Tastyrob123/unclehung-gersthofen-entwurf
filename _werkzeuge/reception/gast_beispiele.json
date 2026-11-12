@@ -1,0 +1,172 @@
+[
+ {
+  "vor": [
+   0,
+   8,
+   41
+  ],
+  "art": "catering",
+  "status": "neu",
+  "abteilung": "Catering",
+  "name": "Melanie Rothmann",
+  "kontakt": "melanie.rothmann@example.com",
+  "datum": "4. Dezember 2026",
+  "gruppe": "25 bis 45 Gäste",
+  "ort": "Werkhalle der Firma, Gersthofen",
+  "anlass": "Firmenfeier",
+  "sprache": "de",
+  "anliegen": "Catering zur Firmenfeier, 25 bis 45 Gäste",
+  "web": true,
+  "an": "v.nguyen2@gmx.de",
+  "seite": "/catering.html",
+  "seite_name": "Catering",
+  "nachricht": "Name: Melanie Rothmann\nLocation: Werkhalle der Firma, Gersthofen\nAnlass: Firmenfeier\nDatum: 4. Dezember 2026\nGruppengröße: 25 bis 45 Gäste\nE-Mail: melanie.rothmann@example.com\nPersönliche Wünsche: Unser Team feiert den Jahresabschluss. Gern Sommerrollen und Bowls, dazu Matcha. Zwei Kolleginnen essen vegan, ein Kollege hat eine Erdnussallergie.",
+  "formular": "catering",
+  "verlauf": [
+   [
+    "user",
+    "Über das Anfrage-Formular der Website (Seite Catering): Name: Melanie Rothmann\nLocation: Werkhalle der Firma, Gersthofen\nAnlass: Firmenfeier\nDatum: 4. Dezember 2026\nGruppengröße: 25 bis 45 Gäste\nE-Mail: melanie.rothmann@example.com\nPersönliche Wünsche: Unser Team feiert den Jahresabschluss. Gern Sommerrollen und Bowls, dazu Matcha. Zwei Kolleginnen essen vegan, ein Kollege hat eine Erdnussallergie."
+   ]
+  ],
+  "betreff": "Dein Catering am 4. Dezember 2026 · Firmenfeier",
+  "text": "Hallo Melanie,\n\ndanke für deine Anfrage. Gemeinsam mit erfahrenen Partnern wird aus deiner Idee ein Fest, voller Geschmack, Atmosphäre und Liebe zum Detail.\n\nFür den 4. Dezember 2026 mit 25 bis 45 Gästen stellen wir dir dein Angebot zusammen, passend zu eurer Location: Werkhalle der Firma, Gersthofen. Location, Menü, Deko und Entertainment kommen auf Wunsch aus einer Hand, über erfahrene Partner.\n\nWer vegan isst, kommt bei uns gut auf seine Kosten: Auf der Karte steht eine eigene Rubrik Veggie / Vegan, und das stimmen wir für dein Angebot gern mit ab.\n\nNach einer erfolgreichen Einigung bekommst du eine schriftliche Zusammenfassung. Mit einer Anzahlung von in der Regel 30 % ist der Termin für beide Seiten verbindlich.\n\nWas du zu Allergien geschrieben hast (E: Erdnüsse), geben wir an die Küche weiter, damit sie für dich mitdenkt.\n\nDamit wir alles in Ruhe vorbereiten können, schreib uns noch:\n- was auf keinen Fall fehlen darf\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/catering.txt), Hinweise: Für die Küche: E: Erdnüsse; Vegan: Veggie / Vegan auf der Karte (30 bis 31A vegan), im Winter das Botanical Menu\nOffen: Angebot zusammenstellen und anhängen; Küche über die Allergien informieren"
+ },
+ {
+  "vor": [
+   1,
+   19,
+   12
+  ],
+  "art": "weihnachten",
+  "status": "gelesen",
+  "abteilung": "Weihnachten",
+  "name": "Daniel Hofbauer",
+  "kontakt": "daniel.hofbauer@example.com",
+  "datum": "Donnerstag, 17. Dezember 2026",
+  "uhrzeit": "18.30 Uhr",
+  "personen": 6,
+  "sprache": "de",
+  "anliegen": "Wir wären zu sechst am Donnerstag, 17. Dezember, um 18.30 Uhr und hätten gern das Hot Pot Menu.",
+  "verlauf": [
+   [
+    "user",
+    "Was kostet bei euch das Weihnachtsmenü?"
+   ],
+   [
+    "assistant",
+    "Im November und Dezember gibt es drei Weihnachtsmenüs am festlich gedeckten Tisch.\n- Comfort Menu: 58 € pro Person\n- Botanical Menu: 58 € pro Person, vegan\n- Hot Pot Menu: 65 € pro Person\n- Ab 2 Personen, mindestens 3 Tage Vorlauf"
+   ],
+   [
+    "user",
+    "Wir wären zu sechst am Donnerstag, 17. Dezember, um 18.30 Uhr und hätten gern das Hot Pot Menu. Ich bin Daniel Hofbauer, daniel.hofbauer@example.com"
+   ],
+   [
+    "assistant",
+    "Danke dir, Daniel. Deine Anfrage liegt jetzt bei der Familie, sie meldet sich persönlich bei dir."
+   ]
+  ],
+  "betreff": "Uncle’s Christmas am Donnerstag, 17. Dezember 2026",
+  "text": "Hallo Daniel,\n\ndanke für deine Anfrage zu Uncle’s Christmas. Der Tisch ist festlich gedeckt, die Familie kümmert sich ums Essen.\n\nFür Donnerstag, den 17. Dezember 2026 mit 6 Personen decken wir gern für euch.\n\nZur Wahl stehen das Comfort Menu und das vegane Botanical Menu für je 58 € pro Person und das Hot Pot Menu für 65 € pro Person, ab 2 Personen und mit mindestens 3 Tagen Vorlauf. Beim Hot Pot gart ihr frische Zutaten wie Fleisch, Gemüse und Nudeln direkt am Tisch in einer aromatischen, heißen Brühe.\n\nDamit wir alles in Ruhe vorbereiten können, schreib uns noch:\n- welches Menü ihr nehmen möchtet\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/weihnachten.txt)\nOffen: Tisch für den Abend prüfen"
+ },
+ {
+  "vor": [
+   2,
+   13,
+   5
+  ],
+  "art": "feier",
+  "status": "gelesen",
+  "abteilung": "Feier",
+  "name": "Sophie Lindner",
+  "kontakt": "sophie.lindner@example.com",
+  "datum": "29. Januar 2027",
+  "gruppe": "45 bis 70 Gäste",
+  "ort": "Bei Uncle Hung",
+  "anlass": "Feier bei Uncle Hung",
+  "sprache": "de",
+  "anliegen": "60. Geburtstag des Vaters, 45 bis 70 Gäste",
+  "web": true,
+  "an": "v.nguyen2@gmx.de",
+  "seite": "/catering.html",
+  "seite_name": "Catering",
+  "nachricht": "Name: Sophie Lindner\nLocation: Bei Uncle Hung\nAnlass: Feier bei Uncle Hung\nDatum: 29. Januar 2027\nGruppengröße: 45 bis 70 Gäste\nE-Mail: sophie.lindner@example.com\nPersönliche Wünsche: Mein Vater wird 60. Wir möchten abends ab 18 Uhr feiern, gern mit Pho und Sommerrollen für alle. Eine Freundin hat eine Allergie gegen glutenhaltiges Getreide.",
+  "formular": "catering",
+  "verlauf": [
+   [
+    "user",
+    "Über das Anfrage-Formular der Website (Seite Catering): Name: Sophie Lindner\nLocation: Bei Uncle Hung\nAnlass: Feier bei Uncle Hung\nDatum: 29. Januar 2027\nGruppengröße: 45 bis 70 Gäste\nE-Mail: sophie.lindner@example.com\nPersönliche Wünsche: Mein Vater wird 60. Wir möchten abends ab 18 Uhr feiern, gern mit Pho und Sommerrollen für alle. Eine Freundin hat eine Allergie gegen glutenhaltiges Getreide."
+   ]
+  ],
+  "betreff": "Deine Feier bei Uncle Hung am 29. Januar 2027",
+  "text": "Hallo Sophie,\n\ndanke, dass du bei uns feiern möchtest. Du erzählst, was du dir vorstellst, die Familie kümmert sich um Menü, Deko und Entertainment.\n\nFür den 29. Januar 2027 mit 45 bis 70 Gästen schauen wir gern, wie wir den Raum für euch decken.\n\nIm Haus bewirtet die Familie bis zu 45 Gäste, der beheizte Wintergarten bietet mit seinem besonderen Charme Platz für 25 weitere.\n\nWas du zu Allergien geschrieben hast (A: glutenhaltiges Getreide), geben wir an die Küche weiter, damit sie für dich mitdenkt.\n\nDamit wir alles in Ruhe vorbereiten können, schreib uns noch:\n- ob ihr ein bestimmtes Menü im Kopf habt\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/feier.txt), Hinweise: 45 bis 70 Gäste: im Haus bis 45, der Wintergarten fasst 25 weitere; Für die Küche: A: glutenhaltiges Getreide\nOffen: Wintergarten dazunehmen und Platz klären; Platz für den Tag prüfen; Küche über die Allergien informieren"
+ },
+ {
+  "vor": [
+   0,
+   10,
+   26
+  ],
+  "art": "tisch",
+  "status": "neu",
+  "abteilung": "Tisch",
+  "name": "Katrin Albers",
+  "kontakt": "katrin.albers@example.com",
+  "datum": "Montag, 16. November 2026",
+  "uhrzeit": "14.15 Uhr",
+  "personen": 8,
+  "sprache": "de",
+  "anliegen": "Können wir am Montag, 16. November um 14.15 Uhr mit acht Leuten zum Lunch kommen? Gern die Lunchdeals.",
+  "verlauf": [
+   [
+    "user",
+    "Können wir am Montag, 16. November um 14.15 Uhr mit acht Leuten zum Lunch kommen?"
+   ],
+   [
+    "assistant",
+    "Einen Tisch reservierst du am einfachsten per Telefon, eine Buchung online gibt es nicht.\n- Telefon: 0821 / 2185710\n- Montag bis Freitag: 11.00 bis 14.30 und 17.00 bis 20.30 Uhr"
+   ],
+   [
+    "user",
+    "Super, dann frage ich so an: Katrin Albers, katrin.albers@example.com, 8 Personen, Montag 16. November, 14.15 Uhr, gern die Lunchdeals."
+   ],
+   [
+    "assistant",
+    "Danke dir, Katrin. Deine Anfrage liegt jetzt bei der Familie, sie meldet sich persönlich bei dir."
+   ]
+  ],
+  "betreff": "Dein Tisch bei Uncle Hung am Montag, 16. November 2026",
+  "text": "Hallo Katrin,\n\ndanke für deine Nachricht und schön, dass du zu uns kommen möchtest.\n\nFür Montag, den 16. November 2026 um 14.15 Uhr mit 8 Personen halten wir gern einen Tisch für dich bereit.\n\nDie Lunchdeals gibt es täglich bis 14.00 Uhr. Magst du mit deinem Team ein wenig früher kommen, damit ihr sie noch bekommt?\n\nReservieren geht bei uns am einfachsten per Telefon, falls sich an deinem Plan noch etwas ändert.\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/tisch.txt), Hinweise: Lunchdeals gibt es nur bis 14.00 Uhr\nOffen: Uhrzeit für die Lunchdeals abstimmen; Tisch eintragen"
+ },
+ {
+  "vor": [
+   4,
+   16,
+   50
+  ],
+  "art": "nachricht",
+  "status": "erledigt",
+  "abteilung": "Tisch",
+  "name": "Elif Demir",
+  "kontakt": "elif.demir@example.com",
+  "datum": "",
+  "sprache": "de",
+  "anliegen": "Wir waren letzten Freitagabend bei euch essen und ich habe meine dunkelgrüne Regenjacke am Fenster liegen lassen.",
+  "verlauf": [
+   [
+    "user",
+    "Hallo, wir waren letzten Freitagabend bei euch essen und ich habe meine dunkelgrüne Regenjacke am Fenster liegen lassen. Ich bin Elif Demir, elif.demir@example.com"
+   ],
+   [
+    "assistant",
+    "Danke dir, Elif. Deine Anfrage liegt jetzt bei der Familie, sie meldet sich persönlich bei dir."
+   ]
+  ],
+  "betreff": "Deine Nachricht an Uncle Hung",
+  "text": "Hallo Elif,\n\ndanke für deine Nachricht, wir haben sie gern gelesen. Wir schauen bei uns nach deiner Jacke und melden uns, sobald wir sie haben.\n\nMontag bis Freitag sind wir mittags und abends für dich da; am Wochenende und an Feiertagen öffnet die Familie nach Vereinbarung, etwa für deine Feier.\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/nachricht.txt)\nOffen: Antwort auf die Frage des Gastes ergänzen"
+ }
+]

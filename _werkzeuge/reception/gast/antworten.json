@@ -1,0 +1,308 @@
+{
+ "stand": "2026-11-11",
+ "antworten": [
+  {
+   "thema": "Kinderstuhl",
+   "muster": "kinderstuhl|hochstuhl|kinder|baby|wickel",
+   "belegt": false,
+   "text": "Dazu steht nichts in meinen Unterlagen. Ruf am besten direkt bei der Familie an: 0821 / 2185710, oder schreib an v.nguyen2@gmx.de."
+  },
+  {
+   "thema": "Hund",
+   "muster": "\\bhund|\\bhunde\\b|dog\\b",
+   "belegt": false,
+   "text": "Dazu steht nichts in meinen Unterlagen. Ruf am besten direkt bei der Familie an: 0821 / 2185710, oder schreib an v.nguyen2@gmx.de."
+  },
+  {
+   "thema": "Bezahlen",
+   "muster": "kartenzahlung|mit karte zahlen|bar zahlen|ec-karte|kreditkarte|paypal|bezahl",
+   "belegt": false,
+   "text": "Dazu steht nichts in meinen Unterlagen. Ruf am besten direkt bei der Familie an: 0821 / 2185710, oder schreib an v.nguyen2@gmx.de."
+  },
+  {
+   "thema": "Weihnachtsmenü",
+   "muster": "weihnacht|christmas|xmas|hot ?pot|advent|festtag",
+   "belegt": true,
+   "text": "Im November und Dezember gibt es drei Weihnachtsmenüs am festlich gedeckten Tisch.\n- Comfort Menu: 58 € pro Person\n- Botanical Menu: 58 € pro Person, vegan\n- Hot Pot Menu: 65 € pro Person\n- Ab 2 Personen, mindestens 3 Tage Vorlauf",
+   "maske": false,
+   "anfrage": true,
+   "belege": [
+    "Im November und Dezember drei Weihnachtsmenüs am festlich gedeckten Tisch",
+    "Botanical Menu 58 € pro Person, vegan",
+    "## Hot Pot Menu 65 €",
+    "Mindestens 3 Tage Vorlauf"
+   ]
+  },
+  {
+   "thema": "Catering",
+   "muster": "catering|buffet|pausenraum|firmen-?event|bei uns zu hause|zu uns nach hause|kommt ihr zu",
+   "belegt": true,
+   "text": "Beim Catering kommt die Familie zu dir, mit allem, was dazugehört: Location, Menü, Deko und Entertainment, über erfahrene Partner.\n- Anfrage: Name, Location, Anlass, Datum, Gruppengröße, persönliche Wünsche\n- Anzahlung: in der Regel 30 %\n- Storno: bis 3 Wochen vorher kostenfrei\nNennst du mir Name und E-Mail oder Telefon, gebe ich deine Anfrage an die Familie weiter.",
+   "maske": false,
+   "anfrage": true,
+   "belege": [
+    "Dann kommt die Familie zu dir, mit allem, was dazugehört: Location, Menü, Deko und Entertainment, über erfahrene Partner.",
+    "Mit einer Anzahlung von in der Regel 30 %",
+    "STORNO 3 Wochen"
+   ]
+  },
+  {
+   "thema": "Feiern",
+   "muster": "feier|geburtstag|hochzeit|trauung|firmenfeier|meeting|gruppe|party|personen passen|wie viele (leute|gäste|personen)|platz für|wintergarten",
+   "belegt": true,
+   "text": "Im Haus bewirtet die Familie bis zu 45 Gäste, der beheizte Wintergarten bietet Platz für 25 weitere.\n- Ideal für: Geburtstage, Essen nach der standesamtlichen Trauung, Firmenmeetings, kleinere Feierlichkeiten\n- Am Wochenende und an Feiertagen: geöffnet nach Vereinbarung\n- Anfrage: Telefon 0821 / 2185710\nNennst du mir Name und E-Mail oder Telefon, gebe ich deine Anfrage an die Familie weiter.",
+   "maske": false,
+   "anfrage": true,
+   "belege": [
+    "Im Haus bewirtet die Familie bis zu 45 Gäste, der beheizte Wintergarten bietet mit seinem besonderen Charme Platz für 25 weitere.",
+    "Ideal für Geburtstage, Essen nach der standesamtlichen Trauung, Firmenmeetings und kleinere Feierlichkeiten."
+   ]
+  },
+  {
+   "thema": "Allergene",
+   "muster": "allerg|gluten|laktose|unverträg|zöliak|nussfrei|erdnuss|zusatzstoff",
+   "belegt": true,
+   "text": "Die Karte nennt bei jeder Rubrik die Allergene und Zusatzstoffe als Kürzel.\n- Allergene: A bis O, zum Beispiel A glutenhaltiges Getreide, E Erdnüsse, H Schalenfrüchte\n- Zusatzstoffe: 1 bis 9\nOb ein Gericht für dich passt, klärst du am besten direkt mit der Küche: 0821 / 2185710.",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "## Legende der Allergene und Zusatzstoffe",
+    "A: glutenhaltiges Getreide",
+    "E: Erdnüsse",
+    "H: Schalenfrüchte",
+    "9: Gentechnik"
+   ]
+  },
+  {
+   "thema": "Vegan",
+   "muster": "vegan|vegetar|veggie|ohne fleisch|fleischlos|tofu",
+   "belegt": true,
+   "text": "Ja, auf der Karte steht eine eigene Rubrik Veggie / Vegan: Wok-Gemüse mit Reis und Sauce deiner Wahl, 30 bis 31A sind vegan.\n- 30 Süß Sauer Sauce, 31 Thai Curry, 31A Erdnuss: je 10,50 €\n- Extra Tofu: 2,50 €\n- Im November und Dezember: das Botanical Menu, vegan, 58 € pro Person",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Wok-Gemüse mit Reis und Sauce deiner Wahl. 30 bis 31A vegan.",
+    "31A Erdnuss Sauce: 10,50 €",
+    "Extra Tofu nur 2,50 €",
+    "Botanical Menu 58 € pro Person, vegan"
+   ]
+  },
+  {
+   "thema": "Lunch",
+   "muster": "lunch|mittag|mittagstisch|mittagspause|mittagsangebot",
+   "belegt": true,
+   "text": "Die Lunchdeals gibt es Montag bis Freitag, täglich bis 14.00 Uhr.\n- L1 Curry Chicken oder Veggie mit Reis: 10,00 €\n- L3 Gebratene Nudeln mit Chicken oder Veggie: 9,00 €\n- L5 Bun Nem, Crispy Chicken Bowl oder Pekingbowl: 13,00 €\n- Gratis dazu: Frühlingsrollen oder Pekingsuppe, so lange der Vorrat reicht",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "## Lunchdeals (Täglich gültig bis 14.00 Uhr)",
+    "L1 Curry Chicken oder Veggie mit Reis: 10,00 €",
+    "L3 Gebratene Nudeln mit Chicken oder Veggie: 9,00 €",
+    "L5 Bun Nem, Crispy Chicken Bowl oder Pekingbowl: 13,00 €"
+   ]
+  },
+  {
+   "thema": "Pho",
+   "muster": "\\bpho\\b|suppe|brühe",
+   "belegt": true,
+   "text": "Die Pho Soup mit Chicken oder Beef (V5) kostet 12,50 €, ihre kräftige Fleischbrühe kocht 24 Stunden.\n- Dazu: Reisbandnudeln, Sojasprossen, Koriander\n- Pho Xao (V1), gebratene Reisbandnudeln: 13,50 €",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "V5 Pho Soup mit Chicken oder Beef (24 h gekochte kräftige Fleischbrühe, Reisbandnudeln, Sojasprossen, Koriander): 12,50 €",
+    "V1 Pho Xao (gebratene Reisbandnudeln"
+   ]
+  },
+  {
+   "thema": "Matcha",
+   "muster": "matcha|ice ?tea|eistee|drinks?\\b|getränk|spritz|trinken",
+   "belegt": true,
+   "text": "Matcha ist bei Uncle Hung ein eigenes Kapitel.\n- Diverse Matcha-Kreationen (Mango, Banana, Classy, Strawberry, Lavendel u. v. m.): 6,50 €\n- Hungmade Icetea: 5,50 €\n- Spritz (Lychee, Mango, Aperol): 6,50 €\n- Alle Getränke auch to go",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Diverse Matcha-Kreationen (Mango, Banana, Classy, Strawberry, Lavendel u. v. m.): 6,50 €",
+    "Hungmade Icetea: 5,50 €",
+    "Spritz-Variationen (Lychee, Mango, Aperol): 6,50 €",
+    "Alle Getränke auch to go erhältlich."
+   ]
+  },
+  {
+   "thema": "Dessert",
+   "muster": "dessert|nachtisch|nachspeise|sweets|süßes|banane",
+   "belegt": true,
+   "text": "Bei den Sweets gibt es die gebackene Banane mit Eis für 7,00 € und wöchentlich wechselnde Desserts.",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Gebackene Banane mit Eis: 7,00 €",
+    "Wöchentlich wechselnde Desserts"
+   ]
+  },
+  {
+   "thema": "Reservieren",
+   "muster": "reserv|tisch|platz frei|buchen|book|vorbestell",
+   "belegt": true,
+   "text": "Einen Tisch reservierst du am einfachsten per Telefon, eine Buchung online gibt es nicht.\n- Telefon: 0821 / 2185710\n- Montag bis Freitag: 11.00 bis 14.30 und 17.00 bis 20.30 Uhr",
+   "maske": true,
+   "anfrage": false,
+   "belege": [
+    "Reservieren geht am einfachsten per Telefon.",
+    "Eine Buchung online gibt es nicht.",
+    "11.00 – 14.30 Uhr",
+    "17.00 – 20.30 Uhr"
+   ]
+  },
+  {
+   "thema": "Wochenende",
+   "muster": "samstag|sonntag|wochenende|feiertag|\\bsa\\b|\\bso\\b",
+   "belegt": true,
+   "text": "Samstags, sonntags und an Feiertagen ist geschlossen; die Familie öffnet dann nach Vereinbarung, etwa für deine Feier.\n- Montag bis Freitag: 11.00 bis 14.30 und 17.00 bis 20.30 Uhr\n- Telefon: 0821 / 2185710",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Samstag, Sonn- und Feiertage geschlossen geöffnet nach Vereinbarung",
+    "Am Wochenende und an Feiertagen öffnet die Familie nach Vereinbarung, etwa für deine Feier."
+   ]
+  },
+  {
+   "thema": "Zeiten",
+   "muster": "öffnungszeit|geöffnet|offen|wann (habt|seid|macht)|zeiten|uhrzeit|\\bheute\\b|morgen|montag|dienstag|mittwoch|donnerstag|freitag|open",
+   "belegt": true,
+   "text": "Uncle Hung hat Montag bis Freitag mittags und abends geöffnet.\n- Mittags: 11.00 bis 14.30 Uhr\n- Abends: 17.00 bis 20.30 Uhr\n- Samstag, Sonn- und Feiertage: geschlossen, geöffnet nach Vereinbarung",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Montag bis Freitag 11.00 – 14.30 Uhr 17.00 – 20.30 Uhr",
+    "Samstag, Sonn- und Feiertage geschlossen geöffnet nach Vereinbarung"
+   ]
+  },
+  {
+   "thema": "To go",
+   "muster": "to go|mitnehmen|abholen|take ?away|zum mitnehmen",
+   "belegt": true,
+   "text": "Alle Gerichte und alle Getränke gibt es auch to go.\n- Mittags: Montag bis Freitag 11.00 bis 14.30 Uhr\n- Abends: 17.00 bis 20.30 Uhr",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Alle Gerichte und alle Getränke gibt es auch to go.",
+    "11.00 – 14.30 Uhr",
+    "17.00 – 20.30 Uhr"
+   ]
+  },
+  {
+   "thema": "Abends",
+   "muster": "abend|kamin|ambiente|gemütlich|shortrib|donnerstag",
+   "belegt": true,
+   "text": "Ab 17 Uhr wird der Gastraum zum Wohnzimmer: Kamin, Palmentapete und die Leuchtschrift «pho-gettable».\n- Gastraum: bis zu 45 Gäste\n- Wintergarten: beheizt, Platz für 25 weitere\n- Donnerstags: Shortrib Thursday",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Ab 17 Uhr wird der Gastraum zum Wohnzimmer: Kamin, Palmentapete und über dem Tisch die Leuchtschrift «pho-gettable».",
+    "Bis zu 45 Gäste finden im Haus Platz",
+    "Platz für 25 weitere Gäste",
+    "donnerstags der Shortrib Thursday"
+   ]
+  },
+  {
+   "thema": "Parken",
+   "muster": "park",
+   "belegt": true,
+   "text": "Parkplätze gibt es kostenlos, auch an der Straße.\n- Adresse: Dieselstraße 2, 86368 Gersthofen",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Parken: Kostenlose Parkplätze, auch an der Straße.",
+    "Adresse: Dieselstraße 2, 86368 Gersthofen"
+   ]
+  },
+  {
+   "thema": "Adresse",
+   "muster": "adresse|wo (seid|ist|finde|liegt)|anfahrt|anreise|route|wie komme|gersthofen|augsburg|navi",
+   "belegt": true,
+   "text": "Uncle Hung findest du an der Dieselstraße 2 in 86368 Gersthofen, mitten im Industriegebiet bei Augsburg.\n- Parken: kostenlos, auch an der Straße",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Adresse: Dieselstraße 2, 86368 Gersthofen",
+    "Lage: Mitten im Industriegebiet von Gersthofen bei Augsburg.",
+    "Parken: Kostenlose Parkplätze, auch an der Straße."
+   ]
+  },
+  {
+   "thema": "Barrierefrei",
+   "muster": "rollstuhl|barriere|stufen|rollator",
+   "belegt": true,
+   "text": "Laut Google hat Uncle Hung einen rollstuhlgerechten Eingang.\n- Genaueres: Telefon 0821 / 2185710",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "dazu rollstuhlgerechten Eingang und Sitzplätze im Freien"
+   ]
+  },
+  {
+   "thema": "Draußen",
+   "muster": "draußen|draussen|terrasse|im freien|außen|outdoor",
+   "belegt": true,
+   "text": "Bei gutem Wetter sitzt du auch draußen.\n- Mittags: Montag bis Freitag 11.00 bis 14.30 Uhr",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Am Tisch im Gastraum, bei gutem Wetter auch draußen.",
+    "11.00 – 14.30 Uhr"
+   ]
+  },
+  {
+   "thema": "Kontakt",
+   "muster": "telefon|nummer|e-?mail|kontakt|anrufen|erreich|instagram",
+   "belegt": true,
+   "text": "Du erreichst die Familie so:\n- Telefon: 0821 / 2185710\n- E-Mail: v.nguyen2@gmx.de\n- Instagram: @unclehung.official",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Telefon: 0821 / 2185710 · E-Mail: v.nguyen2@gmx.de",
+    "@unclehung.official"
+   ]
+  },
+  {
+   "thema": "Familie",
+   "muster": "seit wann|familie|geschichte|wer kocht|hani|inhaber|wer ist uncle",
+   "belegt": true,
+   "text": "Seit 2009 ist Uncle Hung in Familienhand, mitten im Industriegebiet von Gersthofen.\n- Küche: die traditionellen Kochkünste von Uncle Hung\n- Hani, seine Tochter: der kreative und moderne Einfluss",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "## Seit 2009 in Familienhand.",
+    "«Die traditionellen Kochkünste von Uncle Hung sorgen für das Authentische, Hani, seine Tochter, bringt den kreativen und modernen Einfluss ein.»"
+   ]
+  },
+  {
+   "thema": "Specials",
+   "muster": "special|saison|herbstkarte|neue gerichte|neu auf der karte",
+   "belegt": true,
+   "text": "Neben der Karte kocht die Familie wechselnde Specials mit neuen Gerichten und Drinks. Was gerade läuft, steht im Lokal und auf Instagram.\n- Instagram: @unclehung.official",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "Neben der Karte kocht die Familie wechselnde Specials mit neuen Gerichten und Drinks. Was gerade läuft, steht im Lokal und auf Instagram.",
+    "@unclehung.official"
+   ]
+  },
+  {
+   "thema": "Karte",
+   "muster": "karte|menü|menu|speise|preis|kostet|gericht|bowl|essen|ente|duck|curry|nudeln|reis|sommerroll",
+   "belegt": true,
+   "text": "Die ganze Karte steht auf der Website, von den Snacks bis zu Uncle Hung’s Favorite.\n- Lunchdeals: L1 bis L5, bis 14.00 Uhr\n- Favoriten: zum Beispiel Peking Bowl (V7) 16,90 €, Crispy Chicken Bowl (V9) 14,90 €\n- Snacks: zum Beispiel Pekingsuppe 4,00 €",
+   "maske": false,
+   "anfrage": false,
+   "belege": [
+    "## Lunchdeals (Täglich gültig bis 14.00 Uhr)",
+    "V7 Peking Bowl (Crispy Duck auf Reis",
+    "16,90 €",
+    "V9 Crispy Chicken Bowl",
+    "14,90 €",
+    "1 Pekingsuppe: 4,00 €"
+   ]
+  }
+ ]
+}

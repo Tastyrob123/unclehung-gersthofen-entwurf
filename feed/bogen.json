@@ -1,0 +1,194 @@
+{
+ "reihen": 10,
+ "stuecke": [
+  {
+   "id": "tisch2",
+   "r": 1,
+   "c": 1,
+   "w": 2,
+   "h": 2,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/tisch2.jpg"
+  },
+  {
+   "id": "hung",
+   "r": 1,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/hung.jpg"
+  },
+  {
+   "id": "kuchen",
+   "r": 2,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/kuchen.jpg"
+  },
+  {
+   "id": "frage",
+   "r": 3,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "reis",
+   "r": 3,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/website/assets/bild/reis-2000.webp"
+  },
+  {
+   "id": "opa",
+   "r": 3,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/opa.jpg"
+  },
+  {
+   "id": "matcha",
+   "r": 4,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/matcha.jpg"
+  },
+  {
+   "id": "salat",
+   "r": 4,
+   "c": 2,
+   "w": 2,
+   "h": 2,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/salat.jpg"
+  },
+  {
+   "id": "pho",
+   "r": 5,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "familie-sw",
+   "r": 6,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/website/assets/bild/familie-sw-720.webp"
+  },
+  {
+   "id": "icetea",
+   "r": 6,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/icetea.jpg"
+  },
+  {
+   "id": "curry",
+   "r": 6,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/curry.jpg"
+  },
+  {
+   "id": "hung-sw",
+   "r": 7,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/website/assets/bild/hung-sw-1280.webp"
+  },
+  {
+   "id": "mittag",
+   "r": 7,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  },
+  {
+   "id": "reis2",
+   "r": 7,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/reis2.jpg"
+  },
+  {
+   "id": "teller",
+   "r": 8,
+   "c": 1,
+   "w": 2,
+   "h": 2,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/teller.jpg"
+  },
+  {
+   "id": "leucht",
+   "r": 8,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/leucht.jpg"
+  },
+  {
+   "id": "freunde2",
+   "r": 9,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/freunde2.jpg"
+  },
+  {
+   "id": "runde-sw",
+   "r": 10,
+   "c": 1,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/website/assets/bild/runde-sw-1280.webp"
+  },
+  {
+   "id": "tisch",
+   "r": 10,
+   "c": 2,
+   "w": 1,
+   "h": 1,
+   "art": "foto",
+   "bild": "/home/user/haus-uncle-hung/Uncle Hung Gersthofen/_quelle/hochgerechnet/tisch.jpg"
+  },
+  {
+   "id": "seit",
+   "r": 10,
+   "c": 3,
+   "w": 1,
+   "h": 1,
+   "art": "html",
+   "bild": ""
+  }
+ ]
+}

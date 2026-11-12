@@ -1,0 +1,32 @@
+{
+ "zeit": "2026-11-07T16:50:00+01:00",
+ "art": "nachricht",
+ "name": "Elif Demir",
+ "kontakt": "elif.demir@example.com",
+ "datum": "",
+ "personen": null,
+ "anliegen": "Wir waren letzten Freitagabend bei euch essen und ich habe meine dunkelgrüne Regenjacke am Fenster liegen lassen.",
+ "sprache": "de",
+ "gespraech": "beispiel-5",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Hallo, wir waren letzten Freitagabend bei euch essen und ich habe meine dunkelgrüne Regenjacke am Fenster liegen lassen. Ich bin Elif Demir, elif.demir@example.com"
+  },
+  {
+   "rolle": "assistant",
+   "text": "Danke dir, Elif. Deine Anfrage liegt jetzt bei der Familie, sie meldet sich persönlich bei dir."
+  }
+ ],
+ "status": "erledigt",
+ "beispiel": true,
+ "abteilung": "Tisch",
+ "entwurf": {
+  "betreff": "Deine Nachricht an Uncle Hung",
+  "text": "Hallo Elif,\n\ndanke für deine Nachricht, wir haben sie gern gelesen. Wir schauen bei uns nach deiner Jacke und melden uns, sobald wir sie haben.\n\nMontag bis Freitag sind wir mittags und abends für dich da; am Wochenende und an Feiertagen öffnet die Familie nach Vereinbarung, etwa für deine Feier.\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/nachricht.txt)\nOffen: Antwort auf die Frage des Gastes ergänzen",
+  "vorlage": "nachricht",
+  "absender": "v.nguyen2@gmx.de",
+  "zeit": "2026-11-07T16:50:00+01:00"
+ }
+}

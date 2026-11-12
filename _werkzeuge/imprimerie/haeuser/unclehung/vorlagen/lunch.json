@@ -1,0 +1,286 @@
+{
+ "art": "lunch",
+ "format": "a5h",
+ "vorlagen": [
+  {
+   "id": "lunch-001",
+   "titel": "Lunchdeals am Tisch",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "karte",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Täglich gültig bis 14.00 Uhr",
+    "titel": "Lunchdeals",
+    "text": "Bis 14.00 Uhr Frühlingsrollen oder Pekingsuppe zu jedem Hauptgericht gratis dazu, nur so lange der Vorrat reicht.",
+    "liste": [
+     {
+      "name": "L1 · Curry Chicken oder Veggie mit Reis",
+      "detail": "",
+      "preis": "10,00 €"
+     },
+     {
+      "name": "L2 · Erdnuss Chicken oder Veggie mit Reis",
+      "detail": "",
+      "preis": "10,00 €"
+     },
+     {
+      "name": "L3 · Gebratene Nudeln mit Chicken oder Veggie",
+      "detail": "",
+      "preis": "9,00 €"
+     },
+     {
+      "name": "L4 · Gebratener Reis mit Chicken oder Veggie",
+      "detail": "",
+      "preis": "9,00 €"
+     },
+     {
+      "name": "L5 · Bun Nem, Crispy Chicken Bowl oder Pekingbowl",
+      "detail": "",
+      "preis": "13,00 €"
+     }
+    ],
+    "fuss": "Uncle Hung · Dieselstraße 2 · 86368 Gersthofen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "lunch-002",
+   "titel": "Lunchdeals, Salbei",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "karte",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Montag – Freitag",
+    "titel": "Lunchdeals",
+    "text": "Bis 14.00 Uhr Frühlingsrollen oder Pekingsuppe zu jedem Hauptgericht gratis dazu, nur so lange der Vorrat reicht.",
+    "liste": [
+     {
+      "name": "L1 · Curry Chicken oder Veggie mit Reis",
+      "detail": "",
+      "preis": "10,00 €"
+     },
+     {
+      "name": "L2 · Erdnuss Chicken oder Veggie mit Reis",
+      "detail": "",
+      "preis": "10,00 €"
+     },
+     {
+      "name": "L3 · Gebratene Nudeln mit Chicken oder Veggie",
+      "detail": "",
+      "preis": "9,00 €"
+     },
+     {
+      "name": "L4 · Gebratener Reis mit Chicken oder Veggie",
+      "detail": "",
+      "preis": "9,00 €"
+     },
+     {
+      "name": "L5 · Bun Nem, Crispy Chicken Bowl oder Pekingbowl",
+      "detail": "",
+      "preis": "13,00 €"
+     }
+    ],
+    "fuss": "Täglich gültig bis 14.00 Uhr"
+   }
+  },
+  {
+   "id": "lunch-003",
+   "titel": "Lunchdeals, Papier warm",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "karte",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Mittags bei Uncle Hung",
+    "titel": "Lunchdeals",
+    "text": "Täglich gültig bis 14.00 Uhr. Mit Chicken oder Veggie.",
+    "liste": [
+     {
+      "name": "Curry Chicken oder Veggie mit Reis",
+      "detail": "",
+      "preis": "10,00 €"
+     },
+     {
+      "name": "Erdnuss Chicken oder Veggie mit Reis",
+      "detail": "",
+      "preis": "10,00 €"
+     },
+     {
+      "name": "Gebratene Nudeln mit Chicken oder Veggie",
+      "detail": "",
+      "preis": "9,00 €"
+     },
+     {
+      "name": "Gebratener Reis mit Chicken oder Veggie",
+      "detail": "",
+      "preis": "9,00 €"
+     },
+     {
+      "name": "Bun Nem, Crispy Chicken Bowl oder Pekingbowl",
+      "detail": "",
+      "preis": "13,00 €"
+     }
+    ],
+    "fuss": "Uncle Hung · Dieselstraße 2 · 86368 Gersthofen · 0821 / 2185710"
+   }
+  },
+  {
+   "id": "lunch-004",
+   "titel": "Lunch mit Foto",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "reis",
+    "ueber": "Montag bis Freitag · 11.00 – 14.30 Uhr",
+    "titel": "Lunchdeals",
+    "text": "Fünf Gerichte zur Wahl, mit Chicken oder Veggie, dazu gratis Frühlingsrollen oder Pekingsuppe, so lange der Vorrat reicht.",
+    "aktion": "Täglich gültig bis 14.00 Uhr"
+   }
+  },
+  {
+   "id": "lunch-005",
+   "titel": "Lunch, Foto und Text",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "geteilt",
+   "ton": "hell",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ka1",
+    "ueber": "Täglich gültig bis 14.00 Uhr",
+    "titel": "Mittags frisch aus dem Wok",
+    "text": "Wer mittags kommt, isst aus den Lunchdeals, frisch aus dem Wok, und bekommt zu jedem Hauptgericht Frühlingsrollen oder Pekingsuppe dazu.",
+    "aktion": "Alle Gerichte auch to go"
+   }
+  },
+  {
+   "id": "lunch-006",
+   "titel": "Lunchdeals mit Allergenen",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "karte",
+   "ton": "hell",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Täglich gültig bis 14.00 Uhr",
+    "titel": "Lunchdeals",
+    "text": "Bis 14.00 Uhr Frühlingsrollen oder Pekingsuppe zu jedem Hauptgericht gratis dazu, nur so lange der Vorrat reicht.",
+    "liste": [
+     {
+      "name": "L1 · Curry Chicken oder Veggie mit Reis",
+      "detail": "",
+      "preis": "10,00 €"
+     },
+     {
+      "name": "L2 · Erdnuss Chicken oder Veggie mit Reis",
+      "detail": "",
+      "preis": "10,00 €"
+     },
+     {
+      "name": "L3 · Gebratene Nudeln mit Chicken oder Veggie",
+      "detail": "",
+      "preis": "9,00 €"
+     },
+     {
+      "name": "L4 · Gebratener Reis mit Chicken oder Veggie",
+      "detail": "",
+      "preis": "9,00 €"
+     },
+     {
+      "name": "L5 · Bun Nem, Crispy Chicken Bowl oder Pekingbowl",
+      "detail": "",
+      "preis": "13,00 €"
+     }
+    ],
+    "fuss": "Allergene und Zusatzstoffe: A, F, K, L, H, 1, 2, 3, 4, 5, 6, 9"
+   }
+  },
+  {
+   "id": "lunch-007",
+   "titel": "Lunch im Rahmen",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "fenster",
+   "ton": "creme",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "curry",
+    "ueber": "Lunchdeals",
+    "titel": "Did you eat today?",
+    "unter": "Täglich gültig bis 14.00 Uhr",
+    "text": "Zum Hinsetzen, zum Mitnehmen oder zum Abholen vor dem Laden. Montag bis Freitag von 11.00 bis 14.30 Uhr."
+   }
+  },
+  {
+   "id": "lunch-008",
+   "titel": "Lunch-Catering für Firmen",
+   "bereich": "Mittag & Lunchdeals",
+   "vorlage": "geteilt",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ka5",
+    "ueber": "Lunch-Catering für Firmen",
+    "titel": "Der Mittag im Pausenraum",
+    "text": "Uncle Hung bringt den Mittag auch in den Pausenraum. Erzähl, wie viele ihr seid und was euch schmeckt, die Familie stellt dir das passende Angebot zusammen.",
+    "aktion": "v.nguyen2@gmx.de"
+   }
+  }
+ ]
+}

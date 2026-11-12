@@ -1,0 +1,108 @@
+/* kleid/unclehung.css · Uncle Hung Gersthofen · Kleid der sieben Werkzeuge (11.11.2026), Werte aus der Website des Hauses (website/assets/uh.css :root) und CHARAKTER.md:
+   Salbei #4D5C4E als dunkle Fläche (Tief #2B342D · #344036 · #3E4B40), Creme #EBE1D4 und Papier #F7EFE3 als Raum, Gold #BF982E nur als Linie, Etikett und Knauf (hell #D9BC6B),
+   Jade #86AE98 / #5E8A73 aus den Schalen als leiser Akzent, Tinte #1F2620. Ein warmes Chili-Rot #B9573B nur als Marke «Entwurf», Jade für «Gespeichert».
+   Titel Fraunces 540 mit SOFT 100 (weiche, warme Antiqua wie die Website), Lauf Instrument Sans, Kleinzeilen DM Mono in Versalien.
+   Eigene Form des Hauses: runde Knöpfe mit hellem Knauf wie auf der Website, grosse runde Ecken, die Schale mit zwei Stäbchen als Tapete und als einziges Ornament,
+   die Schale als Zeichen. Keine Einkerbungen, keine Punkt-Etiketten, keine Pillen-Reihen. Rahmen: Die Bühne. Vorlage: Taverne zum Schäfli (kleid/schaefli.css). */
+@font-face{font-family:'Uncle Sans';font-weight:400 700;font-display:swap;src:url('../../schrift/InstrumentSans-normal-400_600.woff2') format('woff2')}
+@font-face{font-family:'Uncle Mono';font-weight:400;font-display:swap;src:url('../../schrift/DMMono-normal-400.woff2') format('woff2')}
+@font-face{font-family:'Fraunces';font-weight:100 900;font-display:block;src:url('../../schrift/fraunces-soft.woff2') format('woff2')}
+:root{
+  --wo-sans:'Uncle Sans',system-ui,-apple-system,'Segoe UI',sans-serif; --wo-mono:'Uncle Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  --wo-e1:cubic-bezier(.16,1,.3,1); --wo-e2:cubic-bezier(.32,.72,0,1);
+  --wo-nacht:#4D5C4E; --wo-nacht2:#3E4B40; --wo-tief:#2B342D;
+  --wo-g1:#F0E3BF; --wo-g2:#D9BC6B; --wo-g3:#BF982E;
+  --wo-gold:#D9BC6B; --wo-akzent:#5E8A73;
+  --wo-papier:#F1E7D8; --wo-papier2:#EBE1D4; --wo-blatt:#F7EFE3; --wo-weiss:#FBF7F0;
+  --wo-tinte:#1F2620; --wo-leise:#5c665d; --wo-linie:rgba(31,38,32,.13); --wo-linie-d:rgba(217,188,107,.32);
+  --wo-punkt:#B9573B; --wo-gut:#5E8A73;
+  --wo-titel:'Fraunces',Georgia,serif; --wo-titel-g:540; --wo-titel-ls:-.012em;
+  --wo-r1:18px; --wo-r2:14px; --wo-r3:12px; --wo-rk:999px;
+  --wo-tapete:#2B342D url('/assets/oberflaeche/kleid/unclehung-tapete.svg') 0 0/120px 120px;
+  --wo-tapete-fein:var(--wo-tapete);
+  --uh-salbei:#4D5C4E; --uh-jade:#86AE98; --uh-gold:#BF982E;
+}
+
+/* ================= Uncle Hung · Salbei, Creme und Jade ================= */
+/* Titel in Fraunces wie die Website: weiche Antiqua (SOFT 100), Gewicht 540, Betonung über die Farbe (auf Hell Jade), nie fett */
+.wo-sb__h,.wo-zw,.wo-det__kopf h3,.wo-fe__kopf b,.wo-lg b,.wo-ag__t b,.wo-bk__t b{font-family:var(--wo-titel);font-weight:540;font-variation-settings:"SOFT" 100,"WONK" 0,"opsz" 120;letter-spacing:-.012em}
+.wo-zw em{font-style:normal;color:var(--wo-akzent)}
+/* Robert 20.10.2026 (Fehlerbuch 10a): auf dunkler Fläche ist jede Titelzeile hell; die Betonung kommt aus der Schriftstärke */
+.wo-sb .wo-sb__h em,[data-wo-rahmen] .wo-sb .wo-sb__h em,#ansicht .wo-sb .wo-sb__h em,body .wo-sb .wo-sb__h em{font-style:normal;color:#fff;font-weight:380}
+
+/* Die Bühne: unten eine feine Goldlinie wie unter den Titeln der Website, darüber die Salbeifläche mit der Schalen-Tapete */
+.wo-lage,.wo-ag,.wo-det__kopf{border-top:2px solid var(--uh-jade)}
+[data-wo-rahmen="buehne"] .wo-kopf{border-bottom:1px solid rgba(217,188,107,.34)}
+[data-wo-rahmen="buehne"] .wo-sb{border-bottom:6px solid var(--wo-nacht);box-shadow:inset 0 -1px 0 rgba(217,188,107,.5),0 0 0 1px var(--wo-linie-d),0 40px 60px -40px rgba(18,24,19,.7)}
+/* Über den Abschnittstiteln: kurze Goldlinie, in der Mitte die Schale mit zwei Stäbchen (statt Kreis, Kerbe oder Punkt) */
+.wo-zw::before{content:'';display:block;width:84px;height:16px;margin-bottom:12px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='84' height='16' viewBox='0 0 84 16'%3E%3Cpath d='M0 9h30M54 9h30' stroke='%23BF982E' stroke-opacity='.7'/%3E%3Cg fill='none' stroke='%235E8A73' stroke-width='1.4' stroke-linecap='round'%3E%3Cpath d='M35 8.5a7 7 0 0 0 14 0z'/%3E%3Cpath d='M44.5 6l3.5-5.5M46.3 6.8l3.5-5.5'/%3E%3C/g%3E%3C/svg%3E") no-repeat}
+/* Fotos warm wie Papier am Abend, unten leicht ins Tief */
+.wo-sb__foto::after{background:linear-gradient(0deg,rgba(43,52,45,.5),transparent 55%)}
+/* Zeichen in Kacheln: rund wie die Schale */
+.wo-lg__z,.wo-ag__z{border-radius:50%}
+.wo-bk__t small,.wo-mk{color:var(--wo-akzent)}
+.wo-re.wo-an,.wo-re[aria-current="true"],.wo-re[aria-current="page"]{background:linear-gradient(180deg,#4D5C4E,#344036)}
+
+/* Knöpfe rund wie auf der Website (Pille mit hellem Knauf); Gold-Knopf mit dem Verlauf der Website */
+.wo-kn:not(.wo-kn--rund){border-radius:999px}
+.wo-kn--gold{color:var(--wo-tinte);background:linear-gradient(180deg,#E6CC85 0%,#CBA749 55%,#B48F33 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(90,64,10,.3),0 18px 34px -16px rgba(80,60,10,.6),0 3px 8px -3px rgba(31,38,32,.3)}
+.wo-kn--dunkel{background:linear-gradient(180deg,#5c6d5e 0%,#4D5C4E 46%,#36433a 100%);box-shadow:inset 0 1px 0 rgba(244,236,224,.22),inset 0 -1px 0 rgba(18,24,19,.45),0 16px 30px -16px rgba(18,24,19,.7),0 3px 8px -3px rgba(18,24,19,.35)}
+.wo-kn--hell{color:var(--wo-tinte);background:linear-gradient(180deg,#FBF6EE 0%,#EFE5D7 55%,#E3D6C4 100%);box-shadow:inset 0 1px 0 #fff,inset 0 -1px 0 rgba(120,100,70,.18),0 18px 34px -16px rgba(40,34,24,.45)}
+[data-wo-rahmen="buehne"] .wo-leiste{border-radius:18px}
+
+/* Ecke oben links in allen Werkzeugen gleich (M24): die Schale im Ring aus Salbei mit goldener Kante, darunter Bereich · Haus */
+.wo-marke-w{position:relative;padding-left:60px!important;min-height:46px}
+.wo-marke-w::before{content:'';position:absolute;left:0;top:50%;width:46px;height:46px;margin-top:-23px;border-radius:50%;
+  background:radial-gradient(circle at 50% 38%,#5c6d5e,#344036 74%);box-shadow:inset 0 0 0 1px rgba(217,188,107,.85),inset 0 0 0 4px rgba(43,52,45,.5),0 6px 14px -8px rgba(0,0,0,.8)}
+.wo-marke-w .wo-zeichen{position:absolute;left:11px;top:50%;width:24px;height:27px;max-width:none;margin-top:-13.5px;color:#F0E3BF}
+.wo-marke-w b{font-family:var(--wo-titel);font-weight:540;font-variation-settings:"SOFT" 100}
+.wo-marke-w small{color:rgba(217,188,107,.92)!important}
+
+/* Auftritt der Bühne wie bei den abgenommenen Häusern (Fehlerbuch 10a): Foto schwebt 40 px von unten und zoomt von 1,06 auf 1,
+   Zier, Titel, Satz und Knöpfe folgen 40 px von unten, 0,85 s, Staffel 0,12 s. Nur transform, deckend. */
+@keyframes woAufFoto{from{translate:0 40px;scale:1.06}}
+@keyframes woAuf{from{translate:0 40px}}
+@media screen and (prefers-reduced-motion:no-preference){
+  html:not(.still) .wo-sb__foto{animation:woAufFoto .85s cubic-bezier(.22,.61,.36,1) both}
+  html:not(.still) :is(.wo-sb__zier,.wo-sb__h,.wo-sb__satz,.wo-sb__kn){animation:woAuf .85s cubic-bezier(.22,.61,.36,1) both}
+  html:not(.still) .wo-sb__zier{animation-delay:.12s}
+  html:not(.still) .wo-sb__h{animation-delay:.24s}
+  html:not(.still) .wo-sb__satz{animation-delay:.36s}
+  html:not(.still) .wo-sb__kn{animation-delay:.48s}
+}
+
+/* Untere Leiste (Fehlerbuch 10a): der Titel bricht nie um; wird es eng, verschwindet erst der Satz, dann die Beschriftung der Knöpfe */
+.wo-leiste__t b{white-space:nowrap}
+
+/* Kopf bei wenig Breite (Fehlerbuch 10a): der Titel in der Mitte nimmt nur den freien Platz, wird kleiner und kürzt notfalls mit «…»; er überdeckt nie einen Knopf */
+@media (min-width:901px){
+  .wo-kopf{grid-template-columns:auto minmax(0,1fr) auto}
+  .wo-kopf__mitte{min-width:0;max-width:100%}
+  .wo-kopf__mitte b,.wo-kopf__mitte small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+}
+@media (min-width:901px) and (max-width:1240px){
+  .wo-kopf__mitte b{font-size:18px}
+  .wo-kopf .wo-kn--gold.wo-kn--klein>span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .wo-kopf .wo-kn--gold.wo-kn--klein{padding:0;gap:0;width:auto}
+}
+
+/* Zierzeile im Startbild: bricht um, wenn der Platz nicht reicht; wo sie passt, bleibt sie eine Zeile (Demo-Check 21.10.2026) */
+.wo-sb__zier{min-width:0;max-width:100%}
+.wo-sb__zier span{min-width:0;white-space:normal;overflow:visible;text-overflow:clip;line-height:1.6}
+@media (max-width:1240px){.wo-sb__zier i{display:none}}
+
+/* Luft unter der Bühne (Fehlerbuch 10a, 20.10.2026): mindestens 30 px bis zu den ersten Kacheln, am Handy 24 px */
+.wo-sb{margin-bottom:34px}
+@media (max-width:760px){.wo-sb{margin-bottom:24px}}
+
+/* Schrift optisch mittig in Knöpfen und Pillen (Robert 29.10.2026: «Die Schriften in deinen Buttons sitzen IMMER falsch»; Messlauf-Regel text-mitte). */
+.wo-kn>span,.wo-re>span,.wo-kopf__ber>span{text-box:trim-both cap alphabetic}
+.wo-re .wo-zahl{display:block;height:auto;padding:7px;line-height:1;text-align:center;text-box:trim-both cap alphabetic}
+.ansicht>button,.wahl3>button{text-box:trim-both cap alphabetic}
+@supports not (text-box:trim-both cap alphabetic){.wo-kn>span,.wo-re>span,.wo-kopf__ber>span{position:relative;top:.05em}}
+/* Runde Knöpfe bleiben rund (Kriterium 1): feste gleiche Breite und Höhe, nie gestaucht */
+.wo-kn--rund{flex:none;aspect-ratio:1}
+
+/* Kopftitel: Fraunces hat hohe Oberlängen; mit 1,1 kappte der versteckte Überlauf das «f» (Besucher 11.11.2026, Prüfpunkt 21) */
+.wo-kopf__mitte b{line-height:1.36}

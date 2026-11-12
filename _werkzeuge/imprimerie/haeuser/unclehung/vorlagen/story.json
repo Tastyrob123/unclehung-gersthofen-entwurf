@@ -1,0 +1,143 @@
+{
+ "art": "story",
+ "format": "story",
+ "vorlagen": [
+  {
+   "id": "story-001",
+   "titel": "Story Lunch",
+   "bereich": "Instagram & Story",
+   "vorlage": "fenster",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "einfach",
+    "titel": 1,
+    "zeichen": 1,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "nudeln2",
+    "ueber": "Lunchdeals",
+    "titel": "Did you eat today?",
+    "unter": "Täglich gültig bis 14.00 Uhr",
+    "text": "Frühlingsrollen oder Pekingsuppe gratis dazu, nur so lange der Vorrat reicht.",
+    "fuss": "@unclehung.official"
+   }
+  },
+  {
+   "id": "story-002",
+   "titel": "Story Weihnachten",
+   "bereich": "Instagram & Story",
+   "vorlage": "buehne",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "v-rau06",
+    "ueber": "November und Dezember",
+    "titel": "Uncle’s Christmas",
+    "text": "Comfort · Botanical · Hot Pot",
+    "aktion": "Vorbestellen · 0821 / 2185710",
+    "fuss": "@unclehung.official"
+   }
+  },
+  {
+   "id": "story-003",
+   "titel": "Story Matcha",
+   "bereich": "Instagram & Story",
+   "vorlage": "geteilt",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "ohne",
+    "titel": 0.96,
+    "zeichen": 1.15,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ma1",
+    "ueber": "Matcha & Drinks",
+    "titel": "Matcha ist ein eigenes Kapitel",
+    "text": "Alle Getränke auch to go.",
+    "aktion": "@unclehung.official",
+    "fuss": ""
+   }
+  },
+  {
+   "id": "story-004",
+   "titel": "Story Abends",
+   "bereich": "Instagram & Story",
+   "vorlage": "fenster",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "ohne",
+    "titel": 1.1,
+    "zeichen": 0.85,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "ab2",
+    "ueber": "Ab 17 Uhr",
+    "titel": "Abends am Kamin",
+    "unter": "Montag bis Freitag · 17.00 – 20.30 Uhr",
+    "text": "Kamin, Palmentapete und die Leuchtschrift «pho-gettable».",
+    "fuss": "@unclehung.official"
+   }
+  },
+  {
+   "id": "story-005",
+   "titel": "Story Shortrib Thursday",
+   "bereich": "Instagram & Story",
+   "vorlage": "deckel",
+   "ton": "dunkel",
+   "stil": {
+    "ausr": "c",
+    "rahmen": "doppelt",
+    "titel": 1.04,
+    "zeichen": 0.95,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "ueber": "Donnerstags",
+    "titel": "Shortrib Thursday",
+    "unter": "Abends bei Uncle Hung",
+    "text": "",
+    "fuss": "@unclehung.official"
+   }
+  },
+  {
+   "id": "story-006",
+   "titel": "Story Sweets",
+   "bereich": "Specials & Sweets",
+   "vorlage": "fenster",
+   "ton": "creme",
+   "stil": {
+    "ausr": "l",
+    "rahmen": "doppelt",
+    "titel": 0.92,
+    "zeichen": 1.2,
+    "ecke": 2.6,
+    "bild": 0.54
+   },
+   "inhalt": {
+    "bild": "mi9",
+    "ueber": "Sweets",
+    "titel": "Desserts der Woche",
+    "unter": "Wöchentlich wechselnd",
+    "text": "Dazu Gebackene Banane mit Eis.",
+    "fuss": "@unclehung.official"
+   }
+  }
+ ]
+}

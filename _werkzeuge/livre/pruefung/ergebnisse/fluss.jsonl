@@ -1,0 +1,10 @@
+{"zeit":"2026-11-11T20:01:49.862Z","last":3.8,"ansicht":"start","cpu":4,"fenster":"1440x900","lade_ms":514,"bilder":46,"p50":16.7,"p95":16.8,"max":16.8,"ueber33":0,"cls":0.0044,"kb":798,"kacheln":0,"wo":["379ms 0.004 leiste"]}
+{"zeit":"2026-11-11T20:01:59.166Z","last":3.6,"ansicht":"bilder","cpu":4,"fenster":"1440x900","lade_ms":584,"bilder":326,"p50":16.7,"p95":33.4,"max":150,"ueber33":69,"cls":0.0044,"kb":5652,"kacheln":187,"wo":["328ms 0.004 leiste"]}
+{"zeit":"2026-11-11T20:02:04.261Z","last":4.8,"ansicht":"dateien","cpu":4,"fenster":"1440x900","lade_ms":488,"bilder":167,"p50":16.7,"p95":33.3,"max":33.5,"ueber33":10,"cls":0.0044,"kb":1163,"kacheln":0,"wo":["318ms 0.004 leiste"]}
+{"zeit":"2026-11-11T20:02:07.579Z","last":4.6,"ansicht":"pruefung","cpu":4,"fenster":"1440x900","lade_ms":328,"bilder":81,"p50":16.7,"p95":16.8,"max":33.3,"ueber33":1,"cls":0.0044,"kb":684,"kacheln":0,"wo":["193ms 0.004 leiste"]}
+{"zeit":"2026-11-11T20:02:17.866Z","last":4.3,"ansicht":"buch","cpu":4,"fenster":"1440x900","lade_ms":513,"bilder":431,"p50":16.7,"p95":33.3,"max":83.3,"ueber33":42,"cls":0.0032,"kb":3685,"kacheln":0,"wo":["358ms 0.003 innen"]}
+{"zeit":"2026-11-11T20:02:21.183Z","last":4.3,"ansicht":"start","cpu":4,"fenster":"390x844","lade_ms":421,"bilder":74,"p50":16.7,"p95":16.7,"max":16.8,"ueber33":0,"cls":0,"kb":798,"kacheln":0,"wo":[]}
+{"zeit":"2026-11-11T20:02:30.501Z","last":4.6,"ansicht":"bilder","cpu":4,"fenster":"390x844","lade_ms":490,"bilder":412,"p50":16.7,"p95":16.8,"max":116.6,"ueber33":9,"cls":0,"kb":5652,"kacheln":187,"wo":[]}
+{"zeit":"2026-11-11T20:02:36.681Z","last":4.4,"ansicht":"dateien","cpu":4,"fenster":"390x844","lade_ms":584,"bilder":237,"p50":16.7,"p95":16.7,"max":16.8,"ueber33":0,"cls":0,"kb":1163,"kacheln":0,"wo":[]}
+{"zeit":"2026-11-11T20:02:40.663Z","last":4.4,"ansicht":"pruefung","cpu":4,"fenster":"390x844","lade_ms":498,"bilder":109,"p50":16.7,"p95":16.8,"max":16.8,"ueber33":0,"cls":0,"kb":684,"kacheln":0,"wo":[]}
+{"zeit":"2026-11-11T20:02:51.531Z","last":4.5,"ansicht":"buch","cpu":4,"fenster":"390x844","lade_ms":689,"bilder":496,"p50":16.7,"p95":16.8,"max":66.7,"ueber33":9,"cls":0,"kb":3685,"kacheln":0,"wo":[]}

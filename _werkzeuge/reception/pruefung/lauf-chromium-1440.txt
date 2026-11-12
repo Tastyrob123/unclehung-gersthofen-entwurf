@@ -1,0 +1,29 @@
+Prüflauf Anfragen & Chat · Uncle Hung · chromium 1440×900 · 2026-11-11T16:40
+ok  [R01/R15] Ansicht start: zweimal geladen, kein Fehler, kein seitliches Verrutschen, keine kaputten Bilder · Anfragen & Chat GÄSTE · UNCLE HUNG Übersicht 2 NEUE ANFRAGEN CHAT AUSP
+ok  [R01/R15] Ansicht eingang: zweimal geladen, kein Fehler, kein seitliches Verrutschen, keine kaputten Bilder · Anfragen & Chat GÄSTE · UNCLE HUNG Eingang KEINE NEUEN ANFRAGEN CHAT A
+ok  [R01/R15] Ansicht gefragt: zweimal geladen, kein Fehler, kein seitliches Verrutschen, keine kaputten Bilder · Anfragen & Chat GÄSTE · UNCLE HUNG Das wurde gefragt KEINE NEUEN ANFRA
+ok  [R01/R15] Ansicht nachgetragen: zweimal geladen, kein Fehler, kein seitliches Verrutschen, keine kaputten Bilder · Anfragen & Chat GÄSTE · UNCLE HUNG Vom Team nachgetragen KEINE NEUEN A
+ok  [R01/R15] Ansicht wissen: zweimal geladen, kein Fehler, kein seitliches Verrutschen, keine kaputten Bilder · Anfragen & Chat GÄSTE · UNCLE HUNG Das weiß der Chat KEINE NEUEN ANFRA
+ok  [E01/R05/R06] Übersicht mit Zahlen; jeder Link in Kopf und Rand antwortet, Kontrollpanel auf 127.0.0.1:9471 · /_werkzeuge/reception/ 200 · :9472/_werkzeuge/bureau/ 200 · :9473/_werkzeuge/carte/ aus · :9474/_werkzeuge/reception/ 200 · :9475/_werkzeuge/livre/ 200 · :9476/_werkzeuge/registre/ 200 · :9477/_werkzeuge/imprimerie/ aus · :9471/_werkzeuge/maison/ aus · /_werkzeuge/reception/pruefung.html 200 · /_werkzeuge/reception/anleitung.html 200 · /index.html 200 · /catering.html 200 · /feiern.html 200
+ok  [E28/10a] Kein roher Code, kein mailto:/tel:, keine Namensabfrage, keine fremden Hausangaben, keine Platzhalter-Klammern, in jeder Ansicht und jeder Anfrage · 5 Ansichten, 5 Anfragen sauber
+ok  [R21/10a] Bilder in jeder Liste: jeder Eintrag hat sein geladenes Foto; keine Systemauswahl sichtbar · eingang 5, gefragt 9, nachgetragen 3, wissen 7
+ok  [E02/E29/E30] Hinweise aus den Hauswerten bei den richtigen Anfragen (Lunch 14 Uhr, mehr als 45, Allergene als Klartext, vegan; ohne Grund kein Hinweis) · Katrin, Sophie, Melanie, Daniel
+ok  [E29] Hinweise rechnen richtig: Samstag, Feiertag, Vorlauf unter 3 Tagen, Weihnachtsmenü im Januar und für 1 Person, mehr als 70, Uhrzeit ausserhalb · Samstag, Feiertag, Vorlauf, Weihnachten, 70+, Uhrzeit, ohne Grund leer
+ok  [E03/E17/E21] Brief: «Nur Text» ändern, sichern, neu laden, noch da; zweites Fenster mit alter Fassung → KONFLIKT, nichts überschrieben · gesichert, neu geladen, Konflikt 422, nichts überschrieben
+ok  [10a «Nur Text» = Gestalten] Beide Ansichten zeigen dasselbe Blatt: Wortmarke als einziges Logo, gleiche Schrift, Betreff bricht um · ein Logo, Schrift "Instrument Sans"
+ok  [E16/E28] «Als PDF speichern»: A4 vom Server, Dateiname «Uncle Hung – Name – Datum.pdf», eine Seite, Wortmarke einmal, Text Wort für Wort lesbar · Uncle Hung – Melanie Rothmann – 11.11.2026.pdf
+ok  [E28] «Text kopieren» legt Betreff und Brief in die Zwischenablage, kein Mailprogramm · Kopiert
+ok  [E06/E15] Erledigt ↔ wieder offen, Filter Neu/Offen/Erledigt und Abteilungen zählen wie der Server · {"alle":5,"neu":0,"offen":4,"erledigt":1}, Catering 1
+ok  [E07/E08/E10] Das wurde gefragt: zwei Fragen ohne Antwort; Kinderstuhl nachtragen → Karte unter «Vom Team nachgetragen» → entfernen · 2 Lücken, nachgetragen und entfernt
+ok  [E09/E27] Das weiß der Chat: Suche «Pho» trifft; «Kinderwagen» → Abteilung fragen → offen → Antwort eintragen → steht im Wissen → entfernen; Angabe anlegen → neu laden → noch da → entfernen; Chat prüfen · Suche, Abteilung fragen, Antwort, Angabe, Chat prüfen
+ok  [E32/10a] Chat ausprobieren: Handy 9/19, zehn Fragen hintereinander, jede beantwortet, Eingabefeld bleibt sichtbar, nur die Liste rollt; mit Mail → Beispiel-Anfrage im Eingang · Feld 798/900 px, Verhältnis 0.474, Anfrage «weihnachten» als Beispiel, entfernt
+ok  [E13] Anfrage löschen fragt zuerst, dann Quittung «Gelöscht» · gelöscht
+ok  [E33 Baustein] Baustein (nur im Prüfbrowser geladen, die Website bleibt unverändert): Catering-Formular der Website legt die Anfrage in den Eingang, «Danke dir» erst nach der Annahme, mit <script> und Emoji entschärft · Catering, bis 10 Gäste, entschärft, entfernt
+ok  [E12/E24] Weg «formular»: Catering-Formular landet mit Location, Anlass, Gruppe im Eingang; Feier bei Uncle Hung wird Feier; 403 fremd, 422 ungültig, 413 über 12 kB, Maschinenfeld legt nichts ab, 429 nach sechs je Minute · 200 (Feier, 45 bis 70), 403, 422, 413, Maschinenfeld still, 429 nach 1 weiteren
+ok  [E14 / Kontrollpanel] Stand-Weg /_werkzeuge/reception/api/ueberblick liefert anfragen_neu, anfragen_offen, ohne_antwort, fragen_gesamt · {"neu":0,"offen":4,"ohne":2,"fragen":20}
+ok  [10a Rand läuft mit] Der Rand klebt beim Scrollen (sticky), an drei Tiefen sichtbar; Kopftitel überdeckt keinen Knopf · Rand oben 96/86/86 px
+ok  [R19] «Zur Werkbank»: aus der Werkbank geöffnet erscheint der Knopf und führt an die alte Stelle (127.0.0.1:9478/werkbank/…?y=1234); ohne Herkunft kein Knopf · http://127.0.0.1:9478/werkbank/index.html?y=1234
+ok  [R13/E17] Verlassen mit ungespeicherter Eingabe: der Browser fragt nach · Browser fragte nach
+ok  [R23/E19/E20] Prüfseite ohne Rot, Lexikon, Datenexport als ZIP · Alles in Ordnung. Gelb heißt: bewusst so, kein Fehler.
+ok  [Anleitung] Anleitung: Kopfbild und jedes Bild geladen, jeder Kapitel-Sprung trifft, kein Überlaufen · 10 Bilder
+27/27

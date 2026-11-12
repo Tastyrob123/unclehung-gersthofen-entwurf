@@ -1,0 +1,158 @@
+[
+ {
+  "name": "Salbei",
+  "hex": "#4d5c4e",
+  "rgb": [
+   77,
+   92,
+   78
+  ],
+  "rolle": "die dunkle Fläche: Leiste, Bühnen, Knöpfe, immer mit der Schalen-Tapete",
+  "gruppe": "dunkel",
+  "woher": "Wert der Website (--salbei in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Salbei tief",
+  "hex": "#3e4b40",
+  "rgb": [
+   62,
+   75,
+   64
+  ],
+  "rolle": "zweite dunkle Fläche, Platten auf Salbei",
+  "gruppe": "dunkel",
+  "woher": "Wert der Website (--tief3 in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Tief",
+  "hex": "#2b342d",
+  "rgb": [
+   43,
+   52,
+   45
+  ],
+  "rolle": "die tiefste Fläche: Fuß, Grund unter Fotos",
+  "gruppe": "dunkel",
+  "woher": "Wert der Website (--tief in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Creme",
+  "hex": "#ebe1d4",
+  "rgb": [
+   235,
+   225,
+   212
+  ],
+  "rolle": "die helle Fläche, Schrift auf Salbei",
+  "gruppe": "hell",
+  "woher": "Wert der Website (--creme in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Papier",
+  "hex": "#f7efe3",
+  "rgb": [
+   247,
+   239,
+   227
+  ],
+  "rolle": "Grund der hellen Seiten, auf dem gelesen wird",
+  "gruppe": "hell",
+  "woher": "Wert der Website (--papier in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Papier warm",
+  "hex": "#f1e7d8",
+  "rgb": [
+   241,
+   231,
+   216
+  ],
+  "rolle": "zweite helle Fläche, Karten auf Papier",
+  "gruppe": "hell",
+  "woher": "Wert der Website (--papier2 in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Sand",
+  "hex": "#dccfbc",
+  "rgb": [
+   220,
+   207,
+   188
+  ],
+  "rolle": "Linien und Felder auf Papier",
+  "gruppe": "hell",
+  "woher": "Wert der Website (--sand in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Gold",
+  "hex": "#bf982e",
+  "rgb": [
+   191,
+   152,
+   46
+  ],
+  "rolle": "nur Linie, Etikett und Knauf, nie eine Fläche, nie Lesetext",
+  "gruppe": "gold",
+  "woher": "Wert der Website (--gold in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Gold hell",
+  "hex": "#d9bc6b",
+  "rgb": [
+   217,
+   188,
+   107
+  ],
+  "rolle": "Betonung in Titeln und kleine Angaben auf Salbei",
+  "gruppe": "gold",
+  "woher": "Wert der Website (--gold-h in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Jade",
+  "hex": "#86ae98",
+  "rgb": [
+   134,
+   174,
+   152
+  ],
+  "rolle": "leiser Akzent auf Dunkel, Fugen zwischen Bildern",
+  "gruppe": "jade",
+  "woher": "Wert der Website (--jade in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Jade tief",
+  "hex": "#5e8a73",
+  "rgb": [
+   94,
+   138,
+   115
+  ],
+  "rolle": "Akzent auf Hell: Betonung in Titeln, kleine Angaben",
+  "gruppe": "jade",
+  "woher": "Wert der Website (--jade-t in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Tinte",
+  "hex": "#1f2620",
+  "rgb": [
+   31,
+   38,
+   32
+  ],
+  "rolle": "Lesetext auf hellen Flächen, nie reines Schwarz",
+  "gruppe": "schrift",
+  "woher": "Wert der Website (--tinte in der Gestaltung der Seite)"
+ },
+ {
+  "name": "Hell",
+  "hex": "#f4ece0",
+  "rgb": [
+   244,
+   236,
+   224
+  ],
+  "rolle": "Lesetext auf Salbei und Tief",
+  "gruppe": "schrift",
+  "woher": "Wert der Website (--hell in der Gestaltung der Seite)"
+ }
+]

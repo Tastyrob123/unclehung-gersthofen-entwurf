@@ -1,0 +1,37 @@
+{
+ "zeit": "2026-11-11T08:41:00+01:00",
+ "art": "catering",
+ "name": "Melanie Rothmann",
+ "kontakt": "melanie.rothmann@example.com",
+ "datum": "4. Dezember 2026",
+ "personen": null,
+ "anliegen": "Catering zur Firmenfeier, 25 bis 45 Gäste",
+ "sprache": "de",
+ "gespraech": "beispiel-1",
+ "verlauf": [
+  {
+   "rolle": "user",
+   "text": "Über das Anfrage-Formular der Website (Seite Catering): Name: Melanie Rothmann\nLocation: Werkhalle der Firma, Gersthofen\nAnlass: Firmenfeier\nDatum: 4. Dezember 2026\nGruppengröße: 25 bis 45 Gäste\nE-Mail: melanie.rothmann@example.com\nPersönliche Wünsche: Unser Team feiert den Jahresabschluss. Gern Sommerrollen und Bowls, dazu Matcha. Zwei Kolleginnen essen vegan, ein Kollege hat eine Erdnussallergie."
+  }
+ ],
+ "status": "gelesen",
+ "beispiel": true,
+ "an": "v.nguyen2@gmx.de",
+ "abteilung": "Catering",
+ "seite": "/catering.html",
+ "seite_name": "Catering",
+ "web": true,
+ "nachricht": "Name: Melanie Rothmann\nLocation: Werkhalle der Firma, Gersthofen\nAnlass: Firmenfeier\nDatum: 4. Dezember 2026\nGruppengröße: 25 bis 45 Gäste\nE-Mail: melanie.rothmann@example.com\nPersönliche Wünsche: Unser Team feiert den Jahresabschluss. Gern Sommerrollen und Bowls, dazu Matcha. Zwei Kolleginnen essen vegan, ein Kollege hat eine Erdnussallergie.",
+ "formular": "catering",
+ "gruppe": "25 bis 45 Gäste",
+ "ort": "Werkhalle der Firma, Gersthofen",
+ "anlass": "Firmenfeier",
+ "entwurf": {
+  "betreff": "Dein Catering am 4. Dezember 2026 · Firmenfeier",
+  "text": "Hallo Melanie,\n\ndanke für deine Anfrage. Gemeinsam mit erfahrenen Partnern wird aus deiner Idee ein Fest, voller Geschmack, Atmosphäre und Liebe zum Detail.\n\nFür den 4. Dezember 2026 mit 25 bis 45 Gästen stellen wir dir dein Angebot zusammen, passend zu eurer Location: Werkhalle der Firma, Gersthofen. Location, Menü, Deko und Entertainment kommen auf Wunsch aus einer Hand, über erfahrene Partner.\n\nWer vegan isst, kommt bei uns gut auf seine Kosten: Auf der Karte steht eine eigene Rubrik Veggie / Vegan, und das stimmen wir für dein Angebot gern mit ab.\n\nNach einer erfolgreichen Einigung bekommst du eine schriftliche Zusammenfassung. Mit einer Anzahlung von in der Regel 30 % ist der Termin für beide Seiten verbindlich.\n\nWas du zu Allergien geschrieben hast (E: Erdnüsse), geben wir an die Küche weiter, damit sie für dich mitdenkt.\n\nDamit wir alles in Ruhe vorbereiten können, schreib uns noch:\n- was auf keinen Fall fehlen darf\n\nBis bald bei Uncle Hung\nDeine Familie von Uncle Hung",
+  "team": "Grundlage: Wortlaut der Website (vorlagen/catering.txt), Hinweise: Für die Küche: E: Erdnüsse; Vegan: Veggie / Vegan auf der Karte (30 bis 31A vegan), im Winter das Botanical Menu\nOffen: Angebot zusammenstellen und anhängen; Küche über die Allergien informieren",
+  "vorlage": "catering",
+  "absender": "v.nguyen2@gmx.de",
+  "zeit": "2026-11-11T08:41:00+01:00"
+ }
+}
