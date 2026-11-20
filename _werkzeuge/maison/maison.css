@@ -398,3 +398,6 @@ body.ma{margin:0;background:var(--creme);color:var(--tinte);font:400 17px/1.62 v
 /* schmale Rechner (1001–1180): Namen etwas kleiner, damit sie auf einer Zeile bleiben; reicht es nicht, bricht der Name um statt abgeschnitten zu werden */
 @media (min-width:1001px) and (max-width:1180px){.uh-name{font-size:.98rem;white-space:normal}}
 
+
+/* Werkzeugnamen in den Kacheln brechen um, statt über den Rand zu laufen (Prüfung 20.11.2026) */
+.uh-nr,.uh-name{white-space:normal!important;overflow-wrap:anywhere}

@@ -331,3 +331,6 @@ html:has(body.re),body.re{overflow-anchor:none}
 
 /* Listen der Übersicht: Kopfzeile und Angaben ganz lesbar, nichts endet mit «…» (Prüfung 20.11.2026) */
 .re-liste .re-a__k,.re-liste .re-a__n small{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+
+/* Übersicht: die beiden Listen untereinander, beide in voller Breite (Leerraum-Regel, Prüfung 20.11.2026) */
+.re-start{grid-template-columns:minmax(0,1fr)!important}
