@@ -73,3 +73,6 @@ body.ws.wo-app{background-color:var(--wo-papier);background-image:var(--wo-tapet
 .ws.wo-app .ws-link{white-space:normal;text-align:left;overflow-wrap:anywhere;max-width:100%}
 /* Uncle Hung 11.11.2026 (Fehlerbuch 10a 28.10.2026 «kein … »): am Handy kürzte das Paket den Satz der Leiste («Entwurf: 78 Änderunge…»); hier bricht er um */
 @media (max-width:700px){.ws.wo-app .wo-leiste__t b{white-space:normal;text-overflow:clip;overflow:visible;font-size:14.5px;line-height:1.2}}
+
+/* Handy: Werkzeugname «Website bearbeiten» passt in die Kopfzeile (Prüfung 20.11.2026) */
+@media(max-width:420px){.wo-marke-w b{font-size:15px}}
