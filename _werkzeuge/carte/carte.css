@@ -293,3 +293,6 @@ body.lc{font-variation-settings:"SOFT" 100;min-height:100vh;color:var(--tinte);f
 /* M27: Beispiele im leeren Verlauf (18.10.2026) */
 .verlauf__z--bsp .kn{pointer-events:none;opacity:.5}
 .verlauf__bsp{margin:4px 2px 0;font-size:13px;color:var(--leise)}
+
+/* Beschreibung der Gerichte ganz lesbar, nichts endet mit «…» (Prüfung 20.11.2026) */
+.r__t span{white-space:normal;overflow:visible;text-overflow:clip}
