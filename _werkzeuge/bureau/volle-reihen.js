@@ -21,7 +21,30 @@
     var wert = 'repeat(' + best + ',minmax(0,1fr))';
     if (g.style.gridTemplateColumns !== wert) g.style.gridTemplateColumns = wert;
   }
-  function alle() { document.querySelectorAll('.ws-fotos').forEach(ordne); }
+
+  /* Kacheln der Übersicht (Häufig gebraucht, Bereiche): jede Reihe voll (Prüfung 20.11.2026, Leerraum-Regel).
+     Spaltenzahl nach Breite (Mindestbreite wie im Stamm), Stücke gleichmässig auf die Reihen verteilt (7 → 4+3, 9 → 3+3+3),
+     die Stücke einer kürzeren Reihe werden breiter, damit keine Spalte leer bleibt. */
+  function ggt(a, b) { return b ? ggt(b, a % b) : a; }
+  function kacheln(g, min) {
+    var kinder = [].filter.call(g.children, function (k) { return k.offsetParent !== null; });
+    var n = kinder.length; if (!n) return;
+    var cs = getComputedStyle(g), luft = parseFloat(cs.columnGap) || 16, w = g.clientWidth;
+    if (w <= 0) return;
+    var c = Math.max(1, Math.min(n, Math.floor((w + luft) / (min + luft))));
+    var reihen = Math.ceil(n / c), basis = Math.floor(n / reihen), rest = n % reihen, zahlen = [];
+    for (var r = 0; r < reihen; r++) zahlen.push(basis + (r < rest ? 1 : 0));
+    var spalten = zahlen.reduce(function (a, z) { return a * z / ggt(a, z); }, 1);
+    var wert = 'repeat(' + spalten + ',minmax(0,1fr))';
+    if (g.style.gridTemplateColumns !== wert) g.style.gridTemplateColumns = wert;
+    var i = 0;
+    zahlen.forEach(function (z) { for (var k = 0; k < z; k++, i++) { var sp = 'span ' + (spalten / z); if (kinder[i].style.gridColumn !== sp) kinder[i].style.gridColumn = sp; } });
+  }
+  function uebersicht() {
+    document.querySelectorAll('.ws-aufgaben').forEach(function (g) { kacheln(g, 230); });
+    document.querySelectorAll('.ws-bereiche').forEach(function (g) { kacheln(g, 260); });
+  }
+  function alle() { document.querySelectorAll('.ws-fotos').forEach(ordne); uebersicht(); }
   var bald = 0;
   function spaeter() { if (bald) return; bald = requestAnimationFrame(function () { bald = 0; alle(); }); }
   function los() {

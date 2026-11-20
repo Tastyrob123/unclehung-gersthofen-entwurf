@@ -445,3 +445,8 @@ h1 em,h2 em,h3 em{font-style:normal;color:var(--gold)}
   .werte{grid-template-columns:repeat(2,minmax(0,1fr))}
   .werte>.wert:last-child:nth-child(odd){grid-column:1/-1}
 }
+
+/* Handy: lange Marke («Anfrage begonnen») bricht um, Ort und Zeit bleiben ganz (Prüfung 20.11.2026) */
+@media(max-width:600px){.besuch__z{max-width:100px;letter-spacing:.06em}.besuch__n b,.besuch__n small{overflow-wrap:anywhere}}
+/* Tafeln mit ungleich viel Inhalt untereinander (Leerraum-Regel, wie Ruedihus, 20.11.2026) */
+.zwei--stapel{grid-template-columns:minmax(0,1fr)}

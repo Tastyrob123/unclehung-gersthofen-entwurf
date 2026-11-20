@@ -1572,3 +1572,6 @@ img.lad{opacity:0} img.lad.geladen{opacity:1} img.lad.blende{transition:opacity 
 .alg-sp .alg-k>.alg-menu ul{flex:1;display:flex;flex-direction:column;justify-content:space-evenly}
 .alg-sp .alg-k>.alg-wo{align-self:end}
 .alg-gitter.zwei{grid-template-columns:1fr 1fr} @media (max-width:700px){.alg-gitter.zwei{grid-template-columns:1fr}}
+
+/* Handy: Kapitel-Titel mit Luft zwischen den Zeilen, keine Buchstaben berühren sich (Prüfung 20.11.2026) */
+@media(max-width:600px){.t-kap{line-height:1.16}}

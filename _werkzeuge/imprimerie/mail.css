@@ -257,3 +257,7 @@
 @media (max-width:1440px){#mlFenster{width:38px;padding:0;justify-content:center}}
 .ml-nav button{padding-top:1.2px}
 #mlKopieren,#mlDatei,#mlPruefen>summary{padding-top:.5px}
+
+/* Handy: Betreff und Vorschau ganz lesbar, geschlossene Prüfliste nimmt keinen Platz (Prüfung 20.11.2026) */
+.ml-pruefen:not([open]) .ml-pruef__liste{display:none}
+@media(max-width:600px){.ml-pe__betreff,.ml-pe__vorschau{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}}
