@@ -1442,3 +1442,11 @@ html.cv-alle main>section.fl:not(#brief){content-visibility:visible}
 /* Fuss: das Karussell blendet an den Rändern weich aus, statt hart abzubrechen */
 .fuss .wfa__b{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000000 7%,#000000 93%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000000 7%,#000000 93%,transparent 100%)}
 /* nur-bewegung */.glanz{animation:none!important;border:0!important;background:none!important;transition:transform .5s var(--e2)!important}.glanz::before{content:"";position:absolute;z-index:-2;left:50%;top:50%;width:260px;height:260px;margin:-130px 0 0 -130px;background:conic-gradient(transparent,var(--gold) 6%,#ffffff 12%,var(--taupe) 18%,transparent 24%);animation:glanzdreh 4s linear infinite;will-change:transform}.glanz::after{content:"";position:absolute;z-index:-1;inset:1px;border-radius:inherit;background:linear-gradient(180deg,#804a42,#472722)}@keyframes glanzdreh{to{transform:rotate(1turn)}}@media (prefers-reduced-motion:reduce){.glanz::before{animation:none}}
+
+/* titel-sofort aus _Werkbank-Kit (Prüfung 20.11.2026): Zeilen vor dem Auftritt ganz verdeckt, Auftakt-Titel läuft beim ersten Bild los */
+.z>span{transform:translateY(140%)}
+.da .z>span,.z.da>span{transform:none}
+.auftakt .zt .z>span{animation:zt-sofort 1.3s var(--e1) both;animation-delay:calc(var(--n,0)*120ms)}
+@keyframes zt-sofort{from{transform:translateY(140%)}to{transform:none}}
+@media(prefers-reduced-motion:reduce){.auftakt .zt .z>span{animation:none;transform:none}}
+@media print{.auftakt .zt .z>span{animation:none;transform:none}}
