@@ -328,3 +328,6 @@ html:has(body.re),body.re{overflow-anchor:none}
 .re-start > .re-start__sp:first-child .wo-zw{margin-top:0}
 /* Keine abgeschnittenen Zeilen (Robert 10.11.2026): auf der schmaleren Fläche «Zuletzt gefragt» steht die Frage ganz, nicht nach zwei Zeilen gekappt */
 .re-start > .re-start__sp:last-child .re-q .re-a__n b{display:block;-webkit-line-clamp:unset;overflow:visible}
+
+/* Listen der Übersicht: Kopfzeile und Angaben ganz lesbar, nichts endet mit «…» (Prüfung 20.11.2026) */
+.re-liste .re-a__k,.re-liste .re-a__n small{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
