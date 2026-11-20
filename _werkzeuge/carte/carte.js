@@ -200,7 +200,7 @@ function zeichenHaus(kl) { return (SATZ_ZEICHEN.ZEICHEN || '').replace('<svg ', 
 function rand() {
   const karten = LISTE.map(k => `<li><button class="wo-rk kw" type="button" data-z="${k.ziel}" aria-current="${k.ziel === Z}"><span class="wo-rk__b" style="background-image:url('${fotoKlein(k.ziel)}')"></span><span class="wo-rk__t"><b>${h(k.name)}</b><small>${h(k.gruppe)} · ${k.seiten} ${k.seiten === 1 ? 'Seite' : 'Seiten'}</small></span>${k.entwurf || (k.ziel === Z && D && geaendert()) ? '<em class="wo-marke">Entwurf</em>' : ''}</button></li>`).join('');
   const wege = [
-    { text: 'Frühere Fassungen', attr: 'data-akt="verlauf"' }, { text: 'Veröffentlichte PDF', href: `${API}pdf?z=${Z}&q=live`, attr: 'target="_blank" rel="noopener"' },
+    { text: 'Frühere Fassungen', attr: 'data-akt="verlauf"' }, { text: 'Veröffentlichte PDF', href: `${API}pdf-${Z}-live.pdf`, attr: 'target="_blank" rel="noopener"' },
     { text: 'Unterlagen ansehen', href: `${HAUS}unterlagen/`, attr: 'target="_blank" rel="noopener"' }, { text: 'Zur Werkbank', href: `${HAUS}werkbank/`, attr: 'target="_blank" rel="noopener"' },
     { text: `${ORT_DER_KARTE[SEITE_DER_KARTE[Z]] || 'Karte'} auf der Website`, href: webAdresse(Z), attr: 'target="_blank" rel="noopener"' },
     { text: SCHREIBTISCH, href: (WO.haus.wege || {}).website || `${HAUS}studio/`, attr: 'target="_blank" rel="noopener"' },
